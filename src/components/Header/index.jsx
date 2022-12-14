@@ -10,43 +10,66 @@ function Header() {
             <img
               className="nauber-logo-1-icon11"
               alt=""
-              src="../nauberlogo-1@2x.png"
+              src="src\assets\image\nauberlogo-1@2x.png"
             />
             <img
               className="logo-nauber-111"
               alt=""
-              src="../logo-nauber-1@2x.png"
+              src="src\assets\image\logo-nauber-1@2x.png"
             />
           </div>
           <div className="menu-div11">
-            <img className="vector-icon64" alt="" src="../vector-83.svg" />
+            <img className="vector-icon64" 
+                 alt="" 
+                 src="src\assets\image\vector-83.svg" 
+            />
             <div className="home-div12">
-              <b className="home-b11">HOME</b>
-              <img className="home-icon11" alt="" src="../home11.svg" />
+              <a href="#" className="home-b11">HOME</a>
+              <img className="home-icon11" 
+                   alt="" 
+                   src="src\assets\image\home11.svg" 
+              />
             </div>
             <div className="empresa-div11">
-              <img className="empresa-icon11" alt="" src="../empresa.svg" />
-              <b className="empresa-b11">EMPRESA</b>
+              <img className="empresa-icon11" 
+                   alt="" 
+                   src="src\assets\image\empresa.svg" 
+              />
+              <a href="#" className="empresa-b11">EMPRESA</a>
             </div>
             <div className="produtos-div37">
-              <b className="produtos-b11">PRODUTOS</b>
-              <img className="box-icon11" alt="" src="../box11.svg" />
+              <a href="#" className="produtos-b11">PRODUTOS</a>
+              <img className="box-icon11" 
+                   alt="" 
+                   src="src\assets\image\box11.svg" 
+              />
             </div>
             <div className="assistencia-div11">
-              <b className="assistncias-b12">ASSISTÊNCIAS</b>
-              <img className="home-icon11" alt="" src="../assistencias2.svg" />
+              <a href="#" className="assistncias-b12">ASSISTÊNCIAS</a>
+              <img className="home-icon11" 
+                   alt="" 
+                   src="src\assets\image\assistencias2.svg" 
+              />
             </div>
             <div className="catlogos-div13">
-              <b className="catlogos-virtuais-b12">CATÁLOGOS VIRTUAIS</b>
-              <img className="home-icon11" alt="" src="../catalagos1.svg" />
+              <a href="#" className="catlogos-virtuais-b12">CATÁLOGOS VIRTUAIS</a>
+              <img className="home-icon11" 
+                   alt="" 
+                   src="src\assets\image\catalagos1.svg" 
+              />
             </div>
             <div className="contato-div12">
               <a href="#" className="contato-b12">CONTATO</a>
-              <img className="home-icon11" alt="" src="../contato5.svg" />
+              <img className="home-icon11" 
+                   alt="" 
+                   src="src\assets\image\contato5.svg" />
             </div>
             <div className="login-div11">
-              <b className="login-b11">login</b>
-              <img className="logim-icon11" alt="" src="../logim.svg" />
+              <a href="#" className="login-b11">login</a>
+              <img className="logim-icon11" 
+                   alt="" 
+                   src="src\assets\image\logim.svg" 
+              />
             </div>
           </div>
           <div className="flags-div11">
@@ -54,30 +77,33 @@ function Header() {
             <img
               className="flag-brasil-1-icon11"
               alt=""
-              src="../flagbrasil-11@2x.png"
+              src="src\assets\image\flagbrasil-11@2x.png"
             />
             <img
               className="flag-espanha-1-icon11"
-              alt=""
-              src="../flagespanha-1@2x.png"
+              alt="Espanha"
+              src="src\assets\image\flagespanha-1@2x.png"
             />
-            <img className="flag-eua-1-icon11" alt="" src="../flageua-1@2x.png" />
+            <img className="flag-eua-1-icon11" 
+                 alt="Espanha" 
+                 src="src\assets\image\flageua-1@2x.png" 
+            />
             <img
               className="flag-arabia-1-icon11"
               alt=""
-              src="../flagarabia-11@2x.png"
+              src="src\assets\image\flagarabia-11@2x.png"
             />
           </div>
           <div className="line-div30" />
           <img
             className="base-de-conhecimento-111"
             alt=""
-            src="../base-de-conhecimento-1@2x.png"
+            src="src\assets\image\base-de-conhecimento-1@2x.png"
           />
           <img
             className="logo-revenda-pro-111"
             alt=""
-            src="../logo-revenda-pro-1@2x.png"
+            src="src\assets\image\logo-revenda-pro-1@2x.png"
           />
           <div className="conhea-o-sistema-de-revnda-n11">
             <p className="rua-mal-castelo11">
@@ -96,10 +122,11 @@ function Header() {
               </span>
             </p>
           </div>
-          <div className="seach-div11">
-            <div className="rectangle-div272" />
-            <img className="frame-icon10" alt="" src="../frame-24.svg" />
-          </div>
+            <input type="text" className="seach-div11 seach"/>
+            <img className="frame-icon10" 
+                 alt="" 
+                 src="src\assets\image\frame-24.svg" 
+            />
         </div>
   );
 };
