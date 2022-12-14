@@ -1,11 +1,356 @@
+a {
+  color: #fff;
+}
+.seach {
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 38px;
+  background-color: #ebebeb;
+  width: 373px;
+  height: 38px;
+}
+
 .header-div11 {
-
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 133px;
+  font-size: 18px;
+}
+.header-div11,
+.seach-div11 {
+  position: absolute;
+  top: 18px;
+  left: 405px;
+  width: 373px;
+  height: 38px;
+}
+.bg-header34
+.bg-header35 {
+  height: 1px;
+  display: none;
+}
+.bg-header35,
+.bg-header36 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1440px;
+}
+.bg-header36 {
+  height: 73px;
+}
+.logo-div11 {
+  top: 14px;
+  left: 135px;
+}
+.nauber-logo-1-icon11 {
+  position: absolute;
+  top: 22px;
+  left: 135px;
+  width: 170px;
+  height: 33px;
+  object-fit: cover;
+  display: none;
+}
+.logo-nauber-111 {
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.menu-div11,
+.vector-icon65 {
+  position: absolute;
+  top: 90px;
+  left: 204px;
+  width: 1052px;
+  height: 25px;
+}
+.home-b11,
+.vector-icon64 {
+  position: absolute;
+  top: 99.5px;
+  left: 777px;
+  width: 6px;
+  height: 3px;
+  display: none;
+}
+.empresa-b11,
+.empresa-icon11,
+.home-div12 {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 60px;
+  height: 20px;
+}
+.home-b11 {
+  top: 3px;
+  left: 27px;
+  display: inline-block;
+  width: 33px;
+  height: 17px;
+}
+.home-icon11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.empresa-div11 {
+  position: absolute;
+  top: 4px;
+  left: 130px;
+  width: 80px;
+  height: 20px;
+}
+.empresa-b11,
+.empresa-icon11,
+.home-div12 {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 60px;
+  height: 20px;
+}
+.empresa-b11,
+.empresa-icon11 {
+  top: 0;
+  width: 20px;
+}
+.empresa-b11,
+.empresa-icon11 {
+  top: 0;
+  width: 20px;
+}
+.empresa-b11 {
+  top: 3px;
+  left: 27px;
+  display: inline-block;
+  width: 53px;
+  height: 17px;
+}
+.produtos-div37 {
+  top: 7px;
+  left: 280px;
+  width: 85.63px;
+  color: #fae013;
+}
+.box-icon11,
+.produtos-b11,
+.produtos-div37 {
+  position: absolute;
+  height: 17px;
 }
 
-.bg-header34{
-
+.produtos-b11 {
+  top: 0;
+  left: 28.63px;
+  display: inline-block;
+  width: 57px;
 }
 
-.bg-header35{
-  
+.box-icon11 {
+  top: 0;
+  left: 0;
+  width: 21.25px;
+  overflow: hidden;
+}
+.assistencia-div11 {
+  position: absolute;
+  top: 5px;
+  left: 436px;
+  width: 106px;
+  height: 20px;
+}
+.assistncias-b12 {
+  position: absolute;
+  top: 2px;
+  left: 29px;
+  display: inline-block;
+  width: 77px;
+  height: 17px;
+}
+.contato-b12 {
+  top: 3px;
+  left: 27px;
+  display: inline-block;
+  width: 51px;
+  height: 17px;
+}
+.catlogos-div13,
+.contato-b12 {
+  position: absolute;
+  top: 5px;
+  left: 612px;
+  width: 142px;
+  height: 20px;
+}
+.catlogos-virtuais-b12 {
+  position: absolute;
+  top: 2px;
+  left: 26px;
+  display: inline-block;
+  width: 116px;
+  height: 17px;
+}
+.catlogos-div13,
+.contato-b12 {
+  position: absolute;
+  top: 5px;
+  left: 612px;
+  width: 142px;
+  height: 20px;
+}
+.contato-b12 {
+  top: 3px;
+  left: 27px;
+  display: inline-block;
+  width: 51px;
+  height: 17px;
+}
+login-div11
+.contato-div12,
+.login-b11 {
+  position: absolute;
+  top: 4px;
+  left: 824px;
+  width: 78px;
+  height: 20px;
+}
+.login-b11 {
+  top: 7px;
+  left: 29px;
+  display: inline-block;
+  width: 51px;
+  height: 17px;
+}
+.logim-icon11,
+.login-div11 {
+  position: absolute;
+  top: 0;
+  height: 24px;
+}
+.logim-icon11 {
+  left: 0;
+  width: 24px;
+  overflow: hidden;
+}
+
+.flags-div11,
+.line-div30 {
+  position: absolute;
+  top: 0.54px;
+  left: 1164px;
+  width: 134px;
+  height: 74.21px;
+}
+
+.vector-icon65 {
+  top: 0.54px;
+  left: 1172px;
+  width: 117px;
+  height: 74.21px;
+}
+.flag-arabia-1-icon11,
+.flag-brasil-1-icon11,
+.flag-espanha-1-icon11,
+.flag-eua-1-icon11 {
+  position: absolute;
+  top: 30.46px;
+  left: -4px;
+  width: 35.92px;
+  height: 22.7px;
+  object-fit: cover;
+}
+.flag-arabia-1-icon11,
+.flag-espanha-1-icon11,
+.flag-eua-1-icon11 {
+  left: 31.36px;
+}
+.flag-arabia-1-icon11,
+.flag-eua-1-icon11 {
+  left: 66.72px;
+}
+.flag-arabia-1-icon11 {
+  left: 102.08px;
+}
+.flags-div11,
+.line-div30 {
+  position: absolute;
+  top: 0.54px;
+  left: 1164px;
+  width: 134px;
+  height: 74.21px;
+}
+.line-div30 {
+  top: 27.5px;
+  left: 1143.5px;
+  border-right: 1px solid #8a8a8a;
+  box-sizing: border-box;
+  width: 1px;
+  height: 21px;
+}
+.base-de-conhecimento-111,
+.logo-revenda-pro-111 {
+  position: absolute;
+  top: 16px;
+  left: 961px;
+  width: 159px;
+  height: 43.08px;
+  object-fit: cover;
+}
+.logo-revenda-pro-111 {
+  left: 809.94px;
+  width: 40.12px;
+  height: 43px;
+}
+.conhea-o-sistema-de-revnda-n11 {
+  position: absolute;
+  top: 19px;
+  left: 857px;
+  line-height: 9.5px;
+  color: #000;
+  display: inline-block;
+  font-size: 7.59px;
+  font-family: Inter;
+}
+.rua-mal-castelo11 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.conhea-o-sistema23 {
+  font-weight: 500;
+}
+.nauber-pro13 {
+  margin: 0;
+  font-size: 10.63px;
+}
+.header-div11,
+.seach-div11 {
+  position: absolute;
+  top: 18px;
+  left: 405px;
+  width: 373px;
+  height: 38px;
+}
+.rectangle-div272 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 38px;
+  background-color: #ebebeb;
+  width: 373px;
+  height: 38px;
+}
+.frame-icon10 {
+  position: absolute;
+  top: 12px;
+  left: 328.7px;
 }
