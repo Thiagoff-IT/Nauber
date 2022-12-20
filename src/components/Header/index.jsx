@@ -122,7 +122,7 @@ function Header() {
               </span>
             </p>
           </div>
-            <input type="text" className="seach-div11 seach"/>
+            <input type="text" className="seach-div11 seach" placeholder="busque aqui seu produto"/>
             <img className="frame-icon10" 
                  alt="" 
                  src="src\assets\image\frame-24.svg" 
