@@ -1,6 +1,6 @@
 import "./Styles.css";
 
-function Header() {
+function Footer() {
   return (
 
       <div className="frame-div4">
