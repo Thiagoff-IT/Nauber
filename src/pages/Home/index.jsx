@@ -7,7 +7,7 @@ function Home() {
       <div className="frame-div">
         <div className="hero-div">
           <div className="rectangle-div" />
-          <img className="foto-icon" alt="" src="src\assets\image\foto@2x.png" />
+          <img className="foto-icon" alt="" src="../../assets/image/foto@2x.png" />
           <div className="subtext-div">
             <span>{`“A `}</span>
             <b>evolução</b>
