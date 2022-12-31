@@ -113,7 +113,6 @@
 .home-div1 {
   top: 4px;
   width: 60px;
-  color: #fae013;
 }
 .empresa-b,
 .empresa-icon {
@@ -712,14 +711,14 @@
 .subtitulo,
 .titulo-b {
   position: absolute;
-  left: 135px;
+  left: 8.4375rem;
   display: inline-block;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .subtitulo {
   top: 235.79px;
-  font-size: 19px;
+  font-size: 1rem;
   background-color: green;
   width: 480px;
 }
@@ -1136,6 +1135,8 @@
   letter-spacing: 0.2em;
   font-weight: 500;
   display: inline-block;
+  color: #0b7c1d;
+  font-family: Arial; 
 }
 .vector-icon8 {
   position: absolute;

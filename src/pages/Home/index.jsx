@@ -1,13 +1,19 @@
 import Header from '../../components/Header'
+import Footer from '../../components/Footer'
+
+import { Link } from "react-router-dom";
+
+
 import "./Styles.css";
 
 function Home() {
   return (
+    <>
     <div className="home-div">
       <div className="frame-div">
         <div className="hero-div">
           <div className="rectangle-div" />
-          <img className="foto-icon" alt="" src="../../assets/image/foto@2x.png" />
+          <img className="foto-icon" alt="" src="src\assets\image\foto@2x.png" />
           <div className="subtext-div">
             <span>{`“A `}</span>
             <b>evolução</b>
@@ -64,7 +70,7 @@ function Home() {
           <img className="logo-icon" alt="" src="src\assets\image\logo@2x.png" />
           <div className="boto-div">
             <div className="rectangle-div4" />
-            <a href="" className="saiba-mais">SAIBA MAIS</a>
+            <a href="#" className="saiba-mais">SAIBA MAIS</a>
           </div>
           <div className="boto-div1">
             <div className="rectangle-div5" />
@@ -140,7 +146,7 @@ function Home() {
               </div>
               <div className="boto-div2">
                 <div className="rectangle-div16" />
-                <div className="saiba-mais-div">SAIBA MAIS</div>
+                <Link to="/ProdutoLogistico" className="saiba-mais-div">SAIBA MAIS</Link>
                 <img className="vector-icon8" alt="" src="src\assets\image\vector5.svg" />
               </div>
               <div className="rectangle-div17" />
@@ -153,7 +159,7 @@ function Home() {
               </div>
               <div className="boto-div2">
                 <div className="rectangle-div19" />
-                <div className="saiba-mais-div">SAIBA MAIS</div>
+                <a href="#" className="saiba-mais-div">SAIBA MAIS</a>
                 <img className="vector-icon9" alt="" src="src\assets\image\vector6.svg" />
               </div>
               <div className="rectangle-div17" />
@@ -166,7 +172,7 @@ function Home() {
               </div>
               <div className="boto-div4">
                 <div className="rectangle-div16" />
-                <div className="saiba-mais-div">SAIBA MAIS</div>
+                <a href="#" className="saiba-mais-div">SAIBA MAIS</a>
                 <img className="vector-icon10" alt="" src="src\assets\image\vector6.svg" />
               </div>
               <div className="rectangle-div17" />
@@ -179,7 +185,7 @@ function Home() {
               </div>
               <div className="boto-div5">
                 <div className="rectangle-div16" />
-                <div className="saiba-mais-div">SAIBA MAIS</div>
+                <a href="#" className="saiba-mais-div">SAIBA MAIS</a>
               </div>
               <img className="vector-icon11" alt="" src="src\assets\image\vector5.svg" />
               <img className="vector-icon12" alt="" src="src\assets\image\vector5.svg" />
@@ -196,6 +202,8 @@ function Home() {
         </div>
       </div>
     </div>
+    <Footer />
+    </>
   );
 };
 
