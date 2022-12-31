@@ -1,3 +1,6 @@
+import * as React from "react";
+import { Link } from "react-router-dom";
+
 import "./Styles.css";
 
 function Header() {
@@ -24,7 +27,7 @@ function Header() {
                  src="src\assets\image\vector-83.svg" 
             />
             <div className="home-div12">
-              <a href="#" className="home-b11">HOME</a>
+              <Link to="/" className="home-b11">HOME</Link>
               <img className="home-icon11" 
                    alt="" 
                    src="src\assets\image\home11.svg" 
@@ -35,37 +38,37 @@ function Header() {
                    alt="" 
                    src="src\assets\image\empresa.svg" 
               />
-              <a href="#" className="empresa-b11">EMPRESA</a>
+              <Link to="/Sobre" className="empresa-b11">EMPRESA</Link>
             </div>
             <div className="produtos-div37">
-              <a href="#" className="produtos-b11">PRODUTOS</a>
+              <Link to="/Produto" className="produtos-b11">PRODUTOS</Link>
               <img className="box-icon11" 
                    alt="" 
                    src="src\assets\image\box11.svg" 
               />
             </div>
             <div className="assistencia-div11">
-              <a href="#" className="assistncias-b12">ASSISTÊNCIAS</a>
+              <Link to="/Assistencia" className="assistncias-b12">ASSISTÊNCIAS</Link>
               <img className="home-icon11" 
                    alt="" 
                    src="src\assets\image\assistencias2.svg" 
               />
             </div>
             <div className="catlogos-div13">
-              <a href="#" className="catlogos-virtuais-b12">CATÁLOGOS VIRTUAIS</a>
+              <Link to="/Catalogos" className="catlogos-virtuais-b12">CATÁLOGOS VIRTUAIS</Link>
               <img className="home-icon11" 
                    alt="" 
                    src="src\assets\image\catalagos1.svg" 
               />
             </div>
             <div className="contato-div12">
-              <a href="#" className="contato-b12">CONTATO</a>
+              <Link to="/Contato" className="contato-b12">CONTATO</Link>
               <img className="home-icon11" 
                    alt="" 
                    src="src\assets\image\contato5.svg" />
             </div>
             <div className="login-div11">
-              <a href="#" className="login-b11">login</a>
+              <Link to="#" className="login-b11">login</Link>
               <img className="logim-icon11" 
                    alt="" 
                    src="src\assets\image\logim.svg" 
@@ -73,7 +76,7 @@ function Header() {
             </div>
           </div>
           <div className="flags-div11">
-            <img className="vector-icon65" alt="" />
+      
             <img
               className="flag-brasil-1-icon11"
               alt=""
