@@ -306,31 +306,33 @@
 .vector-icon76,
 .vector-icon77 {
   position: absolute;
-  top: 0;
-  left: -455px;
+  top: -18rem;
+  left: 49rem;
   width: 455px;
   height: 279px;
   object-fit: cover;
 }
 .vector-icon76,
 .vector-icon77 {
-  left: -846px;
+  left: 25rem;
+top: -18rem;
 }
 .vector-icon77 {
-  left: -1231px;
+  left: 0rem;
 }
 .vector-icon78 {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -27rem;
+  left: 75rem;
   width: 388.92px;
   height: 43px;
 }
 .aspiradores-div2 {
   position: absolute;
-  top: 7px;
-  left: 121.85px;
+  top: -27rem;
+  left: 79rem;
   display: inline-block;
+  transform: rotate(180deg);
 }
 .aspiradores-div1 {
   position: absolute;
@@ -342,17 +344,18 @@
 }
 .vector-icon79 {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -27rem;
+  left: 75rem;
   width: 388.28px;
   height: 43px;
 }
 .lixadeiras-div1 {
   position: absolute;
-  top: 7px;
-  left: 135.1px;
+  top: -27rem;
+  left: 82rem;
   display: inline-block;
   opacity: 0.5;
+  transform: rotate(180deg);
 }
 .aspiradores-div3 {
   position: absolute;
@@ -363,10 +366,11 @@
 }
 .misturadores-div1 {
   position: absolute;
-  top: 7px;
-  left: 112.85px;
+  top: -27rem;
+  left: 80rem;
   display: inline-block;
   opacity: 0.5;
+  transform: rotate(180deg);
 }
 .aspiradores-div4,
 .quadro-linha-2 {
@@ -475,8 +479,8 @@
 }
 .bicos-airless-div1 {
   position: absolute;
-  top: 7px;
-  left: 120.13px;
+  top: -27rem;
+  left: 85rem;
   display: inline-block;
 }
 .bicos-airless-div,
@@ -497,8 +501,8 @@
 }
 .vector-icon94 {
   position: absolute;
-  top: 207px;
-  left: 57.87px;
+  top: 4rem;
+  left: 1rem;
   width: 388.92px;
   height: 43px;
 }
@@ -507,18 +511,19 @@
   top: 214px;
   left: 166px;
   display: inline-block;
+  transform: rotate(180deg);
 }
 .bicos-airless-div2 {
   position: absolute;
-  top: 0;
-  left: -1237px;
+  top: -18rem;
+  left: 0rem;
   width: 1237px;
   height: 279px;
 }
 .filmes-de-mascaramento {
   position: absolute;
-  top: 7px;
-  left: 48.14px;
+  top: -27rem;
+  left: 80rem;
   display: inline-block;
 }
 .bicos-airless-div3,

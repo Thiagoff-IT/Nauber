@@ -172,12 +172,12 @@ function Assistencia(){
           <div className="cep-div">
             <div className="rectangle-div30" />
             <img className="seach-icon" alt="" src="src\assets\image\seach.svg" />
-            <div className="informe-seu-cep">Informe seu CEP</div>
+            <input type="text" className="informe-seu-cep" placeholder="Informe seu CEP" />
           </div>
           <div className="cidade-div">
             <div className="rectangle-div30" />
             <img className="seach-icon" alt="" src="src\assets\image\seach1.svg" />
-            <div className="informe-seu-cep">Informe a sua Cidade</div>
+            <input type="text" className="informe-seu-cep" placeholder="Informe a sua Cidade"/>
           </div>
         </div>
         <div className="localizao-div">
@@ -187,7 +187,7 @@ function Assistencia(){
           <div className="rectangle-div32" />
           <img className="ellipse-icon" alt="" src="src\assets\image\ellipse-6.svg" />
           <img className="global-1-1-icon" alt="" src="src\assets\image\global1-1@2x.png" />
-          <div className="usar-minha-localizao">Usar minha localização</div>
+          <input type="text" className="usar-minha-localizao" placeholder="Usar minha localização" />
           <div className="verificado-div">
             <div className="rectangle-div33" />
             <img className="vector-icon17" alt="" src="src\assets\image\vector10.svg" />

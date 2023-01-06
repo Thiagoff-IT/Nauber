@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
 
+import Home from "../../assets/image/logo-nauber-1@2x.png"
+
 import "./Styles.css";
 
 function Header() {
@@ -12,14 +14,16 @@ function Header() {
           <div className="logo-div11">
             <img
               className="nauber-logo-1-icon11"
-              alt=""
-              src="src\assets\image\nauberlogo-1@2x.png"
+              alt="Home"
+              src={Home}
             />
+            <Link to="/">
             <img
               className="logo-nauber-111"
-              alt=""
-              src="src\assets\image\logo-nauber-1@2x.png"
+              alt="Home"
+              src={Home}
             />
+            </Link>
           </div>
           <div className="menu-div11">
             <img className="vector-icon64" 

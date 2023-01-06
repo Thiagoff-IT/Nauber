@@ -1,9 +1,12 @@
+import Header from "../../components/Header";
 import "./Styles.css";
 
 function Sobre(){
   return (
     <>
+    
     <div className="sobre-a-nauber2">
+      
       <div className="footer-div20">
         <div className="footer-div21">
           <div className="bg-div11" />
@@ -59,106 +62,6 @@ function Sobre(){
         </div>
       </div>
       <img className="rectangle-icon1" alt="" src="src\assets\image\rectangle-141@2x.png" />
-      <div className="header-div10">
-        <div className="bg-header31" />
-        <div className="bg-header32" />
-        <div className="bg-header33" />
-        <div className="logo-div10">
-          <img
-            className="nauber-logo-1-icon10"
-            alt=""
-            src="src\assets\image\nauberlogo-1@2x.png"
-          />
-          <img
-            className="logo-nauber-110"
-            alt=""
-            src="src\assets\image\logo-nauber-1@2x.png"
-          />
-        </div>
-        <div className="menu-div10">
-          <img className="vector-icon60" alt="" src="src\assets\image\vector-83.svg" />
-          <div className="home-div11">
-            <b className="home-b10">HOME</b>
-            <img className="home-icon10" alt="" src="src\assets\image\home10.svg" />
-          </div>
-          <div className="empresa-div10">
-            <img className="empresa-icon10" alt="" src="src\assets\image\empresa10.svg" />
-            <b className="empresa-b10">EMPRESA</b>
-          </div>
-          <div className="produtos-div33">
-            <b className="produtos-b10">PRODUTOS</b>
-            <img className="box-icon10" alt="" src="src\assets\image\box10.svg" />
-          </div>
-          <div className="assistencia-div10">
-            <b className="assistncias-b11">ASSISTÊNCIAS</b>
-            <img className="home-icon10" alt="" src="src\assets\image\assistencias2.svg" />
-          </div>
-          <div className="catlogos-div12">
-            <b className="catlogos-virtuais-b11">CATÁLOGOS VIRTUAIS</b>
-            <img className="home-icon10" alt="" src="src\assets\image\catalagos1.svg" />
-          </div>
-          <div className="contato-div11">
-            <b className="contato-b11">CONTATO</b>
-            <img className="home-icon10" alt="" src="src\assets\image\contato1.svg" />
-          </div>
-          <div className="login-div10">
-            <b className="login-b10">login</b>
-            <img className="logim-icon10" alt="" src="src\assets\image\logim.svg" />
-          </div>
-        </div>
-        <div className="flags-div10">
-          <img className="vector-icon61" alt="" />
-          <img
-            className="flag-brasil-1-icon10"
-            alt=""
-            src="src\assets\image\flagbrasil-11@2x.png"
-          />
-          <img
-            className="flag-espanha-1-icon10"
-            alt=""
-            src="src\assets\image\flagespanha-1@2x.png"
-          />
-          <img className="flag-eua-1-icon10" alt="" src="src\assets\image\flageua-1@2x.png" />
-          <img
-            className="flag-arabia-1-icon10"
-            alt=""
-            src="src\assets\image\flagarabia-1@2x.png"
-          />
-        </div>
-        <div className="line-div28" />
-        <img
-          className="base-de-conhecimento-110"
-          alt=""
-          src="src\assets\image\base-de-conhecimento-1@2x.png"
-        />
-        <img
-          className="logo-revenda-pro-110"
-          alt=""
-          src=".src\assets\image\logo-revenda-pro-1@2x.png"
-        />
-        <div className="conhea-o-sistema-de-revnda-n10">
-          <p className="rua-mal-castelo10">
-            <span className="conhea-o-sistema21">
-              <span>CONHEÇA O SISTEMA</span>
-            </span>
-          </p>
-          <p className="rua-mal-castelo10">
-            <span className="conhea-o-sistema21">
-              <span>DE REVÊNDA</span>
-            </span>
-          </p>
-          <p className="nauber-pro11">
-            <span>
-              <b>NAUBER PRO</b>
-            </span>
-          </p>
-        </div>
-        <div className="seach-div10">
-          <div className="rectangle-div267" />
-          <img className="frame-icon9" alt="" src="src\assets\image\frame-24.svg" />
-        </div>
-        <div className="busque-aqui-seu-produto4">busque aqui seu produto</div>
-      </div>
       <div className="mquinas-div6">
         <img className="vector-icon62" alt="" src="src\assets\image\vector-1179.svg" />
         <img className="vector-icon63" alt="" src="src\assets\image\vector-1169.svg" />
@@ -201,6 +104,7 @@ function Sobre(){
         <b className="nauber-mquinas">nauber máquinas</b>
         <div className="a-nauber-mquinas-uma-empres">{`A Nauber Máquinas é uma empresa Brasileira, sediada na cidade de Schroeder, Santa Catarina, a 8 km da cidade de  Jaraguá do Sul, e 25 km da Cidade de Joinville. Nosso objetivo é desenvolver e buscar novas tecnologias que proporcionem melhorias significativas de qualidade e desempenho de processos da construção civil. Com a globalização, e a disputa constante em um mercado cada vez mais acirrado, não há melhor forma de se tornar mais competitivo do que aprimorar processos para reduzir custos. Nossa linha de equipamentos Airless, Lixadeiras, Aspiradores e Acessórios, são desenvolvidas para profissionais que buscam otimização de mão de obra , e desempenhar produtividade sem abrir mão da qualidade. Os equipamentos e acessórios Nauber são produzidos sob total supervisão de qualidade, sendo que 100% dos equipamentos são testados antes do envio para nossos clientes, garantindo, dessa forma, a qualidade final, e a satisfação de compra através de equipamentos de ponta. `}</div>
       </div>
+      <Header />
     </div>
     </>
   );

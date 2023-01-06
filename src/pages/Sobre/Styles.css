@@ -694,10 +694,9 @@
 .nauber-mquinas {
   top: 0;
   left: 60px;
-  background: linear-gradient(180deg, #0f6836, #127b2b);
   width: 343px;
   height: 49px;
-  color: #fff;
+  background-color: #0f6836;
 }
 .a-nauber-mquinas-uma-empres {
   top: 87px;
@@ -715,7 +714,7 @@
   left: 137px;
   width: 568px;
   height: 519px;
-  font-size: 60px;
+  font-size: 42px;
 }
 .sobre-a-nauber2 {
   position: relative;

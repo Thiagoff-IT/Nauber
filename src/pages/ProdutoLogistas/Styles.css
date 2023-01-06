@@ -678,7 +678,7 @@
   width: 469px;
   height: 61px;
   text-align: center;
-  font-size: 38px;
+  font-size: 36px;
 }
 .vector-icon30,
 .vector-icon31 {
@@ -695,8 +695,8 @@
 }
 .mquinas-para-pintura1 {
   position: absolute;
-  top: 12px;
-  left: 138px;
+  top: 0rem;
+  left: 2rem;
   display: inline-block;
 }
 .mquinas-div {
@@ -801,7 +801,7 @@
   left: 135px;
   width: 670px;
   height: 451px;
-  font-size: 50px;
+  font-size: 39px;
 }
 .downloads-b {
   top: 0;
@@ -1252,7 +1252,7 @@
   top: 2038px;
   left: 138px;
   height: 603.98px;
-  font-size: 49.77px;
+  font-size: 2rem;
   font-family: Inter;
 }
 .descrio-b,

@@ -134,8 +134,8 @@ function Produtos(){
             <span>{`airless pistão `}</span>
             <span className="span">(7523)</span>
           </div>
-          <div className="rectangle-div285" />
-          <div className="rectangle-div286" />
+          <input type="checkbox" className="rectangle-div285" />
+          <input type="checkbox" className="rectangle-div286" />
         </div>
         <div className="categorias-div">
           <b className="categorias-b">Categorias</b>
@@ -147,14 +147,14 @@ function Produtos(){
           <div className="lixas-e-abrasivos6">Lixas e abrasivos</div>
           <div className="peas-div">Peças</div>
           <div className="acessrios-div">Acessórios</div>
-          <div className="rectangle-div287" />
-          <div className="rectangle-div288" />
-          <div className="rectangle-div289" />
-          <div className="rectangle-div290" />
-          <div className="rectangle-div291" />
-          <div className="rectangle-div292" />
-          <div className="rectangle-div293" />
-          <div className="rectangle-div294" />
+          <input type="checkbox" className="rectangle-div287" />
+          <input type="checkbox" className="rectangle-div288" />
+          <input type="checkbox" className="rectangle-div289" />
+          <input type="checkbox" className="rectangle-div290" />
+          <input type="checkbox" className="rectangle-div291" />
+          <input type="checkbox" className="rectangle-div292" />
+          <input type="checkbox" className="rectangle-div293" />
+          <input type="checkbox" className="rectangle-div294" />
         </div>
       </div>
     </div>
