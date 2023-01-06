@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import App from './App'
 
-import Home from './pages/ProdutoLogistas';
+import Home from './pages/Home';
 import Produto from './pages/Produtos';
 import Assistencia from './pages/Assistencia';
 import Sobre from './pages/Sobre'
