@@ -1,8 +1,10 @@
+import Header from '../../components/Header'
 import "./Styles.css";
 
 function Assistencia(){
   return (
     <div className="assistncia-div">
+      <Header />
       <div className="footer-div2">
         <div className="footer-div3">
           <div className="bg-div2" />
@@ -55,105 +57,6 @@ function Assistencia(){
             src="src\assets\image\logo-nauber@2x.png"
           />
           <div className="rectangle-div27" />
-        </div>
-      </div>
-      <div className="header-div1">
-        <div className="bg-header4" />
-        <div className="bg-header5" />
-        <div className="bg-header6" />
-        <div className="logo-div1">
-          <img
-            className="nauber-logo-1-icon1"
-            alt=""
-            src="src\assets\image\nauberlogo-1@2x.png"
-          />
-          <img
-            className="logo-nauber-11"
-            alt=""
-            src="src\assets\image\logo-nauber-1@2x.png"
-          />
-        </div>
-        <div className="menu-div1">
-          <img className="vector-icon13" alt="" src="src\assets\image\vector-83.svg" />
-          <div className="home-div2">
-            <b className="home-b1">HOME</b>
-            <img className="home-icon1" alt="" src="src\assets\image\home1.svg" />
-          </div>
-          <div className="empresa-div1">
-            <img className="empresa-icon1" alt="" src="src\assets\image\empresa.svg" />
-            <b className="empresa-b1">EMPRESA</b>
-          </div>
-          <div className="produtos-div6">
-            <b className="produtos-b1">PRODUTOS</b>
-            <img className="box-icon1" alt="" src="src\assets\image\box1.svg" />
-          </div>
-          <div className="assistencia-div1">
-            <b className="assistncias-b1">ASSISTÊNCIAS</b>
-            <img className="home-icon1" alt="" src="src\assets\image\assistencias1.svg" />
-          </div>
-          <div className="catlogos-div1">
-            <b className="catlogos-virtuais-b1">CATÁLOGOS VIRTUAIS</b>
-            <img className="home-icon1" alt="" src="src\assets\image\catalagos1.svg" />
-          </div>
-          <div className="contato-div1">
-            <b className="contato-b1">CONTATO</b>
-            <img className="home-icon1" alt="" src="src\assets\image\contato1.svg" />
-          </div>
-          <div className="login-div1">
-            <b className="login-b1">login</b>
-            <img className="logim-icon1" alt="" src="src\assets\image\logim.svg" />
-          </div>
-        </div>
-        <div className="flags-div1">
-          <img className="vector-icon14" alt="" />
-          <img
-            className="flag-brasil-1-icon1"
-            alt=""
-            src="src\assets\image\flagbrasil-11@2x.png"
-          />
-          <img
-            className="flag-espanha-1-icon1"
-            alt=""
-            src="src\assets\image\flagespanha-1@2x.png"
-          />
-          <img className="flag-eua-1-icon1" alt="" src="src\assets\image\flageua-1@2x.png" />
-          <img
-            className="flag-arabia-1-icon1"
-            alt=""
-            src="src\assets\image\flagarabia-11@2x.png"
-          />
-        </div>
-        <div className="line-div4" />
-        <img
-          className="base-de-conhecimento-11"
-          alt=""
-          src="src\assets\image\base-de-conhecimento-1@2x.png"
-        />
-        <img
-          className="logo-revenda-pro-11"
-          alt=""
-          src="src\assets\image\logo-revenda-pro-1@2x.png"
-        />
-        <div className="conhea-o-sistema-de-revnda-n1">
-          <p className="rua-mal-castelo1">
-            <span className="conhea-o-sistema3">
-              <span>CONHEÇA O SISTEMA</span>
-            </span>
-          </p>
-          <p className="rua-mal-castelo1">
-            <span className="conhea-o-sistema3">
-              <span>DE REVÊNDA</span>
-            </span>
-          </p>
-          <p className="nauber-pro2">
-            <span>
-              <b>NAUBER PRO</b>
-            </span>
-          </p>
-        </div>
-        <div className="seach-div1">
-          <div className="rectangle-div28" />
-          <img className="frame-icon" alt="" src="src\assets\image\frame-2.svg" />
         </div>
       </div>
       <div className="headline-div">
@@ -363,7 +266,6 @@ function Assistencia(){
           <img className="seta-icon" alt="" src="src\assets\image\seta8.svg" />
         </div>
       </div>
-      <div className="busque-aqui-seu-produto1">busque aqui seu produto</div>
     </div>
   );
 };
