@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import Home from "../../assets/image/logo-nauber-1@2x.png"
 import Vetor83 from "../../assets/image/vector-83.svg"
 import Seach from "../../assets/image/frame-24.svg"
+import HomeIcon from "../../assets/image/home11.svg"
+import EmpresaIcon from "../../assets/image/empresa.svg"
 
 import "./Styles.css";
 
@@ -35,14 +37,14 @@ function Header() {
             <div className="home-div12">
               <Link to="/" className="home-b11">HOME</Link>
               <img className="home-icon11" 
-                   alt="" 
-                   src="src\assets\image\home11.svg" 
+                   alt="HomeIcon" 
+                   src={HomeIcon}
               />
             </div>
             <div className="empresa-div11">
               <img className="empresa-icon11" 
-                   alt="" 
-                   src="src\assets\image\empresa.svg" 
+                   alt="EmpresaIcon" 
+                   src={EmpresaIcon}
               />
               <Link to="/Sobre" className="empresa-b11">EMPRESA</Link>
             </div>
