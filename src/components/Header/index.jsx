@@ -6,6 +6,8 @@ import Vetor83 from "../../assets/image/vector-83.svg"
 import Seach from "../../assets/image/frame-24.svg"
 import HomeIcon from "../../assets/image/home11.svg"
 import EmpresaIcon from "../../assets/image/empresa.svg"
+import BoxIcon from "../../assets/image/box11.svg"
+import Assistencias from "../../assets/image/assistencias2.svg"
 
 import "./Styles.css";
 
@@ -51,21 +53,21 @@ function Header() {
             <div className="produtos-div37">
               <Link to="/Produto" className="produtos-b11">PRODUTOS</Link>
               <img className="box-icon11" 
-                   alt="" 
-                   src="src\assets\image\box11.svg" 
+                   alt="BoxIcon" 
+                   src={BoxIcon} 
               />
             </div>
             <div className="assistencia-div11">
               <Link to="/Assistencia" className="assistncias-b12">ASSISTÊNCIAS</Link>
               <img className="home-icon11" 
                    alt="" 
-                   src="src\assets\image\assistencias2.svg" 
+                   src={Assistencias} 
               />
             </div>
             <div className="catlogos-div13">
               <Link to="/Catalogos" className="catlogos-virtuais-b12">CATÁLOGOS VIRTUAIS</Link>
               <img className="home-icon11" 
-                   alt="" 
+                   alt="Catalagos" 
                    src="src\assets\image\catalagos1.svg" 
               />
             </div>
