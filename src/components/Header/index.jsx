@@ -10,14 +10,14 @@ import BoxIcon from "../../assets/image/box11.svg"
 import Assistencias from "../../assets/image/assistencias2.svg"
 import Catalagos from "../../assets/image/catalagos1.svg"
 import Contato from "../../assets/image/contato5.svg"
+import Login from "../../assets/image/logim.svg"
+import flagBrasil from "../../assets/image/flagbrasil-11@2x.png"
+import flagEspanha from "../../assets/image/flagespanha-1@2x.png"
+import flagEUA from "../../assets/image/flageua-1@2x.png"
+import flagArabia from "../../assets/image/flagarabia-11@2x.png"
+import Base from "../../assets/image/base-de-conhecimento-1@2x.png"
 
-import Assistencias from "../../assets/image/assistencias2.svg"
-import Assistencias from "../../assets/image/assistencias2.svg"
-import Assistencias from "../../assets/image/assistencias2.svg"
-import Assistencias from "../../assets/image/assistencias2.svg"
-import Assistencias from "../../assets/image/assistencias2.svg"
-import Assistencias from "../../assets/image/assistencias2.svg"
-import Assistencias from "../../assets/image/assistencias2.svg"
+import Assistencias from "../../assets/image/"
 
 import "./Styles.css";
 
@@ -92,36 +92,36 @@ function Header() {
               <Link to="#" className="login-b11">login</Link>
               <img className="logim-icon11" 
                    alt="Login" 
-                   src="src\assets\image\logim.svg" 
+                   src={Login} 
               />
             </div>
           </div>
           <div className="flags-div11">
             <img
               className="flag-brasil-1-icon11"
-              alt=""
-              src="src\assets\image\flagbrasil-11@2x.png"
+              alt="Brasil"
+              src={flagBrasil}
             />
             <img
               className="flag-espanha-1-icon11"
               alt="Espanha"
-              src="src\assets\image\flagespanha-1@2x.png"
+              src={flagEspanha}
             />
             <img className="flag-eua-1-icon11" 
-                 alt="Espanha" 
-                 src="src\assets\image\flageua-1@2x.png" 
+                 alt="EUA" 
+                 src={flagEUA}
             />
             <img
               className="flag-arabia-1-icon11"
-              alt=""
-              src="src\assets\image\flagarabia-11@2x.png"
+              alt="Arabia"
+              src={flagArabia}
             />
           </div>
           <div className="line-div30" />
           <img
             className="base-de-conhecimento-111"
             alt="Base De Conhecimento"
-            src="src\assets\image\base-de-conhecimento-1@2x.png"
+            src={Base}
           />
           <img
             className="logo-revenda-pro-111"
