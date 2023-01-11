@@ -16,8 +16,7 @@ import flagEspanha from "../../assets/image/flagespanha-1@2x.png"
 import flagEUA from "../../assets/image/flageua-1@2x.png"
 import flagArabia from "../../assets/image/flagarabia-11@2x.png"
 import Base from "../../assets/image/base-de-conhecimento-1@2x.png"
-
-import Assistencias from "../../assets/image/"
+import LogoRevenda from "../../assets/image/logo-revenda-pro-1@2x.png"
 
 import "./Styles.css";
 
@@ -125,8 +124,8 @@ function Header() {
           />
           <img
             className="logo-revenda-pro-111"
-            alt=""
-            src="src\assets\image\logo-revenda-pro-1@2x.png"
+            alt="Revenda"
+            src={LogoRevenda}
           />
           <div className="conhea-o-sistema-de-revnda-n11">
             <p className="rua-mal-castelo11">
