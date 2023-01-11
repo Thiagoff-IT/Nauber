@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import Home from "../../assets/image/logo-nauber-1@2x.png"
 import Vetor83 from "../../assets/image/vector-83.svg"
+import Seach from "../../assets/image/frame-24.svg"
 
 import "./Styles.css";
 
@@ -132,8 +133,8 @@ function Header() {
           </div>
             <input type="text" className="seach-div11 seach" placeholder="busque aqui seu produto"/>
             <img className="frame-icon10" 
-                 alt="" 
-                 src="src\assets\image\frame-24.svg" 
+                 alt="Busca" 
+                 src={Seach}
             />
         </div>
   );
