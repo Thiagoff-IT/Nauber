@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 
 import "./Styles.css";
 
+import BG from "../../assets/image/foto@2x.png"
+
 function Home() {
   return (
     <>
@@ -13,7 +15,10 @@ function Home() {
       <div className="frame-div">
         <div className="hero-div">
           <div className="rectangle-div" />
-          <img className="foto-icon" alt="" src="src\assets\image\foto@2x.png" />
+          <img className="foto-icon" 
+               alt="" 
+               src={BG} 
+          />
           <div className="subtext-div">
             <span>{`“A `}</span>
             <b>evolução</b>
