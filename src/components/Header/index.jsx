@@ -8,6 +8,16 @@ import HomeIcon from "../../assets/image/home11.svg"
 import EmpresaIcon from "../../assets/image/empresa.svg"
 import BoxIcon from "../../assets/image/box11.svg"
 import Assistencias from "../../assets/image/assistencias2.svg"
+import Catalagos from "../../assets/image/catalagos1.svg"
+import Contato from "../../assets/image/contato5.svg"
+
+import Assistencias from "../../assets/image/assistencias2.svg"
+import Assistencias from "../../assets/image/assistencias2.svg"
+import Assistencias from "../../assets/image/assistencias2.svg"
+import Assistencias from "../../assets/image/assistencias2.svg"
+import Assistencias from "../../assets/image/assistencias2.svg"
+import Assistencias from "../../assets/image/assistencias2.svg"
+import Assistencias from "../../assets/image/assistencias2.svg"
 
 import "./Styles.css";
 
@@ -68,25 +78,25 @@ function Header() {
               <Link to="/Catalogos" className="catlogos-virtuais-b12">CATÁLOGOS VIRTUAIS</Link>
               <img className="home-icon11" 
                    alt="Catalagos" 
-                   src="src\assets\image\catalagos1.svg" 
+                   src={Catalagos} 
               />
             </div>
             <div className="contato-div12">
               <Link to="/Contato" className="contato-b12">CONTATO</Link>
               <img className="home-icon11" 
-                   alt="" 
-                   src="src\assets\image\contato5.svg" />
+                   alt="Contato" 
+                   src={Contato} 
+              />
             </div>
             <div className="login-div11">
               <Link to="#" className="login-b11">login</Link>
               <img className="logim-icon11" 
-                   alt="" 
+                   alt="Login" 
                    src="src\assets\image\logim.svg" 
               />
             </div>
           </div>
           <div className="flags-div11">
-      
             <img
               className="flag-brasil-1-icon11"
               alt=""
@@ -110,7 +120,7 @@ function Header() {
           <div className="line-div30" />
           <img
             className="base-de-conhecimento-111"
-            alt=""
+            alt="Base De Conhecimento"
             src="src\assets\image\base-de-conhecimento-1@2x.png"
           />
           <img
@@ -135,7 +145,10 @@ function Header() {
               </span>
             </p>
           </div>
-            <input type="text" className="seach-div11 seach" placeholder="busque aqui seu produto"/>
+            <input type="text" 
+                   className="seach-div11 seach" 
+                   placeholder="busque aqui seu produto"
+            />
             <img className="frame-icon10" 
                  alt="Busca" 
                  src={Seach}
