@@ -453,7 +453,7 @@
   bottom: 0;
   left: 0;
   overflow: hidden;
-  max-height: 100%;
+  //max-height: 100%;
 }
 .nauber-pro-1 {
   top: -394px;
@@ -539,7 +539,7 @@
   bottom: 0;
   left: 0;
   overflow: hidden;
-  max-height: 100%;
+  //max-height: 100%;
 }
 .logo-icon {
   top: 255px;
@@ -757,7 +757,7 @@
 }
 .bg-div {
   height: 100%;
-  width: 100%;
+  width: 100vw;
   top: 0;
   right: 0;
   bottom: 0;
@@ -980,7 +980,7 @@
 .bg-div1 {
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 100vw;
   top: 0;
   right: 0;
   bottom: 0;
@@ -1136,7 +1136,7 @@
   font-weight: 500;
   display: inline-block;
   color: #0b7c1d;
-  font-family: Arial; 
+  font-family: Inter; 
 }
 .vector-icon8 {
   position: absolute;
@@ -1394,5 +1394,5 @@
   text-align: center;
   font-size: 18px;
   color: #fff;
-  font-family: Roboto;
+  font-family: Inter;
 }
