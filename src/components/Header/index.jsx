@@ -2,6 +2,7 @@ import * as React from "react";
 import { Link } from "react-router-dom";
 
 import Home from "../../assets/image/logo-nauber-1@2x.png"
+import Vetor83 from "../../assets/image/vector-83.svg"
 
 import "./Styles.css";
 
@@ -28,7 +29,7 @@ function Header() {
           <div className="menu-div11">
             <img className="vector-icon64" 
                  alt="" 
-                 src="src\assets\image\vector-83.svg" 
+                 src={Vetor83} 
             />
             <div className="home-div12">
               <Link to="/" className="home-b11">HOME</Link>
