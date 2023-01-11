@@ -65,7 +65,7 @@
   width: 1440px;
   height: 517px;
   font-size: 24px;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 .bg-header {
   border-radius: 10px;
@@ -434,7 +434,7 @@
   height: 74.75px;
   font-size: 7.59px;
   color: #000;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 .frame-div1 {
   height: 133px;
@@ -587,10 +587,11 @@
 .acesse-uma-revenda-nauber-pro {
   position: absolute;
   top: 14px;
-  left: 0.1rem;
+  left: 1.5rem;
   letter-spacing: 0.2em;
   display: inline-block;
   color: #0a6634;
+  font-family: 'Bebas Neue', cursive;
 }
 .boto-div1 {
   position: absolute;
@@ -676,6 +677,7 @@
   background: linear-gradient(90deg, #088f1d, #048635);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  white-space: nowrap;
 }
 .qualidade-b {
   top: 63px;
@@ -689,6 +691,7 @@
   display: inline-block;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  white-space: nowrap;
 }
 .melhor-custo-benefcio {
   top: 33px;
@@ -965,7 +968,7 @@
   top: 2223px;
   text-align: left;
   font-size: 12px;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 .rectangle-div7 {
   position: absolute;
@@ -1136,7 +1139,7 @@
   font-weight: 500;
   display: inline-block;
   color: #0b7c1d;
-  font-family: Inter; 
+  font-family: 'Inter', sans-serif;
 }
 .vector-icon8 {
   position: absolute;
@@ -1329,7 +1332,7 @@
   text-align: left;
   font-size: 15.5px;
   color: #fff;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 .foto-3-2 {
   position: absolute;
@@ -1394,5 +1397,5 @@
   text-align: center;
   font-size: 18px;
   color: #fff;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
