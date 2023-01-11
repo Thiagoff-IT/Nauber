@@ -48,7 +48,7 @@ function Home() {
                alt="Fundo" 
                src={BG} 
           />
-          <Header />
+         
           <div className="subtext-div">
             <span>{`“A `}</span>
             <b>evolução</b>
@@ -127,6 +127,7 @@ function Home() {
               acesse uma revenda nauber pro agora
             </a>
           </div>
+          
           <div className="checkbox-div">
             <img className="vector-icon3" alt="" src={Vector1} />
             <img className="vector-icon4" alt="" src={Vector2} />
@@ -145,6 +146,7 @@ function Home() {
               Equipamentos Profissionais
             </b>
           </div>
+          
           <b className="subtitulo">
             Os equipamentos e acessórios Nauber são produzidos sob total
             supervisão de qualidade, sendo que 100% dos equipamentos são
@@ -160,7 +162,7 @@ function Home() {
           />
         </div>
       </div>
-
+      <Header />
       <div className="rectangle-div7" />
       <div className="frame-div5">
         <div className="nauber-pro-div">
