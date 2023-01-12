@@ -1,5 +1,11 @@
-import * as React from "react";
-import { Link } from "react-router-dom";
+import * as React from "react";NavLink
+import { NavLink } from "react-router-dom";
+
+let activeStyle = {
+  textDecoration: "underline",
+};
+
+let activeClassName = "underline";
 
 import Home from "../../assets/image/logo-nauber-1@2x.png"
 import Vetor83 from "../../assets/image/vector-83.svg"
@@ -32,13 +38,18 @@ function Header() {
               alt="Home"
               src={Home}
             />
-            <Link to="/">
+            <NavLink to="/" 
+                        style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+            }
+
+            >
             <img
               className="logo-nauber-111"
               alt="Home"
               src={Home}
             />
-            </Link>
+            </NavLink>
           </div>
           <div className="menu-div11">
             <img className="vector-icon64" 
@@ -46,7 +57,7 @@ function Header() {
                  src={Vetor83} 
             />
             <div className="home-div12">
-              <Link to="/" className="home-b11">HOME</Link>
+              <NavLink to="/" className="home-b11">HOME</NavLink>
               <img className="home-icon11" 
                    alt="HomeIcon" 
                    src={HomeIcon}
@@ -57,38 +68,38 @@ function Header() {
                    alt="EmpresaIcon" 
                    src={EmpresaIcon}
               />
-              <Link to="/Sobre" className="empresa-b11">EMPRESA</Link>
+              <NavLink to="/Sobre" className="empresa-b11">EMPRESA</NavLink>
             </div>
             <div className="produtos-div37">
-              <Link to="/Produto" className="produtos-b11">PRODUTOS</Link>
+              <NavLink to="/Produto" className="produtos-b11">PRODUTOS</NavLink>
               <img className="box-icon11" 
                    alt="BoxIcon" 
                    src={BoxIcon} 
               />
             </div>
             <div className="assistencia-div11">
-              <Link to="/Assistencia" className="assistncias-b12">ASSISTÊNCIAS</Link>
+              <NavLink to="/Assistencia" className="assistncias-b12">ASSISTÊNCIAS</NavLink>
               <img className="home-icon11" 
                    alt="" 
                    src={Assistencias} 
               />
             </div>
             <div className="catlogos-div13">
-              <Link to="/Catalogos" className="catlogos-virtuais-b12">CATÁLOGOS VIRTUAIS</Link>
+              <NavLink to="/Catalogos" className="catlogos-virtuais-b12">CATÁLOGOS VIRTUAIS</NavLink>
               <img className="home-icon11" 
                    alt="Catalagos" 
                    src={Catalagos} 
               />
             </div>
             <div className="contato-div12">
-              <Link to="/Contato" className="contato-b12">CONTATO</Link>
+              <NavLink to="/Contato" className="contato-b12">CONTATO</NavLink>
               <img className="home-icon11" 
                    alt="Contato" 
                    src={Contato} 
               />
             </div>
             <div className="login-div11">
-              <Link to="#" className="login-b11">login</Link>
+              <NavLink to="/login" className="login-b11">login</NavLink>
               <img className="logim-icon11" 
                    alt="Login" 
                    src={Login} 
