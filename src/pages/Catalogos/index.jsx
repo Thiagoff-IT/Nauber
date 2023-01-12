@@ -1,8 +1,10 @@
+import Header from "../../components/Header";
 import "./Styles.css";
 
 function Catalogos(){
   return (
     <div className="catlogos-div3">
+      <Header />
       <div className="footer-div6">
         <div className="footer-div7">
           <div className="bg-div4" />
@@ -57,105 +59,6 @@ function Catalogos(){
           <div className="rectangle-div76" />
         </div>
       </div>
-      <div className="header-div3">
-        <div className="bg-header10" />
-        <div className="bg-header11" />
-        <div className="bg-header12" />
-        <div className="logo-div3">
-          <img
-            className="nauber-logo-1-icon3"
-            alt=""
-            src="src\assets\image\nauberlogo-1@2x.png"
-          />
-          <img
-            className="logo-nauber-13"
-            alt=""
-            src="src\assets\image\logo-nauber-1@2x.png"
-          />
-        </div>
-        <div className="menu-div3">
-          <img className="vector-icon23" alt="" src="src\assets\image\vector-83.svg" />
-          <div className="home-div4">
-            <b className="home-b3">HOME</b>
-            <img className="home-icon3" alt="" src="src\assets\image\home3.svg" />
-          </div>
-          <div className="empresa-div3">
-            <img className="empresa-icon3" alt="" src="src\assets\image\empresa.svg" />
-            <b className="empresa-b3">EMPRESA</b>
-          </div>
-          <div className="produtos-div12">
-            <b className="produtos-b3">PRODUTOS</b>
-            <img className="box-icon3" alt="" src="src\assets\image\box3.svg" />
-          </div>
-          <div className="assistencia-div3">
-            <b className="assistncias-b4">ASSISTÊNCIAS</b>
-            <img className="home-icon3" alt="" src="src\assets\image\assistencias2.svg" />
-          </div>
-          <div className="catlogos-div4">
-            <b className="catlogos-virtuais-b3">CATÁLOGOS VIRTUAIS</b>
-            <img className="home-icon3" alt="" src="src\assets\image\catalagos3.svg" />
-          </div>
-          <div className="contato-div4">
-            <b className="contato-b4">CONTATO</b>
-            <img className="home-icon3" alt="" src="src\assets\image\contato1.svg" />
-          </div>
-          <div className="login-div3">
-            <b className="login-b3">login</b>
-            <img className="logim-icon3" alt="" src="src\assets\image\logim.svg" />
-          </div>
-        </div>
-        <div className="flags-div3">
-          <img className="vector-icon24" alt="" />
-          <img
-            className="flag-brasil-1-icon3"
-            alt=""
-            src="src\assets\image\flagbrasil-13@2x.png"
-          />
-          <img
-            className="flag-espanha-1-icon3"
-            alt=""
-            src="src\assets\image\flagespanha-1@2x.png"
-          />
-          <img className="flag-eua-1-icon3" alt="" src="src\assets\image\flageua-13@2x.png" />
-          <img
-            className="flag-arabia-1-icon3"
-            alt=""
-            src="src\assets\image\flagarabia-11@2x.png"
-          />
-        </div>
-        <div className="line-div8" />
-        <img
-          className="base-de-conhecimento-13"
-          alt=""
-          src="src\assets\image\base-de-conhecimento-1@2x.png"
-        />
-        <img
-          className="logo-revenda-pro-13"
-          alt=""
-          src="src\assets\image\logo-revenda-pro-13@2x.png"
-        />
-        <div className="conhea-o-sistema-de-revnda-n3">
-          <p className="rua-mal-castelo3">
-            <span className="conhea-o-sistema7">
-              <span>CONHEÇA O SISTEMA</span>
-            </span>
-          </p>
-          <p className="rua-mal-castelo3">
-            <span className="conhea-o-sistema7">
-              <span>DE REVÊNDA</span>
-            </span>
-          </p>
-          <p className="nauber-pro4">
-            <span>
-              <b>NAUBER PRO</b>
-            </span>
-          </p>
-        </div>
-        <div className="seach-div3">
-          <div className="rectangle-div77" />
-          <img className="frame-icon2" alt="" src="src\assets\image\frame-2.svg" />
-        </div>
-      </div>
       <div className="headline-div2">
         <img className="vector-icon25" alt="" src="src\assets\image\vector-1172.svg" />
         <img className="vector-icon26" alt="" src="src\assets\image\vector-1162.svg" />
@@ -196,7 +99,6 @@ function Catalogos(){
           <b className="linha-industrial-b">linha industrial</b>
         </div>
       </div>
-      <div className="busque-aqui-seu-produto3">busque aqui seu produto</div>
     </div>
   );
 };
