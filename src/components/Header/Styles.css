@@ -325,3 +325,7 @@ a {
   height: 133px;
   font-size: 18px;
 }
+
+.active{
+  color: #FAE013;
+}
