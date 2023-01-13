@@ -321,7 +321,7 @@ a {
 .header-div11 {
   top: 0;
   left: 0;
-  width: 1440px;
+  width: 100vw;
   height: 133px;
   font-size: 18px;
 }

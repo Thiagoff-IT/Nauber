@@ -18,24 +18,7 @@
 }
 
 /**/
-.rectangle-div {
-  top: 1px;
-  background-color: #bdbdbd;
-  height: 516px;
-}
-.foto-icon {
-  top: 0;
-  height: 517px;
-  object-fit: cover;
-}
-.subtext-div {
-  position: absolute;
-  top: 278px;
-  left: 263px;
-  display: inline-block;
-  width: 909px;
-  height: 39.18px;
-}
+
 .variant-1default-varint-2ne {
   position: absolute;
   top: 20px;
@@ -543,9 +526,9 @@
   right: 0;
   bottom: 0;
   left: 0;
-  //max-width: 100%;
+  max-width: 100%;
   overflow: hidden;
- // max-height: 100%;
+  max-height: 100%;
 }
 .logo-icon {
   top: 255px;

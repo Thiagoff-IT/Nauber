@@ -62,7 +62,7 @@
   left: 0;
 }
 .frame-div {
-  width: 1440px;
+  width: 100vw;
   height: 517px;
   font-size: 24px;
   font-family: 'Inter', sans-serif;
@@ -79,7 +79,7 @@
   left: -45px;
   background-color: #fff;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  width: 1440px;
+  width: 100vw;
   height: 1px;
   display: none;
 }
@@ -428,7 +428,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 1440px;
+  width: 100vw;
 }
 .component-1-div {
   height: 74.75px;
@@ -453,7 +453,7 @@
   bottom: 0;
   left: 0;
   overflow: hidden;
-  //max-height: 100%;
+  max-height: 100%;
 }
 .nauber-pro-1 {
   top: -394px;
@@ -539,7 +539,7 @@
   bottom: 0;
   left: 0;
   overflow: hidden;
-  //max-height: 100%;
+  max-height: 100%;
 }
 .logo-icon {
   top: 255px;
