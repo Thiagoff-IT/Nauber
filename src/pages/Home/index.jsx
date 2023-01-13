@@ -22,9 +22,9 @@ import Vector6 from "../../assets/image/vector6.svg"
 import Check from "../../assets/image/check.svg"
 import Vector1 from "../../assets/image/vector1.svg"
 import Vector2 from "../../assets/image/vector2.svg"
-
+import Edita from "../../assets/image/p1070842--editado-original-1@2x.png"
 /*
-import  from "../../assets/image/"
+
 import  from "../../assets/image/"
 import  from "../../assets/image/"
 import  from "../../assets/image/"
@@ -158,7 +158,7 @@ function Home() {
           <img
             className="p1070842-editado-original-1"
             alt=""
-            src="src\assets\image\p1070842--editado-original-1@2x.png"
+            src={Edita}
           />
         </div>
       </div>

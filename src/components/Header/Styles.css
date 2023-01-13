@@ -19,7 +19,7 @@ a {
   left: 45px;
   border-radius: 10px;
   background: linear-gradient(180deg, #068f13, #165032);
-  width: 100vw;
+  width: 75rem;
   height: 70px;
 }
 .bg-header35,
@@ -212,7 +212,7 @@ a {
 .vector-icon65 {
   position: absolute;
   top: 90px;
-  left: 204px;
+  left: 8rem;
   width: 1052px;
   height: 25px;
   font-family: 'Bebas Neue', cursive;

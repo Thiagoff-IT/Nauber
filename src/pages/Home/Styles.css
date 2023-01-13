@@ -244,7 +244,7 @@
 .bg-header3,
 .nauber-logo-1-icon {
   position: absolute;
-  width: 100%;
+  width: 100vw;
   top: 0;
   right: 0;
   left: 0;
@@ -741,7 +741,7 @@
 }
 .sobre-a-nauber {
   height: 120.27%;
-  width: 100%;
+  width: 100vw;
   top: -20.27%;
   right: 0;
   bottom: 0;
@@ -810,7 +810,7 @@
   right: 82.93%;
   bottom: 38.6%;
   left: 9.24%;
-  max-width: 100%;
+  /*max-width: 100%;*/
   overflow: hidden;
   max-height: 100%;
 }
@@ -940,7 +940,7 @@
   right: 9.51%;
   bottom: 77.84%;
   left: 71.88%;
-  max-width: 100%;
+  /*max-width: 100%;*/
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
@@ -1149,7 +1149,7 @@
   right: 11.7%;
   bottom: 32.98%;
   left: 80.14%;
-  max-width: 100%;
+ /* max-width: 100%;*/
   overflow: hidden;
   max-height: 100%;
 }
@@ -1211,7 +1211,7 @@
   right: 12.45%;
   bottom: 32.98%;
   left: 79.4%;
-  max-width: 100%;
+  /*max-width: 100%;*/
   overflow: hidden;
   max-height: 100%;
 }
@@ -1245,7 +1245,7 @@
   right: -0.15%;
   bottom: 32.98%;
   left: 97.52%;
-  max-width: 100%;
+  /*max-width: 100%;*/
   overflow: hidden;
   max-height: 100%;
 }
@@ -1299,7 +1299,7 @@
   right: 97.62%;
   bottom: 7.19%;
   left: -0.14%;
-  max-width: 100%;
+  /*max-width: 100%;*/
   overflow: hidden;
   max-height: 100%;
 }
@@ -1391,7 +1391,7 @@
 }
 .home-div {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 2732px;
   overflow: hidden;
   text-align: center;
