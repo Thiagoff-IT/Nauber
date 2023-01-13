@@ -23,17 +23,11 @@ import Check from "../../assets/image/check.svg"
 import Vector1 from "../../assets/image/vector1.svg"
 import Vector2 from "../../assets/image/vector2.svg"
 import Edita from "../../assets/image/p1070842--editado-original-1@2x.png"
-/*
-
-import  from "../../assets/image/"
-import  from "../../assets/image/"
-import  from "../../assets/image/"
-import  from "../../assets/image/"
-import  from "../../assets/image/"
-import  from "../../assets/image/"
-import  from "../../assets/image/"
-*/
-
+import Foto3 from "../../assets/image/foto-3-2@2x.png"
+import Foto26 from "../../assets/image/26-2@2x.png"
+import Foto2 from "../../assets/image/foto-2-2@2x.png"
+import Foto4 from "../../assets/image/foto-4-1@2x.png"
+import Foto4_2 from "../../assets/image/foto-4-2@2x.png"
 
 function Home() {
   return (
@@ -245,12 +239,12 @@ function Home() {
               <img 
                   className="vector-icon11" 
                   alt="" 
-                  src="src\assets\image\vector5.svg" 
+                  src={Vector5} 
               />
               <img 
                   className="vector-icon12" 
                   alt="" 
-                  src="src\assets\image\vector5.svg" 
+                  src={Vector5} 
               />
               <div className="rectangle-div26" />
             </div>
@@ -258,28 +252,28 @@ function Home() {
           <img 
               className="foto-3-2" 
               alt="" 
-              src="src\assets\image\foto-3-2@2x.png" 
+              src={Foto3}
           />
           <img 
               className="icon" 
               alt="" 
-              src="src\assets\image\26-2@2x.png" 
+              src={Foto26}
           />
           <img 
               className="foto-2-2" 
               alt="" 
-              src="src\assets\image\foto-2-2@2x.png" 
+              src={Foto2}
           />
           <div className="group-div2">
             <img 
                 className="foto-4-1" 
                 alt="" 
-                src="src\assets\image\foto-4-1@2x.png" 
+                src={Foto4} 
             />
             <img 
                 className="foto-4-2" 
                 alt="" 
-                src="src\assets\image\foto-4-2@2x.png" 
+                src={Foto4_2}
             />
           </div>
         </div>
