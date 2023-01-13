@@ -2,7 +2,7 @@
 .rectangle-div {
   position: absolute;
   left: 0;
-  width: 1440px;
+  width: 100vw;
 }
 .rectangle-div {
   top: 1px;
@@ -51,7 +51,7 @@
   display: none;
 }
 .hero-div {
-  width: 1440px;
+  width: 100vw;
   height: 517px;
 }
 .bg-header,
@@ -70,7 +70,7 @@
 .bg-header {
   border-radius: 10px;
   background: linear-gradient(180deg, #068f13, #165032);
-  width: 1336px;
+  width: 100vw;
   height: 70px;
 }
 .bg-header1 {
@@ -994,7 +994,7 @@
   position: absolute;
   top: 310px;
   left: -8px;
-  width: 1456px;
+  width: 100vw;
   height: 135px;
   display: none;
 }
@@ -1098,7 +1098,7 @@
   position: absolute;
   top: 59px;
   left: 135px;
-  width: 1170px;
+  width: 100vw;
   height: 40px;
   text-align: left;
   font-size: 28px;
@@ -1384,7 +1384,7 @@
   top: 511px;
   left: 0;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  width: 1440px;
+  width: 100vw;
   height: 597px;
   font-size: 34px;
   color: #000;
