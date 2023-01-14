@@ -113,7 +113,7 @@ function Home() {
           />
           <div className="boto-div">
             <div className="rectangle-div4" />
-            <a to="/Sobre" className="saiba-mais">SAIBA MAIS</a>
+            <Link to="/Sobre" className="saiba-mais">SAIBA MAIS</Link>
           </div>
           <div className="boto-div1">
             <div className="rectangle-div5" />
