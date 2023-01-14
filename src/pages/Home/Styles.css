@@ -465,7 +465,7 @@
 .rectangle-div2,
 .rectangle-div3 {
   position: absolute;
-  left: 920px;
+  left: 44rem;
   width: 636px;
 }
 .rectangle-div2 {
@@ -490,7 +490,7 @@
 }
 .logo-revenda-pro-3 {
   top: 213px;
-  left: 1150px;
+  left: 59rem;
   width: 153px;
   height: 163.99px;
 }
@@ -507,7 +507,7 @@
 .nauber-pro1 {
   top: 323px;
   left: 371px;
-  font-size: 60px;
+  font-size: 48px;
 }
 .nauber-pro-div {
   position: absolute;
@@ -578,7 +578,7 @@
 }
 .rectangle-div5 {
   top: 0;
-  left: 0;
+  left: -12rem;
   border-radius: 6px;
   background: linear-gradient(90deg, #fcfcfc, #fff);
   box-shadow: 0 10px 35px rgba(33, 97, 73, 0.5);
@@ -587,7 +587,7 @@
 .acesse-uma-revenda-nauber-pro {
   position: absolute;
   top: 14px;
-  left: 1.5rem;
+  left: -10rem;
   letter-spacing: 0.2em;
   display: inline-block;
   color: #0a6634;
