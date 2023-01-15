@@ -14,6 +14,8 @@ import Assistencia from './pages/Assistencia';
 import Sobre from './pages/Sobre'
 import Contato from './pages/Contato';
 import Catalogos from './pages/Catalogos';
+import Categoria from './pages/Categoria';
+import Categorias from './pages/Categorias';
 import ProdutoLogistico from './pages/ProdutoLogistas1';
 import ProdutoDetalhes from "./pages/ProdutoDetalhes"
 
@@ -45,6 +47,14 @@ const router = createBrowserRouter([
   {
     path: "/Catalogos",
     element: <Catalogos />,
+  },
+  {
+    path: "/Categoria",
+    element: <Categoria />,
+  },
+  {
+    path: "/Categorias",
+    element: <Categorias />,
   },
   {
     path: "/ProdutoDetalhes",
