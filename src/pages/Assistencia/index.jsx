@@ -4,6 +4,9 @@ import "./Styles.css";
 import Vetor from '../../assets/image/vector-117.svg'
 import Vetor1 from '../../assets/image/vector-116.svg'
 import Search from '../../assets/image/seach.svg'
+import Ellipse from '../../assets/image/ellipse-6.svg'
+import Global from '../../assets/image/global1-1@2x.png'
+import Phone2 from '../../assets/image/phone2.svg'
 
 function Assistencia(){
   return (
@@ -92,8 +95,8 @@ function Assistencia(){
             concordo em compartilhar a minha localização geográfica atual.
           </div>
           <div className="rectangle-div32" />
-          <img className="ellipse-icon" alt="" src="src\assets\image\ellipse-6.svg" />
-          <img className="global-1-1-icon" alt="" src="src\assets\image\global1-1@2x.png" />
+          <img className="ellipse-icon" alt="" src={Ellipse} />
+          <img className="global-1-1-icon" alt="" src={Global} />
           <input type="text" className="usar-minha-localizao" placeholder="Usar minha localização" />
           <div className="verificado-div">
             <div className="rectangle-div33" />
@@ -118,7 +121,7 @@ function Assistencia(){
           <div className="email-assistencialojacombr-div">
             Email: assistencia@loja.com.br
           </div>
-          <img className="phone-icon2" alt="" src="src\assets\image\phone2.svg" />
+          <img className="phone-icon2" alt="" src={Phone2} />
           <img className="seta-icon" alt="" src="src\assets\image\seta.svg" />
         </div>
         <div className="assistncia-div2">
@@ -136,7 +139,7 @@ function Assistencia(){
           <div className="email-assistencialojacombr-div">
             Email: assistencia@loja.com.br
           </div>
-          <img className="phone-icon2" alt="" src="src\assets\image\phone2.svg" />
+          <img className="phone-icon2" alt="" src={Phone2} />
           <img className="seta-icon" alt="" src="src\assets\image\seta1.svg" />
         </div>
         <div className="assistncia-div3">
@@ -154,7 +157,7 @@ function Assistencia(){
           <div className="email-assistencialojacombr-div">
             Email: assistencia@loja.com.br
           </div>
-          <img className="phone-icon2" alt="" src="src\assets\image\phone2.svg" />
+          <img className="phone-icon2" alt="" src={Phone2} />
           <img className="seta-icon" alt="" src="src\assets\image\seta2.svg" />
         </div>
       </div>
@@ -174,7 +177,7 @@ function Assistencia(){
           <div className="email-assistencialojacombr-div">
             Email: assistencia@loja.com.br
           </div>
-          <img className="phone-icon2" alt="" src="src\assets\image\phone5.svg" />
+          <img className="phone-icon2" alt="" src={Phone2} />
           <img className="seta-icon" alt="" src="src\assets\image\seta3.svg" />
         </div>
         <div className="assistncia-div2">
@@ -192,7 +195,7 @@ function Assistencia(){
           <div className="email-assistencialojacombr-div">
             Email: assistencia@loja.com.br
           </div>
-          <img className="phone-icon2" alt="" src="src\assets\image\phone5.svg" />
+          <img className="phone-icon2" alt="" src={Phone2} />
           <img className="seta-icon" alt="" src="src\assets\image\seta4.svg" />
         </div>
         <div className="assistncia-div3">
@@ -210,7 +213,7 @@ function Assistencia(){
           <div className="email-assistencialojacombr-div">
             Email: assistencia@loja.com.br
           </div>
-          <img className="phone-icon2" alt="" src="src\assets\image\phone5.svg" />
+          <img className="phone-icon2" alt="" src={Phone2} />
           <img className="seta-icon" alt="" src="src\assets\image\seta5.svg" />
         </div>
       </div>
@@ -230,7 +233,7 @@ function Assistencia(){
           <div className="email-assistencialojacombr-div">
             Email: assistencia@loja.com.br
           </div>
-          <img className="phone-icon2" alt="" src="src\assets\image\phone8.svg" />
+          <img className="phone-icon2" alt="" src={Phone2} />
           <img className="seta-icon" alt="" src="src\assets\image\seta6.svg" />
         </div>
         <div className="assistncia-div2">
@@ -248,7 +251,7 @@ function Assistencia(){
           <div className="email-assistencialojacombr-div">
             Email: assistencia@loja.com.br
           </div>
-          <img className="phone-icon2" alt="" src="src\assets\image\phone8.svg" />
+          <img className="phone-icon2" alt="" src={Phone2} />
           <img className="seta-icon" alt="" src="src\assets\image\seta7.svg" />
         </div>
         <div className="assistncia-div3">
@@ -266,7 +269,7 @@ function Assistencia(){
           <div className="email-assistencialojacombr-div">
             Email: assistencia@loja.com.br
           </div>
-          <img className="phone-icon2" alt="" src="src\assets\image\phone8.svg" />
+          <img className="phone-icon2" alt="" src={Phone2} />
           <img className="seta-icon" alt="" src="src\assets\image\seta8.svg" />
         </div>
       </div>
