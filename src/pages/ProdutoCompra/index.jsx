@@ -1,4 +1,28 @@
+import {Link} from 'react-router-dom'
+import Header from "../../components/Header";
 import "./Styles.css";
+
+import Vetor from '../../assets/image/vector-1182.svg'
+import Vetor1 from '../../assets/image/vector-1175.svg'
+import Vetor2 from '../../assets/image/vector-1165.svg'
+import Line from '../../assets/image/vector-1165.svg'
+import Image12 from '../../assets/image/01-23@2x.png'
+import Seta1 from '../../assets/image/seta19.svg'
+import Play from '../../assets/image/play.svg'
+import Seach from '../../assets/image/seach2.svg'
+import EUA from '../../assets/image/flageua-31@2x.png'
+import Espanha from '../../assets/image/flagespanha-31@2x.png'
+import BR from '../../assets/image/flagbrasil-21@2x.png'
+import Ellipse from '../../assets/image/ellipse-56.svg'
+import Documents from '../../assets/image/fluentdocumentbulletlist24filled.svg'
+import Manual from '../../assets/image/manual-1@2x.png'
+
+
+
+import Phone28 from '../../assets/image/phone28.svg'
+import Social from '../../assets/image/redes-sociais-icon1.svg'
+import Pin from '../../assets/image/pin5.svg'
+import Logo from '../../assets/image/logo-nauber@2x.png'
 
 function ProdutoCompra(){
   return (
@@ -6,7 +30,7 @@ function ProdutoCompra(){
       <div className="footer-div12">
         <div className="footer-div13">
           <div className="bg-div7" />
-          <img className="phone-icon28" alt="" src="src\assets\image\phone28.svg" />
+          <img className="phone-icon28" alt="" src={Phone28} />
           <div className="siga-nas-redes-sociais6">Siga nas redes sociais</div>
           <div className="nauber-2022-todos-os-direito6">
             Nauber © 2022 Todos os direitos reservados.
@@ -20,7 +44,7 @@ function ProdutoCompra(){
           <img
             className="redes-sociais-icon6"
             alt=""
-            src="src\assets\image\redes-sociais-icon1.svg"
+            src={Social}
           />
           <div className="dvidas-div6">
             <div className="converse-com-um-especialista6">
@@ -47,116 +71,18 @@ function ProdutoCompra(){
             <div className="div43">+55 (47) 98821-2725</div>
             <div className="nossa-sede-div13">Nossa sede</div>
           </div>
-          <img className="pin-icon7" alt="" src="src\assets\image\pin5.svg" />
+          <img className="pin-icon7" alt="" src={Pin} />
           <div className="line-div15" />
           <img
             className="logo-nauber-icon6"
             alt=""
-            src="src\assets\image\logo-nauber@2x.png"
+            src={Logo}
           />
           <div className="rectangle-div152" />
         </div>
       </div>
-      <div className="header-div6">
-        <div className="bg-header19" />
-        <div className="bg-header20" />
-        <div className="bg-header21" />
-        <div className="logo-div6">
-          <img
-            className="nauber-logo-1-icon6"
-            alt=""
-            src="src\assets\image\nauberlogo-1@2x.png"
-          />
-          <img
-            className="logo-nauber-16"
-            alt=""
-            src="src\assets\image\logo-nauber-1@2x.png"
-          />
-        </div>
-        <div className="menu-div6">
-          <img className="vector-icon38" alt="" src="src\assets\image\vector-83.svg" />
-          <div className="home-div7">
-            <b className="home-b6">HOME</b>
-            <img className="home-icon6" alt="" src="src\assets\image\home6.svg" />
-          </div>
-          <div className="empresa-div6">
-            <img className="empresa-icon6" alt="" src="src\assets\image\empresa.svg" />
-            <b className="empresa-b6">EMPRESA</b>
-          </div>
-          <div className="produtos-div21">
-            <b className="produtos-b6">PRODUTOS</b>
-            <img className="box-icon6" alt="" src="src\assets\image\box6.svg" />
-          </div>
-          <div className="assistencia-div6">
-            <b className="assistncias-b7">ASSISTÊNCIAS</b>
-            <img className="home-icon6" alt="" src="src\assets\image\assistencias2.svg" />
-          </div>
-          <div className="catlogos-div8">
-            <b className="catlogos-virtuais-b7">CATÁLOGOS VIRTUAIS</b>
-            <img className="home-icon6" alt="" src="src\assets\image\catalagos4.svg" />
-          </div>
-          <div className="contato-div7">
-            <b className="contato-b7">CONTATO</b>
-            <img className="home-icon6" alt="" src="src\assets\image\contato1.svg" />
-          </div>
-          <div className="login-div6">
-            <b className="login-b6">login</b>
-            <img className="logim-icon6" alt="" src="src\assets\image\logim.svg" />
-          </div>
-        </div>
-        <div className="flags-div6">
-          <img className="vector-icon39" alt="" />
-          <img
-            className="flag-brasil-1-icon6"
-            alt=""
-            src="src\assets\image\flagbrasil-11@2x.png"
-          />
-          <img
-            className="flag-espanha-1-icon6"
-            alt=""
-            src="src\assets\image\flagespanha-1@2x.png"
-          />
-          <img className="flag-eua-1-icon6" alt="" src="src\assets\image\flageua-13@2x.png" />
-          <img
-            className="flag-arabia-1-icon6"
-            alt=""
-            src="src\assets\image\flagarabia-11@2x.png"
-          />
-        </div>
-        <div className="line-div16" />
-        <img
-          className="base-de-conhecimento-16"
-          alt=""
-          src="src\assets\image\base-de-conhecimento-1@2x.png"
-        />
-        <img
-          className="logo-revenda-pro-16"
-          alt=""
-          src="src\assets\image\logo-revenda-pro-13@2x.png"
-        />
-        <div className="conhea-o-sistema-de-revnda-n6">
-          <p className="no-localizimos-um">
-            <span className="conhea-o-sistema13">
-              <span>CONHEÇA O SISTEMA</span>
-            </span>
-          </p>
-          <p className="no-localizimos-um">
-            <span className="conhea-o-sistema13">
-              <span>DE REVÊNDA</span>
-            </span>
-          </p>
-          <p className="nauber-pro7">
-            <span>
-              <b>NAUBER PRO</b>
-            </span>
-          </p>
-        </div>
-        <div className="seach-div6">
-          <div className="rectangle-div153" />
-          <img className="frame-icon5" alt="" src="src\assets\image\frame-2.svg" />
-        </div>
-      </div>
-      <img className="vector-icon40" alt="" src="src\assets\image\vector-1182.svg" />
+      <Header />
+      <img className="vector-icon40" alt="" src={Vetor} />
       <div className="descrio-div1">
         <div className="turbina-de-aspirao-multiuso1">
           <p className="no-localizimos-um">
@@ -220,13 +146,13 @@ function ProdutoCompra(){
           <b className="peas-b2">peças</b>
           <b className="acessrios-b2">acessórios</b>
         </div>
-        <img className="seta-icon31" alt="" src="src\assets\image\seta9.svg" />
+        <img className="seta-icon31" alt="" src={Seta1} />
       </div>
       <div className="linha-1-div3">
         <div className="produto-div2">
           <div className="rectangle-div154" />
           <div className="rectangle-div155" />
-          <img className="icon11" alt="" src="src\assets\image\01-1@2x.png" />
+          <img className="icon11" alt="" src={Image12}  />
           <b className="d-30x-b10">d-3.0x</b>
         </div>
       </div>
@@ -237,8 +163,8 @@ function ProdutoCompra(){
         </b>
       </div>
       <div className="mquinas-div2">
-        <img className="vector-icon41" alt="" src="src\assets\image\vector-1175.svg" />
-        <img className="vector-icon42" alt="" src="src\assets\image\vector-1165.svg" />
+        <img className="vector-icon41" alt="" src={Vetor1}/>
+        <img className="vector-icon42" alt="" src={Vetor2} />
         <b className="mquinas-para-pintura5">máquinas para pintura</b>
       </div>
       <div className="group-div13">
@@ -250,7 +176,7 @@ function ProdutoCompra(){
       </div>
       <div className="video-div2">
         <div className="rectangle-div162" />
-        <img className="play-icon2" alt="" src="src\assets\image\play.svg" />
+        <img className="play-icon2" alt="" src={Play} />
         <b className="apresentao-tcnica-turbina2">
           <p className="no-localizimos-um">Apresentação Técnica - Turbina</p>
           <p className="compre-agora-mesmo">Sopro e Aspiração Nauber TBN-750</p>
@@ -259,60 +185,60 @@ function ProdutoCompra(){
       <div className="downloads-div2">
         <b className="downloads-b2">Downloads</b>
         <div className="manual-div2">
-          <img className="ellipse-icon8" alt="" src="src\assets\image\ellipse-56.svg" />
+          <img className="ellipse-icon8" alt="" src={Ellipse} />
           <b className="manual-de-instrues2">Manual de instruções</b>
-          <img className="manual-1-icon2" alt="" src="src\assets\image\manual-1@2x.png" />
+          <img className="manual-1-icon2" alt="" src={Manual} />
           <img
             className="flag-brasil-2-icon7"
             alt=""
-            src="src\assets\image\flagbrasil-21@2x.png"
+            src={BR}
           />
           <img
             className="flag-espanha-2-icon3"
             alt=""
-            src="src\assets\image\flagespanha-21@2x.png"
+            src={Espanha}
           />
-          <img className="flag-eua-2-icon3" alt="" src="src\assets\image\flageua-21@2x.png" />
+          <img className="flag-eua-2-icon3" alt="" src={EUA} />
         </div>
         <div className="fecha-tcnica-div4">
-          <img className="ellipse-icon8" alt="" src="src\assets\image\ellipse-57.svg" />
+          <img className="ellipse-icon8" alt="" src={Ellipse} />
           <b className="fecha-tcnica-b2">fecha técnica</b>
           <img
             className="flag-brasil-2-icon7"
             alt=""
-            src="src\assets\image\flagbrasil-22@2x.png"
+            src={BR}
           />
           <img
             className="fluentdocument-bullet-list-24-icon4"
             alt=""
-            src="src\assets\image\fluentdocumentbulletlist24filled.svg"
+            src={Documents}
           />
           <img
             className="flag-espanha-2-icon3"
             alt=""
-            src="src\assets\image\flagespanha-3@2x.png"
+            src={Espanha}
           />
-          <img className="flag-eua-2-icon3" alt="" src="src\assets\image\flageua-3@2x.png" />
+          <img className="flag-eua-2-icon3" alt="" src={EUA} />
         </div>
         <div className="fecha-tcnica-div5">
-          <img className="ellipse-icon8" alt="" src="src\assets\image\ellipse-58.svg" />
+          <img className="ellipse-icon8" alt="" src={Ellipse} />
           <b className="vista-explodida-b2">vista explodida</b>
           <img
             className="flag-brasil-2-icon7"
             alt=""
-            src="src\assets\image\flagbrasil-23@2x.png"
+            src={BR}
           />
           <img
             className="fluentdocument-bullet-list-24-icon4"
             alt=""
-            src="src\assets\image\fluentdocumentbulletlist24filled1.svg"
+            src={Documents}
           />
           <img
             className="flag-espanha-3-icon5"
             alt=""
-            src="src\assets\image\flagespanha-31@2x.png"
+            src={Espanha}
           />
-          <img className="flag-eua-3-icon5" alt="" src="src\assets\image\flageua-31@2x.png" />
+          <img className="flag-eua-3-icon5" alt="" src={EUA} />
         </div>
       </div>
       <div className="card-endereo-div3">
@@ -326,11 +252,11 @@ function ProdutoCompra(){
         <div className="calcular-frete-div">
           <div className="rectangle-div164" />
           <div className="calcular-frete-div1">Calcular frete</div>
-          <img className="seach-icon2" alt="" src="src\assets\image\seach2.svg" />
+          <img className="seach-icon2" alt="" src={Seach}/>
         </div>
         <div className="rectangle-div165" />
         <div className="rectangle-div166" />
-        <b className="comprar-b">comprar</b>
+        <Link to="/ProdutoCompras" className="comprar-b">comprar</Link>
       </div>
       <div className="group-div14">
         <div className="linha-4-div1">
@@ -343,10 +269,10 @@ function ProdutoCompra(){
             <div className="boto-div14">
               <div className="rectangle-div168" />
               <div className="saiba-mais-div12">SAIBA MAIS</div>
-              <img className="seta-icon32" alt="" src="src\assets\image\seta16.svg" />
+              <img className="seta-icon32" alt="" src={Seta1} />
             </div>
             <div className="rectangle-div169" />
-            <img className="icon12" alt="" src="src\assets\image\01-2@2x.png" />
+            <img className="icon12" alt="" src={Image12} />
           </div>
           <div className="produto-2-div3">
             <div className="rectangle-div167" />
@@ -357,10 +283,10 @@ function ProdutoCompra(){
             <div className="boto-div14">
               <div className="rectangle-div168" />
               <div className="saiba-mais-div12">SAIBA MAIS</div>
-              <img className="seta-icon32" alt="" src="src\assets\image\seta17.svg" />
+              <img className="seta-icon32" alt="" src={Seta1} />
             </div>
             <div className="rectangle-div169" />
-            <img className="icon12" alt="" src="src\assets\image\01-21@2x.png" />
+            <img className="icon12" alt="" src={Image12} />
           </div>
           <div className="produto-3-div3">
             <div className="rectangle-div167" />
@@ -371,10 +297,10 @@ function ProdutoCompra(){
             <div className="boto-div14">
               <div className="rectangle-div168" />
               <div className="saiba-mais-div12">SAIBA MAIS</div>
-              <img className="seta-icon32" alt="" src="src\assets\image\seta18.svg" />
+              <img className="seta-icon32" alt="" src={Seta1} />
             </div>
             <div className="rectangle-div169" />
-            <img className="icon12" alt="" src="src\assets\image\01-22@2x.png" />
+            <img className="icon12" alt="" src={Image12} />
           </div>
           <div className="produto-4-div3">
             <div className="rectangle-div167" />
@@ -385,16 +311,16 @@ function ProdutoCompra(){
             <div className="boto-div14">
               <div className="rectangle-div168" />
               <div className="saiba-mais-div12">SAIBA MAIS</div>
-              <img className="seta-icon32" alt="" src="src\assets\image\seta19.svg" />
+              <img className="seta-icon32" alt="" src={Seta1} />
             </div>
             <div className="rectangle-div169" />
-            <img className="icon12" alt="" src="src\assets\image\01-23@2x.png" />
+            <img className="icon12" alt="" src={Image12} />
           </div>
         </div>
         <div className="tpico-lanamento-div3">
           <b className="produtos-relacionados-b2">produtos relacionados</b>
           <div className="rectangle-div179" />
-          <img className="line-icon3" alt="" src="src\assets\image\line-3.svg" />
+          <img className="line-icon3" alt="" src={Line} />
           <div className="line-div17" />
         </div>
       </div>
