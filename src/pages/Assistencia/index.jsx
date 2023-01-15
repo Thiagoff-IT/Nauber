@@ -1,281 +1,192 @@
-import Header from '../../components/Header'
+import Header from "../../components/Header";
 import "./Styles.css";
 
-import Vetor from '../../assets/image/vector-117.svg'
-import Vetor1 from '../../assets/image/vector-116.svg'
-import Search from '../../assets/image/seach.svg'
-import Ellipse from '../../assets/image/ellipse-6.svg'
-import Global from '../../assets/image/global1-1@2x.png'
-import Phone2 from '../../assets/image/phone2.svg'
-import Seta from '../../assets/image/seta.svg'
+import Vetor from '../../assets/image/vector-1171.svg'
+import Vetor1 from '../../assets/image/vector-1161.svg'
+import What from '../../assets/image/logo-whast.svg'
+import Image from '../../assets/image/image-4@2x.png'
+import Redes from '../../assets/image/icones-redes.svg'
+import Whatsapp from '../../assets/image/whatsapp.svg'
+import Mail from '../../assets/image/mail.svg'
+import Pin3 from '../../assets/image/pin3.svg'
+import Phone12 from '../../assets/image/phone12.svg'
+import Icround from '../../assets/image/icroundaccesstimefilled.svg'
+import Retangulo from '../../assets/image/rectangle-152.svg'
 
-function Assistencia(){
+function Contato(){
   return (
-    <div className="assistncia-div">
+    <div className="contato-div2">
       <Header />
-      <div className="footer-div2">
-        <div className="footer-div3">
-          <div className="bg-div2" />
-          <img className="phone-icon1" alt="" src="src\assets\image\phone1.svg" />
-          <div className="siga-nas-redes-sociais1">Siga nas redes sociais</div>
-          <div className="nauber-2022-todos-os-direito1">
+<div className="headline-div1">
+        <img className="vector-icon20" alt="" src={Vetor} />
+        <img className="vector-icon21" alt="" src={Vetor1} />
+        <b className="contato-b3">Contato</b>
+      </div>
+      <div className="telefone-div">
+        <div className="telefone-de-contato">
+          <div className="rectangle-div55" />
+          <b className="horrio-de-atendimento">telefone de contato</b>
+        </div>
+        <div className="rectangle-div56" />
+        <b className="b">(47) 3374-5969</b>
+        <b className="b1">(47) 99621-0018</b>
+        <img className="logo-whast-icon" alt="" src={What} />
+      </div>
+      <div className="horrio-div">
+        <div className="horrio-div1">
+          <div className="rectangle-div57" />
+          <b className="horrio-de-atendimento">horário de atendimento</b>
+        </div>
+        <b className="segunda-a-sexta-feira">Segunda a Sexta-Feira</b>
+        <b className="h30-s-17h30">7h30 às 17h30</b>
+      </div>
+      <div className="localizao-div1">
+        <div className="horrio-div1">
+          <div className="rectangle-div57" />
+          <b className="horrio-de-atendimento">localização</b>
+        </div>
+        <b className="rua-marechal-castelo-branco-n">{`Rua Marechal Castelo Branco, n°2477 `}</b>
+        <b className="centro-schroeder-sc">Centro - Schroeder - SC</b>
+      </div>
+      <div className="rectangle-div59" />
+      <img className="image-4-icon" alt="" src={Image} />
+      <div className="contatos-rpidos-div">
+        <div className="div18">(41) 9000-0000</div>
+        <div className="div19">(41) 9000-0000</div>
+        <div className="contatonaubercombr-div">contato@nauber.com.br</div>
+        <div className="segunda-a-sexta-730-1748">
+          Segunda a Sexta: 7:30 - 17:48
+        </div>
+        <div className="rua-mal-castelo-branco-24773">
+          Rua Mal. Castelo Branco, 2477 Centro Schroeder - SC.
+        </div>
+        <img className="icones-redes" alt="" src={Redes} />
+        <img className="whatsapp-icon" alt="" src={Whatsapp} />
+        <img className="mail-icon" alt="" src={Mail} />
+        <img className="pin-icon3" alt="" src={Pin3} />
+        <img className="phone-icon12" alt="" src={Phone12} />
+        <b className="whatsapp-b">WHATSAPP</b>
+        <b className="telefone-b">TELEFONE</b>
+        <b className="e-mail-b">E-MAIL</b>
+        <b className="horrio-de-atendimento1">horário de atendimento</b>
+        <b className="localizao-b1">Localização</b>
+        <b className="redes-sociais-b">REDES SOCIAIS</b>
+        <img
+          className="icround-access-time-filled-icon"
+          alt=""
+          src={Icround}
+        />
+      </div>
+      <b className="ficou-com-alguma-dvida-entre">
+        ficou com alguma dúvida? entre em contato.
+      </b>
+      <div className="form-div">
+        <div className="form-div1">
+          <div className="rectangle-div60" />
+          <div className="rectangle-div61" />
+          <div className="rectangle-div62" />
+          <div className="rectangle-div63" />
+          <div className="rectangle-div64" />
+          <div className="rectangle-div65" />
+          <div className="rectangle-div66" />
+          <div className="rectangle-div67" />
+          <div className="atendimento-atendimentonaube-div">
+            Atendimento -atendimento@nauber.com.br
+          </div>
+          <div className="nome-completo-div">NOME COMPLETO</div>
+          <div className="cidade-div1">CIDADE</div>
+          <div className="estado-div">ESTADO</div>
+          <div className="telefone-div1">TELEFONE</div>
+          <div className="e-mail-div">E-MAIL</div>
+          <div className="mensagem-div">MENSAGEM</div>
+        </div>
+      </div>
+      <div className="form-div2">
+        <div className="rectangle-div68" />
+        <div className="rectangle-div69" />
+        <div className="rectangle-div70" />
+        <div className="rectangle-div71" />
+        <div className="rectangle-div72" />
+        <div className="rectangle-div73" />
+        <img className="rectangle-icon" alt="" src={Retangulo} />
+        <div className="rectangle-div74" />
+        <div className="rectangle-div75" />
+
+        <input type="text" className="digite-seu-nome" placeholder="Digite seu nome"/>
+        <input type="text" className="estado-div1" placeholder="Estado"/>
+        <input type="text" className="cidade-div2" placeholder="Cidade"/>
+        <div className="atendimento-atendimentonaub">
+          <select>
+            <option value="grapefruit">Atendimento - atendimento@nauber.com.br</option>
+            <option value="lime">Atendimento - atendimento@nauber.com.br</option> 
+          </select>
+        </div>
+        <b className="escolha-o-setor-para-o-envio-d">
+          Escolha o Setor para o envio do contato
+        </b>
+        <input type="text" className="seu-melhor-e-mail" placeholder="Seu melhor e-mail"/>
+        <input type="text" className="telefone-para-contato" placeholder="Telefone para contato"/>
+        <input type="text" className="escreva-sua-mensagem-aqui" placeholder="Escreva sua mensagem aqui..."/>
+        <a href="#" class="enviar-b">enviar</a>
+      </div>
+      
+      <div className="footer-div4">
+        <div className="footer-div5">
+          <div className="bg-div3" />
+          <img className="phone-icon11" alt="" src="src\assets\image\phone11.svg" />
+          <div className="siga-nas-redes-sociais2">Siga nas redes sociais</div>
+          <div className="nauber-2022-todos-os-direito2">
             Nauber © 2022 Todos os direitos reservados.
           </div>
-          <div className="politicas-de-privacidade-ter1">
+          <div className="politicas-de-privacidade-ter2">
             Politicas de Privacidade | Termos de Uso
           </div>
-          <div className="nauber-maquinas-e-equipamentos1">
+          <div className="nauber-maquinas-e-equipamentos2">
             20.633.257/0001-98 | NAUBER MAQUINAS E EQUIPAMENTOS
           </div>
           <img
-            className="redes-sociais-icon1"
+            className="redes-sociais-icon2"
             alt=""
             src="src\assets\image\redes-sociais-icon1.svg"
           />
-          <div className="dvidas-div1">
-            <div className="converse-com-um-especialista1">
+          <div className="dvidas-div2">
+            <div className="converse-com-um-especialista2">
               Converse com um especialista
             </div>
-            <div className="envie-um-e-mail1">Envie um e-mail</div>
-            <div className="voltar-ao-incio1">Voltar ao início</div>
-            <div className="ficou-com-dvidas1">Ficou com dúvidas?</div>
+            <div className="envie-um-e-mail2">Envie um e-mail</div>
+            <div className="voltar-ao-incio2">Voltar ao início</div>
+            <div className="ficou-com-dvidas2">Ficou com dúvidas?</div>
           </div>
-          <div className="produtos-div4">
-            <div className="construo-civil-div1">Construção civil</div>
-            <div className="linha-industrial-div1">Linha industrial</div>
-            <div className="ficou-com-dvidas1">Produtos</div>
+          <div className="produtos-div7">
+            <div className="construo-civil-div2">Construção civil</div>
+            <div className="linha-industrial-div2">Linha industrial</div>
+            <div className="ficou-com-dvidas2">Produtos</div>
           </div>
-          <div className="nossa-sede-div2">
-            <div className="rua-mal-castelo-branco-24771">
-              <p className="rua-mal-castelo1">
+          <div className="nossa-sede-div4">
+            <div className="rua-mal-castelo-branco-24772">
+              <p className="rua-mal-castelo2">
                 Rua Mal. Castelo Branco, 2477 Centro
               </p>
-              <p className="schroeder-sc1">Schroeder - SC.</p>
+              <p className="schroeder-sc2">Schroeder - SC.</p>
             </div>
-            <div className="div3">+55 (47) 3374-5969</div>
-            <div className="div4">+55 (11) 96364-6599</div>
-            <div className="div5">+55 (47) 98821-2725</div>
-            <div className="nossa-sede-div3">Nossa sede</div>
+            <div className="div15">+55 (47) 3374-5969</div>
+            <div className="div16">+55 (11) 96364-6599</div>
+            <div className="div17">+55 (47) 98821-2725</div>
+            <div className="nossa-sede-div5">Nossa sede</div>
           </div>
-          <img className="pin-icon1" alt="" src="src\assets\image\pin1.svg" />
-          <div className="line-div3" />
+          <img className="pin-icon2" alt="" src="src\assets\image\pin1.svg" />
+          <div className="line-div5" />
           <img
-            className="logo-nauber-icon1"
+            className="logo-nauber-icon2"
             alt=""
             src="src\assets\image\logo-nauber@2x.png"
           />
-          <div className="rectangle-div27" />
-        </div>
-      </div>
-      <div className="headline-div">
-        <img className="vector-icon15" alt="" src={Vetor} />
-        <img className="vector-icon16" alt="" src={Vetor1} />
-        <b className="assistncias-b2">assistências</b>
-      </div>
-      <div className="card-endereo-div">
-        <div className="rectangle-div29" />
-        <b className="localize-a-assistncia-mais-pr">
-          Localize a assistência mais próximo de você
-        </b>
-        <div className="ou-div">ou</div>
-        <div className="ou-div1">ou</div>
-        <div className="virificar-endereo-div">
-          <div className="cep-div">
-            <div className="rectangle-div30" />
-            <img className="seach-icon" alt="" src={Search} />
-            <input type="text" className="informe-seu-cep" placeholder="Informe seu CEP" />
-          </div>
-          <div className="cidade-div">
-            <div className="rectangle-div30" />
-            <img className="seach-icon" alt="" src={Search} />
-            <input type="text" className="informe-seu-cep" placeholder="Informe a sua Cidade"/>
-          </div>
-        </div>
-        <div className="localizao-div">
-          <div className="concordo-em-compartilhar-a-min">
-            concordo em compartilhar a minha localização geográfica atual.
-          </div>
-          <div className="rectangle-div32" />
-          <img className="ellipse-icon" alt="" src={Ellipse} />
-          <img className="global-1-1-icon" alt="" src={Global} />
-          <input type="text" className="usar-minha-localizao" placeholder="Usar minha localização" />
-          <div className="verificado-div">
-            <div className="rectangle-div33" />
-            <input type="checkbox" class="vector-icon17"/>
-          </div>
-        </div>
-      </div>
-      <b className="assistncias-mais-prximas">assistências mais próximas</b>
-      <div className="linha-1-div">
-        <div className="assistncia-div1">
-          <div className="rectangle-div34" />
-          <div className="rectangle-div35" />
-          <div className="cidade-que-atende-nome-da-cid">
-            <span className="cidade-que-atende">Cidade que atende:</span>
-            <span>{` Nome da cidade `}</span>
-          </div>
-          <div className="div6">(41) 90000-0000</div>
-          <b className="nome-da-assistncia">Nome da assistência</b>
-          <div className="localizao-rua-bla-bla-bla-">
-            Localização: Rua bla bla bla - n°000
-          </div>
-          <div className="email-assistencialojacombr-div">
-            Email: assistencia@loja.com.br
-          </div>
-          <img className="phone-icon2" alt="" src={Phone2} />
-          <img className="seta-icon" alt="" src={Seta} />
-        </div>
-        <div className="assistncia-div2">
-          <div className="rectangle-div34" />
-          <div className="rectangle-div35" />
-          <div className="cidade-que-atende-nome-da-cid">
-            <span className="cidade-que-atende">Cidade que atende:</span>
-            <span>{` Nome da cidade `}</span>
-          </div>
-          <div className="div6">(41) 90000-0000</div>
-          <b className="nome-da-assistncia">Nome da assistência</b>
-          <div className="localizao-rua-bla-bla-bla-">
-            Localização: Rua bla bla bla - n°000
-          </div>
-          <div className="email-assistencialojacombr-div">
-            Email: assistencia@loja.com.br
-          </div>
-          <img className="phone-icon2" alt="" src={Phone2} />
-          <img className="seta-icon" alt="" src={Seta} />
-        </div>
-        <div className="assistncia-div3">
-          <div className="rectangle-div34" />
-          <div className="rectangle-div35" />
-          <div className="cidade-que-atende-nome-da-cid">
-            <span className="cidade-que-atende">Cidade que atende:</span>
-            <span>{` Nome da cidade `}</span>
-          </div>
-          <div className="div6">(41) 90000-0000</div>
-          <b className="nome-da-assistncia">Nome da assistência</b>
-          <div className="localizao-rua-bla-bla-bla-">
-            Localização: Rua bla bla bla - n°000
-          </div>
-          <div className="email-assistencialojacombr-div">
-            Email: assistencia@loja.com.br
-          </div>
-          <img className="phone-icon2" alt="" src={Phone2} />
-          <img className="seta-icon" alt="" src={Seta} />
-        </div>
-      </div>
-      <div className="linha-2-div">
-        <div className="assistncia-div1">
-          <div className="rectangle-div34" />
-          <div className="rectangle-div35" />
-          <div className="cidade-que-atende-nome-da-cid">
-            <span className="cidade-que-atende">Cidade que atende:</span>
-            <span>{` Nome da cidade `}</span>
-          </div>
-          <div className="div6">(41) 90000-0000</div>
-          <b className="nome-da-assistncia">Nome da assistência</b>
-          <div className="localizao-rua-bla-bla-bla-">
-            Localização: Rua bla bla bla - n°000
-          </div>
-          <div className="email-assistencialojacombr-div">
-            Email: assistencia@loja.com.br
-          </div>
-          <img className="phone-icon2" alt="" src={Phone2} />
-          <img className="seta-icon" alt="" src={Seta} />
-        </div>
-        <div className="assistncia-div2">
-          <div className="rectangle-div34" />
-          <div className="rectangle-div35" />
-          <div className="cidade-que-atende-nome-da-cid">
-            <span className="cidade-que-atende">Cidade que atende:</span>
-            <span>{` Nome da cidade `}</span>
-          </div>
-          <div className="div6">(41) 90000-0000</div>
-          <b className="nome-da-assistncia">Nome da assistência</b>
-          <div className="localizao-rua-bla-bla-bla-">
-            Localização: Rua bla bla bla - n°000
-          </div>
-          <div className="email-assistencialojacombr-div">
-            Email: assistencia@loja.com.br
-          </div>
-          <img className="phone-icon2" alt="" src={Phone2} />
-          <img className="seta-icon" alt="" src={Seta} />
-        </div>
-        <div className="assistncia-div3">
-          <div className="rectangle-div34" />
-          <div className="rectangle-div35" />
-          <div className="cidade-que-atende-nome-da-cid">
-            <span className="cidade-que-atende">Cidade que atende:</span>
-            <span>{` Nome da cidade `}</span>
-          </div>
-          <div className="div6">(41) 90000-0000</div>
-          <b className="nome-da-assistncia">Nome da assistência</b>
-          <div className="localizao-rua-bla-bla-bla-">
-            Localização: Rua bla bla bla - n°000
-          </div>
-          <div className="email-assistencialojacombr-div">
-            Email: assistencia@loja.com.br
-          </div>
-          <img className="phone-icon2" alt="" src={Phone2} />
-          <img className="seta-icon" alt="" src={Seta} />
-        </div>
-      </div>
-      <div className="linha-3-div">
-        <div className="assistncia-div1">
-          <div className="rectangle-div34" />
-          <div className="rectangle-div35" />
-          <div className="cidade-que-atende-nome-da-cid">
-            <span className="cidade-que-atende">Cidade que atende:</span>
-            <span>{` Nome da cidade `}</span>
-          </div>
-          <div className="div6">(41) 90000-0000</div>
-          <b className="nome-da-assistncia">Nome da assistência</b>
-          <div className="localizao-rua-bla-bla-bla-">
-            Localização: Rua bla bla bla - n°000
-          </div>
-          <div className="email-assistencialojacombr-div">
-            Email: assistencia@loja.com.br
-          </div>
-          <img className="phone-icon2" alt="" src={Phone2} />
-          <img className="seta-icon" alt="" src={Seta} />
-        </div>
-        <div className="assistncia-div2">
-          <div className="rectangle-div34" />
-          <div className="rectangle-div35" />
-          <div className="cidade-que-atende-nome-da-cid">
-            <span className="cidade-que-atende">Cidade que atende:</span>
-            <span>{` Nome da cidade `}</span>
-          </div>
-          <div className="div6">(41) 90000-0000</div>
-          <b className="nome-da-assistncia">Nome da assistência</b>
-          <div className="localizao-rua-bla-bla-bla-">
-            Localização: Rua bla bla bla - n°000
-          </div>
-          <div className="email-assistencialojacombr-div">
-            Email: assistencia@loja.com.br
-          </div>
-          <img className="phone-icon2" alt="" src={Phone2} />
-          <img className="seta-icon" alt="" src={Seta} />
-        </div>
-        <div className="assistncia-div3">
-          <div className="rectangle-div34" />
-          <div className="rectangle-div35" />
-          <div className="cidade-que-atende-nome-da-cid">
-            <span className="cidade-que-atende">Cidade que atende:</span>
-            <span>{` Nome da cidade `}</span>
-          </div>
-          <div className="div6">(41) 90000-0000</div>
-          <b className="nome-da-assistncia">Nome da assistência</b>
-          <div className="localizao-rua-bla-bla-bla-">
-            Localização: Rua bla bla bla - n°000
-          </div>
-          <div className="email-assistencialojacombr-div">
-            Email: assistencia@loja.com.br
-          </div>
-          <img className="phone-icon2" alt="" src={Phone2} />
-          <img className="seta-icon" alt="" src={Seta} />
+          <div className="rectangle-div52" />
         </div>
       </div>
     </div>
+    
   );
 };
 
-export default Assistencia;
+export default Contato;
