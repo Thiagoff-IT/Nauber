@@ -7,12 +7,19 @@ import Pin from '../../assets/image/pin11.svg'
 import Nauber from '../../assets/image/logo-nauber@2x.png'
 import Retan from '../../assets/image/rectangle-141@2x.png'
 import Brasil from '../../assets/image/flagbrasil-219@2x.png'
+import Play from '../../assets/image/play6.svg'
+import LogoRevenda from '../../assets/image/logo-revenda-pro-3@2x.png'
+import Revenda from '../../assets/image/logo-revenda-pro-2@2x.png'
+import Vetor from '../../assets/image/vector-1179.svg'
+import Vetor1 from '../../assets/image/vector-1169.svg'
+import Bg from '../../assets/image/bg@2x.png'
+import NauberPro from '../../assets/image/nauber-pro-1@2x.png'
+
 
 function Sobre(){
   return (
     <>
     <div className="sobre-a-nauber2">
-
       <div className="footer-div20">
         <div className="footer-div21">
           <div className="bg-div11" />
@@ -84,12 +91,13 @@ function Sobre(){
         <img 
           className="vector-icon62" 
           alt="" 
-          src="src\assets\image\vector-1
-        179.svg" />
+          src={Vetor} 
+        />
         <img 
           className="vector-icon63" 
           alt="" 
-          src="src\assets\image\vector-1169.svg" />
+          src={Vetor1}
+        />
         <b className="mquinas-para-pintura12">máquinas para pintura</b>
       </div>
       <div className="frame-div6">
@@ -97,24 +105,25 @@ function Sobre(){
           <img 
             className="bg-icon3" 
             alt="" 
-            src="src\assets\image\bg@2x.png" 
+            src={Bg}
             />
           
           <img 
             className="nauber-pro-11" 
             alt="" 
-            src="src\assets\image\nauber-pro-1@2x.png" />
+            src={NauberPro} 
+          />
           <div className="rectangle-div268" />
           <div className="rectangle-div269" />
           <img
             className="logo-revenda-pro-21"
             alt=""
-            src="src\assets\image\logo-revenda-pro-2@2x.png"
+            src={LogoRevenda}
           />
           <img
             className="logo-revenda-pro-31"
             alt=""
-            src="src\assets\image\logo-revenda-pro-3@2x.png"
+            src={Revenda}
           />
           <b className="conhea-o-sistema-de-revenda1">
             <p className="rua-mal-castelo10">CONHEÇA O</p>
@@ -129,7 +138,7 @@ function Sobre(){
         <img 
           className="play-icon6" 
           alt="" 
-          src="src\assets\image\play6.svg" 
+          src={Play}
         />
       </div>
       <div className="group-div25">
