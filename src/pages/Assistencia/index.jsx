@@ -1,6 +1,10 @@
 import Header from '../../components/Header'
 import "./Styles.css";
 
+import Vetor from '../../assets/image/vector-117.svg'
+import Vetor1 from '../../assets/image/vector-116.svg'
+import Search from '../../assets/image/seach.svg'
+
 function Assistencia(){
   return (
     <div className="assistncia-div">
@@ -60,8 +64,8 @@ function Assistencia(){
         </div>
       </div>
       <div className="headline-div">
-        <img className="vector-icon15" alt="" src="src\assets\image\vector-117.svg" />
-        <img className="vector-icon16" alt="" src="src\assets\image\vector-116.svg" />
+        <img className="vector-icon15" alt="" src={Vetor} />
+        <img className="vector-icon16" alt="" src={Vetor1} />
         <b className="assistncias-b2">assistências</b>
       </div>
       <div className="card-endereo-div">
@@ -74,12 +78,12 @@ function Assistencia(){
         <div className="virificar-endereo-div">
           <div className="cep-div">
             <div className="rectangle-div30" />
-            <img className="seach-icon" alt="" src="src\assets\image\seach.svg" />
+            <img className="seach-icon" alt="" src={Search} />
             <input type="text" className="informe-seu-cep" placeholder="Informe seu CEP" />
           </div>
           <div className="cidade-div">
             <div className="rectangle-div30" />
-            <img className="seach-icon" alt="" src="src\assets\image\seach1.svg" />
+            <img className="seach-icon" alt="" src={Search} />
             <input type="text" className="informe-seu-cep" placeholder="Informe a sua Cidade"/>
           </div>
         </div>
@@ -93,7 +97,7 @@ function Assistencia(){
           <input type="text" className="usar-minha-localizao" placeholder="Usar minha localização" />
           <div className="verificado-div">
             <div className="rectangle-div33" />
-            <img className="vector-icon17" alt="" src="src\assets\image\vector10.svg" />
+            <input type="checkbox" class="vector-icon17"/>
           </div>
         </div>
       </div>
