@@ -1,9 +1,135 @@
 import Header from "../../components/Header";
 import "./Styles.css";
 
-const Contato = () => {
+import Vetor from '../../assets/image/vector-1171.svg'
+import Vetor1 from '../../assets/image/vector-1161.svg'
+import What from '../../assets/image/logo-whast.svg'
+import Image from '../../assets/image/image-4@2x.png'
+import Redes from '../../assets/image/icones-redes.svg'
+import Whatsapp from '../../assets/image/whatsapp.svg'
+import Mail from '../../assets/image/mail.svg'
+import Pin3 from '../../assets/image/pin3.svg'
+import Phone12 from '../../assets/image/phone12.svg'
+import Icround from '../../assets/image/icroundaccesstimefilled.svg'
+import Retangulo from '../../assets/image/rectangle-152.svg'
+
+function Contato(){
   return (
     <div className="contato-div2">
+      <Header />
+<div className="headline-div1">
+        <img className="vector-icon20" alt="" src={Vetor} />
+        <img className="vector-icon21" alt="" src={Vetor1} />
+        <b className="contato-b3">Contato</b>
+      </div>
+      <div className="telefone-div">
+        <div className="telefone-de-contato">
+          <div className="rectangle-div55" />
+          <b className="horrio-de-atendimento">telefone de contato</b>
+        </div>
+        <div className="rectangle-div56" />
+        <b className="b">(47) 3374-5969</b>
+        <b className="b1">(47) 99621-0018</b>
+        <img className="logo-whast-icon" alt="" src={What} />
+      </div>
+      <div className="horrio-div">
+        <div className="horrio-div1">
+          <div className="rectangle-div57" />
+          <b className="horrio-de-atendimento">horário de atendimento</b>
+        </div>
+        <b className="segunda-a-sexta-feira">Segunda a Sexta-Feira</b>
+        <b className="h30-s-17h30">7h30 às 17h30</b>
+      </div>
+      <div className="localizao-div1">
+        <div className="horrio-div1">
+          <div className="rectangle-div57" />
+          <b className="horrio-de-atendimento">localização</b>
+        </div>
+        <b className="rua-marechal-castelo-branco-n">{`Rua Marechal Castelo Branco, n°2477 `}</b>
+        <b className="centro-schroeder-sc">Centro - Schroeder - SC</b>
+      </div>
+      <div className="rectangle-div59" />
+      <img className="image-4-icon" alt="" src={Image} />
+      <div className="contatos-rpidos-div">
+        <div className="div18">(41) 9000-0000</div>
+        <div className="div19">(41) 9000-0000</div>
+        <div className="contatonaubercombr-div">contato@nauber.com.br</div>
+        <div className="segunda-a-sexta-730-1748">
+          Segunda a Sexta: 7:30 - 17:48
+        </div>
+        <div className="rua-mal-castelo-branco-24773">
+          Rua Mal. Castelo Branco, 2477 Centro Schroeder - SC.
+        </div>
+        <img className="icones-redes" alt="" src={Redes} />
+        <img className="whatsapp-icon" alt="" src={Whatsapp} />
+        <img className="mail-icon" alt="" src={Mail} />
+        <img className="pin-icon3" alt="" src={Pin3} />
+        <img className="phone-icon12" alt="" src={Phone12} />
+        <b className="whatsapp-b">WHATSAPP</b>
+        <b className="telefone-b">TELEFONE</b>
+        <b className="e-mail-b">E-MAIL</b>
+        <b className="horrio-de-atendimento1">horário de atendimento</b>
+        <b className="localizao-b1">Localização</b>
+        <b className="redes-sociais-b">REDES SOCIAIS</b>
+        <img
+          className="icround-access-time-filled-icon"
+          alt=""
+          src={Icround}
+        />
+      </div>
+      <b className="ficou-com-alguma-dvida-entre">
+        ficou com alguma dúvida? entre em contato.
+      </b>
+      <div className="form-div">
+        <div className="form-div1">
+          <div className="rectangle-div60" />
+          <div className="rectangle-div61" />
+          <div className="rectangle-div62" />
+          <div className="rectangle-div63" />
+          <div className="rectangle-div64" />
+          <div className="rectangle-div65" />
+          <div className="rectangle-div66" />
+          <div className="rectangle-div67" />
+          <div className="atendimento-atendimentonaube-div">
+            Atendimento -atendimento@nauber.com.br
+          </div>
+          <div className="nome-completo-div">NOME COMPLETO</div>
+          <div className="cidade-div1">CIDADE</div>
+          <div className="estado-div">ESTADO</div>
+          <div className="telefone-div1">TELEFONE</div>
+          <div className="e-mail-div">E-MAIL</div>
+          <div className="mensagem-div">MENSAGEM</div>
+        </div>
+      </div>
+      <div className="form-div2">
+        <div className="rectangle-div68" />
+        <div className="rectangle-div69" />
+        <div className="rectangle-div70" />
+        <div className="rectangle-div71" />
+        <div className="rectangle-div72" />
+        <div className="rectangle-div73" />
+        <img className="rectangle-icon" alt="" src={Retangulo} />
+        <div className="rectangle-div74" />
+        <div className="rectangle-div75" />
+
+        <input type="text" className="digite-seu-nome" placeholder="Digite seu nome"/>
+        <input type="text" className="estado-div1" placeholder="Estado"/>
+        <input type="text" className="cidade-div2" placeholder="Cidade"/>
+        <div className="atendimento-atendimentonaub">
+          <select>
+            <option value="grapefruit">Atendimento - atendimento@nauber.com.br</option>
+            <option value="lime">Atendimento - atendimento@nauber.com.br</option> 
+          </select>
+        </div>
+        <b className="escolha-o-setor-para-o-envio-d">
+          Escolha o Setor para o envio do contato
+        </b>
+        <input type="text" className="seu-melhor-e-mail" placeholder="Seu melhor e-mail"/>
+        <input type="text" className="telefone-para-contato" placeholder="Telefone para contato"/>
+        <input type="text" className="escreva-sua-mensagem-aqui" placeholder="Escreva sua mensagem aqui..."/>
+        <a href="#" class="enviar-b">enviar</a>
+      </div>
+      
       <div className="footer-div4">
         <div className="footer-div5">
           <div className="bg-div3" />
@@ -58,119 +184,8 @@ const Contato = () => {
           <div className="rectangle-div52" />
         </div>
       </div>
-      <Header />
-<div className="headline-div1">
-        <img className="vector-icon20" alt="" src="src\assets\image\vector-1171.svg" />
-        <img className="vector-icon21" alt="" src="src\assets\image\vector-1161.svg" />
-        <b className="contato-b3">Contato</b>
-      </div>
-      <div className="telefone-div">
-        <div className="telefone-de-contato">
-          <div className="rectangle-div55" />
-          <b className="horrio-de-atendimento">telefone de contato</b>
-        </div>
-        <div className="rectangle-div56" />
-        <b className="b">(47) 3374-5969</b>
-        <b className="b1">(47) 99621-0018</b>
-        <img className="logo-whast-icon" alt="" src="src\assets\image\logo-whast.svg" />
-      </div>
-      <div className="horrio-div">
-        <div className="horrio-div1">
-          <div className="rectangle-div57" />
-          <b className="horrio-de-atendimento">horário de atendimento</b>
-        </div>
-        <b className="segunda-a-sexta-feira">Segunda a Sexta-Feira</b>
-        <b className="h30-s-17h30">7h30 às 17h30</b>
-      </div>
-      <div className="localizao-div1">
-        <div className="horrio-div1">
-          <div className="rectangle-div57" />
-          <b className="horrio-de-atendimento">localização</b>
-        </div>
-        <b className="rua-marechal-castelo-branco-n">{`Rua Marechal Castelo Branco, n°2477 `}</b>
-        <b className="centro-schroeder-sc">Centro - Schroeder - SC</b>
-      </div>
-      <div className="rectangle-div59" />
-      <img className="image-4-icon" alt="" src="src\assets\image\image-4@2x.png" />
-      <div className="contatos-rpidos-div">
-        <div className="div18">(41) 9000-0000</div>
-        <div className="div19">(41) 9000-0000</div>
-        <div className="contatonaubercombr-div">contato@nauber.com.br</div>
-        <div className="segunda-a-sexta-730-1748">
-          Segunda a Sexta: 7:30 - 17:48
-        </div>
-        <div className="rua-mal-castelo-branco-24773">
-          Rua Mal. Castelo Branco, 2477 Centro Schroeder - SC.
-        </div>
-        <img className="icones-redes" alt="" src="src\assets\image\icones-redes.svg" />
-        <img className="whatsapp-icon" alt="" src="src\assets\image\whatsapp.svg" />
-        <img className="mail-icon" alt="" src="src\assets\image\mail.svg" />
-        <img className="pin-icon3" alt="" src="src\assets\image\pin3.svg" />
-        <img className="phone-icon12" alt="" src="src\assets\image\phone12.svg" />
-        <b className="whatsapp-b">WHATSAPP</b>
-        <b className="telefone-b">TELEFONE</b>
-        <b className="e-mail-b">E-MAIL</b>
-        <b className="horrio-de-atendimento1">horário de atendimento</b>
-        <b className="localizao-b1">Localização</b>
-        <b className="redes-sociais-b">REDES SOCIAIS</b>
-        <img
-          className="icround-access-time-filled-icon"
-          alt=""
-          src="src\assets\image\icroundaccesstimefilled.svg"
-        />
-      </div>
-      <b className="ficou-com-alguma-dvida-entre">
-        ficou com alguma dúvida? entre em contato.
-      </b>
-      <div className="form-div">
-        <div className="form-div1">
-          <div className="rectangle-div60" />
-          <div className="rectangle-div61" />
-          <div className="rectangle-div62" />
-          <div className="rectangle-div63" />
-          <div className="rectangle-div64" />
-          <div className="rectangle-div65" />
-          <div className="rectangle-div66" />
-          <div className="rectangle-div67" />
-          <div className="atendimento-atendimentonaube-div">
-            Atendimento -atendimento@nauber.com.br
-          </div>
-          <div className="nome-completo-div">NOME COMPLETO</div>
-          <div className="cidade-div1">CIDADE</div>
-          <div className="estado-div">ESTADO</div>
-          <div className="telefone-div1">TELEFONE</div>
-          <div className="e-mail-div">E-MAIL</div>
-          <div className="mensagem-div">MENSAGEM</div>
-        </div>
-      </div>
-      <div className="form-div2">
-        <div className="rectangle-div68" />
-        <div className="rectangle-div69" />
-        <div className="rectangle-div70" />
-        <div className="rectangle-div71" />
-        <div className="rectangle-div72" />
-        <div className="rectangle-div73" />
-        <img className="rectangle-icon" alt="" src="src\assets\image\rectangle-152.svg" />
-        <div className="rectangle-div74" />
-        <div className="rectangle-div75" />
-        <b className="enviar-b">enviar</b>
-        <div className="escreva-sua-mensagem-aqui">
-          Escreva sua mensagem aqui...
-        </div>
-        <input type="text" className="digite-seu-nome" placeholder="Digite seu nome"/>
-        <div className="estado-div1">Estado</div>
-        <div className="cidade-div2">Cidade</div>
-        <div className="atendimento-atendimentonaub">
-          Atendimento - atendimento@nauber.com.br
-        </div>
-        <b className="escolha-o-setor-para-o-envio-d">
-          Escolha o Setor para o envio do contato
-        </b>
-        <div className="seu-melhor-e-mail">Seu melhor e-mail</div>
-        <div className="telefone-para-contato">Telefone para contato</div>
-        <img className="vector-icon22" alt="" src="src\assets\image\vector-122.svg" />
-      </div>
     </div>
+    
   );
 };
 
