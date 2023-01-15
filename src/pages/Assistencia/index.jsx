@@ -7,6 +7,7 @@ import Search from '../../assets/image/seach.svg'
 import Ellipse from '../../assets/image/ellipse-6.svg'
 import Global from '../../assets/image/global1-1@2x.png'
 import Phone2 from '../../assets/image/phone2.svg'
+import Seta from '../../assets/image/seta.svg'
 
 function Assistencia(){
   return (
@@ -122,7 +123,7 @@ function Assistencia(){
             Email: assistencia@loja.com.br
           </div>
           <img className="phone-icon2" alt="" src={Phone2} />
-          <img className="seta-icon" alt="" src="src\assets\image\seta.svg" />
+          <img className="seta-icon" alt="" src={Seta} />
         </div>
         <div className="assistncia-div2">
           <div className="rectangle-div34" />
@@ -140,7 +141,7 @@ function Assistencia(){
             Email: assistencia@loja.com.br
           </div>
           <img className="phone-icon2" alt="" src={Phone2} />
-          <img className="seta-icon" alt="" src="src\assets\image\seta1.svg" />
+          <img className="seta-icon" alt="" src={Seta} />
         </div>
         <div className="assistncia-div3">
           <div className="rectangle-div34" />
@@ -158,7 +159,7 @@ function Assistencia(){
             Email: assistencia@loja.com.br
           </div>
           <img className="phone-icon2" alt="" src={Phone2} />
-          <img className="seta-icon" alt="" src="src\assets\image\seta2.svg" />
+          <img className="seta-icon" alt="" src={Seta} />
         </div>
       </div>
       <div className="linha-2-div">
@@ -178,7 +179,7 @@ function Assistencia(){
             Email: assistencia@loja.com.br
           </div>
           <img className="phone-icon2" alt="" src={Phone2} />
-          <img className="seta-icon" alt="" src="src\assets\image\seta3.svg" />
+          <img className="seta-icon" alt="" src={Seta} />
         </div>
         <div className="assistncia-div2">
           <div className="rectangle-div34" />
@@ -196,7 +197,7 @@ function Assistencia(){
             Email: assistencia@loja.com.br
           </div>
           <img className="phone-icon2" alt="" src={Phone2} />
-          <img className="seta-icon" alt="" src="src\assets\image\seta4.svg" />
+          <img className="seta-icon" alt="" src={Seta} />
         </div>
         <div className="assistncia-div3">
           <div className="rectangle-div34" />
@@ -214,7 +215,7 @@ function Assistencia(){
             Email: assistencia@loja.com.br
           </div>
           <img className="phone-icon2" alt="" src={Phone2} />
-          <img className="seta-icon" alt="" src="src\assets\image\seta5.svg" />
+          <img className="seta-icon" alt="" src={Seta} />
         </div>
       </div>
       <div className="linha-3-div">
@@ -234,7 +235,7 @@ function Assistencia(){
             Email: assistencia@loja.com.br
           </div>
           <img className="phone-icon2" alt="" src={Phone2} />
-          <img className="seta-icon" alt="" src="src\assets\image\seta6.svg" />
+          <img className="seta-icon" alt="" src={Seta} />
         </div>
         <div className="assistncia-div2">
           <div className="rectangle-div34" />
@@ -252,7 +253,7 @@ function Assistencia(){
             Email: assistencia@loja.com.br
           </div>
           <img className="phone-icon2" alt="" src={Phone2} />
-          <img className="seta-icon" alt="" src="src\assets\image\seta7.svg" />
+          <img className="seta-icon" alt="" src={Seta} />
         </div>
         <div className="assistncia-div3">
           <div className="rectangle-div34" />
@@ -270,7 +271,7 @@ function Assistencia(){
             Email: assistencia@loja.com.br
           </div>
           <img className="phone-icon2" alt="" src={Phone2} />
-          <img className="seta-icon" alt="" src="src\assets\image\seta8.svg" />
+          <img className="seta-icon" alt="" src={Seta} />
         </div>
       </div>
     </div>
