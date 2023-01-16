@@ -315,7 +315,7 @@
   position: absolute;
   top: 0;
   left: 635px;
-  width: 805px;
+  width: 100vw;
   height: 779px;
   object-fit: cover;
 }
