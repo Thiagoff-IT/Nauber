@@ -13,6 +13,11 @@ import ellipse from '../../assets/image/ellipse-63.svg'
 import Play from '../../assets/image/play.svg'
 import Vetor1 from '../../assets/image/vector-1178.svg'
 import Vetor2 from '../../assets/image/vector-1168.svg'
+import Manual from '../../assets/image/manual-1@2x.png'
+import Documents from '../../assets/image/fluentdocumentbulletlist24filled2.svg'
+import EUA from '../../assets/image/flageua-33@2x.png'
+import BR from '../../assets/image/flagbrasil-21@2x.png'
+import ES from '../../assets/image/flagespanha-21@2x.png'
 
 function ProdutoDetalhes(){
   return (
@@ -122,63 +127,63 @@ function ProdutoDetalhes(){
       <div className="downloads-div5">
         <b className="downloads-b5">Downloads</b>
         <div className="manual-div5">
-          <img className="ellipse-icon18" alt="" src="src\assets\image\ellipse-515.svg" />
+          <img className="ellipse-icon18" alt="" src={ellipse} />
           <b className="manual-de-instrues5">Manual de instruções</b>
-          <img className="manual-1-icon5" alt="" src="src\assets\image\manual-1@2x.png" />
+          <img className="manual-1-icon5" alt="" src={Manual} />
           <img
             className="flag-brasil-2-icon16"
             alt=""
-            src="src\assets\image\flagbrasil-21@2x.png"
+            src={BR}
           />
           <img
             className="flag-espanha-2-icon6"
             alt=""
-            src="src\assets\image\flagespanha-21@2x.png"
+            src={ES}
           />
-          <img className="flag-eua-2-icon6" alt="" src="src\assets\image\flageua-21@2x.png" />
+          <img className="flag-eua-2-icon6" alt="" src={EUA} />
         </div>
         <div className="fecha-tcnica-div10">
-          <img className="ellipse-icon18" alt="" src="src\assets\image\ellipse-516.svg" />
+          <img className="ellipse-icon18" alt="" src={ellipse} />
           <b className="fecha-tcnica-b5">fecha técnica</b>
           <img
             className="flag-brasil-2-icon16"
             alt=""
-            src="src\assets\image\flagbrasil-22@2x.png"
+            src={BR}
           />
           <img
             className="fluentdocument-bullet-list-24-icon10"
             alt=""
-            src="src\assets\image\fluentdocumentbulletlist24filled2.svg"
+            src={Documents}
           />
           <img
             className="flag-espanha-2-icon6"
             alt=""
-            src="src\assets\image\flagespanha-3@2x.png"
+            src={ES}
           />
-          <img className="flag-eua-2-icon6" alt="" src="src\assets\image\flageua-3@2x.png" />
+          <img className="flag-eua-2-icon6" alt="" src={EUA}/>
         </div>
         <div className="fecha-tcnica-div11">
-          <img className="ellipse-icon18" alt="" src="src\assets\image\ellipse-517.svg" />
+          <img className="ellipse-icon18" alt="" src={ellipse} />
           <b className="vista-explodida-b5">vista explodida</b>
           <img
             className="flag-brasil-2-icon16"
             alt=""
-            src="src\assets\image\flagbrasil-23@2x.png"
+            src={BR}
           />
           <img
             className="fluentdocument-bullet-list-24-icon10"
             alt=""
-            src="src\assets\image\fluentdocumentbulletlist24filled3.svg"
+            src={Documents}
           />
           <img
             className="flag-espanha-3-icon11"
             alt=""
-            src="src\assets\image\flagespanha-31@2x.png"
+            src={ES}
           />
           <img
             className="flag-eua-3-icon11"
             alt=""
-            src="src\assets\image\flageua-33@2x.png"
+            src={EUA}
           />
         </div>
       </div>
