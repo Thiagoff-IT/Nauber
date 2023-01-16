@@ -325,11 +325,20 @@
   left: -0.1rem;
 }
 .vector-icon111 {
-  position: absolute;
+  position: relative;
   top: -28rem;
   left: 74rem;
   width: 388.92px;
   height: 43px;
+  display: block;
+}
+.vector-icon111-1 {
+  position: relative;
+  top: -28rem;
+  left: 25rem;
+  width: 388.92px;
+  height: 43px;
+  display: block;
 }
 .aspiradores-div6 {
   position: absolute;
@@ -356,7 +365,7 @@
 }
 
 .lixadeiras-div2 {
-  osition: absolute;
+  position: absolute;
   top: -28rem;
   left: 130rem;
   display: inline-block;
@@ -385,6 +394,9 @@
   left: -396.85px;
   width: 388.92px;
   height: 43px;
+}
+.aspiradores-div8:hover{
+  background-color: #068f13;
 }
 .quadro-linha-21 {
   top: 294px;

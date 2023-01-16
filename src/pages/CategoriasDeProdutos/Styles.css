@@ -237,6 +237,7 @@
 }
 .vector-icon70 {
   left: 0;
+  transform: rotate(180deg);
 }
 .vector-icon71 {
   position: absolute;
@@ -316,6 +317,7 @@
 .vector-icon77 {
   left: 25rem;
 top: -18rem;
+transform: rotate(180deg);
 }
 .vector-icon77 {
   left: 0rem;
@@ -401,6 +403,7 @@ top: -18rem;
 .vector-icon83,
 .vector-icon84 {
   left: 782px;
+  transform: rotate(180deg);
 }
 .vector-icon84 {
   top: 663px;
@@ -482,6 +485,7 @@ top: -18rem;
   top: -27rem;
   left: 85rem;
   display: inline-block;
+  transform: rotate(180deg);
 }
 .bicos-airless-div,
 .vector-icon93 {
@@ -525,6 +529,7 @@ top: -18rem;
   top: -27rem;
   left: 80rem;
   display: inline-block;
+  transform: rotate(180deg);
 }
 .bicos-airless-div3,
 .quadro-linha-4 {

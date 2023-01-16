@@ -2,6 +2,9 @@ import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import './Styles.css';
 
+import Seta from '../../assets/image/seta30.svg'
+import Line from '../../assets/image/line-3.svg'
+
 function ProdutoLogistas(){
   return (
     <div className="produto-logistas1">
@@ -20,7 +23,7 @@ function ProdutoLogistas(){
           <b className="peas-b1">peças</b>
           <b className="acessrios-b1">acessórios</b>
         </div>
-        <img className="seta-icon20" alt="" src="src\assets\image\seta9.svg" />
+        <img className="seta-icon20" alt="" src='Seta' />
       </div>
       <div className="linha-1-div2">
         <div className="produto-div1">
@@ -163,7 +166,7 @@ function ProdutoLogistas(){
               src="src\assets\image\logo-revenda-pro-42@2x.png"
             />
             <img className="phone-icon22" alt="" src="src\assets\image\phone22.svg" />
-            <img className="seta-icon21" alt="" src="src\assets\image\seta21.svg" />
+            <img className="seta-icon21" alt="" src='Seta' />
           </div>
           <div className="loja-div7">
             <div className="rectangle-div133" />
@@ -182,7 +185,7 @@ function ProdutoLogistas(){
               src="src\assets\image\logo-revenda-pro-43@2x.png"
             />
             <img className="phone-icon22" alt="" src="src\assets\image\phone23.svg" />
-            <img className="seta-icon21" alt="" src="src\assets\image\seta22.svg" />
+            <img className="seta-icon21" alt="" src='Seta' />
           </div>
           <div className="loja-div8">
             <div className="rectangle-div133" />
@@ -196,7 +199,7 @@ function ProdutoLogistas(){
             </div>
             <div className="aberto-fecha-s-18006">Aberto - Fecha às 18:00</div>
             <img className="phone-icon24" alt="" src="src\assets\image\phone24.svg" />
-            <img className="seta-icon23" alt="" src="src\assets\image\seta23.svg" />
+            <img className="seta-icon23" alt="" src='Seta' />
           </div>
           <div className="loja-div9">
             <div className="rectangle-div133" />
@@ -210,7 +213,7 @@ function ProdutoLogistas(){
             </div>
             <div className="aberto-fecha-s-18006">Aberto - Fecha às 18:00</div>
             <img className="phone-icon24" alt="" src="src\assets\image\phone25.svg" />
-            <img className="seta-icon23" alt="" src="src\assets\image\seta24.svg" />
+            <img className="seta-icon23" alt="" src='Seta' />
           </div>
           <div className="loja-div10">
             <div className="rectangle-div133" />
@@ -224,7 +227,7 @@ function ProdutoLogistas(){
             </div>
             <div className="aberto-fecha-s-18006">Aberto - Fecha às 18:00</div>
             <img className="phone-icon24" alt="" src="src\assets\image\phone26.svg" />
-            <img className="seta-icon23" alt="" src="src\assets\image\seta25.svg" />
+            <img className="seta-icon23" alt="" src='Seta' />
           </div>
           <div className="loja-div11">
             <div className="rectangle-div133" />
@@ -238,7 +241,7 @@ function ProdutoLogistas(){
             </div>
             <div className="aberto-fecha-s-18006">Aberto - Fecha às 18:00</div>
             <img className="phone-icon24" alt="" src="src\assets\image\phone27.svg" />
-            <img className="seta-icon23" alt="" src="src\assets\image\seta26.svg" />
+            <img className="seta-icon23" alt="" src='Seta' />
           </div>
         </div>
       </div>
@@ -252,7 +255,7 @@ function ProdutoLogistas(){
           <div className="boto-div10">
             <div className="rectangle-div140" />
             <div className="saiba-mais-div8">SAIBA MAIS</div>
-            <img className="seta-icon27" alt="" src="src\assets\image\seta27.svg" />
+            <img className="seta-icon27" alt="" src='Seta' />
           </div>
           <div className="rectangle-div141" />
           <img className="icon7" alt="" src="src\assets\image\01-2@2x.png" />
@@ -266,7 +269,7 @@ function ProdutoLogistas(){
           <div className="boto-div10">
             <div className="rectangle-div140" />
             <div className="saiba-mais-div8">SAIBA MAIS</div>
-            <img className="seta-icon27" alt="" src="src\assets\image\seta28.svg" />
+            <img className="seta-icon27" alt="" src='Seta' />
           </div>
           <div className="rectangle-div141" />
           <img className="icon7" alt="" src="src\assets\image\01-21@2x.png" />
@@ -280,7 +283,7 @@ function ProdutoLogistas(){
           <div className="boto-div10">
             <div className="rectangle-div140" />
             <div className="saiba-mais-div8">SAIBA MAIS</div>
-            <img className="seta-icon27" alt="" src="src\assets\image\seta29.svg" />
+            <img className="seta-icon27" alt="" src={Seta} />
           </div>
           <div className="rectangle-div141" />
           <img className="icon7" alt="" src="src\assets\image\01-26@2x.png" />
@@ -294,7 +297,7 @@ function ProdutoLogistas(){
           <div className="boto-div10">
             <div className="rectangle-div140" />
             <div className="saiba-mais-div8">SAIBA MAIS</div>
-            <img className="seta-icon27" alt="" src="src\assets\image\seta30.svg" />
+            <img className="seta-icon27" alt="" src={Seta} />
           </div>
           <div className="rectangle-div141" />
           <img className="icon7" alt="" src="src\assets\image\01-23@2x.png" />
@@ -303,7 +306,7 @@ function ProdutoLogistas(){
       <div className="tpico-lanamento-div2">
         <b className="produtos-relacionados-b1">produtos relacionados</b>
         <div className="rectangle-div151" />
-        <img className="line-icon2" alt="" src="src\assets\image\line-3.svg" />
+        <img className="line-icon2" alt="" src={Line} />
         <div className="line-div14" />
       </div>
     </div>

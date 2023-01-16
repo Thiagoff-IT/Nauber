@@ -12,6 +12,8 @@ import Seta from '../../assets/image/seta.svg'
 import Phone from '../../assets/image/phone32.svg'
 import Social from '../../assets/image/redes-sociais-icon7.svg'
 import Pin from '../../assets/image/pin11.svg'
+import Nauber from '../../assets/image/logo-nauber@2x.png'
+
 
 function Assistencia(){
   return (
@@ -20,7 +22,7 @@ function Assistencia(){
       <div className="footer-div2">
         <div className="footer-div3">
           <div className="bg-div2" />
-          <img className="phone-icon1" alt="" src={Pin} />
+          <img className="phone-icon1" alt="" src={Phone} />
           <div className="siga-nas-redes-sociais1">Siga nas redes sociais</div>
           <div className="nauber-2022-todos-os-direito1">
             Nauber © 2022 Todos os direitos reservados.
@@ -34,7 +36,7 @@ function Assistencia(){
           <img
             className="redes-sociais-icon1"
             alt=""
-            src="src\assets\image\redes-sociais-icon1.svg"
+            src={Social}
           />
           <div className="dvidas-div1">
             <div className="converse-com-um-especialista1">
@@ -61,12 +63,12 @@ function Assistencia(){
             <div className="div5">+55 (47) 98821-2725</div>
             <div className="nossa-sede-div3">Nossa sede</div>
           </div>
-          <img className="pin-icon1" alt="" src="src\assets\image\pin1.svg" />
+          <img className="pin-icon1" alt="" src={Pin} />
           <div className="line-div3" />
           <img
             className="logo-nauber-icon1"
             alt=""
-            src="src\assets\image\logo-nauber@2x.png"
+            src={Nauber}
           />
           <div className="rectangle-div27" />
         </div>

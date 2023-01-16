@@ -13,6 +13,11 @@ import Phone12 from '../../assets/image/phone12.svg'
 import Icround from '../../assets/image/icroundaccesstimefilled.svg'
 import Retangulo from '../../assets/image/rectangle-152.svg'
 
+import Phone from '../../assets/image/phone32.svg'
+import Social from '../../assets/image/redes-sociais-icon7.svg'
+import Pin from '../../assets/image/pin11.svg'
+import Nauber from '../../assets/image/logo-nauber@2x.png'
+
 function Contato(){
   return (
     <div className="contato-div2">
@@ -133,7 +138,7 @@ function Contato(){
       <div className="footer-div4">
         <div className="footer-div5">
           <div className="bg-div3" />
-          <img className="phone-icon11" alt="" src="src\assets\image\phone11.svg" />
+          <img className="phone-icon11" alt="" src={Phone} />
           <div className="siga-nas-redes-sociais2">Siga nas redes sociais</div>
           <div className="nauber-2022-todos-os-direito2">
             Nauber © 2022 Todos os direitos reservados.
@@ -147,7 +152,7 @@ function Contato(){
           <img
             className="redes-sociais-icon2"
             alt=""
-            src="src\assets\image\redes-sociais-icon1.svg"
+            src={Social}
           />
           <div className="dvidas-div2">
             <div className="converse-com-um-especialista2">
@@ -174,12 +179,12 @@ function Contato(){
             <div className="div17">+55 (47) 98821-2725</div>
             <div className="nossa-sede-div5">Nossa sede</div>
           </div>
-          <img className="pin-icon2" alt="" src="src\assets\image\pin1.svg" />
+          <img className="pin-icon2" alt="" src={Pin} />
           <div className="line-div5" />
           <img
             className="logo-nauber-icon2"
             alt=""
-            src="src\assets\image\logo-nauber@2x.png"
+            src={Nauber}
           />
           <div className="rectangle-div52" />
         </div>
