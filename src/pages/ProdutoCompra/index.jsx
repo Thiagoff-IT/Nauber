@@ -204,7 +204,7 @@ function ProdutoCompra(){
         </div>
         <div className="rectangle-div165" />
         <div className="rectangle-div166" />
-        <Link to="/ProdutoCompras" className="comprar-b">comprar</Link>
+        <Link to="/ProdutoDetalhes" className="comprar-b">comprar</Link>
       </div>
       <div className="group-div14">
         <div className="linha-4-div1">
