@@ -3,13 +3,22 @@ import Header from '../../components/Header';
 import './Styles.css';
 
 import Seta from '../../assets/image/seta.svg'
+import Seta1 from '../../assets/image/vector5.svg'
 import Line from '../../assets/image/line-3.svg'
 import Documents from '../../assets/image/fluentdocumentbulletlist24filled2.svg'
 import Manual from '../../assets/image/manual-1@2x.png'
 import Image from '../../assets/image/01-23@2x.png'
+import Image2 from '../../assets/image/01-26@2x.png'
+import Image3 from '../../assets/image/01-21@2x.png'
 import Phone from '../../assets/image/phone22.svg'
 import Vetor from '../../assets/image/vector-1164.svg'
 import Vetor1 from '../../assets/image/vector-1181.svg'
+
+import BR from '../../assets/image/flagbrasil-21@2x.png'
+import Espanha from '../../assets/image/flagespanha-3@2x.png'
+import Vetor2 from '../../assets/image/vector-1174.svg'
+import Play from '../../assets/image/play.svg'
+import ellipse from '../../assets/image/ellipse-53.svg'
 
 
 function ProdutoLogistas(){
@@ -35,7 +44,7 @@ function ProdutoLogistas(){
         <div className="produto-div1">
           <div className="rectangle-div119" />
           <div className="rectangle-div120" />
-          <img className="icon6" alt="" src="src\assets\image\01-1@2x.png" />
+          <img className="icon6" alt="" src={Image} />
           <b className="d-30x-b5">d-3.0x</b>
         </div>
       </div>
@@ -46,7 +55,7 @@ function ProdutoLogistas(){
         </b>
       </div>
       <div className="mquinas-div1">
-        <img className="vector-icon35" alt="" src="src\assets\image\vector-1174.svg" />
+        <img className="vector-icon35" alt="" src={Vetor2} />
         <img className="vector-icon36" alt="" src={Vetor} />
         <b className="mquinas-para-pintura3">máquinas para pintura</b>
       </div>
@@ -59,7 +68,7 @@ function ProdutoLogistas(){
       </div>
       <div className="video-div1">
         <div className="rectangle-div127" />
-        <img className="play-icon1" alt="" src="src\assets\image\play.svg" />
+        <img className="play-icon1" alt="" src={Play} />
         <b className="apresentao-tcnica-turbina1">
           <p className="rua-mal-castelo5">Apresentação Técnica - Turbina</p>
           <p className="schroeder-sc5">Sopro e Aspiração Nauber TBN-750</p>
@@ -68,28 +77,32 @@ function ProdutoLogistas(){
       <div className="downloads-div1">
         <b className="downloads-b1">Downloads</b>
         <div className="manual-div1">
-          <img className="ellipse-icon4" alt="" src="src\assets\image\ellipse-53.svg" />
+          <img className="ellipse-icon4" alt="" src={ellipse} />
           <b className="manual-de-instrues1">Manual de instruções</b>
           <img className="manual-1-icon1" alt="" src={Manual} />
           <img
             className="flag-brasil-2-icon4"
             alt=""
-            src="src\assets\image\flagbrasil-21@2x.png"
+            src={BR}
           />
           <img
             className="flag-espanha-2-icon2"
             alt=""
             src="src\assets\image\flagespanha-21@2x.png"
           />
-          <img className="flag-eua-2-icon2" alt="" src="src\assets\image\flageua-21@2x.png" />
+          <img 
+              className="flag-eua-2-icon2" 
+              alt="" 
+              src="src\assets\image\flageua-21@2x.png" 
+          />
         </div>
         <div className="fecha-tcnica-div2">
-          <img className="ellipse-icon4" alt="" src="src\assets\image\ellipse-54.svg" />
+          <img className="ellipse-icon4" alt="" src={ellipse} />
           <b className="fecha-tcnica-b1">fecha técnica</b>
           <img
             className="flag-brasil-2-icon4"
             alt=""
-            src="src\assets\image\flagbrasil-22@2x.png"
+            src={BR}
           />
           <img
             className="fluentdocument-bullet-list-24-icon2"
@@ -99,22 +112,22 @@ function ProdutoLogistas(){
           <img
             className="flag-espanha-2-icon2"
             alt=""
-            src="src\assets\image\flagespanha-3@2x.png"
+            src={Espanha}
           />
           <img className="flag-eua-2-icon2" alt="" src="src\assets\image\flageua-3@2x.png" />
         </div>
         <div className="fecha-tcnica-div3">
-          <img className="ellipse-icon4" alt="" src="src\assets\image\ellipse-55.svg" />
+          <img className="ellipse-icon4" alt="" src={ellipse} />
           <b className="vista-explodida-b1">vista explodida</b>
           <img
             className="flag-brasil-2-icon4"
             alt=""
-            src="src\assets\image\flagbrasil-23@2x.png"
+            src={BR}
           />
           <img
             className="fluentdocument-bullet-list-24-icon2"
             alt=""
-            src="src\assets\image\fluentdocumentbulletlist24filled3.svg"
+            src={Documents}
           />
           <img
             className="flag-espanha-3-icon3"
@@ -261,7 +274,7 @@ function ProdutoLogistas(){
           <div className="boto-div10">
             <div className="rectangle-div140" />
             <div className="saiba-mais-div8">SAIBA MAIS</div>
-            <img className="seta-icon27" alt="" src={Seta} />
+            <img className="seta-icon27" alt="" src={Seta1} />
           </div>
           <div className="rectangle-div141" />
           <img className="icon7" alt="" src="src\assets\image\01-2@2x.png" />
@@ -275,10 +288,10 @@ function ProdutoLogistas(){
           <div className="boto-div10">
             <div className="rectangle-div140" />
             <div className="saiba-mais-div8">SAIBA MAIS</div>
-            <img className="seta-icon27" alt="" src={Seta} />
+            <img className="seta-icon27" alt="" src={Seta1} />
           </div>
           <div className="rectangle-div141" />
-          <img className="icon7" alt="" src="src\assets\image\01-21@2x.png" />
+          <img className="icon7" alt="" src={Image} />
         </div>
         <div className="produto-3-div2">
           <div className="rectangle-div139" />
@@ -289,10 +302,10 @@ function ProdutoLogistas(){
           <div className="boto-div10">
             <div className="rectangle-div140" />
             <div className="saiba-mais-div8">SAIBA MAIS</div>
-            <img className="seta-icon27" alt="" src={Seta} />
+            <img className="seta-icon27" alt="" src={Seta1} />
           </div>
           <div className="rectangle-div141" />
-          <img className="icon7" alt="" src="src\assets\image\01-26@2x.png" />
+          <img className="icon7" alt="" src={Image2} />
         </div>
         <div className="produto-4-div2">
           <div className="rectangle-div139" />
@@ -303,7 +316,7 @@ function ProdutoLogistas(){
           <div className="boto-div10">
             <div className="rectangle-div140" />
             <div className="saiba-mais-div8">SAIBA MAIS</div>
-            <img className="seta-icon27" alt="" src={Seta} />
+            <img className="seta-icon27" alt="" src={Seta1} />
           </div>
           <div className="rectangle-div141" />
           <img className="icon7" alt="" src={Image} />
