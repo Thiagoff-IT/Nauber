@@ -947,7 +947,8 @@
   top: 2223px;
   text-align: left;
   font-size: 12px;
-  font-family: Inter;
+  color: #fff;
+  font-family: 'Inter';
 }
 .rectangle-div7 {
   position: absolute;
