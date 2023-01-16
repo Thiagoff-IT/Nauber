@@ -128,7 +128,7 @@ function ProdutoDetalhes(){
       <div className="downloads-div5">
         <b className="downloads-b5">Downloads</b>
         <div className="manual-div5">
-          <img className="ellipse-icon18" alt="" src={ellipse} />
+          <img className="ellipse-icon18" alt="" src={ellipse1} />
           <b className="manual-de-instrues5">Manual de instruções</b>
           <img className="manual-1-icon5" alt="" src={Manual} />
           <img
@@ -144,7 +144,7 @@ function ProdutoDetalhes(){
           <img className="flag-eua-2-icon6" alt="" src={EUA} />
         </div>
         <div className="fecha-tcnica-div10">
-          <img className="ellipse-icon18" alt="" src={ellipse} />
+          <img className="ellipse-icon18" alt="" src={ellipse1} />
           <b className="fecha-tcnica-b5">fecha técnica</b>
           <img
             className="flag-brasil-2-icon16"
