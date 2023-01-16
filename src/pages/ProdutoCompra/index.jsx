@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom'
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 import "./Styles.css";
 
 import Vetor from '../../assets/image/vector-1182.svg'
@@ -27,61 +28,8 @@ import Logo from '../../assets/image/logo-nauber@2x.png'
 function ProdutoCompra(){
   return (
     <div className="produto-compra">
-      <div className="footer-div12">
-        <div className="footer-div13">
-          <div className="bg-div7" />
-          <img className="phone-icon28" alt="" src={Phone28} />
-          <div className="siga-nas-redes-sociais6">Siga nas redes sociais</div>
-          <div className="nauber-2022-todos-os-direito6">
-            Nauber © 2022 Todos os direitos reservados.
-          </div>
-          <div className="politicas-de-privacidade-ter6">
-            Politicas de Privacidade | Termos de Uso
-          </div>
-          <div className="nauber-maquinas-e-equipamentos6">
-            20.633.257/0001-98 | NAUBER MAQUINAS E EQUIPAMENTOS
-          </div>
-          <img
-            className="redes-sociais-icon6"
-            alt=""
-            src={Social}
-          />
-          <div className="dvidas-div6">
-            <div className="converse-com-um-especialista6">
-              Converse com um especialista
-            </div>
-            <div className="envie-um-e-mail6">Envie um e-mail</div>
-            <div className="voltar-ao-incio6">Voltar ao início</div>
-            <div className="ficou-com-dvidas6">Ficou com dúvidas?</div>
-          </div>
-          <div className="produtos-div19">
-            <div className="construo-civil-div6">Construção civil</div>
-            <div className="linha-industrial-div7">Linha industrial</div>
-            <div className="ficou-com-dvidas6">Produtos</div>
-          </div>
-          <div className="nossa-sede-div12">
-            <div className="rua-mal-castelo-branco-24777">
-              <p className="no-localizimos-um">
-                Rua Mal. Castelo Branco, 2477 Centro
-              </p>
-              <p className="compre-agora-mesmo">Schroeder - SC.</p>
-            </div>
-            <div className="div41">+55 (47) 3374-5969</div>
-            <div className="div42">+55 (11) 96364-6599</div>
-            <div className="div43">+55 (47) 98821-2725</div>
-            <div className="nossa-sede-div13">Nossa sede</div>
-          </div>
-          <img className="pin-icon7" alt="" src={Pin} />
-          <div className="line-div15" />
-          <img
-            className="logo-nauber-icon6"
-            alt=""
-            src={Logo}
-          />
-          <div className="rectangle-div152" />
-        </div>
-      </div>
       <Header />
+      <Footer />
       <img className="vector-icon40" alt="" src={Vetor} />
       <div className="descrio-div1">
         <div className="turbina-de-aspirao-multiuso1">
@@ -178,8 +126,8 @@ function ProdutoCompra(){
         <div className="rectangle-div162" />
         <img className="play-icon2" alt="" src={Play} />
         <b className="apresentao-tcnica-turbina2">
-          <p className="no-localizimos-um">Apresentação Técnica - Turbina</p>
-          <p className="compre-agora-mesmo">Sopro e Aspiração Nauber TBN-750</p>
+          <p className="no-localizimos-um-on">Apresentação Técnica - Turbina</p>
+          <p className="compre-agora-mesmo-on">Sopro e Aspiração Nauber TBN-750</p>
         </b>
       </div>
       <div className="downloads-div2">
@@ -251,7 +199,7 @@ function ProdutoCompra(){
         <b className="r99999-b">R$999,99</b>
         <div className="calcular-frete-div">
           <div className="rectangle-div164" />
-          <div className="calcular-frete-div1">Calcular frete</div>
+          <input type="text" className="calcular-frete-div1" placeholder="Calcular frete"/>
           <img className="seach-icon2" alt="" src={Seach}/>
         </div>
         <div className="rectangle-div165" />

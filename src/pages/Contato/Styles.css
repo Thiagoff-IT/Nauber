@@ -1041,6 +1041,7 @@
   top: 385px;
   left: 59px;
   font-weight: 300;
+  width: 32rem;
 }
 .atendimento-atendimentonaub,
 .cidade-div2,
@@ -1127,4 +1128,9 @@ input, .digite-seu-nome {
   font-size: 12px;
   color: #fff;
   font-family: Inter;
+}
+select {
+  border: none;
+background: #fff;
+width: 37rem;
 }

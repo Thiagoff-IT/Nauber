@@ -1,4 +1,4 @@
-.bg-div5 {
+.bg-div6 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -8,7 +8,7 @@
   left: 0;
   background-color: #171717;
 }
-.phone-icon14 {
+.phone-icon21 {
   position: absolute;
   top: 128px;
   left: 369px;
@@ -16,7 +16,7 @@
   height: 20px;
   overflow: hidden;
 }
-.siga-nas-redes-sociais4 {
+.siga-nas-redes-sociais5 {
   position: absolute;
   top: 50.29%;
   left: 9.24%;
@@ -24,14 +24,14 @@
   font-weight: 500;
   display: inline-block;
 }
-.nauber-2022-todos-os-direito4 {
+.nauber-2022-todos-os-direito5 {
   position: absolute;
   top: 81.14%;
   left: 9.24%;
   display: inline-block;
 }
-.nauber-maquinas-e-equipamentos4,
-.politicas-de-privacidade-ter4 {
+.nauber-maquinas-e-equipamentos5,
+.politicas-de-privacidade-ter5 {
   position: absolute;
   width: 22.36%;
   top: 81.14%;
@@ -39,12 +39,12 @@
   text-align: right;
   display: inline-block;
 }
-.nauber-maquinas-e-equipamentos4 {
+.nauber-maquinas-e-equipamentos5 {
   width: 30.28%;
   top: 62.28%;
   left: 60.21%;
 }
-.redes-sociais-icon4 {
+.redes-sociais-icon5 {
   position: absolute;
   height: 4.43%;
   width: 7.84%;
@@ -56,30 +56,30 @@
   overflow: hidden;
   max-height: 100%;
 }
-.converse-com-um-especialista4,
-.envie-um-e-mail4,
-.ficou-com-dvidas4,
-.voltar-ao-incio4 {
+.converse-com-um-especialista5,
+.envie-um-e-mail5,
+.ficou-com-dvidas5,
+.voltar-ao-incio5 {
   position: absolute;
   top: 30.48%;
   left: 0;
   font-weight: 500;
   display: inline-block;
 }
-.envie-um-e-mail4,
-.ficou-com-dvidas4,
-.voltar-ao-incio4 {
+.envie-um-e-mail5,
+.ficou-com-dvidas5,
+.voltar-ao-incio5 {
   top: 57.14%;
 }
-.ficou-com-dvidas4,
-.voltar-ao-incio4 {
+.ficou-com-dvidas5,
+.voltar-ao-incio5 {
   top: 83.81%;
 }
-.ficou-com-dvidas4 {
+.ficou-com-dvidas5 {
   top: 0;
   color: #fff;
 }
-.dvidas-div4 {
+.dvidas-div5 {
   position: absolute;
   height: 20.63%;
   width: 14.24%;
@@ -90,18 +90,18 @@
   font-size: 14px;
   color: #8d8b8b;
 }
-.construo-civil-div4,
-.linha-industrial-div5 {
+.construo-civil-div5,
+.linha-industrial-div6 {
   position: absolute;
   top: 41.56%;
   left: 0;
   font-weight: 500;
   display: inline-block;
 }
-.linha-industrial-div5 {
+.linha-industrial-div6 {
   top: 77.92%;
 }
-.produtos-div13 {
+.produtos-div16 {
   position: absolute;
   height: 15.13%;
   width: 7.5%;
@@ -112,40 +112,49 @@
   font-size: 14px;
   color: #8d8b8b;
 }
-.div23,
-.div24,
-.div25,
-.nossa-sede-div9,
-.rua-mal-castelo-branco-24775 {
+.rua-mal-castelo5 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: 'Bebas Neue', cursive;
+}
+.schroeder-sc5 {
+  margin: 0;
+  font-family: 'Bebas Neue', cursive;
+}
+.div32,
+.div33,
+.div34,
+.nossa-sede-div11,
+.rua-mal-castelo-branco-24776 {
   position: absolute;
   top: 23.88%;
   left: 0.9%;
   font-weight: 500;
   display: inline-block;
 }
-.div23,
-.div24,
-.div25,
-.nossa-sede-div9 {
+.div32,
+.div33,
+.div34,
+.nossa-sede-div11 {
   top: 52.99%;
 }
-.div24,
-.div25,
-.nossa-sede-div9 {
+.div33,
+.div34,
+.nossa-sede-div11 {
   top: 70.9%;
   left: 0;
 }
-.div25,
-.nossa-sede-div9 {
+.div34,
+.nossa-sede-div11 {
   top: 88.81%;
 }
-.nossa-sede-div9 {
+.nossa-sede-div11 {
   top: 0;
   left: 0.9%;
   font-size: 14px;
   color: #fff;
 }
-.nossa-sede-div8 {
+.nossa-sede-div10 {
   position: absolute;
   height: 26.33%;
   width: 15.49%;
@@ -155,7 +164,7 @@
   left: 27.29%;
   color: #8d8b8b;
 }
-.pin-icon5 {
+.pin-icon6 {
   position: absolute;
   top: 102.5px;
   left: 378px;
@@ -163,7 +172,7 @@
   height: 11px;
   overflow: hidden;
 }
-.line-div9 {
+.line-div12 {
   position: absolute;
   height: 0.2%;
   width: 81.32%;
@@ -174,7 +183,7 @@
   border-top: 1px solid #fff;
   box-sizing: border-box;
 }
-.logo-nauber-icon4 {
+.logo-nauber-icon5 {
   position: absolute;
   height: 10.22%;
   width: 18.61%;
@@ -187,7 +196,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.rectangle-div86 {
+.rectangle-div117 {
   position: absolute;
   height: 123.58%;
   width: 40.63%;
@@ -198,7 +207,7 @@
   background-color: #dedada;
   display: none;
 }
-.footer-div9 {
+.footer-div11 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -207,16 +216,15 @@
   bottom: 0;
   left: 0;
 }
-.footer-div8 {
+.footer-div10 {
   position: absolute;
-  top: 2780px;
+  top: 2214px;
   left: 0;
   width: 1440px;
   height: 509px;
-  font-size: 12px;
   font-family: Inter;
 }
-.bg-header13 {
+.bg-header16 {
   position: absolute;
   top: 63px;
   left: 45px;
@@ -225,8 +233,8 @@
   width: 1336px;
   height: 70px;
 }
-.bg-header14,
-.bg-header15 {
+.bg-header17,
+.bg-header18 {
   position: absolute;
   top: 0;
   left: 0;
@@ -234,14 +242,14 @@
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   width: 1440px;
 }
-.bg-header14 {
+.bg-header17 {
   height: 1px;
   display: none;
 }
-.bg-header15 {
+.bg-header18 {
   height: 73px;
 }
-.nauber-logo-1-icon4 {
+.nauber-logo-1-icon5 {
   position: absolute;
   top: 22px;
   left: 135px;
@@ -250,23 +258,23 @@
   object-fit: cover;
   display: none;
 }
-.logo-div4,
-.logo-nauber-14 {
+.logo-div5,
+.logo-nauber-15 {
   position: absolute;
   width: 170px;
   height: 47.02px;
 }
-.logo-nauber-14 {
+.logo-nauber-15 {
   top: 0;
   left: 0;
   object-fit: cover;
 }
-.logo-div4 {
+.logo-div5 {
   top: 14px;
   left: 135px;
 }
-.home-b4,
-.vector-icon27 {
+.home-b5,
+.vector-icon32 {
   position: absolute;
   top: 100.5px;
   left: 777px;
@@ -274,14 +282,14 @@
   height: 3px;
   display: none;
 }
-.home-b4 {
+.home-b5 {
   top: 3px;
   left: 27px;
   display: inline-block;
   width: 33px;
   height: 17px;
 }
-.home-icon4 {
+.home-icon5 {
   position: absolute;
   top: 0;
   left: 0;
@@ -289,59 +297,59 @@
   height: 20px;
   overflow: hidden;
 }
-.empresa-b4,
-.empresa-icon4,
-.home-div5 {
+.empresa-b5,
+.empresa-icon5,
+.home-div6 {
   position: absolute;
   top: 4px;
   left: 0;
   width: 60px;
   height: 20px;
 }
-.empresa-b4,
-.empresa-icon4 {
+.empresa-b5,
+.empresa-icon5 {
   top: 0;
   width: 20px;
 }
-.empresa-b4 {
+.empresa-b5 {
   top: 3px;
   left: 27px;
   display: inline-block;
   width: 53px;
   height: 17px;
 }
-.empresa-div4 {
+.empresa-div5 {
   position: absolute;
   top: 4px;
   left: 130px;
   width: 80px;
   height: 20px;
 }
-.produtos-b4 {
+.produtos-b5 {
   top: 0;
   left: 28.63px;
   display: inline-block;
   width: 57px;
 }
-.box-icon4,
-.produtos-b4,
-.produtos-div15 {
+.box-icon5,
+.produtos-b5,
+.produtos-div18 {
   position: absolute;
   height: 17px;
 }
-.box-icon4 {
+.box-icon5 {
   top: 0;
   left: 0;
   width: 21.25px;
   overflow: hidden;
 }
-.produtos-div15 {
+.produtos-div18 {
   top: 7px;
   left: 280px;
   width: 85.63px;
   color: #fae013;
 }
-.assistncias-b5 {
+.assistncias-b6 {
   position: absolute;
   top: 2px;
   left: 29px;
@@ -349,14 +357,14 @@
   width: 77px;
   height: 17px;
 }
-.assistencia-div4 {
+.assistencia-div5 {
   position: absolute;
   top: 5px;
   left: 436px;
   width: 106px;
   height: 20px;
 }
-.catlogos-virtuais-b5 {
+.catlogos-virtuais-b6 {
   position: absolute;
   top: 2px;
   left: 26px;
@@ -364,69 +372,69 @@
   width: 116px;
   height: 17px;
 }
-.catlogos-div6,
-.contato-b5 {
+.catlogos-div7,
+.contato-b6 {
   position: absolute;
   top: 5px;
   left: 612px;
   width: 142px;
   height: 20px;
 }
-.contato-b5 {
+.contato-b6 {
   top: 3px;
   left: 27px;
   display: inline-block;
   width: 51px;
   height: 17px;
 }
-.contato-div5,
-.login-b4 {
+.contato-div6,
+.login-b5 {
   position: absolute;
   top: 4px;
   left: 824px;
   width: 78px;
   height: 20px;
 }
-.login-b4 {
+.login-b5 {
   top: 7px;
   left: 29px;
   display: inline-block;
   width: 51px;
   height: 17px;
 }
-.logim-icon4,
-.login-div4 {
+.logim-icon5,
+.login-div5 {
   position: absolute;
   top: 0;
   height: 24px;
 }
-.logim-icon4 {
+.logim-icon5 {
   left: 0;
   width: 24px;
   overflow: hidden;
 }
-.login-div4 {
+.login-div5 {
   left: 972px;
   width: 80px;
 }
-.menu-div4,
-.vector-icon28 {
+.menu-div5,
+.vector-icon33 {
   position: absolute;
   top: 91px;
   left: 204px;
   width: 1052px;
   height: 25px;
 }
-.vector-icon28 {
+.vector-icon33 {
   top: 0.54px;
   left: 1172px;
   width: 117px;
   height: 74.21px;
 }
-.flag-arabia-1-icon4,
-.flag-brasil-1-icon4,
-.flag-espanha-1-icon4,
-.flag-eua-1-icon4 {
+.flag-arabia-1-icon5,
+.flag-brasil-1-icon5,
+.flag-espanha-1-icon5,
+.flag-eua-1-icon5 {
   position: absolute;
   top: 30.46px;
   left: -4px;
@@ -434,27 +442,27 @@
   height: 22.7px;
   object-fit: cover;
 }
-.flag-arabia-1-icon4,
-.flag-espanha-1-icon4,
-.flag-eua-1-icon4 {
+.flag-arabia-1-icon5,
+.flag-espanha-1-icon5,
+.flag-eua-1-icon5 {
   left: 31.36px;
 }
-.flag-arabia-1-icon4,
-.flag-eua-1-icon4 {
+.flag-arabia-1-icon5,
+.flag-eua-1-icon5 {
   left: 66.72px;
 }
-.flag-arabia-1-icon4 {
+.flag-arabia-1-icon5 {
   left: 102.08px;
 }
-.flags-div4,
-.line-div10 {
+.flags-div5,
+.line-div13 {
   position: absolute;
   top: 0.54px;
   left: 1164px;
   width: 134px;
   height: 74.21px;
 }
-.line-div10 {
+.line-div13 {
   top: 27.5px;
   left: 1143.5px;
   border-right: 1px solid #8a8a8a;
@@ -462,8 +470,8 @@
   width: 1px;
   height: 21px;
 }
-.base-de-conhecimento-14,
-.logo-revenda-pro-14 {
+.base-de-conhecimento-15,
+.logo-revenda-pro-15 {
   position: absolute;
   top: 16px;
   left: 961px;
@@ -471,19 +479,19 @@
   height: 43.08px;
   object-fit: cover;
 }
-.logo-revenda-pro-14 {
+.logo-revenda-pro-15 {
   left: 809.94px;
   width: 40.12px;
   height: 43px;
 }
-.conhea-o-sistema9 {
+.conhea-o-sistema11 {
   font-weight: 500;
 }
-.nauber-pro5 {
+.nauber-pro6 {
   margin: 0;
   font-size: 10.63px;
 }
-.conhea-o-sistema-de-revnda-n4 {
+.conhea-o-sistema-de-revnda-n5 {
   position: absolute;
   top: 19px;
   left: 857px;
@@ -493,7 +501,7 @@
   font-size: 7.59px;
   font-family: Inter;
 }
-.rectangle-div87 {
+.rectangle-div118 {
   position: absolute;
   top: 0;
   left: 0;
@@ -502,29 +510,29 @@
   width: 373px;
   height: 38px;
 }
-.frame-icon3 {
+.frame-icon4 {
   position: absolute;
   top: 12px;
   left: 328.7px;
   width: 14.67px;
   height: 15px;
 }
-.header-div4,
-.seach-div4 {
+.header-div5,
+.seach-div5 {
   position: absolute;
   top: 18px;
   left: 405px;
   width: 373px;
   height: 38px;
 }
-.header-div4 {
+.header-div5 {
   top: 0;
   left: 0;
   width: 1440px;
   height: 133px;
   font-size: 18px;
 }
-.vector-icon29 {
+.vector-icon34 {
   position: absolute;
   top: 233px;
   left: -2px;
@@ -532,107 +540,104 @@
   height: 898px;
   display: none;
 }
-.aspiradores-b,
-.lixadeiras-b,
-.misturadores-b,
-.mquinas-para-pintura {
+.aspiradores-b1,
+.lixadeiras-b1,
+.misturadores-b1,
+.mquinas-para-pintura2 {
   position: absolute;
   top: 0;
   left: 0;
   line-height: 78%;
   display: inline-block;
 }
-.aspiradores-b,
-.lixadeiras-b,
-.misturadores-b {
+.aspiradores-b1,
+.lixadeiras-b1,
+.misturadores-b1 {
   top: 50px;
 }
-.aspiradores-b,
-.misturadores-b {
+.aspiradores-b1,
+.misturadores-b1 {
   top: 100px;
 }
-.misturadores-b {
+.misturadores-b1 {
   top: 150px;
 }
-.acessrios-b,
-.fresadora-de-parede4,
-.lixas-e-abrasivos,
-.peas-b {
+.acessrios-b1,
+.fresadora-de-parede5,
+.lixas-e-abrasivos1,
+.peas-b1 {
   position: absolute;
   top: 200px;
   left: 0;
   line-height: 78%;
   display: inline-block;
 }
-.acessrios-b,
-.lixas-e-abrasivos,
-.peas-b {
+.acessrios-b1,
+.lixas-e-abrasivos1,
+.peas-b1 {
   top: 250px;
 }
-.acessrios-b,
-.peas-b {
+.acessrios-b1,
+.peas-b1 {
   top: 300px;
 }
-.acessrios-b {
+.acessrios-b1 {
   top: 350px;
 }
-.seta-icon9,
-.texto-div {
+.texto-div1 {
   position: absolute;
   top: 7px;
   left: 17px;
   width: 218px;
   height: 372px;
 }
-.seta-icon9 {
+.group-div9,
+.seta-icon20 {
+  position: absolute;
   top: 0;
   left: 0;
   width: 15.5px;
   height: 376px;
 }
-.group-div3,
-.rectangle-div88 {
-  position: absolute;
-  display: none;
-}
-.group-div3 {
+.group-div9 {
   top: 346px;
   left: 1036px;
   width: 235px;
   height: 379px;
+  display: none;
   font-size: 28.64px;
 }
-.rectangle-div88 {
-  top: 48.07px;
+.rectangle-div119,
+.rectangle-div120 {
+  position: absolute;
   left: -123.81px;
+  display: none;
+}
+.rectangle-div119 {
+  top: 48.07px;
   border-radius: 23.74px 23.74px 0 0;
   background-color: #fff;
   box-shadow: 0 3.957205295562744px 19.79px rgba(0, 0, 0, 0.2);
   width: 316.75px;
   height: 370.24px;
 }
-.rectangle-div89 {
+.rectangle-div120 {
   top: 432.72px;
-  left: -123.81px;
   border-radius: 0 0 43.53px 43.53px;
   background: linear-gradient(180deg, #078c14, #165032);
   width: 316.58px;
   height: 111.59px;
-  display: none;
 }
-.d-30x-b,
-.icon1,
-.rectangle-div89 {
+.icon6 {
   position: absolute;
-}
-.icon1 {
   top: 0;
   left: 0;
   width: 275.96px;
   height: 351px;
   object-fit: cover;
 }
-.d-30x-b {
+.d-30x-b5 {
+  position: absolute;
   top: 466.28px;
   left: -39.08px;
   line-height: 78%;
@@ -640,21 +645,21 @@
   width: 141.49px;
   height: 45px;
 }
-.linha-1-div1,
-.produto-div {
+.linha-1-div2,
+.produto-div1 {
   position: absolute;
   top: 0;
   left: 0;
   width: 275.96px;
   height: 351px;
 }
-.linha-1-div1 {
+.linha-1-div2 {
   top: 295px;
   left: 409.52px;
   text-align: center;
   font-size: 67.69px;
 }
-.rectangle-div90 {
+.rectangle-div121 {
   position: absolute;
   top: 0;
   left: 0;
@@ -663,43 +668,45 @@
   width: 469px;
   height: 61px;
 }
-.mquinas-para-pintura-d-30x {
+.mquinas-para-pintura-d-30x1 {
   position: absolute;
   top: 15px;
   left: 3px;
   display: inline-block;
   width: 463px;
   height: 32px;
+  font-family: 'Bebas Neue', cursive;
 }
-.encontre-um-revendedor {
+.encontre-um-revendedor1 {
   position: absolute;
   top: 261px;
   left: 836px;
   width: 469px;
   height: 61px;
   text-align: center;
-  font-size: 36px;
+  font-size: 38px;
 }
-.vector-icon30,
-.vector-icon31 {
+.vector-icon35,
+.vector-icon36 {
   position: absolute;
   top: 22px;
   left: 4px;
   width: 1444px;
   height: 12px;
 }
-.vector-icon31 {
+.vector-icon36 {
   top: 0;
   width: 536px;
   height: 63px;
 }
-.mquinas-para-pintura1 {
+.mquinas-para-pintura3 {
   position: absolute;
-  top: 0rem;
-  left: 2rem;
+  top: 0.1rem;
+  left: 3rem;
   display: inline-block;
+  font-family: 'Bebas Neue', cursive;
 }
-.mquinas-div {
+.mquinas-div1 {
   position: absolute;
   top: 148px;
   left: -4px;
@@ -707,61 +714,61 @@
   height: 63px;
   font-size: 47.04px;
 }
-.rectangle-div91 {
+.rectangle-div122 {
   position: absolute;
   top: 0;
   border-radius: 10px;
   border: 1px solid #c3c4c4;
   box-sizing: border-box;
 }
-.rectangle-div91,
-.rectangle-div92,
-.rectangle-div93 {
+.rectangle-div122,
+.rectangle-div123,
+.rectangle-div124 {
   left: 0;
   background-color: #d9d9d9;
   width: 120px;
   height: 80px;
 }
-.rectangle-div92 {
+.rectangle-div123 {
   position: absolute;
   top: 90px;
   border-radius: 10px;
   border: 1px solid #c3c4c4;
   box-sizing: border-box;
 }
-.rectangle-div93 {
+.rectangle-div124 {
   top: 180px;
 }
-.rectangle-div93,
-.rectangle-div94,
-.rectangle-div95 {
+.rectangle-div124,
+.rectangle-div125,
+.rectangle-div126 {
   position: absolute;
   border-radius: 10px;
   border: 1px solid #c3c4c4;
   box-sizing: border-box;
 }
-.rectangle-div94 {
+.rectangle-div125 {
   top: 270px;
   left: 0;
   background-color: #d9d9d9;
   width: 120px;
   height: 80px;
 }
-.rectangle-div95 {
+.rectangle-div126 {
   top: 0;
   left: 170px;
   width: 473px;
   height: 350px;
 }
-.group-div4,
-.rectangle-div96 {
+.group-div10 {
   position: absolute;
   top: 285px;
   left: 135px;
   width: 643px;
   height: 350px;
 }
-.rectangle-div96 {
+.rectangle-div127 {
+  position: absolute;
   top: 0;
   left: 0;
   border-radius: 22.33px;
@@ -769,7 +776,7 @@
   width: 670px;
   height: 300.38px;
 }
-.play-icon {
+.play-icon1 {
   position: absolute;
   top: 83px;
   left: 268px;
@@ -777,33 +784,26 @@
   height: 134px;
   overflow: hidden;
 }
-.apresentao-tcnica- {
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-.sopro-e-aspirao {
-  margin: 0;
-}
-.apresentao-tcnica-turbina {
+.apresentao-tcnica-turbina1 {
   position: absolute;
   top: 349px;
   left: 45px;
   line-height: 103%;
   display: inline-block;
 }
-.downloads-b,
-.video-div {
+.downloads-b1,
+.video-div1 {
   position: absolute;
   color: #0b5f2b;
 }
-.video-div {
+.video-div1 {
   top: 681px;
   left: 135px;
   width: 670px;
   height: 451px;
-  font-size: 39px;
+  font-size: 50px;
 }
-.downloads-b {
+.downloads-b1 {
   top: 0;
   left: 0;
   font-size: 27.94px;
@@ -811,21 +811,21 @@
   display: inline-block;
   text-align: left;
 }
-.ellipse-icon1 {
+.ellipse-icon4 {
   position: absolute;
   top: 6.44px;
   left: 0;
   width: 112.28px;
   height: 112.28px;
 }
-.manual-de-instrues {
+.manual-de-instrues1 {
   position: absolute;
   top: 129.45px;
   left: 3.3px;
   display: inline-block;
 }
-.flag-brasil-2-icon1,
-.manual-1-icon {
+.flag-brasil-2-icon4,
+.manual-1-icon1 {
   position: absolute;
   top: 25.94px;
   left: 0;
@@ -833,35 +833,14 @@
   height: 98.52px;
   object-fit: cover;
 }
-.flag-brasil-2-icon1 {
+.flag-brasil-2-icon4 {
   top: 0;
   left: 32.58px;
   width: 47.85px;
   height: 30.24px;
 }
-.manual-div {
-  position: absolute;
-  top: 74.82px;
-  left: 0;
-  width: 172.36px;
-  height: 143.45px;
-}
-.fecha-tcnica-b {
-  position: absolute;
-  top: 129.45px;
-  left: 23.6px;
-  display: inline-block;
-}
-.fluentdocument-bullet-list-24-icon {
-  position: absolute;
-  top: 21.46px;
-  left: 15.02px;
-  width: 82.25px;
-  height: 82.25px;
-  overflow: hidden;
-}
-.flag-espanha-3-icon,
-.flag-eua-3-icon {
+.flag-espanha-2-icon2,
+.flag-eua-2-icon2 {
   position: absolute;
   top: 25.81px;
   left: 126.12px;
@@ -869,25 +848,49 @@
   height: 32.52px;
   object-fit: cover;
 }
-.flag-eua-3-icon {
+.flag-eua-2-icon2 {
   top: 55.19px;
   left: 126.64px;
 }
-.fecha-tcnica-div {
+.manual-div1 {
+  position: absolute;
+  top: 74.82px;
+  left: 0;
+  width: 172.36px;
+  height: 143.45px;
+  font-family: 'Bebas Neue', cursive;
+}
+.fecha-tcnica-b1 {
+  position: absolute;
+  top: 129.45px;
+  left: 23.6px;
+  display: inline-block;
+  font-family: 'Bebas Neue', cursive;
+}
+.fluentdocument-bullet-list-24-icon2 {
+  position: absolute;
+  top: 21.46px;
+  left: 15.02px;
+  width: 82.25px;
+  height: 82.25px;
+  overflow: hidden;
+}
+.fecha-tcnica-div2 {
   position: absolute;
   top: 74.82px;
   left: 228.86px;
   width: 172.36px;
   height: 143.45px;
 }
-.vista-explodida-b {
+.vista-explodida-b1 {
   position: absolute;
   top: 129.45px;
   left: 19.27px;
   display: inline-block;
+  font-family: 'Bebas Neue', cursive;
 }
-.flag-espanha-3-icon1,
-.flag-eua-3-icon1 {
+.flag-espanha-3-icon3,
+.flag-eua-3-icon3 {
   position: absolute;
   top: 1324.67px;
   left: 724.57px;
@@ -896,19 +899,19 @@
   object-fit: cover;
   display: none;
 }
-.flag-eua-3-icon1 {
+.flag-eua-3-icon3 {
   top: 1354.05px;
   left: 725.08px;
 }
-.downloads-div,
-.fecha-tcnica-div1 {
+.downloads-div1,
+.fecha-tcnica-div3 {
   position: absolute;
   top: 74.82px;
   left: 457.72px;
   width: 112.28px;
   height: 143.45px;
 }
-.downloads-div {
+.downloads-div1 {
   top: 1224.04px;
   left: 135px;
   width: 570px;
@@ -917,172 +920,271 @@
   font-size: 14.3px;
   color: #171717;
 }
-.rectangle-div97 {
+.rectangle-div128 {
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 6px;
+  border-radius: 6.59px;
   background: linear-gradient(193.84deg, #0a841d, #0b592e), #fff;
-  width: 1170px;
-  height: 416px;
+  width: 370px;
+  height: 1130px;
 }
-.verificado-div1 {
+.concordo-em-compartilhar-a-min1 {
   position: absolute;
-  top: 122.19px;
-  left: 900px;
-  width: 10.81px;
-  height: 7.84px;
+  top: 321.49px;
+  left: 17.57px;
+  font-size: 10.11px;
+  display: inline-block;
+  width: 307.42px;
+}
+.localize-o-revendedor-mais-pr,
+.ou-div2,
+.ou-div3 {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  width: 324.99px;
+}
+.localize-o-revendedor-mais-pr {
+  top: 0;
+  font-size: 21.99px;
+  font-family: Roboto;
+}
+.ou-div2,
+.ou-div3 {
+  top: 104.3px;
+}
+.ou-div3 {
+  top: 192.14px;
+}
+.rectangle-div129,
+.rectangle-div130 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6.9px;
+  background-color: #fff;
+  width: 324.99px;
+  height: 44.85px;
+}
+.rectangle-div130 {
+  top: 87.83px;
+}
+.informe-a-sua-cidade1,
+.informe-seu-cep1 {
+  position: absolute;
+  top: 13.18px;
+  left: 17.57px;
+  display: inline-block;
+}
+.informe-a-sua-cidade1 {
+  top: 101.01px;
+}
+.virificar-endereo-div1 {
+  position: absolute;
+  top: 49.41px;
+  left: 0;
+  box-shadow: 0 4.391691207885742px 4.39px rgba(0, 0, 0, 0.25);
+  width: 324.99px;
+  height: 132.68px;
+  text-align: left;
+  font-size: 13.18px;
+  color: #929292;
+}
+.rectangle-div131 {
+  position: absolute;
+  top: 242.64px;
+  left: 98.81px;
+  border-radius: 18.12px;
+  background-color: #fff;
+  width: 196.53px;
+  height: 36.23px;
+}
+.ellipse-icon7 {
+  position: absolute;
+  top: 215.19px;
+  left: 29.64px;
+  width: 91.13px;
+  height: 91.13px;
+}
+.global-1-1-icon1 {
+  position: absolute;
+  top: 226.17px;
+  left: 40.62px;
+  width: 70.27px;
+  height: 70.27px;
+  object-fit: cover;
+}
+.usar-minha-localizao1 {
+  position: absolute;
+  top: 252.52px;
+  left: 127.36px;
+  font-size: 13.18px;
+  color: #929292;
+  text-align: left;
+  display: inline-block;
+}
+.rectangle-div132 {
+  position: absolute;
+  height: 41.67%;
+  width: 50%;
+  top: 29.17%;
+  right: 25%;
+  bottom: 29.17%;
+  left: 25%;
+  background-color: #fff;
+}
+.vector-icon37,
+.verificado-div2 {
+  position: absolute;
   overflow: hidden;
 }
-.card-endereo-div1,
-.rectangle-div98 {
+.vector-icon37 {
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.33%;
+  right: 8.33%;
+  bottom: 8.33%;
+  left: 8.33%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.verificado-div2 {
+  top: 319.5px;
+  left: 0;
+  width: 17.57px;
+  height: 17.57px;
+}
+.group-div11 {
+  position: absolute;
+  top: 52.7px;
+  left: 23.06px;
+  width: 324.99px;
+  height: 337.06px;
+  display: none;
+  text-align: center;
+  font-size: 15.37px;
+  color: #fff;
+}
+.rectangle-div133 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 1170px;
-  height: 416px;
-}
-.rectangle-div98 {
   border-radius: 6.59px;
   background-color: #fff;
   box-shadow: 0 4.283919811248779px 10.71px rgba(0, 0, 0, 0.15);
   width: 349.14px;
   height: 157px;
 }
-.compras-na-loja-retirada-na,
-.div26 {
+.compras-na-loja-retirada-na6,
+.div35 {
   position: absolute;
   top: 121.37px;
-  left: 11.85px;
+  left: 12.85px;
   display: inline-block;
   width: 280.43px;
 }
-.div26 {
+.div35 {
   top: 84.04px;
 }
-.aberto-fecha-s-1800,
-.localizao-rua-bla-bla-bla-9,
-.nome-da-loja-aqui {
+.aberto-fecha-s-18006,
+.localizao-rua-bla-bla-bla-15,
+.nome-da-loja-aqui6 {
   position: absolute;
   top: 14.47px;
-  left: 11.85px;
+  left: 12.85px;
   display: inline-block;
   width: 289.08px;
 }
-.aberto-fecha-s-1800,
-.localizao-rua-bla-bla-bla-9 {
+.aberto-fecha-s-18006,
+.localizao-rua-bla-bla-bla-15 {
   top: 44.66px;
 }
-.aberto-fecha-s-1800 {
+.aberto-fecha-s-18006 {
   top: 64.28px;
   color: #0b7c1d;
 }
-.logo-revenda-pro-4 {
+.logo-revenda-pro-42 {
   position: absolute;
   top: 9.64px;
-  left: 301.02px;
+  left: 302.02px;
   width: 33.2px;
   height: 35.59px;
   object-fit: cover;
 }
-.phone-icon15,
-.seta-icon10 {
-  position: absolute;
-  top: 53.8px;
-  left: 305.32px;
-  width: 24.15px;
-  height: 23.55px;
-}
-.seta-icon10 {
-  top: 86.74px;
-}
-.loja-div,
-.loja-div1 {
-  position: absolute;
-  top: 31px;
-  left: 27px;
-  width: 349.14px;
-  height: 157px;
-}
-.loja-div1 {
-  top: 218px;
-}
-.compras-na-loja-retirada-na2,
-.div28 {
-  position: absolute;
-  top: 121.37px;
-  left: 12.85px;
-  display: inline-block;
-  width: 280.43px;
-}
-.div28 {
-  top: 84.04px;
-}
-.aberto-fecha-s-18002,
-.localizao-rua-bla-bla-bla-11,
-.nome-da-loja-aqui2 {
-  position: absolute;
-  top: 14.47px;
-  left: 12.85px;
-  display: inline-block;
-  width: 289.08px;
-}
-.aberto-fecha-s-18002,
-.localizao-rua-bla-bla-bla-11 {
-  top: 44.66px;
-}
-.aberto-fecha-s-18002 {
-  top: 64.28px;
-  color: #0b7c1d;
-}
-.phone-icon17,
-.seta-icon12 {
+.phone-icon22,
+.seta-icon21 {
   position: absolute;
   top: 53.8px;
   left: 306.32px;
   width: 24.15px;
   height: 23.55px;
 }
-.seta-icon12 {
+.seta-icon21 {
   top: 86.74px;
 }
-.card-div,
-.loja-div2,
-.loja-div3,
-.loja-div4,
-.loja-div5 {
+.loja-div6,
+.loja-div7 {
   position: absolute;
-  top: 31px;
-  left: 411px;
+  top: 36.23px;
+  left: 10.98px;
   width: 349.14px;
   height: 157px;
 }
-.card-div,
-.loja-div3,
-.loja-div4,
-.loja-div5 {
-  top: 218px;
+.loja-div7 {
+  top: 211.9px;
 }
-.card-div,
-.loja-div4,
-.loja-div5 {
-  top: 31px;
-  left: 795px;
+.phone-icon24,
+.seta-icon23 {
+  position: absolute;
+  top: 14.27px;
+  left: 306.32px;
+  width: 24.15px;
+  height: 23.55px;
 }
-.card-div,
-.loja-div5 {
-  top: 218px;
+.seta-icon23 {
+  top: 47.21px;
 }
-.card-div {
-  top: 1522px;
-  left: 135px;
-  width: 1170px;
-  height: 416px;
+.loja-div10,
+.loja-div11,
+.loja-div8,
+.loja-div9 {
+  position: absolute;
+  top: 387.57px;
+  left: 10.98px;
+  width: 349.14px;
+  height: 157px;
+}
+.loja-div10,
+.loja-div11,
+.loja-div9 {
+  top: 563.23px;
+}
+.loja-div10,
+.loja-div11 {
+  top: 738.9px;
+}
+.loja-div11 {
+  top: 914.57px;
+}
+.card-endereo-div2,
+.lojas-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 370px;
+  height: 1130px;
+}
+.lojas-div {
+  top: 342px;
+  left: 835px;
+  width: 371px;
+  overflow: hidden;
   font-size: 13.45px;
   color: #666;
   font-family: Inter;
 }
-.rectangle-div104 {
+.rectangle-div139 {
   position: absolute;
   top: 8.65px;
   left: 0;
@@ -1097,26 +1199,26 @@
   width: 276.92px;
   height: 509.33px;
 }
-.breve-descrio-sobre-o-produt,
-.d-30x-b1 {
+.breve-descrio-sobre-o-produt4,
+.d-30x-b6 {
   position: absolute;
   left: 22.25px;
   display: inline-block;
 }
-.d-30x-b1 {
+.d-30x-b6 {
   top: 316.47px;
   line-height: 50.91px;
-  font-family: Roboto;
+  font-family: 'Bebas Neue', cursive;
   width: 103.84px;
   height: 40.8px;
 }
-.breve-descrio-sobre-o-produt {
+.breve-descrio-sobre-o-produt4 {
   top: 374.58px;
   font-size: 14.83px;
   line-height: 22.76px;
   font-weight: 500;
 }
-.rectangle-div105 {
+.rectangle-div140 {
   position: absolute;
   top: 0;
   left: 0;
@@ -1126,7 +1228,7 @@
   width: 165.65px;
   height: 37.09px;
 }
-.saiba-mais-div4 {
+.saiba-mais-div8 {
   position: absolute;
   top: 11.13px;
   left: 22.25px;
@@ -1134,15 +1236,15 @@
   font-weight: 500;
   display: inline-block;
 }
-.boto-div6,
-.seta-icon16 {
+.boto-div10,
+.seta-icon27 {
   position: absolute;
   top: 12.62px;
   left: 130.61px;
   width: 13.51px;
   height: 12.01px;
 }
-.boto-div6 {
+.boto-div10 {
   top: 447.51px;
   left: 34.61px;
   width: 165.65px;
@@ -1150,7 +1252,7 @@
   font-size: 12.36px;
   color: #0b7c1d;
 }
-.rectangle-div106 {
+.rectangle-div141 {
   position: absolute;
   top: 18.54px;
   left: 7.42px;
@@ -1164,7 +1266,7 @@
   width: 260.84px;
   height: 269.5px;
 }
-.icon2 {
+.icon7 {
   position: absolute;
   top: 0;
   left: 35.85px;
@@ -1172,38 +1274,40 @@
   height: 305.93px;
   object-fit: cover;
 }
-.produto-1-div1 {
+.produto-1-div2 {
   position: absolute;
   top: 0;
   left: 0;
   width: 276.92px;
   height: 517.98px;
 }
-.linha-4-div,
-.produto-2-div1,
-.produto-3-div1,
-.produto-4-div1 {
+.linha-5-div,
+.produto-2-div2,
+.produto-3-div2,
+.produto-4-div2 {
   position: absolute;
   top: 0;
   left: 296.69px;
   width: 276.92px;
   height: 517.98px;
 }
-.linha-4-div,
-.produto-3-div1,
-.produto-4-div1 {
+.linha-5-div,
+.produto-3-div2,
+.produto-4-div2 {
   left: 593.39px;
 }
-.linha-4-div,
-.produto-4-div1 {
+.linha-5-div,
+.produto-4-div2 {
   left: 890.08px;
 }
-.linha-4-div {
-  top: 86px;
-  left: 0;
+.linha-5-div {
+  top: 1643px;
+  left: 135px;
   width: 1167px;
+  font-size: 49.77px;
+  font-family: Inter;
 }
-.produtos-relacionados-b {
+.produtos-relacionados-b1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -1212,8 +1316,9 @@
   background: linear-gradient(90deg, #03850f, #107a47), #000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: 'Bebas Neue', cursive;
 }
-.rectangle-div116 {
+.rectangle-div151 {
   position: absolute;
   top: -29px;
   left: 2px;
@@ -1222,15 +1327,15 @@
   height: 16px;
   display: none;
 }
-.line-div11,
-.line-icon1 {
+.line-div14,
+.line-icon2 {
   position: absolute;
   top: 36.5px;
   left: 0;
   width: 1170px;
   height: 3.5px;
 }
-.line-div11 {
+.line-div14 {
   top: 37.75px;
   left: -1.25px;
   border-top: 2.5px solid #088e1c;
@@ -1238,137 +1343,22 @@
   width: 120.5px;
   height: 2.5px;
 }
-.group-div8,
-.tpico-lanamento-div1 {
+.tpico-lanamento-div2 {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 1557px;
+  left: 135px;
   width: 1170px;
   height: 40px;
   font-size: 28px;
-  font-family: Roboto;
 }
-.group-div8 {
-  top: 2038px;
-  left: 138px;
-  height: 603.98px;
-  font-size: 2rem;
-  font-family: Inter;
-}
-.descrio-b,
-.turbina-de-aspirao-multiuso {
-  position: absolute;
-  top: 29px;
-  left: 0;
-  line-height: 120%;
-  display: inline-block;
-}
-.descrio-b {
-  top: 0;
-  left: 1px;
-  font-size: 28.64px;
-  line-height: 78%;
-  font-family: Roboto;
-  color: #0b5f2b;
-  width: 109px;
-}
-.descrio-div {
-  position: absolute;
-  top: 349px;
-  left: 835px;
-  width: 414px;
-  height: 131px;
-  color: #171717;
-  font-family: Inter;
-}
-.acompanha-saco-coletor-capac,
-.caractersticas-b {
-  position: absolute;
-  top: 0;
-  left: 1px;
-  line-height: 78%;
-  display: inline-block;
-  width: 160px;
-}
-.acompanha-saco-coletor-capac {
-  top: 29px;
-  left: 0;
-  font-size: 14px;
-  line-height: 150%;
-  font-family: Inter;
-  color: #171717;
-  width: 400px;
-}
-.caractersticas-div {
-  position: absolute;
-  top: 538px;
-  left: 835px;
-  width: 400px;
-  height: 113px;
-  font-size: 28.64px;
-  color: #0b5f2b;
-}
-.construo-civil-e-industrial,
-.indicaes-de-uso1 {
-  position: absolute;
-  top: 38px;
-  left: 0;
-  display: inline-block;
-  width: 161.36px;
-}
-.indicaes-de-uso1 {
-  top: 0;
-  left: 1px;
-  font-size: 30px;
-  line-height: 78%;
-  font-family: Roboto;
-  color: #0b5f2b;
-  width: 183px;
-}
-.indicaes-de-uso {
-  position: absolute;
-  top: 687px;
-  left: 835px;
-  width: 184px;
-  height: 72px;
-  color: #171717;
-  font-family: Inter;
-}
-.dados-tcnicos-b,
-.potncia-do-motor-750w-veloc {
-  position: absolute;
-  top: 38px;
-  left: 0;
-  line-height: 150%;
-  display: inline-block;
-  width: 400px;
-}
-.dados-tcnicos-b {
-  top: 0;
-  left: 1px;
-  font-size: 30px;
-  line-height: 78%;
-  font-family: Roboto;
-  color: #0b5f2b;
-  width: 160px;
-}
-.indicaes-de-uso2 {
-  position: absolute;
-  top: 807px;
-  left: 835px;
-  width: 400px;
-  height: 206px;
-  color: #171717;
-  font-family: Inter;
-}
-.produto-logistas {
+.produto-logistas1 {
   position: relative;
   background-color: #f1f1f1;
   width: 100%;
-  height: 3289px;
+  height: 2723px;
   overflow: hidden;
   text-align: left;
-  font-size: 14px;
+  font-size: 12px;
   color: #fff;
-  font-family: Roboto;
+  font-family: 'Inter', sans-serif;
 }

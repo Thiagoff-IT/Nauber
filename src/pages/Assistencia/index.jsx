@@ -9,6 +9,10 @@ import Global from '../../assets/image/global1-1@2x.png'
 import Phone2 from '../../assets/image/phone2.svg'
 import Seta from '../../assets/image/seta.svg'
 
+import Phone from '../../assets/image/phone32.svg'
+import Social from '../../assets/image/redes-sociais-icon7.svg'
+import Pin from '../../assets/image/pin11.svg'
+
 function Assistencia(){
   return (
     <div className="assistncia-div">
@@ -16,7 +20,7 @@ function Assistencia(){
       <div className="footer-div2">
         <div className="footer-div3">
           <div className="bg-div2" />
-          <img className="phone-icon1" alt="" src="src\assets\image\phone1.svg" />
+          <img className="phone-icon1" alt="" src={Pin} />
           <div className="siga-nas-redes-sociais1">Siga nas redes sociais</div>
           <div className="nauber-2022-todos-os-direito1">
             Nauber © 2022 Todos os direitos reservados.
