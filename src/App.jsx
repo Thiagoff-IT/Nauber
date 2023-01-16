@@ -1,5 +1,5 @@
 import react from 'react'
-import Home from './pages/ProdutoLogistas1'
+import Home from './pages/Home'
 import './Styles/global.css'
 
 function App() {

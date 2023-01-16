@@ -16,8 +16,10 @@ import Contato from './pages/Contato';
 import Catalogos from './pages/Catalogos';
 import Categoria from './pages/Categoria';
 import Categorias from './pages/Categorias';
-import ProdutoLogistico from './pages/ProdutoLogistas1';
+import ProdutoCompras from './pages/ProdutoCompra';
+import ProdutoLogistico from './pages/ProdutoLogistas';
 import ProdutoDetalhes from "./pages/ProdutoDetalhes"
+import CategoriasDeProdutos from "./pages/CategoriasDeProdutos"
 
 const router = createBrowserRouter([
   {
@@ -41,10 +43,6 @@ const router = createBrowserRouter([
     element: <Contato />,
   },
   {
-    path: "/ProdutoLogistico",
-    element: <ProdutoLogistico />,
-  },
-  {
     path: "/Catalogos",
     element: <Catalogos />,
   },
@@ -53,12 +51,24 @@ const router = createBrowserRouter([
     element: <Categoria />,
   },
   {
+    path: "/CategoriasDeProdutos",
+    element: <CategoriasDeProdutos />,
+  },
+  {
     path: "/Categorias",
     element: <Categorias />,
   },
   {
+    path: "/ProdutoLogistico",
+    element: <ProdutoLogistico />,
+  },
+  {
     path: "/ProdutoDetalhes",
     element: <ProdutoDetalhes />,
+  },
+  {
+    path: "/ProdutoCompra",
+    element: <ProdutoCompras />,
   },
 ]);
 

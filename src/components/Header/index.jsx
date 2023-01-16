@@ -1,4 +1,4 @@
-import * as React from "react";NavLink
+import * as React from "react";
 import { NavLink } from "react-router-dom";
 
 let activeStyle = {
@@ -6,6 +6,8 @@ let activeStyle = {
 };
 
 let activeClassName = "underline";
+
+
 
 import Home from "../../assets/image/logo-nauber-1@2x.png"
 import Vetor83 from "../../assets/image/vector-83.svg"
@@ -71,7 +73,7 @@ function Header() {
               <NavLink to="/Sobre" className="empresa-b11">EMPRESA</NavLink>
             </div>
             <div className="produtos-div37">
-              <NavLink to="/Produto" className="produtos-b11">PRODUTOS</NavLink>
+              <NavLink to="/Categoria" className="produtos-b11">PRODUTOS</NavLink>
               <img className="box-icon11" 
                    alt="BoxIcon" 
                    src={BoxIcon} 
@@ -106,21 +108,28 @@ function Header() {
               />
             </div>
           </div>
+         
           <div className="flags-div11">
+          
             <img
               className="flag-brasil-1-icon11"
               alt="Brasil"
               src={flagBrasil}
+              
             />
+            
             <img
               className="flag-espanha-1-icon11"
               alt="Espanha"
               src={flagEspanha}
             />
+            
             <img className="flag-eua-1-icon11" 
                  alt="EUA" 
                  src={flagEUA}
+                 
             />
+           
             <img
               className="flag-arabia-1-icon11"
               alt="Arabia"
