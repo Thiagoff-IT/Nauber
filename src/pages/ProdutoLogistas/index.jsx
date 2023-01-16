@@ -4,13 +4,14 @@ import './Styles.css';
 
 import Seta from '../../assets/image/seta30.svg'
 import Line from '../../assets/image/line-3.svg'
+import Documents from '../../assets/image/fluentdocumentbulletlist24filled2.svg'
+
 
 function ProdutoLogistas(){
   return (
     <div className="produto-logistas1">
 <Footer />
 <Header />
-
       <img className="vector-icon34" alt="" src="src\assets\image\vector-1181.svg" />
       <div className="group-div9">
         <div className="texto-div1">
@@ -88,7 +89,7 @@ function ProdutoLogistas(){
           <img
             className="fluentdocument-bullet-list-24-icon2"
             alt=""
-            src="src\assets\image\fluentdocumentbulletlist24filled2.svg"
+            src={Documents}
           />
           <img
             className="flag-espanha-2-icon2"
