@@ -3,10 +3,16 @@ import Header from "../../components/Header";
 import "./Styles.css";
 
 import Vetor from '../../assets/image/vector-1185.svg'
+import Vetor3 from '../../assets/image/vector13.svg'
 import Seta from '../../assets/image/seta37.svg'
 import Image from '../../assets/image/01-23@2x.png'
 import Line from '../../assets/image/line-3.svg'
 import Seach from '../../assets/image/seach2.svg'
+import Global from '../../assets/image/global1-13@2x.png'
+import ellipse from '../../assets/image/ellipse-63.svg'
+import Play from '../../assets/image/play.svg'
+import Vetor1 from '../../assets/image/vector-1178.svg'
+import Vetor2 from '../../assets/image/vector-1168.svg'
 
 function ProdutoDetalhes(){
   return (
@@ -94,8 +100,8 @@ function ProdutoDetalhes(){
         </b>
       </div>
       <div className="mquinas-div5">
-        <img className="vector-icon57" alt="" src="src\assets\image\vector-1178.svg" />
-        <img className="vector-icon58" alt="" src="src\assets\image\vector-1168.svg" />
+        <img className="vector-icon57" alt="" src={Vetor1} />
+        <img className="vector-icon58" alt="" src={Vetor2} />
         <b className="mquinas-para-pintura11">máquinas para pintura</b>
       </div>
       <div className="group-div24">
@@ -107,7 +113,7 @@ function ProdutoDetalhes(){
       </div>
       <div className="video-div5">
         <div className="rectangle-div247" />
-        <img className="play-icon5" alt="" src="src\assets\image\play.svg" />
+        <img className="play-icon5" alt="" src={Play} />
         <b className="apresentao-tcnica-turbina5">
           <p className="rua-mal-castelo9-on">Apresentação Técnica - Turbina</p>
           <p className="schroeder-sc9">Sopro e Aspiração Nauber TBN-750</p>
@@ -193,12 +199,12 @@ function ProdutoDetalhes(){
           <div className="informe-a-sua-cidade4">Informe a sua Cidade</div>
         </div>
         <div className="rectangle-div251" />
-        <img className="ellipse-icon21" alt="" src="src\assets\image\ellipse-63.svg" />
-        <img className="global-1-1-icon3" alt="" src="src\assets\image\global1-13@2x.png" />
+        <img className="ellipse-icon21" alt="" src={ellipse} />
+        <img className="global-1-1-icon3" alt="" src={Global} />
         <div className="usar-minha-localizao3">Usar minha localização</div>
         <div className="verificado-div4">
           <div className="rectangle-div252" />
-          <img className="vector-icon59" alt="" src="src\assets\image\vector13.svg" />
+          <img className="vector-icon59" alt="" src={Vetor3} />
         </div>
         <img className="seach-icon6" alt="" src={Seach} />
         <img className="seach-icon7" alt="" src={Seach} />
