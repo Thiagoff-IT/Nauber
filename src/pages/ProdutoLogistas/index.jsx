@@ -27,7 +27,7 @@ function ProdutoLogistas(){
           <b className="peas-b1">peças</b>
           <b className="acessrios-b1">acessórios</b>
         </div>
-        <img className="seta-icon20" alt="" src='Seta' />
+        <img className="seta-icon20" alt="" src={Seta} />
       </div>
       <div className="linha-1-div2">
         <div className="produto-div1">
@@ -170,7 +170,7 @@ function ProdutoLogistas(){
               src="src\assets\image\logo-revenda-pro-42@2x.png"
             />
             <img className="phone-icon22" alt="" src={Phone} />
-            <img className="seta-icon21" alt="" src='Seta' />
+            <img className="seta-icon21" alt="" src={Seta} />
           </div>
           <div className="loja-div7">
             <div className="rectangle-div133" />
@@ -189,7 +189,7 @@ function ProdutoLogistas(){
               src="src\assets\image\logo-revenda-pro-43@2x.png"
             />
             <img className="phone-icon22" alt="" src={Phone} />
-            <img className="seta-icon21" alt="" src='Seta' />
+            <img className="seta-icon21" alt="" src={Seta} />
           </div>
           <div className="loja-div8">
             <div className="rectangle-div133" />
@@ -203,7 +203,7 @@ function ProdutoLogistas(){
             </div>
             <div className="aberto-fecha-s-18006">Aberto - Fecha às 18:00</div>
             <img className="phone-icon24" alt="" src={Phone} />
-            <img className="seta-icon23" alt="" src='Seta' />
+            <img className="seta-icon23" alt="" src={Seta} />
           </div>
           <div className="loja-div9">
             <div className="rectangle-div133" />
@@ -217,7 +217,7 @@ function ProdutoLogistas(){
             </div>
             <div className="aberto-fecha-s-18006">Aberto - Fecha às 18:00</div>
             <img className="phone-icon24" alt="" src={Phone} />
-            <img className="seta-icon23" alt="" src='Seta' />
+            <img className="seta-icon23" alt="" src={Seta} />
           </div>
           <div className="loja-div10">
             <div className="rectangle-div133" />
@@ -231,7 +231,7 @@ function ProdutoLogistas(){
             </div>
             <div className="aberto-fecha-s-18006">Aberto - Fecha às 18:00</div>
             <img className="phone-icon24" alt="" src={Phone} />
-            <img className="seta-icon23" alt="" src='Seta' />
+            <img className="seta-icon23" alt="" src={Seta} />
           </div>
           <div className="loja-div11">
             <div className="rectangle-div133" />
@@ -259,7 +259,7 @@ function ProdutoLogistas(){
           <div className="boto-div10">
             <div className="rectangle-div140" />
             <div className="saiba-mais-div8">SAIBA MAIS</div>
-            <img className="seta-icon27" alt="" src='Seta' />
+            <img className="seta-icon27" alt="" src={Seta} />
           </div>
           <div className="rectangle-div141" />
           <img className="icon7" alt="" src="src\assets\image\01-2@2x.png" />
@@ -273,7 +273,7 @@ function ProdutoLogistas(){
           <div className="boto-div10">
             <div className="rectangle-div140" />
             <div className="saiba-mais-div8">SAIBA MAIS</div>
-            <img className="seta-icon27" alt="" src='Seta' />
+            <img className="seta-icon27" alt="" src={Seta} />
           </div>
           <div className="rectangle-div141" />
           <img className="icon7" alt="" src="src\assets\image\01-21@2x.png" />
