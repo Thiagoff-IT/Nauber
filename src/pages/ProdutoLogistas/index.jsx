@@ -2,9 +2,12 @@ import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import './Styles.css';
 
-import Seta from '../../assets/image/seta30.svg'
+import Seta from '../../assets/image/seta.svg'
 import Line from '../../assets/image/line-3.svg'
 import Documents from '../../assets/image/fluentdocumentbulletlist24filled2.svg'
+import Manual from '../../assets/image/manual-1@2x.png'
+import Image from '../../assets/image/01-23@2x.png'
+import Phone from '../../assets/image/phone22.svg'
 
 
 function ProdutoLogistas(){
@@ -65,7 +68,7 @@ function ProdutoLogistas(){
         <div className="manual-div1">
           <img className="ellipse-icon4" alt="" src="src\assets\image\ellipse-53.svg" />
           <b className="manual-de-instrues1">Manual de instruções</b>
-          <img className="manual-1-icon1" alt="" src="src\assets\image\manual-1@2x.png" />
+          <img className="manual-1-icon1" alt="" src={Manual} />
           <img
             className="flag-brasil-2-icon4"
             alt=""
@@ -166,7 +169,7 @@ function ProdutoLogistas(){
               alt=""
               src="src\assets\image\logo-revenda-pro-42@2x.png"
             />
-            <img className="phone-icon22" alt="" src="src\assets\image\phone22.svg" />
+            <img className="phone-icon22" alt="" src={Phone} />
             <img className="seta-icon21" alt="" src='Seta' />
           </div>
           <div className="loja-div7">
@@ -185,7 +188,7 @@ function ProdutoLogistas(){
               alt=""
               src="src\assets\image\logo-revenda-pro-43@2x.png"
             />
-            <img className="phone-icon22" alt="" src="src\assets\image\phone23.svg" />
+            <img className="phone-icon22" alt="" src={Phone} />
             <img className="seta-icon21" alt="" src='Seta' />
           </div>
           <div className="loja-div8">
@@ -199,7 +202,7 @@ function ProdutoLogistas(){
               Localização: Rua bla bla bla - n°000
             </div>
             <div className="aberto-fecha-s-18006">Aberto - Fecha às 18:00</div>
-            <img className="phone-icon24" alt="" src="src\assets\image\phone24.svg" />
+            <img className="phone-icon24" alt="" src={Phone} />
             <img className="seta-icon23" alt="" src='Seta' />
           </div>
           <div className="loja-div9">
@@ -213,7 +216,7 @@ function ProdutoLogistas(){
               Localização: Rua bla bla bla - n°000
             </div>
             <div className="aberto-fecha-s-18006">Aberto - Fecha às 18:00</div>
-            <img className="phone-icon24" alt="" src="src\assets\image\phone25.svg" />
+            <img className="phone-icon24" alt="" src={Phone} />
             <img className="seta-icon23" alt="" src='Seta' />
           </div>
           <div className="loja-div10">
@@ -227,7 +230,7 @@ function ProdutoLogistas(){
               Localização: Rua bla bla bla - n°000
             </div>
             <div className="aberto-fecha-s-18006">Aberto - Fecha às 18:00</div>
-            <img className="phone-icon24" alt="" src="src\assets\image\phone26.svg" />
+            <img className="phone-icon24" alt="" src={Phone} />
             <img className="seta-icon23" alt="" src='Seta' />
           </div>
           <div className="loja-div11">
@@ -241,8 +244,8 @@ function ProdutoLogistas(){
               Localização: Rua bla bla bla - n°000
             </div>
             <div className="aberto-fecha-s-18006">Aberto - Fecha às 18:00</div>
-            <img className="phone-icon24" alt="" src="src\assets\image\phone27.svg" />
-            <img className="seta-icon23" alt="" src='Seta' />
+            <img className="phone-icon24" alt="" src={Phone} />
+            <img className="seta-icon23" alt="" src={Seta} />
           </div>
         </div>
       </div>
@@ -301,7 +304,7 @@ function ProdutoLogistas(){
             <img className="seta-icon27" alt="" src={Seta} />
           </div>
           <div className="rectangle-div141" />
-          <img className="icon7" alt="" src="src\assets\image\01-23@2x.png" />
+          <img className="icon7" alt="" src={Image} />
         </div>
       </div>
       <div className="tpico-lanamento-div2">
