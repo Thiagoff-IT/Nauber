@@ -226,7 +226,7 @@
   width: 1440px;
   height: 509px;
   font-size: 12px;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 .bg-header28 {
   position: absolute;
@@ -503,7 +503,7 @@
   color: #000;
   display: inline-block;
   font-size: 7.59px;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 .rectangle-div238 {
   position: absolute;
@@ -568,7 +568,7 @@
   width: 414px;
   height: 131px;
   color: #171717;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 .acompanha-saco-coletor-capac4,
 .caractersticas-b4 {
@@ -584,7 +584,7 @@
   left: 0;
   font-size: 14px;
   line-height: 150%;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   color: #171717;
   width: 400px;
 }
@@ -621,7 +621,7 @@
   width: 184px;
   height: 72px;
   color: #171717;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 .dados-tcnicos-b4,
 .potncia-do-motor-750w-veloc4 {
@@ -648,7 +648,7 @@
   width: 400px;
   height: 206px;
   color: #171717;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 .aspiradores-b5,
 .lixadeiras-b5,
@@ -1180,7 +1180,7 @@
   width: 370px;
   height: 374px;
   text-align: center;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 .rectangle-div253 {
   position: absolute;
@@ -1306,7 +1306,7 @@
   left: 135px;
   width: 1167px;
   font-size: 49.77px;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 .produtos-relacionados-b5 {
   position: absolute;

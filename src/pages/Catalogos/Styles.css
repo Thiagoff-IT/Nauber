@@ -220,7 +220,7 @@
   left: 0;
   width: 1440px;
   height: 509px;
-  font-family: Inter;
+ font-family: 'Inter', sans-serif;
 }
 .bg-header10 {
   position: absolute;
@@ -496,7 +496,7 @@
   color: #000;
   display: inline-block;
   font-size: 7.59px;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 .rectangle-div77 {
   position: absolute;
@@ -686,7 +686,7 @@
   position: absolute;
   top: 29px;
   left: 426px;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   color: #7a7a7a;
   display: inline-block;
 }
@@ -699,5 +699,5 @@
   text-align: left;
   font-size: 12px;
   color: #fff;
-  font-family: Roboto;
+  font-family: 'Inter', sans-serif;
 }

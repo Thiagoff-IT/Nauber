@@ -156,6 +156,7 @@ function ProdutoLogistas(){
               <div className="rectangle-div129" />
               <div className="rectangle-div130" />
               <div className="informe-seu-cep1">Informe seu CEP</div>
+              
               <div className="informe-a-sua-cidade1">Informe a sua Cidade</div>
             </div>
             <div className="rectangle-div131" />

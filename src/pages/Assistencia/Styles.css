@@ -496,7 +496,7 @@
   color: #000;
   display: inline-block;
   font-size: 7.59px;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 .rectangle-div28 {
   position: absolute;
@@ -528,7 +528,7 @@
   width: 1440px;
   height: 133px;
   font-size: 18px;
-  font-family: Roboto;
+  font-family: 'Inter', sans-serif;
 }
 .vector-icon15,
 .vector-icon16 {
@@ -548,6 +548,7 @@
   top: 12px;
   left: 138px;
   display: inline-block;
+  font-family: 'Bebas Neue', sans-serif;
 }
 .headline-div {
   position: absolute;
@@ -556,7 +557,7 @@
   width: 1444px;
   height: 63px;
   font-size: 47.04px;
-  font-family: Roboto;
+  font-family: 'Inter', sans-serif;
 }
 .rectangle-div29 {
   position: absolute;
@@ -572,9 +573,9 @@
   position: absolute;
   top: 35px;
   left: 436px;
-  font-size: 20.03px;
+  font-size: 18.03px;
   display: inline-block;
-  font-family: Roboto;
+  font-family: 'Bebas Neue', sans-serif;
   width: 296px;
 }
 .ou-div,
@@ -727,7 +728,7 @@
   left: 470px;
   font-size: 34px;
   display: inline-block;
-  font-family: Roboto;
+  font-family: 'Bebas Neue', sans-serif;
   color: #0f6b35;
   text-align: center;
   width: 504px;
@@ -846,5 +847,5 @@
   text-align: left;
   font-size: 14.25px;
   color: #fff;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }

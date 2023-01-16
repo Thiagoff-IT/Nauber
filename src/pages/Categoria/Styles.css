@@ -289,6 +289,10 @@
   height: 39px;
   display: none;
 }
+.vector-icon138:hover {
+  opacity: 1.0;
+  transition: 0.2s;
+}
 .vector-icon138 {
   position: absolute;
   top: 0;
@@ -296,6 +300,7 @@
   width: 805px;
   height: 779px;
   object-fit: cover;
+  opacity: 0.5;
 }
 .rectangle-div302 {
   position: absolute;
@@ -323,11 +328,11 @@
 }
 .linha-industrial-b1 {
   position: absolute;
-  top: 555px;
+  top: 546px;
   left: 756px;
   font-size: 48px;
   display: inline-block;
-  font-family: Roboto;
+  font-family: 'Bebas Neue', sans-serif;
   color: #fbbf00;
   opacity: 0.3;
 }
@@ -340,11 +345,11 @@
 }
 .construo-civil-b {
   position: absolute;
-  top: 555px;
+  top: 545px;
   left: 312px;
   font-size: 48px;
   display: inline-block;
-  font-family: Roboto;
+  font-family: 'Bebas Neue', sans-serif;
   color: #fff;
 }
 .tipos-de-ferramentas {
@@ -630,7 +635,7 @@
   height: 25px;
   font-size: 18px;
   color: #fff;
-  font-family: Roboto;
+  font-family: 'Inter', sans-serif;
 }
 .rectangle-div303 {
   position: absolute;
@@ -678,5 +683,5 @@
   text-align: left;
   font-size: 12px;
   color: #000;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
