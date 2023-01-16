@@ -8,6 +8,8 @@ import Documents from '../../assets/image/fluentdocumentbulletlist24filled2.svg'
 import Manual from '../../assets/image/manual-1@2x.png'
 import Image from '../../assets/image/01-23@2x.png'
 import Phone from '../../assets/image/phone22.svg'
+import Vetor from '../../assets/image/vector-1164.svg'
+import Vetor1 from '../../assets/image/vector-1181.svg'
 
 
 function ProdutoLogistas(){
@@ -15,7 +17,7 @@ function ProdutoLogistas(){
     <div className="produto-logistas1">
 <Footer />
 <Header />
-      <img className="vector-icon34" alt="" src="src\assets\image\vector-1181.svg" />
+      <img className="vector-icon34" alt="" src={Vetor1} />
       <div className="group-div9">
         <div className="texto-div1">
           <b className="mquinas-para-pintura2">máquinas para pintura</b>
@@ -45,7 +47,7 @@ function ProdutoLogistas(){
       </div>
       <div className="mquinas-div1">
         <img className="vector-icon35" alt="" src="src\assets\image\vector-1174.svg" />
-        <img className="vector-icon36" alt="" src="src\assets\image\vector-1164.svg" />
+        <img className="vector-icon36" alt="" src={Vetor} />
         <b className="mquinas-para-pintura3">máquinas para pintura</b>
       </div>
       <div className="group-div10">
