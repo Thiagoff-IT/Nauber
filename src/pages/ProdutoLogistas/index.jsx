@@ -9,7 +9,7 @@ import Documents from '../../assets/image/fluentdocumentbulletlist24filled2.svg'
 import Manual from '../../assets/image/manual-1@2x.png'
 import Image from '../../assets/image/01-23@2x.png'
 import Image2 from '../../assets/image/01-26@2x.png'
-import Image3 from '../../assets/image/01-21@2x.png'
+import Vector11 from '../../assets/image/vector11.svg'
 import Phone from '../../assets/image/phone22.svg'
 import Vetor from '../../assets/image/vector-1164.svg'
 import Vetor1 from '../../assets/image/vector-1181.svg'
@@ -19,6 +19,9 @@ import Espanha from '../../assets/image/flagespanha-3@2x.png'
 import Vetor2 from '../../assets/image/vector-1174.svg'
 import Play from '../../assets/image/play.svg'
 import ellipse from '../../assets/image/ellipse-53.svg'
+import Logo from '../../assets/image/logo-revenda-pro-43@2x.png'
+import EUA from '../../assets/image/flageua-21@2x.png'
+import global from '../../assets/image/global1-11@2x.png'
 
 
 function ProdutoLogistas(){
@@ -88,12 +91,12 @@ function ProdutoLogistas(){
           <img
             className="flag-espanha-2-icon2"
             alt=""
-            src="src\assets\image\flagespanha-21@2x.png"
+            src={Espanha}
           />
           <img 
               className="flag-eua-2-icon2" 
               alt="" 
-              src="src\assets\image\flageua-21@2x.png" 
+              src={EUA}
           />
         </div>
         <div className="fecha-tcnica-div2">
@@ -114,7 +117,7 @@ function ProdutoLogistas(){
             alt=""
             src={Espanha}
           />
-          <img className="flag-eua-2-icon2" alt="" src="src\assets\image\flageua-3@2x.png" />
+          <img className="flag-eua-2-icon2" alt="" src={EUA}/>
         </div>
         <div className="fecha-tcnica-div3">
           <img className="ellipse-icon4" alt="" src={ellipse} />
@@ -132,9 +135,9 @@ function ProdutoLogistas(){
           <img
             className="flag-espanha-3-icon3"
             alt=""
-            src="src\assets\image\flagespanha-31@2x.png"
+            src={Espanha}
           />
-          <img className="flag-eua-3-icon3" alt="" src="src\assets\image\flageua-33@2x.png" />
+          <img className="flag-eua-3-icon3" alt="" src={EUA} />
         </div>
       </div>
       <div className="lojas-div">
@@ -156,16 +159,16 @@ function ProdutoLogistas(){
               <div className="informe-a-sua-cidade1">Informe a sua Cidade</div>
             </div>
             <div className="rectangle-div131" />
-            <img className="ellipse-icon7" alt="" src="src\assets\image\ellipse-61.svg" />
+            <img className="ellipse-icon7" alt="" src={ellipse} />
             <img
               className="global-1-1-icon1"
               alt=""
-              src="src\assets\image\global1-11@2x.png"
+              src={global}
             />
             <div className="usar-minha-localizao1">Usar minha localização</div>
             <div className="verificado-div2">
               <div className="rectangle-div132" />
-              <img className="vector-icon37" alt="" src="src\assets\image\vector11.svg" />
+              <img className="vector-icon37" alt="" src={Vector11} />
             </div>
           </div>
           <div className="loja-div6">
@@ -182,7 +185,7 @@ function ProdutoLogistas(){
             <img
               className="logo-revenda-pro-42"
               alt=""
-              src="src\assets\image\logo-revenda-pro-42@2x.png"
+              src={Logo}
             />
             <img className="phone-icon22" alt="" src={Phone} />
             <img className="seta-icon21" alt="" src={Seta} />
@@ -201,7 +204,7 @@ function ProdutoLogistas(){
             <img
               className="logo-revenda-pro-42"
               alt=""
-              src="src\assets\image\logo-revenda-pro-43@2x.png"
+              src={Logo}
             />
             <img className="phone-icon22" alt="" src={Phone} />
             <img className="seta-icon21" alt="" src={Seta} />
@@ -277,7 +280,7 @@ function ProdutoLogistas(){
             <img className="seta-icon27" alt="" src={Seta1} />
           </div>
           <div className="rectangle-div141" />
-          <img className="icon7" alt="" src="src\assets\image\01-2@2x.png" />
+          <img className="icon7" alt="" src={Image} />
         </div>
         <div className="produto-2-div2">
           <div className="rectangle-div139" />
