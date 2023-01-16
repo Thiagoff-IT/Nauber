@@ -10,6 +10,7 @@ import Line from '../../assets/image/line-3.svg'
 import Seach from '../../assets/image/seach2.svg'
 import Global from '../../assets/image/global1-13@2x.png'
 import ellipse from '../../assets/image/ellipse-63.svg'
+import ellipse1 from '../../assets/image/ellipse-53.svg'
 import Play from '../../assets/image/play.svg'
 import Vetor1 from '../../assets/image/vector-1178.svg'
 import Vetor2 from '../../assets/image/vector-1168.svg'
@@ -163,7 +164,7 @@ function ProdutoDetalhes(){
           <img className="flag-eua-2-icon6" alt="" src={EUA}/>
         </div>
         <div className="fecha-tcnica-div11">
-          <img className="ellipse-icon18" alt="" src={ellipse} />
+          <img className="ellipse-icon18" alt="" src={ellipse1} />
           <b className="vista-explodida-b5">vista explodida</b>
           <img
             className="flag-brasil-2-icon16"
