@@ -115,9 +115,13 @@
 .rua-mal-castelo10 {
   margin-block-start: 0;
   margin-block-end: 0;
+  position: relative;
+    left: -4rem;
 }
 .schroeder-sc10 {
   margin: 0;
+      position: relative;
+    left: -4rem;
 }
 .div53,
 .div54,
@@ -618,7 +622,7 @@
 .logo-revenda-pro-31 {
   position: absolute;
   top: 183px;
-  left: 135px;
+ left: 3rem;
   width: 210px;
   height: 225.09px;
   object-fit: cover;
@@ -638,7 +642,7 @@
 }
 .nauber-pro12 {
   top: 323px;
-  left: 371px;
+  left: 16.5rem;
   font-size: 60px;
 }
 .frame-div6 {
