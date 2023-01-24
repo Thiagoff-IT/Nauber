@@ -14,13 +14,13 @@ a {
 }
 
 .bg-header34 {
-    position: absolute;
-    top: 63px;
-    left: 5rem;
-    border-radius: 10px;
-    background: linear-gradient(180deg,#068f13,#165032);
-    width: 90rem;
-    height: 70px;
+  position: absolute;
+  top: 63px;
+  left: 5rem;
+  border-radius: 10px;
+  background: linear-gradient(180deg,#068f13,#165032);
+  width: 90vw;
+  height: 5rem;
 }
 .bg-header35,
 .bg-header36 {
