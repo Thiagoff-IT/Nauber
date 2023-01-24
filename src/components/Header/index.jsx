@@ -1,5 +1,6 @@
 import * as React from "react";
 import { NavLink } from "react-router-dom";
+import { Icon } from '@iconify/react';
 
 let activeStyle = {
   textDecoration: "underline",
@@ -12,7 +13,6 @@ let activeClassName = "underline";
 import Home from "../../assets/image/logo-nauber-1@2x.png"
 import Vetor83 from "../../assets/image/vector-83.svg"
 import Seach from "../../assets/image/frame-24.svg"
-import HomeIcon from "../../assets/image/home11.svg"
 import EmpresaIcon from "../../assets/image/empresa.svg"
 import BoxIcon from "../../assets/image/box11.svg"
 import Assistencias from "../../assets/image/assistencias2.svg"
@@ -59,46 +59,38 @@ function Header() {
                  src={Vetor83} 
             />
             <div className="home-div12">
-              <NavLink to="/" className="home-b11">HOME</NavLink>
-              <img className="home-icon11" 
-                   alt="HomeIcon" 
-                   src={HomeIcon}
-              />
+              <NavLink to="/" className="home-b11">HOME
+              <Icon  className="home-icon11" icon="clarity:home-solid" />
+              </NavLink>
             </div>
             <div className="empresa-div11">
-              <img className="empresa-icon11" 
-                   alt="EmpresaIcon" 
-                   src={EmpresaIcon}
-              />
-              <NavLink to="/Sobre" className="empresa-b11">EMPRESA</NavLink>
+              <NavLink to="/Sobre" className="empresa-b11">
+              <Icon className="empresa-icon11"  icon="bxs:business" />
+                EMPRESA</NavLink>
             </div>
             <div className="produtos-div37">
-              <NavLink to="/Categoria" className="produtos-b11">PRODUTOS</NavLink>
-              <img className="box-icon11" 
-                   alt="BoxIcon" 
-                   src={BoxIcon} 
-              />
+              <NavLink to="/Categoria" className="produtos-b11">
+              <Icon className="box-icon11" icon="fa-solid:box-open" />
+              PRODUTOS
+              </NavLink>
             </div>
             <div className="assistencia-div11">
-              <NavLink to="/Assistencia" className="assistncias-b12">ASSISTÊNCIAS</NavLink>
-              <img className="home-icon11" 
-                   alt="" 
-                   src={Assistencias} 
-              />
+              <NavLink to="/Assistencia" className="assistncias-b12">
+              <Icon className="home-icon11" icon="mdi:tools" />
+                ASSISTÊNCIAS
+              </NavLink>
             </div>
             <div className="catlogos-div13">
-              <NavLink to="/Catalogos" className="catlogos-virtuais-b12">CATÁLOGOS VIRTUAIS</NavLink>
-              <img className="home-icon11" 
-                   alt="Catalagos" 
-                   src={Catalagos} 
-              />
+              <NavLink to="/Catalogos" className="catlogos-virtuais-b12">
+              <Icon className="home-icon11"  icon="ri:book-fill" />
+                CATÁLOGOS VIRTUAIS
+              </NavLink>
             </div>
             <div className="contato-div12">
-              <NavLink to="/Contato" className="contato-b12">CONTATO</NavLink>
-              <img className="home-icon11" 
-                   alt="Contato" 
-                   src={Contato} 
-              />
+              <NavLink to="/Contato" className="contato-b12">
+              <Icon className="home-icon11" icon="tabler:message-circle" />
+                CONTATO
+              </NavLink>
             </div>
             <div className="login-div11">
               <NavLink to="/login" className="login-b11">login</NavLink>
