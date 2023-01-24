@@ -747,10 +747,10 @@
 }
 .phone-icon {
   position: absolute;
-  top: 128px;
-  left: 369px;
-  width: 20px;
-  height: 20px;
+  top: 122px;
+  left: 337px;
+  width: 35px;
+  height: 35px;
   overflow: hidden;
 }
 .siga-nas-redes-sociais {
@@ -802,6 +802,7 @@
   left: 0;
   font-weight: 500;
   display: inline-block;
+  white-space: nowrap;
 }
 .envie-um-e-mail,
 .ficou-com-dvidas,
@@ -834,6 +835,7 @@
   left: 0;
   font-weight: 500;
   display: inline-block;
+  white-space: nowrap;
 }
 .linha-industrial-div {
   top: 77.92%;
@@ -894,10 +896,10 @@
 }
 .pin-icon {
   position: absolute;
-  top: 102.5px;
-  left: 378px;
-  width: 11px;
-  height: 11px;
+  top: 94.5px;
+  left: 356px;
+  width: 16px;
+  height: 16px;
   overflow: hidden;
 }
 .line-div1 {
@@ -914,7 +916,7 @@
 .logo-nauber-icon {
   position: absolute;
   height: 10.22%;
-  width: 18.61%;
+  width: 20.61%;
   top: 11.94%;
   right: 9.51%;
   bottom: 77.84%;
