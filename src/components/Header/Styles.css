@@ -81,7 +81,7 @@ a {
 .home-icon11 {
   position: absolute;
   top: 0;
-  left: 0;
+  left: -10px;
   width: 20px;
   height: 20px;
   overflow: hidden;
@@ -99,6 +99,7 @@ a {
 .empresa-b11,
 .empresa-icon11 {
   top: 0;
+  left: -1rem;
   width: 20px;
 }
 .empresa-b11 {
