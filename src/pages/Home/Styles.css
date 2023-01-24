@@ -1,24 +1,28 @@
-.footer-div23 {
+.foto-icon,
+.rectangle-div {
   position: absolute;
-  height: 100%;
+  left: 0;
   width: 100vw;
+}
+.rectangle-div {
+  top: 1px;
+  background-color: #bdbdbd;
+  height: 516px;
+}
+.foto-icon {
   top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.footer-div22 {
-  position: absolute;
-  top: 1509px;
-  left: 0;
+  height: 517px;
+  object-fit: cover;
   width: 100vw;
-  height: 509px;
-  font-size: 12px;
-  font-family: Inter;
 }
-
-/**/
-
+.subtext-div {
+  position: absolute;
+  top: 278px;
+  left: 263px;
+  display: inline-block;
+  width: 909px;
+  height: 39.18px;
+}
 .variant-1default-varint-2ne {
   position: absolute;
   top: 20px;
@@ -47,7 +51,7 @@
   display: none;
 }
 .hero-div {
-  width: 1440px;
+  width: 100vw;
   height: 517px;
 }
 .bg-header,
@@ -61,7 +65,7 @@
   width: 100vw;
   height: 517px;
   font-size: 24px;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 .bg-header {
   border-radius: 10px;
@@ -109,7 +113,6 @@
 .home-div1 {
   top: 4px;
   width: 60px;
-  color: #fae013;
 }
 .empresa-b,
 .empresa-icon {
@@ -228,13 +231,13 @@
   position: absolute;
   top: 28px;
   left: 159px;
-  width: 100vw;
+  width: 1052px;
   height: 25px;
 }
 .header-div {
   top: 63px;
   left: 45px;
-  width: 100vw;
+  width: 1336px;
   height: 70px;
 }
 .bg-header2,
@@ -349,7 +352,7 @@
   top: 21.41%;
   right: 22.22%;
   bottom: 20.96%;
-  left: 85rem;
+  left: 66.74%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -383,7 +386,7 @@
 .rectangle-div1 {
   position: absolute;
   height: 100%;
-  width: 100vw;
+  width: 100%;
   top: 0;
   right: 0;
   bottom: 0;
@@ -431,7 +434,7 @@
   height: 74.75px;
   font-size: 7.59px;
   color: #000;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 .frame-div1 {
   height: 133px;
@@ -450,18 +453,19 @@
   bottom: 0;
   left: 0;
   overflow: hidden;
+  max-height: 100%;
 }
 .nauber-pro-1 {
   top: -394px;
   left: -95px;
-  width: 100vw;
+  width: 1600px;
   height: 1200px;
   display: none;
 }
 .rectangle-div2,
 .rectangle-div3 {
   position: absolute;
-  left: 669px;
+  left: 44rem;
   width: 636px;
 }
 .rectangle-div2 {
@@ -486,7 +490,7 @@
 }
 .logo-revenda-pro-3 {
   top: 213px;
-  left: 910px;
+  left: 59rem;
   width: 153px;
   height: 163.99px;
 }
@@ -503,7 +507,7 @@
 .nauber-pro1 {
   top: 323px;
   left: 371px;
-  font-size: 60px;
+  font-size: 48px;
 }
 .nauber-pro-div {
   position: absolute;
@@ -513,6 +517,14 @@
   right: 0;
   bottom: 0;
   left: 0;
+}
+.frame-div2 {
+  position: absolute;
+  top: 1108px;
+  left: 0;
+  width: 1440px;
+  height: 592px;
+  font-size: 34px;
 }
 .bg-icon1,
 .logo-icon {
@@ -526,7 +538,6 @@
   right: 0;
   bottom: 0;
   left: 0;
-  max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
@@ -567,7 +578,7 @@
 }
 .rectangle-div5 {
   top: 0;
-  left: 0;
+  left: -12rem;
   border-radius: 6px;
   background: linear-gradient(90deg, #fcfcfc, #fff);
   box-shadow: 0 10px 35px rgba(33, 97, 73, 0.5);
@@ -576,14 +587,16 @@
 .acesse-uma-revenda-nauber-pro {
   position: absolute;
   top: 14px;
-  left: 26px;
+  left: -10rem;
   letter-spacing: 0.2em;
   display: inline-block;
+  color: #0a6634;
+  font-family: 'Bebas Neue', cursive;
 }
 .boto-div1 {
   position: absolute;
   top: 0;
-  left: 777px;
+  left: 65rem;
   width: 404px;
   height: 45px;
   text-align: center;
@@ -664,6 +677,7 @@
   background: linear-gradient(90deg, #088f1d, #048635);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  white-space: nowrap;
 }
 .qualidade-b {
   top: 63px;
@@ -677,6 +691,7 @@
   display: inline-block;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  white-space: nowrap;
 }
 .melhor-custo-benefcio {
   top: 33px;
@@ -699,14 +714,14 @@
 .subtitulo,
 .titulo-b {
   position: absolute;
-  left: 135px;
+  left: 8.4375rem;
   display: inline-block;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .subtitulo {
   top: 235.79px;
-  font-size: 19px;
+  font-size: 1rem;
   background-color: green;
   width: 480px;
 }
@@ -737,6 +752,12 @@
   position: absolute;
   left: 0;
 }
+.frame-div3 {
+  top: 1700px;
+  width: 1440px;
+  height: 523px;
+  text-align: left;
+}
 .bg-div {
   height: 100%;
   width: 100vw;
@@ -744,14 +765,6 @@
   right: 0;
   bottom: 0;
   background-color: #171717;
-}
-.phone-icon {
-  position: absolute;
-  top: 122px;
-  left: 337px;
-  width: 35px;
-  height: 35px;
-  overflow: hidden;
 }
 .siga-nas-redes-sociais {
   position: absolute;
@@ -789,7 +802,7 @@
   right: 82.93%;
   bottom: 38.6%;
   left: 9.24%;
-  max-width: 100%;
+  /*max-width: 100%;*/
   overflow: hidden;
   max-height: 100%;
 }
@@ -802,7 +815,6 @@
   left: 0;
   font-weight: 500;
   display: inline-block;
-  white-space: nowrap;
 }
 .envie-um-e-mail,
 .ficou-com-dvidas,
@@ -835,7 +847,6 @@
   left: 0;
   font-weight: 500;
   display: inline-block;
-  white-space: nowrap;
 }
 .linha-industrial-div {
   top: 77.92%;
@@ -894,14 +905,6 @@
   left: 27.29%;
   color: #8d8b8b;
 }
-.pin-icon {
-  position: absolute;
-  top: 94.5px;
-  left: 356px;
-  width: 16px;
-  height: 16px;
-  overflow: hidden;
-}
 .line-div1 {
   position: absolute;
   height: 0.2%;
@@ -912,19 +915,6 @@
   left: 9.2%;
   border-top: 1px solid #fff;
   box-sizing: border-box;
-}
-.logo-nauber-icon {
-  position: absolute;
-  height: 10.22%;
-  width: 20.61%;
-  top: 11.94%;
-  right: 9.51%;
-  bottom: 77.84%;
-  left: 71.88%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
 }
 .rectangle-div6 {
   position: absolute;
@@ -949,8 +939,7 @@
   top: 2223px;
   text-align: left;
   font-size: 12px;
-  color: #fff;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
 }
 .rectangle-div7 {
   position: absolute;
@@ -976,7 +965,7 @@
   position: absolute;
   top: 310px;
   left: -8px;
-  width: 1456px;
+  width: 100vw;
   height: 135px;
   display: none;
 }
@@ -1076,6 +1065,15 @@
   width: 120.5px;
   height: 2.5px;
 }
+.tpico-lanamento-div {
+  position: absolute;
+  top: 59px;
+  left: 135px;
+  width: 100vw;
+  height: 40px;
+  text-align: left;
+  font-size: 28px;
+}
 .rectangle-div15 {
   position: absolute;
   top: 0;
@@ -1111,6 +1109,8 @@
   letter-spacing: 0.2em;
   font-weight: 500;
   display: inline-block;
+  color: #0b7c1d;
+  font-family: 'Inter', sans-serif;
 }
 .vector-icon8 {
   position: absolute;
@@ -1120,7 +1120,7 @@
   right: 11.7%;
   bottom: 32.98%;
   left: 80.14%;
-  max-width: 100%;
+ /* max-width: 100%;*/
   overflow: hidden;
   max-height: 100%;
 }
@@ -1182,7 +1182,7 @@
   right: 12.45%;
   bottom: 32.98%;
   left: 79.4%;
-  max-width: 100%;
+  /*max-width: 100%;*/
   overflow: hidden;
   max-height: 100%;
 }
@@ -1216,7 +1216,7 @@
   right: -0.15%;
   bottom: 32.98%;
   left: 97.52%;
-  max-width: 100%;
+  /*max-width: 100%;*/
   overflow: hidden;
   max-height: 100%;
 }
@@ -1270,7 +1270,7 @@
   right: 97.62%;
   bottom: 7.19%;
   left: -0.14%;
-  max-width: 100%;
+  /*max-width: 100%;*/
   overflow: hidden;
   max-height: 100%;
 }
@@ -1303,7 +1303,7 @@
   text-align: left;
   font-size: 15.5px;
   color: #fff;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
 .foto-3-2 {
   position: absolute;
@@ -1359,4 +1359,14 @@
   height: 597px;
   font-size: 34px;
   color: #000;
+}
+.home-div {
+  position: relative;
+  width: 100vw;
+  height: 2732px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
 }
