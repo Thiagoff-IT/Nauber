@@ -270,14 +270,6 @@
   width: 33px;
   height: 17px;
 }
-.home-icon11 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  overflow: hidden;
-}
 .empresa-b11,
 .empresa-icon11,
 .home-div12 {
@@ -291,6 +283,7 @@
 .empresa-icon11 {
   top: 0;
   width: 20px;
+  left: -1rem;
 }
 .empresa-b11 {
   top: 3px;
@@ -320,7 +313,7 @@
 }
 .box-icon11 {
   top: 0;
-  left: 0;
+  left: -1rem;
   width: 21.25px;
   overflow: hidden;
 }
