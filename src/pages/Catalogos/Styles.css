@@ -534,7 +534,7 @@
   position: absolute;
   top: 22px;
   left: 4px;
-  width: 1444px;
+  width: 126vw;
   height: 12px;
 }
 .vector-icon26 {
@@ -544,7 +544,7 @@
 }
 .catlogos-virtuais-b4 {
   position: absolute;
-  top: 12px;
+  top: 0.3rem;
   left: 138px;
   display: inline-block;
   font-family: 'Bebas Neue';
@@ -578,6 +578,7 @@
   top: 12px;
   left: 58px;
   display: inline-block;
+  font-family: 'Bebas Neue';
 }
 .linha-varejo-div {
   position: absolute;
@@ -600,6 +601,7 @@
   top: 12px;
   left: 40px;
   display: inline-block;
+  font-family: 'Bebas Neue';
 }
 .flag-brasil-2-icon,
 .flag-espanha-2-icon,
@@ -645,6 +647,7 @@
   top: 12px;
   left: 49px;
   display: inline-block;
+  font-family: 'Bebas Neue';
 }
 .linha-tcnica-div,
 .rectangle-div85 {
@@ -665,6 +668,7 @@
   top: 12px;
   left: 30px;
   display: inline-block;
+  font-family: 'Bebas Neue';
 }
 .linha-industrial-div4 {
   position: absolute;

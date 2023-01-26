@@ -289,18 +289,20 @@
   height: 39px;
   display: none;
 }
-.vector-icon138:hover {
-  opacity: 1.0;
-  transition: 0.2s;
-}
+
 .vector-icon138 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 779px;
+  width: 100%;
+  height: auto;
+  max-height: 780px;
   object-fit: cover;
   opacity: 0.5;
+}
+.vector-icon138:hover {
+  opacity: 1.0;
+  transition: 0.2s;
 }
 .rectangle-div302 {
   position: absolute;
@@ -315,8 +317,9 @@
   position: absolute;
   top: 0;
   left: 635px;
-  width: 100vw;
-  height: 779px;
+  width: 100%;
+  height: auto;
+  max-height: 780px;
   object-fit: cover;
 }
 .vector-icon140 {
@@ -339,14 +342,14 @@
 .vector-icon141 {
   position: absolute;
   top: 537.5px;
-  left: 19.5rem;
+  left: 21.5rem;
   width: 465.5px;
-  height: 78px;
+  height: auto;
 }
 .construo-civil-b {
   position: absolute;
   top: 545px;
-  left: 24rem;
+  left: 27rem;
   font-size: 48px;
   display: inline-block;
   font-family: 'Bebas Neue', sans-serif;
