@@ -58,10 +58,10 @@ function Sobre(){
           </div>
           <div className="nossa-sede-div20">
             <div className="rua-mal-castelo-branco-247711">
-              <p className="rua-mal-castelo10">
+              <p className="rua-mal-castelo10-footer">
                 Rua Mal. Castelo Branco, 2477 Centro
               </p>
-              <p className="schroeder-sc10">Schroeder - SC.</p>
+              <p className="schroeder-sc10-footer">Schroeder - SC.</p>
             </div>
             <div className="div53">+55 (47) 3374-5969</div>
             <div className="div54">+55 (11) 96364-6599</div>

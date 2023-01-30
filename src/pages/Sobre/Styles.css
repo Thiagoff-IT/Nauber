@@ -117,11 +117,25 @@
   margin-block-end: 0;
   position: relative;
   left: 0rem;
+  
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 34px;
+text-align: center;
 }
 .schroeder-sc10 {
   margin: 0;
       position: relative;
     left: 0rem;
+    
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 34px;
+text-align: center;
 }
 .div53,
 .div54,
@@ -642,8 +656,15 @@
 }
 .nauber-pro12 {
   top: 323px;
-  left: 16.5rem;
+  left: 22.5rem;
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
   font-size: 60px;
+  line-height: 60px;
+  
+  /* identical to box height */
+  text-align: center;
 }
 .frame-div6 {
   position: absolute;

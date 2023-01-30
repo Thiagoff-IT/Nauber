@@ -802,10 +802,11 @@
 }
 .mquinas-para-pintura5 {
   position: absolute;
-  top: 12px;
-  left: 138px;
+  top: 6px;
+  left: 98px;
   display: inline-block;
   font-family: "Bebas Neue", cursive;
+  letter-spacing: 2px;
 }
 .mquinas-div2 {
   position: absolute;

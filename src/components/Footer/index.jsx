@@ -50,10 +50,10 @@ function Footer() {
             </div>
             <div className="nossa-sede-div">
               <div className="rua-mal-castelo-branco-2477">
-                <p className="conhea-o-sistema">
+                <p className="conhea-o-sistema-footer">
                   Rua Mal. Castelo Branco, 2477 Centro
                 </p>
-                <p className="revenda-p">Schroeder - SC.</p>
+                <p className="revenda-p-footer">Schroeder - SC.</p>
               </div>
               <div className="div">+55 (47) 3374-5969</div>
               <div className="div1">+55 (11) 96364-6599</div>

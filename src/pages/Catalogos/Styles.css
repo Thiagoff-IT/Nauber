@@ -545,9 +545,10 @@
 .catlogos-virtuais-b4 {
   position: absolute;
   top: 0.3rem;
-  left: 138px;
+  left: 105px;
   display: inline-block;
   font-family: 'Bebas Neue';
+  letter-spacing: 2px;
 }
 .headline-div2 {
   position: absolute;
@@ -575,8 +576,8 @@
 }
 .linha-varejo-b {
   position: absolute;
-  top: 12px;
-  left: 58px;
+  top: 6px;
+  left: 48px;
   display: inline-block;
   font-family: 'Bebas Neue';
 }
@@ -598,8 +599,8 @@
 }
 .linha-completa-b {
   position: absolute;
-  top: 12px;
-  left: 40px;
+  top: 6px;
+  left: 34px;
   display: inline-block;
   font-family: 'Bebas Neue';
 }
@@ -644,7 +645,7 @@
 }
 .linha-tcnica-b {
   position: absolute;
-  top: 12px;
+  top: 6px;
   left: 49px;
   display: inline-block;
   font-family: 'Bebas Neue';
@@ -665,8 +666,8 @@
 }
 .linha-industrial-b {
   position: absolute;
-  top: 12px;
-  left: 30px;
+  top: 6px;
+  left: 27px;
   display: inline-block;
   font-family: 'Bebas Neue';
 }

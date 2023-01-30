@@ -483,9 +483,10 @@ transform: rotate(180deg);
 .bicos-airless-div1 {
   position: absolute;
   top: -27rem;
-  left: 85rem;
+  left: 82rem;
   display: inline-block;
   transform: rotate(180deg);
+  white-space: nowrap;
 }
 .bicos-airless-div,
 .vector-icon93 {
@@ -512,8 +513,8 @@ transform: rotate(180deg);
 }
 .pistolas-airless-div {
   position: absolute;
-  top: 214px;
-  left: 166px;
+  top: 3.8rem;
+  left: 125px;
   display: inline-block;
   transform: rotate(180deg);
 }
@@ -527,9 +528,10 @@ transform: rotate(180deg);
 .filmes-de-mascaramento {
   position: absolute;
   top: -27rem;
-  left: 80rem;
+  left: 78rem;
   display: inline-block;
   transform: rotate(180deg);
+  white-space: nowrap;
 }
 .bicos-airless-div3,
 .quadro-linha-4 {

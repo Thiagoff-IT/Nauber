@@ -186,8 +186,8 @@ function Home() {
             <div className="produto-1-div">
               <div className="rectangle-div15" />
               <div className="fresadora-de-parede-nauber-fn">
-                <p className="conhea-o-sistema">Fresadora De Parede Nauber</p>
-                <p className="revenda-p">FN - 1650</p>
+                <p className="conhea-o-sistema-Home">Fresadora De Parede Nauber</p>
+                <p className="revenda-p-home">FN - 1650</p>
               </div>
               <div className="boto-div2">
                 <div className="rectangle-div16" />
@@ -199,8 +199,8 @@ function Home() {
             <div className="produto-2-div">
               <div className="rectangle-div18" />
               <div className="fresadora-de-parede-nauber-fn1">
-                <p className="conhea-o-sistema">Fresadora De Parede Nauber</p>
-                <p className="revenda-p">FN - 1650</p>
+                <p className="conhea-o-sistema-Home">Fresadora De Parede Nauber</p>
+                <p className="revenda-p-home">FN - 1650</p>
               </div>
               <div className="boto-div2">
                 <div className="rectangle-div19" />
@@ -212,8 +212,8 @@ function Home() {
             <div className="produto-3-div">
               <div className="rectangle-div21" />
               <div className="fresadora-de-parede-nauber-fn2">
-                <p className="conhea-o-sistema">Fresadora De Parede Nauber</p>
-                <p className="revenda-p">FN - 1650</p>
+                <p className="conhea-o-sistema-Home">Fresadora De Parede Nauber</p>
+                <p className="revenda-p-home">FN - 1650</p>
               </div>
               <div className="boto-div4">
                 <div className="rectangle-div16" />
@@ -229,8 +229,8 @@ function Home() {
             <div className="produto-4-div">
               <div className="rectangle-div24" />
               <div className="fresadora-de-parede-nauber-fn3">
-                <p className="conhea-o-sistema">Fresadora De Parede Nauber</p>
-                <p className="revenda-p">FN - 1650</p>
+                <p className="conhea-o-sistema-Home">Fresadora De Parede Nauber</p>
+                <p className="revenda-p-home">FN - 1650</p>
               </div>
               <div className="boto-div5">
                 <div className="rectangle-div16" />

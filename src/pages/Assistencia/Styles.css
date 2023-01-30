@@ -549,6 +549,7 @@
   left: 138px;
   display: inline-block;
   font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
 }
 .headline-div {
   position: absolute;
@@ -639,6 +640,8 @@
   left: 13.62px;
   display: inline-block;
   width: 238.28px;
+  font-size: 7.84px;
+  font-weight: 400;
 }
 .rectangle-div32 {
   position: absolute;
@@ -667,7 +670,7 @@
 .usar-minha-localizao {
   position: absolute;
   top: 35.39px;
-  left: 92.64px;
+  left: 81.64px;
   font-size: 12.49px;
   color: #929292;
   text-align: left;

@@ -811,10 +811,11 @@
 }
 .mquinas-para-pintura11 {
   position: absolute;
-  top: 12px;
-  left: 138px;
+  top: 3px;
+  left: 94px;
   display: inline-block;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue';
+  letter-spacing: 2px;
 }
 .mquinas-div5 {
   position: absolute;
@@ -1317,6 +1318,7 @@
   background: linear-gradient(90deg, #03850f, #107a47), #000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: 'Bebas Neue';
 }
 .rectangle-div265 {
   position: absolute;

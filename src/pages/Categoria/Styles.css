@@ -289,20 +289,13 @@
   height: 39px;
   display: none;
 }
-
 .vector-icon138 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: auto;
-  max-height: 780px;
+  width: 805px;
+  height: 779px;
   object-fit: cover;
-  opacity: 0.5;
-}
-.vector-icon138:hover {
-  opacity: 1.0;
-  transition: 0.2s;
 }
 .rectangle-div302 {
   position: absolute;
@@ -317,42 +310,41 @@
   position: absolute;
   top: 0;
   left: 635px;
-  width: 100%;
-  height: auto;
-  max-height: 780px;
+  width: 805px;
+  height: 779px;
   object-fit: cover;
 }
 .vector-icon140 {
-    position: absolute;
-    top: 537.5px;
-    left: 47.5rem;
-    width: 465.5px;
-    height: 78px;
+  position: absolute;
+  top: 537.5px;
+  left: 671px;
+  width: 465.5px;
+  height: 78px;
 }
 .linha-industrial-b1 {
   position: absolute;
-  top: 546px;
+  top: 548px;
   left: 756px;
   font-size: 48px;
   display: inline-block;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bebas Neue';
   color: #fbbf00;
   opacity: 0.3;
 }
 .vector-icon141 {
   position: absolute;
   top: 537.5px;
-  left: 21.5rem;
+  left: 223px;
   width: 465.5px;
-  height: auto;
+  height: 78px;
 }
 .construo-civil-b {
   position: absolute;
-  top: 545px;
-  left: 27rem;
+  top: 555px;
+  left: 312px;
   font-size: 48px;
   display: inline-block;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bebas Neue';
   color: #fff;
 }
 .tipos-de-ferramentas {
@@ -638,7 +630,7 @@
   height: 25px;
   font-size: 18px;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: Roboto;
 }
 .rectangle-div303 {
   position: absolute;
@@ -686,5 +678,5 @@
   text-align: left;
   font-size: 12px;
   color: #000;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter;
 }
