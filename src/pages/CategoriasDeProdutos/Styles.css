@@ -1,7 +1,7 @@
 .bg-div13 {
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 100vw;
   top: 0;
   right: 0;
   bottom: 0;
@@ -347,7 +347,7 @@ transform: rotate(180deg);
 .vector-icon79 {
   position: absolute;
   top: -27rem;
-  left: 75rem;
+  left: 74.3rem;
   width: 388.28px;
   height: 43px;
 }

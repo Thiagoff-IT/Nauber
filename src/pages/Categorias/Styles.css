@@ -1,7 +1,7 @@
 .bg-div14 {
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 100vw;
   top: 0;
   right: 0;
   bottom: 0;
@@ -327,7 +327,15 @@
 .vector-icon111 {
   position: relative;
   top: -28rem;
-  left: 74rem;
+  left: 25.3rem;
+  width: 388.92px;
+  height: 43px;
+  display: block;
+}
+.vector-icon111-u-1 {
+  position: relative;
+  top: -28rem;
+  left: 73.9rem;
   width: 388.92px;
   height: 43px;
   display: block;
@@ -335,7 +343,7 @@
 .vector-icon111-1 {
   position: relative;
   top: -28rem;
-  left: 25rem;
+  left: 73.7rem;
   width: 388.92px;
   height: 43px;
   display: block;
@@ -358,7 +366,7 @@
 .vector-icon112 {
   position: absolute;
   top: -28rem;
-  left: 73.5rem;
+  left: 122.5rem;
   width: 388.28px;
   height: 43px;
   opacity: 1.6;
@@ -497,10 +505,11 @@
 }
 .bicos-airless-div5 {
   position: absolute;
-  top: -30rem;
-  left: 84rem;
+  top: -28.5rem;
+  left: 82rem;
   display: inline-block;
   transform: rotate(180deg);
+  white-space: nowrap;
 }
 .bicos-airless-div4,
 .vector-icon126 {
@@ -543,9 +552,10 @@
 .filmes-de-mascaramento1 {
   position: absolute;
   top: -28rem;
-  left: 31rem;
+  left: 29rem;
   transform: rotate(180deg);
   display: inline-block;
+  white-space: nowrap;
 }
 .bicos-airless-div7,
 .quadro-linha-41 {

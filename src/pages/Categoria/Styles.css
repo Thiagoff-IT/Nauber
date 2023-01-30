@@ -293,7 +293,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 805px;
+  width: 100vw;
   height: 779px;
   object-fit: cover;
 }
@@ -310,14 +310,14 @@
   position: absolute;
   top: 0;
   left: 635px;
-  width: 805px;
+  width: 100vw;
   height: 779px;
   object-fit: cover;
 }
 .vector-icon140 {
   position: absolute;
   top: 537.5px;
-  left: 671px;
+  left: 45.4rem;
   width: 465.5px;
   height: 78px;
 }
@@ -334,14 +334,14 @@
 .vector-icon141 {
   position: absolute;
   top: 537.5px;
-  left: 223px;
+  left: 17.7rem;
   width: 465.5px;
   height: 78px;
 }
 .construo-civil-b {
   position: absolute;
-  top: 555px;
-  left: 312px;
+  top: 34.5rem;
+  left: 24rem;
   font-size: 48px;
   display: inline-block;
   font-family: 'Bebas Neue';

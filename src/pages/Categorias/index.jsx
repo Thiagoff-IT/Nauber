@@ -115,7 +115,7 @@ function Categorias2(){
           <img className="vector-icon109" alt="" src={Vetor8} />
           <img className="vector-icon110" alt="" src={Vetor16} />
           <div className="aspiradores-div5">
-            <img className="vector-icon111" alt="" src={Vetor17} />
+            <img className="vector-icon111-u-1" alt="" src={Vetor17} />
             <div className="aspiradores-div6">ASPIRADORES</div>
           </div>
           <div className="aspiradores-div7">
