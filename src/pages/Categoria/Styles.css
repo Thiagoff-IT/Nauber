@@ -322,14 +322,13 @@ width: 465.5px;
 height: 78px;
 }
 .linha-industrial-b1 {
-  position: absolute;
-  top: 548px;
-  left: 756px;
-  font-size: 48px;
-  display: inline-block;
-  font-family: 'Bebas Neue';
-  color: #fbbf00;
-  opacity: 0.3;
+position: absolute;
+top: 548px;
+left: 787px;
+font-size: 48px;
+display: inline-block;
+font-family: Bebas Neue;
+color: #fbbf00;
 }
 .vector-icon141 {
 position: absolute;
