@@ -1,11 +1,9 @@
 .bg-div11 {
-  position: absolute;
   height: 100%;
   width: 100vw;
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
   background-color: #171717;
 }
 .phone-icon32 {
@@ -226,7 +224,7 @@ text-align: center;
 .footer-div21 {
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 100vw;
   top: 0;
   right: 0;
   bottom: 0;
@@ -636,7 +634,7 @@ text-align: center;
 .logo-revenda-pro-31 {
   position: absolute;
   top: 183px;
- left: 3rem;
+ left: 7rem;
   width: 210px;
   height: 225.09px;
   object-fit: cover;
