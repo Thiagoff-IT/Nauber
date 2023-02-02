@@ -95,7 +95,7 @@ function CategoriasDeProdutos(){
           <img className="vector-icon76" alt="" src={Vetor5} />
           <img className="vector-icon77" alt="" src={Vetor6} />
           <div className="aspiradores-div1">
-            <img className="vector-icon78" alt="" src={Vetor2} />
+            <img className="aspiradores-bar" alt="" src={Vetor2} />
             <div className="aspiradores-div2">
               <Link to="/ProdutoCompra">
                 ASPIRADORES
@@ -144,7 +144,7 @@ function CategoriasDeProdutos(){
             <div className="pistolas-airless-div">pistolas airless</div>
           </div>
           <div className="bicos-airless-div3">
-            <img className="vector-icon78" alt="" src={Vetor2} />
+            <img className="filmes-de-mascaramento-bar" alt="" src={Vetor2} />
             <div className="filmes-de-mascaramento">filmes de mascaramento</div>
           </div>
         </div>
@@ -152,7 +152,7 @@ function CategoriasDeProdutos(){
           <img className="vector-icon70" alt="" src={Vetor9} />
           <img className="vector-icon97" alt="" src={Vetor10} />
           <div className="projetoras-de-textura2">
-            <img className="vector-icon98" alt="" src={Vetor8} />
+            <img className="equipamentos-airless-bar" alt="" src={Vetor4} />
             <div className="equipamentos-airless-div">
               lixadeiras e abrasivos
             </div>

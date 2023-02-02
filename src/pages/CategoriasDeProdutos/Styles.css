@@ -329,10 +329,24 @@ transform: rotate(180deg);
   width: 388.92px;
   height: 43px;
 }
-.aspiradores-div2 {
+.filmes-de-mascaramento-bar{
   position: absolute;
   top: -27rem;
-  left: 79rem;
+  left: 74.8rem;
+  width: 388.92px;
+  height: 43px;
+}
+.aspiradores-bar {
+  position: absolute;
+  top: -27rem;
+  left: 75.3rem;
+  display: inline-block;
+  transform: rotate(180deg);
+}
+.aspiradores-div2 {
+  position: absolute;
+  top: -27.2rem;
+  left: 82rem;
   display: inline-block;
   transform: rotate(180deg);
 }
@@ -508,6 +522,13 @@ transform: rotate(180deg);
   position: absolute;
   top: 4rem;
   left: 1rem;
+  width: 388.92px;
+  height: 43px;
+}
+.equipamentos-airless-bar {
+  position: absolute;
+  top: 0.5rem;
+  left: -0.1rem;
   width: 388.92px;
   height: 43px;
 }

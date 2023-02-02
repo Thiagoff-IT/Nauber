@@ -115,7 +115,7 @@ function Categorias2(){
           <img className="vector-icon109" alt="" src={Vetor8} />
           <img className="vector-icon110" alt="" src={Vetor16} />
           <div className="aspiradores-div5">
-            <img className="vector-icon111-u-1" alt="" src={Vetor17} />
+            <img className="vector-icon111" alt="" src={Vetor17} />
             <div className="aspiradores-div6">ASPIRADORES</div>
           </div>
           <div className="aspiradores-div7">
@@ -164,7 +164,7 @@ function Categorias2(){
             <div className="pistolas-airless-div1">pistolas airless</div>
           </div>
           <div className="bicos-airless-div7">
-            <img className="vector-icon111" alt="" src={Vetor7} />
+            <img className="filmes-de-mascaramento-bar" alt="" src={Vetor7} />
             <div className="filmes-de-mascaramento1">
               filmes de mascaramento
             </div>
