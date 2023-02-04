@@ -3,7 +3,6 @@ import Footer from '../../components/Footer'
 
 import { Link } from "react-router-dom";
 
-
 import "./Styles.css";
 
 import BG from "../../assets/image/foto@2x.png"
@@ -32,9 +31,7 @@ import Foto4_2 from "../../assets/image/foto-4-2@2x.png"
 function Home() {
   return (
     <>
-    
     <div className="home-div">
-    
       <div className="frame-div">
         <div className="hero-div">
           <div className="rectangle-div" />
