@@ -20,6 +20,7 @@ import ProdutoCompras from './pages/ProdutoCompra';
 import ProdutoLogistico from './pages/ProdutoLogistas';
 import ProdutoDetalhes from "./pages/ProdutoDetalhes"
 import CategoriasDeProdutos from "./pages/CategoriasDeProdutos"
+import Login from './pages/Login'
 
 const router = createBrowserRouter([
   {
@@ -69,6 +70,10 @@ const router = createBrowserRouter([
   {
     path: "/ProdutoCompra",
     element: <ProdutoCompras />,
+  },
+  {
+    path: "/Login",
+    element: <Login />,
   },
 ]);
 

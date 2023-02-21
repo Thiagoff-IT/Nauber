@@ -981,6 +981,7 @@
 .rectangle-div69 {
   top: 458px;
   background: linear-gradient(90deg, #165231, #0a831d);
+  cursor: pointer;
 }
 .rectangle-div70,
 .rectangle-div71,
@@ -1043,10 +1044,13 @@
   height: 23.54px;
 }
 .escreva-sua-mensagem-aqui {
-  top: 385px;
-  left: 59px;
+  top: 367px;
+  left: 43px;
   font-weight: 300;
-  width: 32rem;
+  width: 37.5rem;
+  border: 1px solid #c0c8ce;
+  padding: 1rem;
+  border-radius: 0.3rem;
 }
 .atendimento-atendimentonaub,
 .cidade-div2,
@@ -1059,22 +1063,43 @@
   display: inline-block;
   border: none
 }
-input, .digite-seu-nome {
+ .digite-seu-nome {
   position: absolute;
-  top: 132px;
-  left: 59px;
+  top: 115px;
+  left: 43px;
   font-weight: 300;
-  display: inline-block;
-  border: none
+  width: 37.5rem;
+  border: 1px solid #c0c8ce;
+  padding: 1rem;
+  border-radius: 0.3rem;
 }
 .atendimento-atendimentonaub,
-.cidade-div2,
-.estado-div1 {
+.cidade-div2{
   top: 196px;
+  
 }
-.atendimento-atendimentonaub,
+
+.estado-div1 {
+  position: absolute;
+  top: 177px;
+  left: 43px;
+  font-weight: 300;
+  width: 17.5rem;
+  border: 1px solid #c0c8ce;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
 .cidade-div2 {
-  left: 389px;
+  position: absolute;
+  top: 177px;
+  left: 363px;
+  font-weight: 300;
+  width: 17.5rem;
+  border: 1px solid #c0c8ce;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  
 }
 .atendimento-atendimentonaub {
   top: 69px;
@@ -1090,16 +1115,26 @@ input, .digite-seu-nome {
   display: inline-block;
   color: #666;
 }
-.seu-melhor-e-mail,
+.seu-melhor-e-mail {
+  position: absolute;
+  top: 243px;
+  left: 43px;
+  font-weight: 300;
+  width: 37.5rem;
+  border: 1px solid #c0c8ce;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
 .telefone-para-contato {
   position: absolute;
-  top: 258px;
-  left: 59px;
+  top: 304px;
+  left: 43px;
   font-weight: 300;
-  display: inline-block;
-}
-.telefone-para-contato {
-  top: 322px;
+  width: 37.5rem;
+  border: 1px solid #c0c8ce;
+  padding: 1rem;
+  border-radius: 0.3rem;
 }
 .form-div2,
 .vector-icon22 {

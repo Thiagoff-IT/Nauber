@@ -113,17 +113,13 @@ function Sobre(){
             alt="" 
             src={NauberPro} 
           />
-          <div className="rectangle-div268" />
-          <div className="rectangle-div269" />
+          <div className="rectangle-div268" >
+          <iframe src="https://www.youtube.com/embed/1_0jbbZlKlg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+          </div>
           <img
             className="logo-revenda-pro-21"
             alt=""
             src={LogoRevenda}
-          />
-          <img
-            className="logo-revenda-pro-31"
-            alt=""
-            src={Revenda}
           />
           <b className="conhea-o-sistema-de-revenda1">
             <p className="rua-mal-castelo10">CONHEÇA O</p>
@@ -134,12 +130,10 @@ function Sobre(){
         </div>
       </div>
       <div className="video-div6">
-        <div className="rectangle-div270" />
-        <img 
-          className="play-icon6" 
-          alt="" 
-          src={Play}
-        />
+      <div class="rectangle-div270">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1_0jbbZlKlg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
       </div>
       <div className="group-div25">
         <img

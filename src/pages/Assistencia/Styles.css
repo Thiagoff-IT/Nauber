@@ -608,10 +608,14 @@
   height: 15.61px;
 }
 .informe-seu-cep {
-  position: absolute;
-  top: 12.49px;
-  left: 16.65px;
-  display: inline-block;
+position: absolute;
+top: 1.49px;
+left: 0.65px;
+display: inline-block;
+border: none;
+width: 17.5rem;
+padding: 0.7rem;
+border-radius: 0.2rem;
 }
 .cep-div,
 .cidade-div,

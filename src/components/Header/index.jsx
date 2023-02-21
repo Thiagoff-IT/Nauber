@@ -93,7 +93,7 @@ function Header() {
               </NavLink>
             </div>
             <div className="login-div11">
-              <NavLink to="/login" className="login-b11">login</NavLink>
+              <NavLink to="/Login" className="login-b11">login</NavLink>
               <img className="logim-icon11" 
                    alt="Login" 
                    src={Login} 

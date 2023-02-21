@@ -109,13 +109,7 @@ function Contato(){
       <div className="form-div2">
         <div className="rectangle-div68" />
         <div className="rectangle-div69" />
-        <div className="rectangle-div70" />
-        <div className="rectangle-div71" />
-        <div className="rectangle-div72" />
-        <div className="rectangle-div73" />
-        <img className="rectangle-icon" alt="" src={Retangulo} />
-        <div className="rectangle-div74" />
-        <div className="rectangle-div75" />
+    <div className="rectangle-div75" />
 
         <input type="text" className="digite-seu-nome" placeholder="Digite seu nome"/>
         <input type="text" className="estado-div1" placeholder="Estado"/>

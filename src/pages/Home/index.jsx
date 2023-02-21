@@ -76,18 +76,15 @@ function Home() {
               alt="nauberPro" 
               src={NauberPro} 
           />
-          <div className="rectangle-div2" />
-          <div className="rectangle-div3" />
+          <div class="rectangle-div2">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1_0jbbZlKlg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
           <img
             className="logo-revenda-pro-2"
             alt="Revenda"
             src={Revenda}
           />
-          <img
-            className="logo-revenda-pro-3"
-            alt="LogoRevenda"
-            src={LogoRevenda}
-          />
+
           <b className="conhea-o-sistema-de-revenda">
             <p className="conhea-o-sistema">CONHEÇA O</p>
             <p className="conhea-o-sistema">SISTEMA DE</p>
