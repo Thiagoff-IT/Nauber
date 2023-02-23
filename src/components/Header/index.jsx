@@ -147,7 +147,7 @@ function Header() {
             </p>
             <p className="rua-mal-castelo11">
               <span className="conhea-o-sistema23">
-                <span>DE REVÊNDA</span>
+                <span>DE REVENDA</span>
               </span>
             </p>
             <p className="nauber-pro13">

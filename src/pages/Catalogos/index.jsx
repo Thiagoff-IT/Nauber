@@ -7,6 +7,11 @@ import Brasil from '../../assets/image/flagbrasil-2@2x.png'
 import Espanha from '../../assets/image/flagespanha-2@2x.png'
 import EUA from '../../assets/image/flageua-2@2x.png'
 
+import LinhaVarejo from '../../assets/image/catalogos/LinhaVarejo.jpeg'
+import LinhaCompleta from '../../assets/image/catalogos/LinhaCompleta.jpeg'
+import LinhaTecnica from '../../assets/image/catalogos/LinhaTecnica.jpeg'
+import LinhaIndustrial from '../../assets/image/catalogos/LinhaIndustrial.jpeg'
+
 import Phone from '../../assets/image/phone32.svg'
 import Social from '../../assets/image/redes-sociais-icon7.svg'
 import Pin from '../../assets/image/pin11.svg'
@@ -77,12 +82,14 @@ function Catalogos(){
       </div>
       <div className="catlogos-div5">
         <div className="linha-varejo-div">
-          <div className="rectangle-div78" />
+          
+          <img className="rectangle-div78" alt="" src={LinhaVarejo} />
           <div className="rectangle-div79" />
           <b className="linha-varejo-b">linha varejo</b>
         </div>
         <div className="linha-varejo-div1">
-          <div className="rectangle-div78" />
+        
+          <img className="rectangle-div78" alt="" src={LinhaCompleta} />
           <div className="rectangle-div81" />
           <b className="linha-completa-b">linha completa</b>
           <div className="bandeiras-div">
@@ -100,12 +107,12 @@ function Catalogos(){
           </div>
         </div>
         <div className="linha-tcnica-div">
-          <div className="rectangle-div78" />
+        <img className="rectangle-div78" alt="" src={LinhaTecnica} />
           <div className="rectangle-div83" />
           <b className="linha-tcnica-b">linha técnica</b>
         </div>
         <div className="linha-industrial-div4">
-          <div className="rectangle-div78" />
+        <img className="rectangle-div78" alt="" src={LinhaIndustrial} />
           <div className="rectangle-div85" />
           <b className="linha-industrial-b">linha industrial</b>
         </div>
