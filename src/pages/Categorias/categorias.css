@@ -429,6 +429,16 @@ opacity: 0.5;
   height: 279px;
   object-fit: cover;
 }
+.acessorios-bar {
+  position: absolute;
+  top: 11rem;
+  left: 50rem;
+  }
+  .acessorios-div {
+  position: absolute;
+  top: 11rem;
+  left: 58rem;
+  }
 .Pecas-img {
   position: absolute;
   top: 0rem;
