@@ -183,7 +183,7 @@
 }
 .logo-nauber-icon14 {
   position: absolute;
-  height: 10.22%;
+  height: auto;
   width: 18.61%;
   top: 11.94%;
   right: 9.51%;
@@ -678,4 +678,22 @@ height: 78px;
   font-size: 12px;
   color: #000;
   font-family: Inter;
+}
+
+.Construcao {
+  filter: brightness(23%);
+}
+.Construcao:hover {
+  filter: brightness(100%);
+transition: 0.2s;
+}
+
+.Industrial {
+  filter: brightness(23%);
+
+}
+
+.Industrial:hover {
+  filter: brightness(100%);
+  transition: 0.2s;
 }

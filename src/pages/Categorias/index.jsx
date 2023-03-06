@@ -1,5 +1,5 @@
 import Header from "../../components/Header";
-import "./Styles.css";
+import "./categorias.css";
 
 import Phone from '../../assets/image/phone32.svg'
 import Social from '../../assets/image/redes-sociais-icon7.svg'

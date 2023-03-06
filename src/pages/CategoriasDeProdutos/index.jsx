@@ -14,9 +14,7 @@ import Vetor8 from '../../assets/image/vector-10713.svg'
 import Vetor9 from '../../assets/image/vector-96@2x.png'
 import Vetor10 from '../../assets/image/vector-97@2x.png'
 
-import Phone from '../../assets/image/phone32.svg'
 import Social from '../../assets/image/redes-sociais-icon7.svg'
-import Pin from '../../assets/image/pin11.svg'
 import Nauber from '../../assets/image/logo-nauber@2x.png'
 
 function CategoriasDeProdutos(){
@@ -25,7 +23,7 @@ function CategoriasDeProdutos(){
       <div className="footer-div24">
         <div className="footer-div25">
           <div className="bg-div13" />
-          <img className="phone-icon34" alt="" src={Phone} />
+         
           <div className="siga-nas-redes-sociais12">Siga nas redes sociais</div>
           <div className="nauber-2022-todos-os-direito12">
             Nauber © 2022 Todos os direitos reservados.
@@ -66,7 +64,7 @@ function CategoriasDeProdutos(){
             <div className="div61">+55 (47) 98821-2725</div>
             <div className="nossa-sede-div25">Nossa sede</div>
           </div>
-          <img className="pin-icon13" alt="" src={Pin} />
+          
           <div className="line-div31" />
           <img
             className="logo-nauber-icon12"
@@ -78,91 +76,183 @@ function CategoriasDeProdutos(){
       </div>
       <div className="group-div26">
         <div className="quadro-linha-1">
-          <img className="vector-icon68" alt="" src={Vetor} />
-          <img className="vector-icon69" alt="" src={Vetor} />
-          <img className="vector-icon70" alt="" src={Vetor} />
-          <div className="projetoras-de-textura">
-            <img className="vector-icon71" alt="" src={Vetor1}/>
-            <div className="projetoras-de-textura1">projetoras de textura</div>
+          
+          <div className='projetorasDeTextura'>
+          <Link to="/ProdutoCompra">
+              <img className="vector-icon70" alt="" src={Vetor} />
+              <div className="projetoras-de-textura2">
+              <img className="vector-icon71" alt="" src={Vetor1} />
+              <div className="equipamentos-airless-div">
+                equipamentos airless
+              </div>
+            </div>
+            </Link>
           </div>
-          <div className="projetoras-de-textura2">
-            <img className="vector-icon71" alt="" src={Vetor1} />
-            <div className="equipamentos-airless-div">equipamentos airless</div>
+
+          <div className='projetorasDeTextura'>
+          <Link to="/ProdutoCompra">
+              <img className="vector-icon69" alt="" src={Vetor} />
+              <div className="projetoras-de-textura">
+                <img className="vector-icon71" alt="" src={Vetor1} />
+                <div className="projetoras-de-textura1">
+                    projetoras de textura
+                </div>
+              </div>
+            </Link>
           </div>
-          <div className="projetoras-de-textura3">
-            <img className="vector-icon71" alt="" src={Vetor1} />
-            <div className="demarcao-viria-div">demarcação viária</div>
+
+          <div className='projetorasDeTextura'>
+          <Link to="/ProdutoCompra">
+              <img className="vector-icon68" alt="" src={Vetor} />
+              <div className="projetoras-de-textura3">
+                <img className="vector-icon71" alt="" src={Vetor1} />
+                <div className="demarcao-viria-div">
+                    demarcação viária
+                </div>
+              </div>
+            </Link>
           </div>
+          
         </div>
+
         <div className="quadro-linha-2">
-          <img className="vector-icon74" alt="" src={Vetor7}/>
-          <img className="vector-icon75" alt="" src={Vetor5} />
-          <img className="vector-icon76" alt="" src={Vetor5} />
-          <img className="vector-icon77" alt="" src={Vetor6} />
-          <div className="aspiradores-div1">
-            <img className="aspiradores-bar" alt="" src={Vetor2} />
-            <div className="aspiradores-div2">
-              <Link to="/ProdutoCompra">
-                ASPIRADORES
+        
+   
+          <div className='projetorasDeTextura'>
+          <Link to="/ProdutoCompra">
+              <img className="vector-icon77" alt="" src={Vetor5} />
+              <div className="aspiradores-div3">
+              <img className="vector-icon79" alt="" src={Vetor2} />
+              <div className="lixadeiras-div1">
+              lixadeiras
+              </div>
+            </div>           
+            </Link>
+          </div>
+
+          <div className='projetorasDeTextura'>
+          <Link to="/ProdutoCompra">
+              <img className="vector-icon76" alt="" src={Vetor6} />
+              <div className="aspiradores-div1">
+              <img className="aspiradores-bar" alt="" src={Vetor2} />
+              <div className="aspiradores-div2">
+              ASPIRADORES
+              </div>
+            </div>           
+            </Link>
+          </div>
+        
+        <div className='projetorasDeTextura'>
+          <Link to="/ProdutoCompra">
+              <img className="vector-icon75" alt="" src={Vetor5} />
+              <div className="aspiradores-div4">
+              <img className="vector-icon78" alt="" src={Vetor2} />
+              <div className="misturadores-div1">
+              misturadores
+              </div>
+            </div>           
+            </Link>
+          </div>
+
+          </div>
+
+          <div className="quadro-linha-3">
+
+          <div className='projetorasDeTextura'>
+            <Link to="/ProdutoCompra">
+            <img className="vector-icon70" alt="" src={Vetor3} />
+                <div className="compressor-div2">
+                <img className="vector-icon86" alt="" src={Vetor4} />
+                <div className="fresadora-div">
+                fresadora
+                </div>
+              </div>           
               </Link>
             </div>
+
+          <div className='projetorasDeTextura'>
+              <Link to="/ProdutoCompra">
+              <img className="vector-icon81" alt="" src={Vetor3}/>
+              <div className="compressor-div">
+              <img className="vector-icon86" alt="" src={Vetor4} />
+              <div className="compressor-div1">
+              compressor
+              </div>
+            </div>           
+            </Link>
           </div>
-          <div className="aspiradores-div3">
-            <img className="vector-icon79" alt="" src={Vetor2} />
-            <div className="lixadeiras-div1">lixadeiras</div>
-          </div>
-          <div className="aspiradores-div4">
-            <img className="vector-icon78" alt="" src={Vetor2} />
-            <div className="misturadores-div1">misturadores</div>
-          </div>
-        </div>
-        <div className="quadro-linha-3">
-          <img className="vector-icon81" alt="" src={Vetor3} />
-          <img className="vector-icon70" alt="" src={Vetor3}/>
+
+
+        <div className='projetorasDeTextura'>
+          <Link to="/ProdutoCompra">
           <img className="vector-icon83" alt="" src={Vetor3} />
-          <img className="vector-icon84" alt="" src={Vetor3} />
-          <div className="compressor-div">
-            <img className="vector-icon85" alt="" src={Vetor4}/>
-            <div className="compressor-div1">compressor</div>
+              <div className="compressor-div3">
+              <img className="vector-icon87" alt="" src={Vetor4} />
+              <div className="desempenadeiras-div">
+              desempenadeiras
+              </div>
+            </div>           
+            </Link>
           </div>
-          <div className="compressor-div2">
-            <img className="vector-icon86" alt="" src={Vetor4} />
-            <div className="fresadora-div">fresadora</div>
-          </div>
-          <div className="compressor-div3">
-            <img className="vector-icon87" alt="" src={Vetor4} />
-            <div className="desempenadeiras-div">desempenadeiras</div>
-          </div>
+
         </div>
+
         <div className="quadro-linha-4">
-          <img className="vector-icon76" alt="" src={Vetor7} />
-          <div className="bicos-airless-div">
+        <div className='projetorasDeTextura'>
+        <Link to="/ProdutoCompra">
+        <img className="vector-icon76" alt="" src={Vetor7} />
+            <div className="bicos-airless-div">
             <img className="vector-icon78" alt="" src={Vetor2} />
-            <div className="bicos-airless-div1">bicos airless</div>
-          </div>
-          <div className="bicos-airless-div2">
-            <img className="vector-icon70" alt="" src={Vetor7} />
-            <img className="vector-icon83" alt="" src={Vetor7} />
-            <img className="vector-icon83" alt="" src={Vetor7} />
+            <div className="bicos-airless-div1">
+            bicos airless
+            </div>
+          </div>           
+          </Link>
+        </div>
+
+        <div className='projetorasDeTextura'>
+        <Link to="/ProdutoCompra">
+        <img className="airless" alt="" src={Vetor7} />
+            <div className="bicos-airless-div">
             <img className="vector-icon93" alt="" src={Vetor2} />
             <img className="vector-icon94" alt="" src={Vetor2} />
-            <div className="pistolas-airless-div">pistolas airless</div>
-          </div>
-          <div className="bicos-airless-div3">
-            <img className="filmes-de-mascaramento-bar" alt="" src={Vetor2} />
-            <div className="filmes-de-mascaramento">filmes de mascaramento</div>
-          </div>
-        </div>
-        <div className="quadro-linha-5">
-          <img className="vector-icon70" alt="" src={Vetor9} />
-          <img className="vector-icon97" alt="" src={Vetor10} />
-          <div className="projetoras-de-textura2">
-            <img className="equipamentos-airless-bar" alt="" src={Vetor4} />
-            <div className="equipamentos-airless-div">
-              lixadeiras e abrasivos
+            <div className="pistolas-airless-div">
+            pistolas airless
             </div>
-          </div>
+          </div>           
+          </Link>
         </div>
+
+
+          <div className='projetorasDeTextura'>
+            <Link to="/ProdutoCompra">
+            <img className="Filmes" alt="" src={Vetor7} />
+                <div className="bicos-airless-div3">
+                <img className="filmes-de-mascaramento-bar" alt="" src={Vetor2} />
+                <div className="filmes-de-mascaramento">
+                filmes de mascaramento
+                </div>
+              </div>           
+              </Link>
+            </div>
+
+            
+
+        </div>
+
+        <div className="quadro-linha-5">
+            <div className='projetorasDeTextura'>
+              <Link to="/ProdutoCompra">
+              <img className="vector-icon70" alt="" src={Vetor9} />
+                  <div className="projetoras-de-textura2">
+                  <img className="equipamentos-airless-bar" alt="" src={Vetor4} />
+                  <div className="equipamentos-airless-div">
+                  lixadeiras e abrasivos
+                  </div>
+                </div>           
+                </Link>
+              </div>
+              </div>
       </div>
       <Header />
     </div>
@@ -170,3 +260,4 @@ function CategoriasDeProdutos(){
 };
 
 export default CategoriasDeProdutos;
+

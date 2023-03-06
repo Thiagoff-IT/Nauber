@@ -82,26 +82,34 @@ function Categoria() {
           <div className="line-div36" />
           <img className="line-icon7" alt="" src={Line} />
         </div>
+        <div className='Construcao'>
         <Link to="/Categorias">
         <img className="vector-icon138" alt="" src={Vetor} /></Link>
         <div className="rectangle-div302" />
-        <Link to="/CategoriasDeProdutos">
-        <img className="vector-icon139" alt="" src={Vetor1} /></Link>
-        <Link to="/CategoriasDeProdutos">
-        <img className="vector-icon140" alt="" src={Vetor3} /></Link>
-        <Link to="/CategoriasDeProdutos" className="linha-industrial-b1">Linha Industrial</Link>
-        <div>
-        <Link to="/Categorias">
-          <img 
-              className="vector-icon141" 
-              alt="" 
-              src={Vetor2} 
-          /></Link>
+          
+          <Link to="/Categorias">
+            <img 
+                className="vector-icon141" 
+                alt="" 
+                src={Vetor2} 
+            />
+          </Link>
           <Link 
                to="/Categorias" 
                className="construo-civil-b">
                 Construção Civil
           </Link>
+          </div>
+        <div className='Industrial'>
+        <Link to="/CategoriasDeProdutos">
+        <img className="vector-icon139" alt="" src={Vetor1} /></Link>
+        <Link to="/CategoriasDeProdutos">
+        <img className="vector-icon140" alt="" src={Vetor3} /></Link>
+        <Link to="/CategoriasDeProdutos" className="linha-industrial-b1">Linha Industrial</Link>
+        </div>
+
+        <div>
+
         </div>
       </div>
     </div>
