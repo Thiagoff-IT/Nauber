@@ -1,6 +1,13 @@
 import Header from "../../components/Header";
 import "./Styles.css";
 
+import CatalogoBR from '../../assets/download/br/Catalogo.pdf'
+import INDUSTRIAL from '../../assets/download/br/INDUSTRIAL.pdf'
+import TECNICA from '../../assets/download/br/TECNICA.pdf'
+import VAREJO from '../../assets/download/br/VAREJO.pdf'
+
+import CatalogoEN from '../../assets/download/en/Catalogo.pdf'
+
 import Vetor1 from '../../assets/image/vector-1162.svg'
 import Vetor from '../../assets/image/vector-1172.svg'
 import Brasil from '../../assets/image/flagbrasil-2@2x.png'
@@ -24,7 +31,7 @@ function Catalogos(){
       <div className="footer-div6">
         <div className="footer-div7">
           <div className="bg-div4" />
-          <img className="phone-icon13" alt="" src={Phone} />
+          
           <div className="siga-nas-redes-sociais3">Siga nas redes sociais</div>
           <div className="nauber-2022-todos-os-direito3">
             Nauber © 2022 Todos os direitos reservados.
@@ -65,7 +72,7 @@ function Catalogos(){
             <div className="div22">+55 (47) 98821-2725</div>
             <div className="nossa-sede-div7">Nossa sede</div>
           </div>
-          <img className="pin-icon4" alt="" src={Pin} />
+          
           <div className="line-div7" />
           <img
             className="logo-nauber-icon3"
@@ -82,37 +89,43 @@ function Catalogos(){
       </div>
       <div className="catlogos-div5">
         <div className="linha-varejo-div">
-          
-          <img className="rectangle-div78" alt="" src={LinhaVarejo} />
+        <a href={VAREJO}>
+          <img className="rectangle-div78" alt="" src={LinhaVarejo} /></a>
           <div className="rectangle-div79" />
           <b className="linha-varejo-b">linha varejo</b>
         </div>
         <div className="linha-varejo-div1">
-        
-          <img className="rectangle-div78" alt="" src={LinhaCompleta} />
+        <a href={CatalogoBR}>
+          <img className="rectangle-div78" alt="" src={LinhaCompleta} /></a>
           <div className="rectangle-div81" />
           <b className="linha-completa-b">linha completa</b>
           <div className="bandeiras-div">
+          <a href={CatalogoBR}>
             <img
               className="flag-brasil-2-icon"
               alt=""
               src={Brasil}
             />
+            </a>
             <img
-              className="flag-espanha-2-icon"
+              className="flag-espanha-2-icon desativado"
               alt=""
               src={Espanha}
             />
-            <img className="flag-eua-2-icon" alt="" src={EUA} />
+            <a href={CatalogoEN}>
+              <img className="flag-eua-2-icon" alt="" src={EUA} />
+            </a>
           </div>
         </div>
         <div className="linha-tcnica-div">
-        <img className="rectangle-div78" alt="" src={LinhaTecnica} />
+        <a href={TECNICA}>
+        <img className="rectangle-div78" alt="" src={LinhaTecnica} /></a>
           <div className="rectangle-div83" />
           <b className="linha-tcnica-b">linha técnica</b>
         </div>
         <div className="linha-industrial-div4">
-        <img className="rectangle-div78" alt="" src={LinhaIndustrial} />
+        <a href={INDUSTRIAL}>
+        <img className="rectangle-div78" alt="" src={LinhaIndustrial} /></a>
           <div className="rectangle-div85" />
           <b className="linha-industrial-b">linha industrial</b>
         </div>
