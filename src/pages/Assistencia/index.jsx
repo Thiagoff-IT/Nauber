@@ -1,3 +1,4 @@
+import { Icon } from '@iconify/react';
 import Header from '../../components/Header'
 import "./Styles.css";
 
@@ -22,7 +23,7 @@ function Assistencia(){
       <div className="footer-div2">
         <div className="footer-div3">
           <div className="bg-div2" />
-          <img className="phone-icon1" alt="" src={Phone} />
+          
           <div className="siga-nas-redes-sociais1">Siga nas redes sociais</div>
           <div className="nauber-2022-todos-os-direito1">
             Nauber © 2022 Todos os direitos reservados.
@@ -33,11 +34,12 @@ function Assistencia(){
           <div className="nauber-maquinas-e-equipamentos1">
             20.633.257/0001-98 | NAUBER MAQUINAS E EQUIPAMENTOS
           </div>
-          <img
-            className="redes-sociais-icon1"
-            alt=""
-            src={Social}
-          />
+          <div className="redes-sociais-icon2">
+          <a href="https://www.facebook.com/naubermaquinas"><Icon icon="ic:baseline-facebook" className="ItemSocial" color="#fff" /></a>
+          <a href="https://www.instagram.com/naubermaquinas/"><Icon icon="mdi:instagram" className="ItemSocial" color="#fff" /></a>
+          <a href="https://www.youtube.com/@naubermaquinas2080"><Icon icon="mdi:youtube" className="ItemSocial" color="#fff" /></a>
+          <a href="https://www.tiktok.com/@naubermaquinas"><Icon icon="ic:baseline-tiktok" className="ItemSocial" color="#fff" /></a>
+          </div>
           <div className="dvidas-div1">
             <div className="converse-com-um-especialista1">
               Converse com um especialista
@@ -63,7 +65,7 @@ function Assistencia(){
             <div className="div5">+55 (47) 98821-2725</div>
             <div className="nossa-sede-div3">Nossa sede</div>
           </div>
-          <img className="pin-icon1" alt="" src={Pin} />
+          
           <div className="line-div3" />
           <img
             className="logo-nauber-icon1"

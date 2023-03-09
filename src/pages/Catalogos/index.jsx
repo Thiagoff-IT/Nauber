@@ -1,3 +1,4 @@
+
 import Header from "../../components/Header";
 import "./Styles.css";
 
@@ -23,6 +24,7 @@ import Phone from '../../assets/image/phone32.svg'
 import Social from '../../assets/image/redes-sociais-icon7.svg'
 import Pin from '../../assets/image/pin11.svg'
 import Nauber from '../../assets/image/logo-nauber@2x.png'
+import { Icon } from "@iconify/react";
 
 function Catalogos(){
   return (
@@ -42,11 +44,12 @@ function Catalogos(){
           <div className="nauber-maquinas-e-equipamentos3">
             20.633.257/0001-98 | NAUBER MAQUINAS E EQUIPAMENTOS
           </div>
-          <img
-            className="redes-sociais-icon3"
-            alt=""
-            src={Social}
-          />
+          <div className="redes-sociais-icon2">
+          <a href="https://www.facebook.com/naubermaquinas"><Icon icon="ic:baseline-facebook" className="ItemSocial" color="#fff" /></a>
+          <a href="https://www.instagram.com/naubermaquinas/"><Icon icon="mdi:instagram" className="ItemSocial" color="#fff" /></a>
+          <a href="https://www.youtube.com/@naubermaquinas2080"><Icon icon="mdi:youtube" className="ItemSocial" color="#fff" /></a>
+          <a href="https://www.tiktok.com/@naubermaquinas"><Icon icon="ic:baseline-tiktok" className="ItemSocial" color="#fff" /></a>
+          </div>
           <div className="dvidas-div3">
             <div className="converse-com-um-especialista3">
               Converse com um especialista

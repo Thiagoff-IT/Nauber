@@ -1,3 +1,4 @@
+import { Icon } from '@iconify/react';
 import Header from "../../components/Header";
 import "./Styles.css";
 
@@ -23,11 +24,7 @@ function Sobre(){
       <div className="footer-div20">
         <div className="footer-div21">
           <div className="bg-div11" />
-          <img 
-            className="phone-icon32" 
-            alt="" 
-            src={Phone}
-          />
+
           <div className="siga-nas-redes-sociais10">Siga nas redes sociais</div>
           <div className="nauber-2022-todos-os-direito10">
             Nauber © 2022 Todos os direitos reservados.
@@ -38,11 +35,12 @@ function Sobre(){
           <div className="nauber-maquinas-e-equipamentos10">
             20.633.257/0001-98 | NAUBER MAQUINAS E EQUIPAMENTOS
           </div>
-          <img
-            className="redes-sociais-icon10"
-            alt=""
-            src={Social}
-          />
+          <div className="redes-sociais-icon2">
+          <a href="https://www.facebook.com/naubermaquinas"><Icon icon="ic:baseline-facebook" className="ItemSocial" color="#fff" /></a>
+          <a href="https://www.instagram.com/naubermaquinas/"><Icon icon="mdi:instagram" className="ItemSocial" color="#fff" /></a>
+          <a href="https://www.youtube.com/@naubermaquinas2080"><Icon icon="mdi:youtube" className="ItemSocial" color="#fff" /></a>
+          <a href="https://www.tiktok.com/@naubermaquinas"><Icon icon="ic:baseline-tiktok" className="ItemSocial" color="#fff" /></a>
+          </div>
           <div className="dvidas-div10">
             <div className="converse-com-um-especialista10">
               Converse com um especialista
@@ -68,11 +66,7 @@ function Sobre(){
             <div className="div55">+55 (47) 98821-2725</div>
             <div className="nossa-sede-div21">Nossa sede</div>
           </div>
-          <img 
-            className="pin-icon11" 
-            alt="" 
-            src={Pin} 
-          />
+
           <div className="line-div27" />
           <img
             className="logo-nauber-icon10"

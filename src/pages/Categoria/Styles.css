@@ -689,14 +689,11 @@ transition: 0.2s;
 }
 
 .Industrial {
-  filter: brightness(45%);
+  filter: brightness(23%);
 
 }
 
 .Industrial:hover {
   filter: brightness(100%);
   transition: 0.2s;
-}
-.desativado {
-  filter: brightness(40%);
 }

@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom'
+import { Icon } from '@iconify/react';
 import Header from '../../components/Header'  
 import "./Styles.css";
 
@@ -20,7 +21,7 @@ function Categoria() {
       <div className="footer-div28">
         <div className="footer-div29">
           <div className="bg-div15" />
-
+          
           <div className="siga-nas-redes-sociais14">Siga nas redes sociais</div>
           <div className="nauber-2022-todos-os-direito14">
             Nauber © 2022 Todos os direitos reservados.
@@ -31,11 +32,12 @@ function Categoria() {
           <div className="nauber-maquinas-e-equipamentos14">
             20.633.257/0001-98 | NAUBER MAQUINAS E EQUIPAMENTOS
           </div>
-          <img
-            className="redes-sociais-icon14"
-            alt=""
-            src={Social}
-          />
+          <div className="redes-sociais-icon2">
+          <a href="https://www.facebook.com/naubermaquinas"><Icon icon="ic:baseline-facebook" className="ItemSocial" color="#fff" /></a>
+          <a href="https://www.instagram.com/naubermaquinas/"><Icon icon="mdi:instagram" className="ItemSocial" color="#fff" /></a>
+          <a href="https://www.youtube.com/@naubermaquinas2080"><Icon icon="mdi:youtube" className="ItemSocial" color="#fff" /></a>
+          <a href="https://www.tiktok.com/@naubermaquinas"><Icon icon="ic:baseline-tiktok" className="ItemSocial" color="#fff" /></a>
+          </div>
           <div className="dvidas-div14">
             <div className="converse-com-um-especialista14">
               Converse com um especialista
