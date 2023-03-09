@@ -778,14 +778,17 @@
 .redes-sociais-icon {
   position: absolute;
   height: 4.43%;
-  width: 7.84%;
+  width: 10.84%;
   top: 56.97%;
-  right: 82.93%;
+  right: 25.93%;
   bottom: 38.6%;
   left: 9.24%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
 }
 .converse-com-um-especialista,
 .envie-um-e-mail,
