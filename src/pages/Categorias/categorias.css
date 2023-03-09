@@ -207,7 +207,7 @@
 }
 .airless {
   position: absolute;
-  top: -18rem;
+  top: -20rem;
   left: 0;
   width: 455px;
   height: 279px;
@@ -219,6 +219,22 @@
   position: absolute;
   top: 0;
   left: 775px;
+  width: 455px;
+  height: 279px;
+  object-fit: cover;
+}
+.lixadeiras {
+  position: absolute;
+  top: -2rem;
+  left: 0;
+  width: 455px;
+  height: 279px;
+  object-fit: cover;
+}
+.vector-fresadora {
+  position: absolute;
+  top: -1rem;
+  left: 0;
   width: 455px;
   height: 279px;
   object-fit: cover;
@@ -309,6 +325,14 @@
 top: -18rem;
 //transform: rotate(180deg);
 }
+.bicos-airless {
+  position: absolute;
+  top: -20rem;
+  left: 384px;
+  width: 455px;
+  height: 279px;
+  object-fit: cover;
+}
 .vector-icon77 {
   left: 0rem;
 }
@@ -355,6 +379,7 @@ top: -18rem;
   height: 43px;
 }
 
+
 .lixadeiras-div1 {
   position: absolute;
   top: -20rem;
@@ -396,20 +421,28 @@ top: -18rem;
 .vector-icon84 {
   position: absolute;
   top: 0;
-  left: 389px;
+  left: 384px;
   width: 455px;
   height: 279px;
   object-fit: cover;
 }
 .vector-icon83,
 .vector-icon84 {
-  left: 782px;
+  left: 775px;
   /*! transform: rotate(180deg); */
+}
+.vector-desempenadeiras{
+  position: absolute;
+  top: -1rem;
+  left: 775px;
+  width: 455px;
+  height: 279px;
+  object-fit: cover;
 }
 .Filmes {
   position: absolute;
-  top: -18rem;
-  left: 782px;
+  top: -20rem;
+  left: 774px;
   width: 455px;
   height: 279px;
   object-fit: cover;
@@ -423,8 +456,8 @@ opacity: 0.5;
 }
 .acessorios-img {
   position: absolute;
-  top: 0rem;
-  left: 782px;
+  top: -2rem;
+  left: 775px;
   width: 455px;
   height: 279px;
   object-fit: cover;
@@ -441,7 +474,7 @@ opacity: 0.5;
   }
 .Pecas-img {
   position: absolute;
-  top: 0rem;
+  top: -2rem;
   left: 384px;
   width: 455px;
   height: 279px;
@@ -490,6 +523,14 @@ opacity: 0.5;
   left: 0;
   width: 388.35px;
   height: 43px;
+}
+.vector-compressor {
+  position: absolute;
+  top: -1rem;
+  left: 384px;
+  width: 455px;
+  height: 279px;
+  object-fit: cover;
 }
 .fresadora-div {
   position: absolute;
