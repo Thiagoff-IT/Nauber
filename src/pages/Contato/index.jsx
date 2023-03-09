@@ -1,5 +1,6 @@
 import Header from "../../components/Header";
 import "./Styles.css";
+import { Icon } from '@iconify/react';
 
 import Vetor from '../../assets/image/vector-1171.svg'
 import Vetor1 from '../../assets/image/vector-1161.svg'
@@ -54,7 +55,7 @@ function Contato(){
         <b className="centro-schroeder-sc">Centro - Schroeder - SC</b>
       </div>
       <div className="rectangle-div59" />
-      <img className="image-4-icon" alt="" src={Image} />
+      
       <div className="contatos-rpidos-div">
         <div className="div18">(41) 9000-0000</div>
         <div className="div19">(41) 9000-0000</div>
@@ -62,10 +63,19 @@ function Contato(){
         <div className="segunda-a-sexta-730-1748">
           Segunda a Sexta: 7:30 - 17:48
         </div>
+        <a href="https://goo.gl/maps/dLszQVUTBJqNiSEm8">
         <div className="rua-mal-castelo-branco-24773">
           Rua Mal. Castelo Branco, 2477 Centro Schroeder - SC.
+        </div></a>
+        <div className="icones-redes">
+        
+        <a href="https://www.facebook.com/naubermaquinas"><Icon icon="ic:baseline-facebook" className="ItemSocial" color="#0fa958" /></a>
+        <a href="https://www.instagram.com/naubermaquinas/"><Icon icon="mdi:instagram" className="ItemSocial" color="#0fa958" /></a>
+        <a href="https://www.youtube.com/@naubermaquinas2080"><Icon icon="mdi:youtube" className="ItemSocial" color="#0fa958" /></a>
+        <a href=""><Icon icon="mdi:pinterest" className="ItemSocial" color="#0fa958" /></a>
+        <a href="https://www.tiktok.com/@naubermaquinas"><Icon icon="ic:baseline-tiktok" className="ItemSocial" color="#0fa958" /></a>
+        
         </div>
-        <img className="icones-redes" alt="" src={Redes} />
         <img className="whatsapp-icon" alt="" src={Whatsapp} />
         <img className="mail-icon" alt="" src={Mail} />
         <img className="pin-icon3" alt="" src={Pin3} />
@@ -143,11 +153,13 @@ function Contato(){
           <div className="nauber-maquinas-e-equipamentos2">
             20.633.257/0001-98 | NAUBER MAQUINAS E EQUIPAMENTOS
           </div>
-          <img
-            className="redes-sociais-icon2"
-            alt=""
-            src={Social}
-          />
+          <div className="redes-sociais-icon2">
+          <a href="https://www.facebook.com/naubermaquinas"><Icon icon="ic:baseline-facebook" className="ItemSocial" color="#fff" /></a>
+          <a href="https://www.instagram.com/naubermaquinas/"><Icon icon="mdi:instagram" className="ItemSocial" color="#fff" /></a>
+          <a href="https://www.youtube.com/@naubermaquinas2080"><Icon icon="mdi:youtube" className="ItemSocial" color="#fff" /></a>
+          <a href="https://www.tiktok.com/@naubermaquinas"><Icon icon="ic:baseline-tiktok" className="ItemSocial" color="#fff" /></a>
+          </div>
+
           <div className="dvidas-div2">
             <div className="converse-com-um-especialista2">
               Converse com um especialista
