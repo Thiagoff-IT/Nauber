@@ -47,7 +47,7 @@
 .redes-sociais-icon2 {
   position: absolute;
   height: 4.43%;
-  width: 7.84%;
+  width: 18.84%;
   top: 56.97%;
   right: 82.93%;
   bottom: 38.6%;
@@ -55,6 +55,9 @@
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
 }
 .converse-com-um-especialista2,
 .envie-um-e-mail2,
@@ -738,6 +741,13 @@
   left: 3px;
   width: 184px;
   height: 25px;
+  
+  display: flex;
+  justify-content: space-between
+}
+
+.ItemSocial:not(:first-child) {
+  margin-right: 1rem;
 }
 .mail-icon,
 .phone-icon12,
