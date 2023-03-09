@@ -17,7 +17,7 @@ import Vetor10 from '../../assets/image/vector-97@2x.png'
 import Social from '../../assets/image/redes-sociais-icon7.svg'
 import Nauber from '../../assets/image/logo-nauber@2x.png'
 
-function Categorias(){
+function CategoriasDeProdutos(){
   return (
     <div className="categorias-de-produtos">
       <div className="footer-div24">
@@ -284,5 +284,5 @@ function Categorias(){
   );
 };
 
-export default Categorias;
+export default CategoriasDeProdutos;
 

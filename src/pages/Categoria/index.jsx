@@ -20,7 +20,7 @@ function Categoria() {
       <div className="footer-div28">
         <div className="footer-div29">
           <div className="bg-div15" />
-          <img className="phone-icon36" alt="" src={Phone} />
+
           <div className="siga-nas-redes-sociais14">Siga nas redes sociais</div>
           <div className="nauber-2022-todos-os-direito14">
             Nauber © 2022 Todos os direitos reservados.
@@ -61,7 +61,7 @@ function Categoria() {
             <div className="div67">+55 (47) 98821-2725</div>
             <div className="nossa-sede-div29">Nossa sede</div>
           </div>
-          <img className="pin-icon15" alt="" src={Pin} />
+          
           <div className="line-div35" />
           <img
             className="logo-nauber-icon14"
