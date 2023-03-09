@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { Icon } from '@iconify/react';
+
 import "./Styles.css";
 import Pin from '../../assets/image/pin.svg'
 import Phone from '../../assets/image/phone.svg'
@@ -30,11 +32,13 @@ function Footer() {
             <div className="nauber-maquinas-e-equipamentos">
               20.633.257/0001-98 | NAUBER MAQUINAS E EQUIPAMENTOS
             </div>
-            <img
-              className="redes-sociais-icon"
-              alt=""
-              src={Social}
-            />
+            <div className="redes-sociais-icon2">
+          <a href="https://www.facebook.com/naubermaquinas"><Icon icon="ic:baseline-facebook" className="ItemSocial" color="#fff" /></a>
+          <a href="https://www.instagram.com/naubermaquinas/"><Icon icon="mdi:instagram" className="ItemSocial" color="#fff" /></a>
+          <a href="https://www.youtube.com/@naubermaquinas2080"><Icon icon="mdi:youtube" className="ItemSocial" color="#fff" /></a>
+          <a href="https://www.tiktok.com/@naubermaquinas"><Icon icon="ic:baseline-tiktok" className="ItemSocial" color="#fff" /></a>
+
+          </div>
             <div className="dvidas-div">
               <div className="converse-com-um-especialista">
                 Converse com um especialista
