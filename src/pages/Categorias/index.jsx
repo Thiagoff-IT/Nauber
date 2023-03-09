@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-
+import { Icon } from '@iconify/react';
 import Header from "../../components/Header";
 import "./categorias.css";
 
@@ -17,12 +17,11 @@ import Vetor10 from '../../assets/image/vector-97@2x.png'
 
 import Social from '../../assets/image/redes-sociais-icon7.svg'
 import Nauber from '../../assets/image/logo-nauber@2x.png'
-import { Icon } from '@iconify/react';
 
-function Categorias(){
+function CategoriasDeProdutos(){
   return (
     <div className="categorias-de-produtos">
-      <div className="footer-div24">
+            <div className="footer-div24">
         <div className="footer-div25">
           <div className="bg-div13" />
          
@@ -163,7 +162,7 @@ function Categorias(){
 
           <div className='projetorasDeTextura'>
             <Link to="/ProdutoCompra">
-            <img className="vector-icon70" alt="" src={Vetor3} />
+            <img className="vector-fresadora" alt="" src={Vetor3} />
                 <div className="compressor-div2">
                 <img className="vector-icon86" alt="" src={Vetor4} />
                 <div className="fresadora-div">
@@ -175,7 +174,7 @@ function Categorias(){
 
           <div className='projetorasDeTextura'>
               <Link to="/ProdutoCompra">
-              <img className="vector-icon81" alt="" src={Vetor3}/>
+              <img className="vector-compressor" alt="" src={Vetor3}/>
               <div className="compressor-div">
               <img className="vector-icon86" alt="" src={Vetor4} />
               <div className="compressor-div1">
@@ -188,7 +187,7 @@ function Categorias(){
 
         <div className='projetorasDeTextura'>
           <Link to="/ProdutoCompra">
-          <img className="vector-icon83" alt="" src={Vetor3} />
+          <img className="vector-desempenadeiras" alt="" src={Vetor3} />
               <div className="compressor-div3">
               <img className="vector-icon87" alt="" src={Vetor4} />
               <div className="desempenadeiras-div">
@@ -203,7 +202,7 @@ function Categorias(){
         <div className="quadro-linha-4">
         <div className='projetorasDeTextura'>
         <Link to="/ProdutoCompra">
-        <img className="vector-icon76" alt="" src={Vetor7} />
+        <img className="bicos-airless" alt="" src={Vetor7} />
             <div className="bicos-airless-div">
             <img className="vector-icon78" alt="" src={Vetor2} />
             <div className="bicos-airless-div1">
@@ -246,7 +245,7 @@ function Categorias(){
         <div className="quadro-linha-5">
             <div className='projetorasDeTextura'>
               <Link to="/ProdutoCompra">
-              <img className="vector-icon70" alt="" src={Vetor9} />
+              <img className="lixadeiras" alt="" src={Vetor9} />
                   <div className="projetoras-de-textura2">
                   <img className="equipamentos-airless-bar" alt="" src={Vetor4} />
                   <div className="lixav">
@@ -287,5 +286,5 @@ function Categorias(){
   );
 };
 
-export default Categorias;
+export default CategoriasDeProdutos;
 
