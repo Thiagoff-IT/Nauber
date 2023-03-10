@@ -204,7 +204,7 @@ function CategoriasDeProdutos(){
         <Link to="/ProdutoCompra">
         <img className="bicos-airless" alt="" src={Vetor7} />
             <div className="bicos-airless-div">
-            <img className="vector-icon78" alt="" src={Vetor2} />
+            <img className="vector-bicos" alt="" src={Vetor2} />
             <div className="bicos-airless-div1">
             bicos airless
             </div>
