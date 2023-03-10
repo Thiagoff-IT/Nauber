@@ -241,7 +241,7 @@
 }
 .vector-icon69,
 .vector-icon70 {
-  left: 384px;
+  left: 388px;
 }
 .vector-icon70 {
   left: 0;
@@ -255,10 +255,10 @@
 }
 .projetoras-de-textura1 {
   position: absolute;
-  top: 7px;
+  top: 0px;
   left: 62.45px;
   display: inline-block;
-  opacity: 0.5;
+  opacity: 1;
 }
 .projetoras-de-textura {
   position: absolute;
@@ -269,10 +269,10 @@
 }
 .equipamentos-airless-div {
   position: absolute;
-  top: 7px;
+  top: 0px;
   left: 68.45px;
   display: inline-block;
-  opacity: 0.5;
+  opacity: 1;
 }
 .projetoras-de-textura2 {
   position: absolute;
@@ -283,10 +283,10 @@
 }
 .demarcao-viria-div {
   position: absolute;
-  top: 7px;
+  top: 0;
   left: 80.45px;
   display: inline-block;
-  opacity: 0.5;
+  opacity: 1;
 }
 .projetoras-de-textura3 {
   position: absolute;
@@ -321,14 +321,13 @@
 }
 .vector-icon76,
 .vector-icon77 {
-  left: 384px;
+  left: 388px;
 top: -18rem;
-//transform: rotate(180deg);
 }
 .bicos-airless {
   position: absolute;
   top: -20rem;
-  left: 384px;
+  left: 388px;
   width: 455px;
   height: 279px;
   object-fit: cover;
@@ -338,8 +337,15 @@ top: -18rem;
 }
 .vector-icon78 {
   position: absolute;
+  top: -18rem;
+  left: 77rem;
+  width: 388.92px;
+  height: 43px;
+}
+.vector-bicos {
+  position: absolute;
   top: -20rem;
-  left: 76.5rem;
+  left: 77rem;
   width: 388.92px;
   height: 43px;
 }
@@ -352,16 +358,15 @@ top: -18rem;
 }
 .aspiradores-bar {
   position: absolute;
-  top: -20rem;
-  left: 76.3rem;
+  top: -18rem;
+  left: 77rem;
   display: inline-block;
 }
 .aspiradores-div2 {
   position: absolute;
-  top: -20rem;
+  top: -18rem;
   left: 84rem;
   display: inline-block;
-  /*! transform: rotate(180deg); */
 }
 .aspiradores-div1 {
   position: absolute;
@@ -373,8 +378,8 @@ top: -18rem;
 }
 .vector-icon79 {
   position: absolute;
-  top: -20rem;
-  left: 76.3rem;
+  top: -18rem;
+  left: 77rem;
   width: 388.28px;
   height: 43px;
 }
@@ -382,11 +387,10 @@ top: -18rem;
 
 .lixadeiras-div1 {
   position: absolute;
-  top: -20rem;
-  left: 83rem;
+  top: -18rem;
+  left: 85rem;
   display: inline-block;
-  opacity: 0.5;
-  /*! transform: rotate(180deg); */
+  opacity: 1;
 }
 .aspiradores-div3 {
   position: absolute;
@@ -397,10 +401,10 @@ top: -18rem;
 }
 .misturadores-div1 {
   position: absolute;
-  top: -20rem;
+  top: -18rem;
   left: 83rem;
   display: inline-block;
-  opacity: 0.5;
+  opacity: 1;
   /*! transform: rotate(180deg); */
 }
 .aspiradores-div4 {
@@ -449,10 +453,10 @@ top: -18rem;
 }
 .lixav {
   position: absolute;
-top: -30px;
-left: 68.45px;
-display: inline-block;
-opacity: 0.5;
+  top: -38px;
+  left: 68.45px;
+  display: inline-block;
+  opacity: 1;
 }
 .acessorios-img {
   position: absolute;
@@ -464,31 +468,31 @@ opacity: 0.5;
 }
 .acessorios-bar {
   position: absolute;
-  top: 11rem;
-  left: 50rem;
+  top: 10.5rem;
+  left: 49rem;
   }
   .acessorios-div {
-  position: absolute;
-  top: 11rem;
-  left: 58rem;
+    position: absolute;
+    top: 10.5rem;
+    left: 57rem;
   }
 .Pecas-img {
   position: absolute;
   top: -2rem;
-  left: 384px;
+  left: 388px;
   width: 455px;
   height: 279px;
   object-fit: cover;
 }
 .Pecas-bar {
   position: absolute;
-  top: 11rem;
-  left: 25rem;
-  }
+  top: 10.5rem;
+  left: 24.9rem;
+}
 .Pecas-div {
   position: absolute;
   left: 35rem;
-  top: 11rem;
+  top: 10.5rem;
   }
 .vector-icon84 {
   top: 663px;
@@ -505,7 +509,7 @@ opacity: 0.5;
 }
 .compressor-div1 {
   position: absolute;
-  top: 7px;
+  top: -15px;
   left: 124.39px;
   display: inline-block;
 }
@@ -519,7 +523,7 @@ opacity: 0.5;
 }
 .vector-icon86 {
   position: absolute;
-  top: 0;
+  top: -1rem;
   left: 0;
   width: 388.35px;
   height: 43px;
@@ -527,17 +531,17 @@ opacity: 0.5;
 .vector-compressor {
   position: absolute;
   top: -1rem;
-  left: 384px;
+  left: 388px;
   width: 455px;
   height: 279px;
   object-fit: cover;
 }
 .fresadora-div {
   position: absolute;
-  top: 7px;
-  left: 132.45px;
+  top: -15px;
+  left: 129.45px;
   display: inline-block;
-  opacity: 0.5;
+  opacity: 1;
 }
 .compressor-div2,
 .vector-icon87 {
@@ -548,16 +552,16 @@ opacity: 0.5;
   height: 43px;
 }
 .vector-icon87 {
-  top: 0;
-  left: 0;
+  top: -1rem;
+  left: -7px;
   width: 388.21px;
 }
 .desempenadeiras-div {
   position: absolute;
-  top: 7px;
-  left: 93.39px;
+  top: -15px;
+  left: 88.39px;
   display: inline-block;
-  opacity: 0.5;
+  opacity: 1;
 }
 .compressor-div3 {
   position: absolute;
@@ -599,14 +603,14 @@ opacity: 0.5;
 .vector-icon94 {
   position: absolute;
   top: -20rem;
-  left: 52.5rem;
+  left: 53rem;
   width: 388.92px;
   height: 43px;
 }
 .equipamentos-airless-bar {
   position: absolute;
-  top: 0.5rem;
-  left: -0.1rem;
+  top: -2.5rem;
+  left: 0rem;
   width: 388.92px;
   height: 43px;
 }
