@@ -163,7 +163,7 @@ function CategoriasDeProdutos(){
 
           <div className='projetorasDeTextura'>
             <Link to="/ProdutoCompra">
-            <img className="vector-icon70" alt="" src={Vetor3} />
+            <img className="vector-fresadora" alt="" src={Vetor3} />
                 <div className="compressor-div2">
                 <img className="vector-icon86" alt="" src={Vetor4} />
                 <div className="fresadora-div">
@@ -175,7 +175,7 @@ function CategoriasDeProdutos(){
 
           <div className='projetorasDeTextura'>
               <Link to="/ProdutoCompra">
-              <img className="vector-icon81" alt="" src={Vetor3}/>
+              <img className="vector-compressor" alt="" src={Vetor3}/>
               <div className="compressor-div">
               <img className="vector-icon86" alt="" src={Vetor4} />
               <div className="compressor-div1">
@@ -188,7 +188,7 @@ function CategoriasDeProdutos(){
 
         <div className='projetorasDeTextura'>
           <Link to="/ProdutoCompra">
-          <img className="vector-icon83" alt="" src={Vetor3} />
+          <img className="vector-desempenadeiras" alt="" src={Vetor3} />
               <div className="compressor-div3">
               <img className="vector-icon87" alt="" src={Vetor4} />
               <div className="desempenadeiras-div">
@@ -203,9 +203,9 @@ function CategoriasDeProdutos(){
         <div className="quadro-linha-4">
         <div className='projetorasDeTextura'>
         <Link to="/ProdutoCompra">
-        <img className="vector-icon76" alt="" src={Vetor7} />
+        <img className="bicos-airless" alt="" src={Vetor7} />
             <div className="bicos-airless-div">
-            <img className="vector-icon78" alt="" src={Vetor2} />
+            <img className="vector-bicos" alt="" src={Vetor2} />
             <div className="bicos-airless-div1">
             bicos airless
             </div>
@@ -246,21 +246,21 @@ function CategoriasDeProdutos(){
         <div className="quadro-linha-5">
             <div className='projetorasDeTextura'>
               <Link to="/ProdutoCompra">
-              <img className="vector-icon70" alt="" src={Vetor9} />
+              <img className="lixadeiras" alt="" src={Vetor9} />
                   <div className="projetoras-de-textura2">
                   <img className="equipamentos-airless-bar" alt="" src={Vetor4} />
-                  <div className="equipamentos-airless-div">
+                  <div className="lixav">
                   lixadeiras e abrasivos
                   </div>
                 </div>           
                 </Link>
               </div>
-              </div>
-      </div>
+
+            </div>
+          </div>
       <Header />
     </div>
   );
 };
 
 export default CategoriasDeProdutos;
-
