@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { Icon } from '@iconify/react';
+import { useTranslation } from 'react-i18next';
+
 
 import "./Styles.css";
 import Pin from '../../assets/image/pin.svg'
@@ -8,6 +10,7 @@ import Social from '../../assets/image/redes-sociais-icon.svg'
 import Nauber from '../../assets/image/logo-nauber@2x.png'
 
 function Footer() {
+  const { t } = useTranslation();
   return (
     <>
       <div className="frame-div4">
@@ -50,7 +53,7 @@ function Footer() {
             <div className="produtos-div1">
               <Link to='/Categorias' className="construo-civil-div">Construção civil</Link>
               <Link to='' className="linha-industrial-div">Linha industrial</Link>
-              <div className="ficou-com-dvidas">Produtos</div>
+              <div className="ficou-com-dvidas">{t('PRODUTOS')}</div>
             </div>
             <div className="nossa-sede-div">
               <div className="rua-mal-castelo-branco-2477">

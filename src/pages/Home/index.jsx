@@ -1,5 +1,6 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
+import { useTranslation } from 'react-i18next';
 
 import { Link } from "react-router-dom";
 
@@ -29,6 +30,7 @@ import Foto4 from "../../assets/image/foto-4-1@2x.png"
 import Foto4_2 from "../../assets/image/foto-4-2@2x.png"
 
 function Home() {
+  const { t } = useTranslation();
   return (
     <>
     <div className="home-div">
@@ -40,17 +42,7 @@ function Home() {
                src={BG} 
           />
          
-          <div className="subtext-div">
-            <span>{`“A `}</span>
-            <b>evolução</b>
-            <span>{` é o que `}</span>
-            <b>nos move</b>
-            <span>{`, o `}</span>
-            <b>resultado</b>
-            <span>{` é o que `}</span>
-            <b>nos inspira</b>
-            <span>”</span>
-          </div>
+          <div className="subtext-div">{t('A evolução é o que nos move o resultado é o que nos inspira')}</div>
           <div className="bullets-div">
             <div className="bullet-div">
               <img
@@ -86,9 +78,9 @@ function Home() {
           />
 
           <b className="conhea-o-sistema-de-revenda">
-            <p className="conhea-o-sistema">CONHEÇA O</p>
-            <p className="conhea-o-sistema">SISTEMA DE</p>
-            <p className="revenda-p">REVENDA</p>
+            <p className="conhea-o-sistema">{t('CONHEÇA O')}</p>
+            <p className="conhea-o-sistema">{t('SISTEMA DE')}</p>
+            <p className="revenda-p">{t('REVENDA')}</p>
           </b>
           <b className="nauber-pro1">NAUBER PRO</b>
         </div>
@@ -106,13 +98,14 @@ function Home() {
               src={LogoIcon}
           />
           <div className="boto-div">
-            <div className="rectangle-div4" />
-            <Link to="/Sobre" className="saiba-mais">SAIBA MAIS</Link>
+          <Link to="/Sobre">
+            <div className="rectangle-div4" /></Link>
+            <Link to="/Sobre" className="saiba-mais">{t('SAIBA MAIS')}</Link>
           </div>
           <div className="boto-div1">
             <div className="rectangle-div5" />
             <a href="#" className="acesse-uma-revenda-nauber-pro">
-              acesse uma revenda nauber pro agora
+            {t('acesse uma revenda nauber pro agora')}
             </a>
           </div>
           
@@ -126,23 +119,19 @@ function Home() {
             <img className="check-icon2" alt="Check" src={Check} />
             <img className="check-icon3" alt="Check" src={Check} />
             <b className="ps-venda-que-s-a-nauber-tem">
-              Pós venda que só a Nauber tem
+            {t('Pós venda que só a Nauber tem')}
             </b>
-            <b className="qualidade-b">Qualidade</b>
-            <b className="melhor-custo-benefcio">Melhor custo benefício</b>
+            <b className="qualidade-b">{t('Qualidade')}</b>
+            <b className="melhor-custo-benefcio">{t('Melhor custo benefício')}</b>
             <b className="equipamentos-profissionais-b">
-              Equipamentos Profissionais
+              {t('Equipamentos Profissionais')}
             </b>
           </div>
           
           <b className="subtitulo">
-            Os equipamentos e acessórios Nauber são produzidos sob total
-            supervisão de qualidade, sendo que 100% dos equipamentos são
-            testados antes do envio para nossos clientes, garantindo dessa forma
-            a qualidade final, e a satisfação de compra através de equipamentos
-            de ponta.
+          {t('Os equipamentos e acessórios Nauber são produzidos sob total supervisão de qualidade, sendo que 100% dos equipamentos são testados antes do envio para nossos clientes, garantindo dessa forma a qualidade final, e a satisfação de compra através de equipamentos de ponta.')}
           </b>
-          <b className="titulo-b">NÓS SOMOS PROFISSIONAIS</b>
+          <div className="titulo-b">{t('NÓS SOMOS PROFISSIONAIS')}</div>
           <img
             className="p1070842-editado-original-1"
             alt=""
@@ -159,7 +148,7 @@ function Home() {
             <img className="bg-icon" alt="Bg2" src={Bg2} />
             <img className="vector-icon7" alt="Vetor119" src={Vetor119}/>
             <div className="destaque-div">
-              <b className="destaques-b">DESTAQUES</b>
+              <div className="destaques-b">{t('DESTAQUES')}</div>
               <div className="rectangle-div8" />
               <div className="rectangle-div9" />
             </div>
@@ -170,7 +159,7 @@ function Home() {
               <div className="rectangle-div13" />
             </div>
             <div className="tpico-lanamento-div">
-              <b className="destaques-b1">Destaques</b>
+              <b className="destaques-b1">{t('DESTAQUES')}</b>
               <div className="rectangle-div14" />
               <img className="line-icon" alt="Line" src={Line} />
               <div className="line-div2" />
@@ -180,12 +169,12 @@ function Home() {
             <div className="produto-1-div">
               <div className="rectangle-div15" />
               <div className="fresadora-de-parede-nauber-fn">
-                <p className="conhea-o-sistema-Home">Fresadora De Parede Nauber</p>
+                <p className="conhea-o-sistema-Home">{t('Fresadora De Parede Nauber')}</p>
                 <p className="revenda-p-home">FN - 1650</p>
               </div>
               <div className="boto-div2">
                 <div className="rectangle-div16" />
-                <Link to="/ProdutoLogistico" className="saiba-mais-div">SAIBA MAIS</Link>
+                <Link to="/ProdutoLogistico" className="saiba-mais-div">{t('SAIBA MAIS')}</Link>
                 <img className="vector-icon8" alt="" src={Vector5} />
               </div>
               <div className="rectangle-div17" />
@@ -193,12 +182,12 @@ function Home() {
             <div className="produto-2-div">
               <div className="rectangle-div18" />
               <div className="fresadora-de-parede-nauber-fn1">
-                <p className="conhea-o-sistema-Home">Fresadora De Parede Nauber</p>
+                <p className="conhea-o-sistema-Home">{t('Fresadora De Parede Nauber')}</p>
                 <p className="revenda-p-home">FN - 1650</p>
               </div>
               <div className="boto-div2">
                 <div className="rectangle-div19" />
-                <a href="#" className="saiba-mais-div">SAIBA MAIS</a>
+                <a href="#" className="saiba-mais-div">{t('SAIBA MAIS')}</a>
                 <img className="vector-icon9" alt="" src={Vector6} />
               </div>
               <div className="rectangle-div17" />
@@ -206,12 +195,12 @@ function Home() {
             <div className="produto-3-div">
               <div className="rectangle-div21" />
               <div className="fresadora-de-parede-nauber-fn2">
-                <p className="conhea-o-sistema-Home">Fresadora De Parede Nauber</p>
+                <p className="conhea-o-sistema-Home">{t('Fresadora De Parede Nauber')}</p>
                 <p className="revenda-p-home">FN - 1650</p>
               </div>
               <div className="boto-div4">
                 <div className="rectangle-div16" />
-                <a href="#" className="saiba-mais-div">SAIBA MAIS</a>
+                <a href="#" className="saiba-mais-div">{t('SAIBA MAIS')}</a>
                 <img 
                     className="vector-icon10" 
                     alt="" 
@@ -223,12 +212,12 @@ function Home() {
             <div className="produto-4-div">
               <div className="rectangle-div24" />
               <div className="fresadora-de-parede-nauber-fn3">
-                <p className="conhea-o-sistema-Home">Fresadora De Parede Nauber</p>
+                <p className="conhea-o-sistema-Home">{t('Fresadora De Parede Nauber')}</p>
                 <p className="revenda-p-home">FN - 1650</p>
               </div>
               <div className="boto-div5">
                 <div className="rectangle-div16" />
-                <a href="#" className="saiba-mais-div">SAIBA MAIS</a>
+                <a href="#" className="saiba-mais-div">{t('SAIBA MAIS')}</a>
               </div>
               <img 
                   className="vector-icon11" 

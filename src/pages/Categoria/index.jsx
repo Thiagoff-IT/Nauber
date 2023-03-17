@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom'
 import { Icon } from '@iconify/react';
+import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header'  
 import "./Styles.css";
 
@@ -15,6 +16,8 @@ import Pin from '../../assets/image/pin11.svg'
 import Nauber from '../../assets/image/logo-nauber@2x.png'
 
 function Categoria() {
+  const { t } = useTranslation();
+
   return (
     <>   
     <div className="categoria-div">
@@ -99,7 +102,7 @@ function Categoria() {
           <Link 
                to="/Categorias" 
                className="construo-civil-b">
-                Construção Civil
+                {t('Construção Civil')}
           </Link>
           </div>
         <div className='Industrial'>
@@ -107,7 +110,7 @@ function Categoria() {
         <img className="vector-icon139" alt="" src={Vetor1} /></Link>
         <Link to="/CategoriasDeProdutos">
         <img className="vector-icon140" alt="" src={Vetor3} /></Link>
-        <Link to="/CategoriasDeProdutos" className="linha-industrial-b1">Linha Industrial</Link>
+        <Link to="/CategoriasDeProdutos" className="linha-industrial-b1">{t('Linha Industrial')}</Link>
         </div>
 
         <div>

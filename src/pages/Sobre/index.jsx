@@ -1,4 +1,5 @@
 import { Icon } from '@iconify/react';
+import { useTranslation } from 'react-i18next';
 import Header from "../../components/Header";
 import "./Styles.css";
 
@@ -18,9 +19,77 @@ import NauberPro from '../../assets/image/nauber-pro-1@2x.png'
 
 
 function Sobre(){
+  const { t } = useTranslation();
   return (
     <>
     <div className="sobre-a-nauber2">
+    
+
+      <img 
+        className="rectangle-icon1" 
+        alt="" 
+        src={Retan} 
+        />
+        <Header />
+      <div className="mquinas-div6">
+        <img 
+          className="vector-icon62" 
+          alt="" 
+          src={Vetor} 
+        />
+        <img 
+          className="vector-icon63" 
+          alt="" 
+          src={Vetor1}
+        />
+        <b className="mquinas-para-pintura12">máquinas para pintura</b>
+      </div>
+      <div className="frame-div6">
+        <div className="footer-div21">
+          <img 
+            className="bg-icon3" 
+            alt="" 
+            src={Bg}
+            />
+          
+          <img 
+            className="nauber-pro-11" 
+            alt="" 
+            src={NauberPro} 
+          />
+          <div className="rectangle-div268" >
+          <iframe src="https://www.youtube.com/embed/1_0jbbZlKlg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+          </div>
+          <img
+            className="logo-revenda-pro-21"
+            alt=""
+            src={LogoRevenda}
+          />
+          <b className="conhea-o-sistema-de-revenda1">
+            <p className="rua-mal-castelo10">{t('CONHEÇA O')}</p>
+            <p className="rua-mal-castelo10">{t('SISTEMA DE')}</p>
+            <p className="schroeder-sc10">{t('REVENDA')}</p>
+          </b>
+          <b className="nauber-pro12">NAUBER PRO</b>
+        </div>
+      </div>
+      <div className="video-div6">
+      <div class="rectangle-div270">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1_0jbbZlKlg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+      </div>
+      <div className="group-div25">
+        <img
+          className="flag-brasil-2-icon19"
+          alt=""
+          src={Brasil}
+        />
+        <b className="nauber-mquinas">{t('nauber máquinas')}</b>
+        <div className="a-nauber-mquinas-uma-empres">
+          {t('A Nauber Máquinas é uma empresa Brasileira, sediada na cidade de Schroeder, Santa Catarina, a 8 km da cidade de  Jaraguá do Sul, e 25 km da Cidade de Joinville. Nosso objetivo é desenvolver e buscar novas tecnologias que proporcionem melhorias significativas de qualidade e desempenho de processos da construção civil. Com a globalização, e a disputa constante em um mercado cada vez mais acirrado, não há melhor forma de se tornar mais competitivo do que aprimorar processos para reduzir custos. Nossa linha de equipamentos Airless, Lixadeiras, Aspiradores e Acessórios, são desenvolvidas para profissionais que buscam otimização de mão de obra , e desempenhar produtividade sem abrir mão da qualidade. Os equipamentos e acessórios Nauber são produzidos sob total supervisão de qualidade, sendo que 100% dos equipamentos são testados antes do envio para nossos clientes, garantindo, dessa forma, a qualidade final, e a satisfação de compra através de equipamentos de ponta.')}
+            </div>
+      </div>
       <div className="footer-div20">
         <div className="footer-div21">
           <div className="bg-div11" />
@@ -76,87 +145,6 @@ function Sobre(){
           <div className="rectangle-div266" />
         </div>
       </div>
-      <img 
-        className="rectangle-icon1" 
-        alt="" 
-        src={Retan} 
-        />
-      <div className="mquinas-div6">
-        <img 
-          className="vector-icon62" 
-          alt="" 
-          src={Vetor} 
-        />
-        <img 
-          className="vector-icon63" 
-          alt="" 
-          src={Vetor1}
-        />
-        <b className="mquinas-para-pintura12">máquinas para pintura</b>
-      </div>
-      <div className="frame-div6">
-        <div className="footer-div21">
-          <img 
-            className="bg-icon3" 
-            alt="" 
-            src={Bg}
-            />
-          
-          <img 
-            className="nauber-pro-11" 
-            alt="" 
-            src={NauberPro} 
-          />
-          <div className="rectangle-div268" >
-          <iframe src="https://www.youtube.com/embed/1_0jbbZlKlg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
-          </div>
-          <img
-            className="logo-revenda-pro-21"
-            alt=""
-            src={LogoRevenda}
-          />
-          <b className="conhea-o-sistema-de-revenda1">
-            <p className="rua-mal-castelo10">CONHEÇA O</p>
-            <p className="rua-mal-castelo10">SISTEMA DE</p>
-            <p className="schroeder-sc10">REVENDA</p>
-          </b>
-          <b className="nauber-pro12">NAUBER PRO</b>
-        </div>
-      </div>
-      <div className="video-div6">
-      <div class="rectangle-div270">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1_0jbbZlKlg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-      </div>
-      <div className="group-div25">
-        <img
-          className="flag-brasil-2-icon19"
-          alt=""
-          src={Brasil}
-        />
-        <b className="nauber-mquinas">nauber máquinas</b>
-        <div className="a-nauber-mquinas-uma-empres">
-          {`A Nauber Máquinas é uma empresa Brasileira, 
-            sediada na cidade de Schroeder, Santa Catarina, 
-            a 8 km da cidade de  Jaraguá do Sul, 
-            e 25 km da Cidade de Joinville. 
-            Nosso objetivo é desenvolver e buscar novas tecnologias que 
-            proporcionem melhorias significativas de qualidade e desempenho de 
-            processos da construção civil. Com a globalização, 
-            e a disputa constante em um mercado cada vez mais acirrado, 
-            não há melhor forma de se tornar mais competitivo do que 
-            aprimorar processos para reduzir custos. Nossa linha de equipamentos 
-            Airless, Lixadeiras, Aspiradores e Acessórios, 
-            são desenvolvidas para profissionais que buscam otimização de 
-            mão de obra , e desempenhar produtividade sem abrir mão da qualidade. 
-            Os equipamentos e acessórios Nauber são produzidos sob total supervisão de qualidade, 
-            sendo que 100% dos equipamentos são testados antes do envio para nossos clientes, 
-            garantindo, dessa forma, a qualidade final, 
-            e a satisfação de compra através de equipamentos de ponta. `}
-            </div>
-      </div>
-      <Header />
     </div>
     </>
   );

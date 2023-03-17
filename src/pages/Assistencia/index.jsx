@@ -1,5 +1,6 @@
 import { Icon } from '@iconify/react';
 import Header from '../../components/Header'
+import { useTranslation } from 'react-i18next';
 import "./Styles.css";
 
 import Vetor from '../../assets/image/vector-117.svg'
@@ -17,6 +18,7 @@ import Nauber from '../../assets/image/logo-nauber@2x.png'
 
 
 function Assistencia(){
+  const { t } = useTranslation();
   return (
     <div className="assistncia-div">
       <Header />
@@ -78,12 +80,12 @@ function Assistencia(){
       <div className="headline-div">
         <img className="vector-icon15" alt="" src={Vetor} />
         <img className="vector-icon16" alt="" src={Vetor1} />
-        <b className="assistncias-b2">assistências</b>
+        <b className="assistncias-b2">{t('ASSISTÊNCIAS')}</b>
       </div>
       <div className="card-endereo-div">
         <div className="rectangle-div29" />
         <b className="localize-a-assistncia-mais-pr">
-          Localize a assistência mais próximo de você
+        {t('Localize a assistência mais próximo de você')}
         </b>
         <div className="ou-div">ou</div>
         <div className="ou-div1">ou</div>
@@ -91,29 +93,29 @@ function Assistencia(){
           <div className="cep-div">
             <div className="rectangle-div30" />
             <img className="seach-icon" alt="" src={Search} />
-            <input type="text" className="informe-seu-cep" placeholder="Informe seu CEP" />
+            <input type="text" className="informe-seu-cep" placeholder={t('Informe seu CEP')} />
           </div>
           <div className="cidade-div">
             <div className="rectangle-div30" />
             <img className="seach-icon" alt="" src={Search} />
-            <input type="text" className="informe-seu-cep" placeholder="Informe a sua Cidade"/>
+            <input type="text" className="informe-seu-cep" placeholder={t('Informe a sua Cidade')}/>
           </div>
         </div>
         <div className="localizao-div">
           <div className="concordo-em-compartilhar-a-min">
-            concordo em compartilhar a minha localização geográfica atual.
+          {t('concordo em compartilhar a minha localização geográfica atual.')}
           </div>
           <div className="rectangle-div32" />
           <img className="ellipse-icon" alt="" src={Ellipse} />
           <img className="global-1-1-icon" alt="" src={Global} />
-          <input type="text" className="usar-minha-localizao" placeholder="Usar minha localização" />
+          <input type="text" className="usar-minha-localizao" placeholder={t('Usar minha localização')} />
           <div className="verificado-div">
             <div className="rectangle-div33" />
             <input type="checkbox" class="vector-icon17"/>
           </div>
         </div>
       </div>
-      <b className="assistncias-mais-prximas">assistências mais próximas</b>
+      <b className="assistncias-mais-prximas">{t('assistências mais próximas')} </b>
       <div className="linha-1-div">
         <div className="assistncia-div1">
           <div className="rectangle-div34" />

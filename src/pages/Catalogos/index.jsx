@@ -1,5 +1,5 @@
-
 import Header from "../../components/Header";
+import { useTranslation } from 'react-i18next';
 import "./Styles.css";
 
 import CatalogoBR from '../../assets/download/br/Catalogo.pdf'
@@ -20,13 +20,12 @@ import LinhaCompleta from '../../assets/image/catalogos/LinhaCompleta.jpeg'
 import LinhaTecnica from '../../assets/image/catalogos/LinhaTecnica.jpeg'
 import LinhaIndustrial from '../../assets/image/catalogos/LinhaIndustrial.jpeg'
 
-import Phone from '../../assets/image/phone32.svg'
-import Social from '../../assets/image/redes-sociais-icon7.svg'
-import Pin from '../../assets/image/pin11.svg'
+
 import Nauber from '../../assets/image/logo-nauber@2x.png'
 import { Icon } from "@iconify/react";
 
 function Catalogos(){
+  const { t } = useTranslation();
   return (
     <div className="catlogos-div3">
       <Header />
@@ -88,7 +87,7 @@ function Catalogos(){
       <div className="headline-div2">
         <img className="vector-icon25" alt="" src={Vetor} />
         <img className="vector-icon26" alt="" src={Vetor1} />
-        <b className="catlogos-virtuais-b4">catálogos virtuais</b>
+        <b className="catlogos-virtuais-b4">{t('CATÁLOGOS VIRTUAIS')}</b>
       </div>
       <div className="catlogos-div5">
         <div className="linha-varejo-div">

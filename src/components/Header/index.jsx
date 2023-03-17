@@ -1,23 +1,13 @@
 import * as React from "react";
 import { NavLink } from "react-router-dom";
 import { Icon } from '@iconify/react';
-
-let activeStyle = {
-  textDecoration: "underline",
-};
-
-let activeClassName = "underline";
-
+import { useTranslation } from 'react-i18next';
+import LanguageButton from '../LanguageButton';
 
 
 import Home from "../../assets/image/logo-nauber-1@2x.png"
 import Vetor83 from "../../assets/image/vector-83.svg"
 import Seach from "../../assets/image/frame-24.svg"
-import EmpresaIcon from "../../assets/image/empresa.svg"
-import BoxIcon from "../../assets/image/box11.svg"
-import Assistencias from "../../assets/image/assistencias2.svg"
-import Catalagos from "../../assets/image/catalagos1.svg"
-import Contato from "../../assets/image/contato5.svg"
 import Login from "../../assets/image/logim.svg"
 import flagBrasil from "../../assets/image/flagbrasil-11@2x.png"
 import flagEspanha from "../../assets/image/flagespanha-1@2x.png"
@@ -29,6 +19,23 @@ import LogoRevenda from "../../assets/image/logo-revenda-pro-1@2x.png"
 import "./Styles.css";
 
 function Header() {
+
+  const { t, i18n } = useTranslation();
+
+  const handleClick = () => {
+    i18n.changeLanguage('pt');
+  }
+  const handleClickEn = () => {
+    i18n.changeLanguage('en');
+  }
+  const handleClickEs = () => {
+    i18n.changeLanguage('es');
+  }
+
+  const handleClickAr = () => {
+    i18n.changeLanguage('ar');
+  }
+
   return (
   <div className="header-div11">
           <div className="bg-header34" />
@@ -41,9 +48,6 @@ function Header() {
               src={Home}
             />
             <NavLink to="/" 
-                        style={({ isActive }) =>
-              isActive ? activeStyle : undefined
-            }
 
             >
             <img
@@ -59,41 +63,43 @@ function Header() {
                  src={Vetor83} 
             />
             <div className="home-div12">
-              <NavLink to="/" className="home-b11">HOME
+              <NavLink to="/" className="home-b11">{t('HOME')}
               <Icon  className="home-icon11" icon="clarity:home-solid" />
               </NavLink>
             </div>
             <div className="empresa-div11">
               <NavLink to="/Sobre" className="empresa-b11">
               <Icon className="empresa-icon11"  icon="bxs:business" />
-                EMPRESA</NavLink>
+                {t('EMPRESA')}</NavLink>
             </div>
             <div className="produtos-div37">
               <NavLink to="/Categoria" className="produtos-b11">
               <Icon className="box-icon11" icon="fa-solid:box-open" />
-              PRODUTOS
+              {t('PRODUTOS')}
               </NavLink>
             </div>
             <div className="assistencia-div11">
               <NavLink to="/Assistencia" className="assistncias-b12">
               <Icon className="home-icon11" icon="mdi:tools" />
-                ASSISTÊNCIAS
+              {t('ASSISTÊNCIAS')}
               </NavLink>
             </div>
             <div className="catlogos-div13">
               <NavLink to="/Catalogos" className="catlogos-virtuais-b12">
               <Icon className="home-icon11"  icon="ri:book-fill" />
-                CATÁLOGOS VIRTUAIS
+              {t('CATÁLOGOS VIRTUAIS')}
               </NavLink>
             </div>
             <div className="contato-div12">
               <NavLink to="/Contato" className="contato-b12">
               <Icon className="home-icon11" icon="tabler:message-circle" />
-                CONTATO
+              {t('CONTATO')}
               </NavLink>
             </div>
             <div className="login-div11">
-              <NavLink to="/Login" className="login-b11">login</NavLink>
+              <NavLink to="/Login" className="login-b11">
+              {t('login')}
+                </NavLink>
               <img className="logim-icon11" 
                    alt="Login" 
                    src={Login} 
@@ -103,30 +109,30 @@ function Header() {
          
           <div className="flags-div11">
           
-            <img
+          <LanguageButton
               className="flag-brasil-1-icon11"
-              alt="Brasil"
-              src={flagBrasil}
-              
-            />
-            
-            <img
+              image={flagBrasil}
+              alt="Brazil Flag"
+              onClick={handleClick}
+          />
+          <LanguageButton
               className="flag-espanha-1-icon11"
-              alt="Espanha"
-              src={flagEspanha}
-            />
-            
-            <img className="flag-eua-1-icon11" 
-                 alt="EUA" 
-                 src={flagEUA}
-                 
-            />
-           
-            <img
+              image={flagEspanha}
+              alt="Espanha Flag"
+              onClick={handleClickEs}
+          />
+          <LanguageButton
+              className="flag-eua-1-icon11"
+              image={flagEUA}
+              alt="EUA Flag"
+              onClick={handleClickEn}
+          />
+          <LanguageButton
               className="flag-arabia-1-icon11"
-              alt="Arabia"
-              src={flagArabia}
-            />
+              image={flagArabia}
+              alt="Arabia Flag"
+              onClick={handleClickAr}
+          />
           </div>
           <div className="line-div30" />
           <img
@@ -142,12 +148,12 @@ function Header() {
           <div className="conhea-o-sistema-de-revnda-n11">
             <p className="rua-mal-castelo11">
               <span className="conhea-o-sistema23">
-                <span>CONHEÇA O SISTEMA</span>
+                <span>{t('CONHEÇA O SISTEMA')}</span>
               </span>
             </p>
             <p className="rua-mal-castelo11">
               <span className="conhea-o-sistema23">
-                <span>DE REVENDA</span>
+                <span>{t('DE REVENDA')}</span>
               </span>
             </p>
             <p className="nauber-pro13">
@@ -158,7 +164,7 @@ function Header() {
           </div>
             <input type="text" 
                    className="seach-div11 seach" 
-                   placeholder="busque aqui seu produto"
+                   placeholder={t('busque aqui seu produto')}
             />
             <img className="frame-icon10" 
                  alt="Busca" 
