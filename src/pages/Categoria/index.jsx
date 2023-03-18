@@ -88,11 +88,11 @@ function Categoria() {
           <img className="line-icon7" alt="" src={Line} />
         </div>
         <div className='Construcao'>
-        <Link to="/Categorias">
+        <Link to="/Categoria/Categorias">
         <img className="vector-icon138" alt="" src={Vetor} /></Link>
         <div className="rectangle-div302" />
           
-          <Link to="/Categorias">
+          <Link to="/Categoria/Categorias">
             <img 
                 className="vector-icon141" 
                 alt="" 
@@ -100,17 +100,17 @@ function Categoria() {
             />
           </Link>
           <Link 
-               to="/Categorias" 
+               to="/Categoria/Categorias" 
                className="construo-civil-b">
                 {t('Construção Civil')}
           </Link>
           </div>
         <div className='Industrial'>
-        <Link to="/CategoriasDeProdutos">
+        <Link to="/Categoria/CategoriasDeProdutos">
         <img className="vector-icon139" alt="" src={Vetor1} /></Link>
-        <Link to="/CategoriasDeProdutos">
+        <Link to="/Categoria/CategoriasDeProdutos">
         <img className="vector-icon140" alt="" src={Vetor3} /></Link>
-        <Link to="/CategoriasDeProdutos" className="linha-industrial-b1">{t('Linha Industrial')}</Link>
+        <Link to="/Categoria/CategoriasDeProdutos" className="linha-industrial-b1">{t('Linha Industrial')}</Link>
         </div>
 
         <div>

@@ -98,12 +98,10 @@ function Header() {
             </div>
             <div className="login-div11">
               <NavLink to="/Login" className="login-b11">
+              <Icon className="box-icon11" icon="fa-solid:user" />
               {t('login')}
                 </NavLink>
-              <img className="logim-icon11" 
-                   alt="Login" 
-                   src={Login} 
-              />
+                
             </div>
           </div>
          
