@@ -143,22 +143,24 @@ function Header() {
             alt="Revenda"
             src={LogoRevenda}
           />
-          <div className="conhea-o-sistema-de-revnda-n11">
-            <p className="rua-mal-castelo11">
-              <span className="conhea-o-sistema23">
-                <span>{t('CONHEÇA O SISTEMA')}</span>
-              </span>
-            </p>
-            <p className="rua-mal-castelo11">
-              <span className="conhea-o-sistema23">
-                <span>{t('DE REVENDA')}</span>
-              </span>
-            </p>
-            <p className="nauber-pro13">
-              <span>
-                <b>NAUBER PRO</b>
-              </span>
-            </p>
+          <div className="TextInfo">
+            <div className="conhea-o-sistema-de-revnda-n11">
+              <p className="rua-mal-castelo11">
+                <span className="conhea-o-sistema23">
+                  <span>{t('CONHEÇA O SISTEMA')}</span>
+                </span>
+              </p>
+              <p className="rua-mal-castelo11">
+                <span className="conhea-o-sistema23">
+                  <span>{t('DE REVENDA')}</span>
+                </span>
+              </p>
+              <p className="nauber-pro13">
+                <span>
+                  <b>NAUBER PRO</b>
+                </span>
+              </p>
+            </div>
           </div>
             <input type="text" 
                    className="seach-div11 seach" 

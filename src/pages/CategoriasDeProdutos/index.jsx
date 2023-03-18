@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-
+import { useTranslation } from 'react-i18next'
 import Header from "../../components/Header";
 import "./Styles.css";
 
@@ -20,6 +20,7 @@ import Nauber from '../../assets/image/logo-nauber@2x.png'
 import { Icon } from '@iconify/react';
 
 function CategoriasDeProdutos(){
+  const { t } = useTranslation();
   return (
     <div className="categorias-de-produtos">
       <div className="footer-div24">
@@ -86,7 +87,7 @@ function CategoriasDeProdutos(){
               <div className="projetoras-de-textura2">
               <img className="airless-bar" alt="" src={Vetor1} />
               <div className="equipamentos-airless-div">
-                equipamentos airless
+              {t('equipamentos airless')}
               </div>
             </div>
             </Link>
@@ -98,7 +99,7 @@ function CategoriasDeProdutos(){
               <div className="projetoras-de-textura">
                 <img className="projetoras-bar" alt="" src={Vetor1} />
                 <div className="projetoras-de-textura1">
-                    projetoras de textura
+                {t('projetoras de textura')}
                 </div>
               </div>
             </Link>
@@ -110,7 +111,7 @@ function CategoriasDeProdutos(){
               <div className="projetoras-de-textura3">
                 <img className="vector-icon71" alt="" src={Vetor1} />
                 <div className="demarcao-viria-div">
-                    demarcação viária
+                {t('demarcação viária')}
                 </div>
               </div>
             </Link>
@@ -127,7 +128,7 @@ function CategoriasDeProdutos(){
               <div className="aspiradores-div3">
               <img className="vector-icon79" alt="" src={Vetor2} />
               <div className="lixadeiras-div1">
-              lixadeiras
+              {t('lixadeiras')}
               </div>
             </div>           
             </Link>
@@ -139,7 +140,7 @@ function CategoriasDeProdutos(){
               <div className="aspiradores-div1">
               <img className="aspiradores-bar" alt="" src={Vetor2} />
               <div className="aspiradores-div2">
-              ASPIRADORES
+              {t('ASPIRADORES')}
               </div>
             </div>           
             </Link>
@@ -151,7 +152,7 @@ function CategoriasDeProdutos(){
               <div className="aspiradores-div4">
               <img className="vector-icon78" alt="" src={Vetor2} />
               <div className="misturadores-div1">
-              misturadores
+              {t('misturadores')}
               </div>
             </div>           
             </Link>
@@ -167,7 +168,7 @@ function CategoriasDeProdutos(){
                 <div className="compressor-div2">
                 <img className="fresadora-bar" alt="" src={Vetor4} />
                 <div className="fresadora-div">
-                fresadora
+                {t('fresadora')}
                 </div>
               </div>           
               </Link>
@@ -179,7 +180,7 @@ function CategoriasDeProdutos(){
               <div className="compressor-div">
               <img className="vector-icon86" alt="" src={Vetor4} />
               <div className="compressor-div1">
-              compressor
+              {t('compressor')}
               </div>
             </div>           
             </Link>
@@ -192,7 +193,7 @@ function CategoriasDeProdutos(){
               <div className="compressor-div3">
               <img className="vector-icon87" alt="" src={Vetor4} />
               <div className="desempenadeiras-div">
-              desempenadeiras
+              {t('desempenadeiras')}
               </div>
             </div>           
             </Link>
@@ -207,7 +208,7 @@ function CategoriasDeProdutos(){
             <div className="bicos-airless-div">
             <img className="vector-bicos" alt="" src={Vetor2} />
             <div className="bicos-airless-div1">
-            bicos airless
+            {t('bicos airless')}
             </div>
           </div>           
           </Link>
@@ -220,7 +221,7 @@ function CategoriasDeProdutos(){
             <img className="vector-icon93" alt="" src={Vetor2} />
             <img className="vector-icon94" alt="" src={Vetor2} />
             <div className="pistolas-airless-div">
-            pistolas airless
+            {t('pistolas airless')}
             </div>
           </div>           
           </Link>
@@ -233,7 +234,7 @@ function CategoriasDeProdutos(){
                 <div className="bicos-airless-div3">
                 <img className="filmes-de-mascaramento-bar" alt="" src={Vetor2} />
                 <div className="filmes-de-mascaramento">
-                filmes de mascaramento
+                {t('filmes de mascaramento')}
                 </div>
               </div>           
               </Link>
@@ -250,7 +251,7 @@ function CategoriasDeProdutos(){
                   <div className="projetoras-de-textura2">
                   <img className="equipamentos-airless-bar" alt="" src={Vetor4} />
                   <div className="lixav">
-                  lixadeiras e abrasivos
+                  {t('lixadeiras e abrasivos')}
                   </div>
                 </div>           
                 </Link>

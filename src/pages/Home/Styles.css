@@ -1397,3 +1397,6 @@ text-align: center;
   color: #fff;
   font-family: 'Inter', sans-serif;
 }
+iframe {
+  border-radius: 25px;
+  }

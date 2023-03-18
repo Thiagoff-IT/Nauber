@@ -333,3 +333,7 @@ a {
 .active{
   color: #FAE013;
 }
+
+.TextInfo {
+  text-align: center;
+}
