@@ -1,4 +1,6 @@
 import {Link} from 'react-router-dom'
+import { useTranslation } from 'react-i18next';
+
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import "./Styles.css";
@@ -19,13 +21,9 @@ import Documents from '../../assets/image/fluentdocumentbulletlist24filled.svg'
 import Manual from '../../assets/image/manual-1@2x.png'
 
 
-
-import Phone28 from '../../assets/image/phone28.svg'
-import Social from '../../assets/image/redes-sociais-icon1.svg'
-import Pin from '../../assets/image/pin5.svg'
-import Logo from '../../assets/image/logo-nauber@2x.png'
-
 function ProdutoCompra(){
+  const { t } = useTranslation();
+
   return (
     <div className="produto-compra">
       <Header />
@@ -34,21 +32,7 @@ function ProdutoCompra(){
       <div className="descrio-div1">
         <div className="turbina-de-aspirao-multiuso1">
           <p className="no-localizimos-um">
-            Turbina de aspiração multiuso extremamente leve e compacta.
-          </p>
-          <p className="no-localizimos-um">
-            Função aspiração: ideal para acoplamento em lixadeiras a fim
-          </p>
-          <p className="no-localizimos-um">
-            de obter total desempenho em aspiração de partículas.
-          </p>
-          <p className="no-localizimos-um">
-            Função sopro: com um poderoso fluxo ar aprimorado para alta
-          </p>
-          <p className="no-localizimos-um">
-            eficiência de trabalho e limpeza.IMPORTANTE:Não utilizar o
-          </p>
-          <p className="compre-agora-mesmo">equipamento em contato com água</p>
+            Turbina de aspiração multiuso extremamente leve e compacta. Função aspiração: ideal para acoplamento em lixadeiras a fim de obter total desempenho em aspiração de partículas. Função sopro: com um poderoso fluxo ar aprimorado para alta eficiência de trabalho e limpeza. IMPORTANTE: Não utilizar o equipamento em contato com água</p>
         </div>
         <b className="descrio-b1">descrição</b>
       </div>
@@ -216,7 +200,7 @@ function ProdutoCompra(){
             </div>
             <div className="boto-div14">
               <div className="rectangle-div168" />
-              <div className="saiba-mais-div12">SAIBA MAIS</div>
+              <div className="saiba-mais-div12">{t('SAIBA MAIS')}</div>
               <img className="seta-icon32" alt="" src={Seta1} />
             </div>
             <div className="rectangle-div169" />
@@ -230,7 +214,7 @@ function ProdutoCompra(){
             </div>
             <div className="boto-div14">
               <div className="rectangle-div168" />
-              <div className="saiba-mais-div12">SAIBA MAIS</div>
+              <div className="saiba-mais-div12">{t('SAIBA MAIS')}</div>
               <img className="seta-icon32" alt="" src={Seta1} />
             </div>
             <div className="rectangle-div169" />
@@ -244,7 +228,7 @@ function ProdutoCompra(){
             </div>
             <div className="boto-div14">
               <div className="rectangle-div168" />
-              <div className="saiba-mais-div12">SAIBA MAIS</div>
+              <div className="saiba-mais-div12">{t('SAIBA MAIS')}</div>
               <img className="seta-icon32" alt="" src={Seta1} />
             </div>
             <div className="rectangle-div169" />
@@ -258,7 +242,7 @@ function ProdutoCompra(){
             </div>
             <div className="boto-div14">
               <div className="rectangle-div168" />
-              <div className="saiba-mais-div12">SAIBA MAIS</div>
+              <div className="saiba-mais-div12">{t('SAIBA MAIS')}</div>
               <img className="seta-icon32" alt="" src={Seta1} />
             </div>
             <div className="rectangle-div169" />

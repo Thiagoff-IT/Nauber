@@ -68,5 +68,10 @@
   "filmes de mascaramento":"masking movies",
   "lixadeiras e abrasivos":"Sanders and abrasives",
   "Peças":"Parts",
-  "acessórios":"accessories"
+  "acessórios":"accessories",
+
+  "linha varejo": "retail line",
+  "linha completa":"full line",
+  "linha técnica":"technical line",
+  "linha industrial":"industrial line"
 }

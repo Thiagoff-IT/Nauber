@@ -94,13 +94,17 @@ function Catalogos(){
         <a href={VAREJO}>
           <img className="rectangle-div78" alt="" src={LinhaVarejo} /></a>
           <div className="rectangle-div79" />
-          <b className="linha-varejo-b">linha varejo</b>
+          <b className="linha-varejo-b">
+          {t('linha varejo')}
+          </b>
         </div>
         <div className="linha-varejo-div1">
         <a href={CatalogoBR}>
           <img className="rectangle-div78" alt="" src={LinhaCompleta} /></a>
           <div className="rectangle-div81" />
-          <b className="linha-completa-b">linha completa</b>
+          <b className="linha-completa-b">
+          {t('linha completa')}
+          </b>
           <div className="bandeiras-div">
           <a href={CatalogoBR}>
             <img
@@ -123,13 +127,17 @@ function Catalogos(){
         <a href={TECNICA}>
         <img className="rectangle-div78" alt="" src={LinhaTecnica} /></a>
           <div className="rectangle-div83" />
-          <b className="linha-tcnica-b">linha técnica</b>
+          <b className="linha-tcnica-b">
+          {t('linha técnica')}
+          </b>
         </div>
         <div className="linha-industrial-div4">
         <a href={INDUSTRIAL}>
         <img className="rectangle-div78" alt="" src={LinhaIndustrial} /></a>
           <div className="rectangle-div85" />
-          <b className="linha-industrial-b">linha industrial</b>
+          <b className="linha-industrial-b">
+          {t('linha industrial')}
+          </b>
         </div>
       </div>
     </div>
