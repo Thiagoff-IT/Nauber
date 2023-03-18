@@ -305,11 +305,14 @@ a {
 }
 .frame-icon10 {
   position: absolute;
-  top: 2rem;
-  left: 45rem;
+  top: 1.8rem;
+  left: 46rem;
   width: 14.67px;
   height: 15px;
 }
+.seach-div11.seach {
+  text-indent: 1.5rem;
+  }
 .header-div11,
 .seach-div11 {
   position: absolute;

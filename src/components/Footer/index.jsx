@@ -18,11 +18,6 @@ function Footer() {
         <div className="group-div">
           <div className="nauber-pro-div">
             <div className="bg-div" />
-            <img 
-                className="phone-icon" 
-                alt="" 
-                src={Phone} 
-            />
             <div className="siga-nas-redes-sociais">
               Siga nas redes sociais
             </div>
@@ -67,11 +62,6 @@ function Footer() {
               <div className="div2">+55 (47) 98821-2725</div>
               <div className="nossa-sede-div1">Nossa sede</div>
             </div>
-            <img 
-                className="pin-icon" 
-                alt="" 
-                src={Pin} 
-            />
             <div className="line-div1" />
             <img
               className="logo-nauber-icon"
