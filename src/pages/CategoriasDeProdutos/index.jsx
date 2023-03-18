@@ -84,7 +84,7 @@ function CategoriasDeProdutos(){
           <Link to="/ProdutoCompra">
               <img className="vector-icon70" alt="" src={Vetor} />
               <div className="projetoras-de-textura2">
-              <img className="vector-icon71" alt="" src={Vetor1} />
+              <img className="airless-bar" alt="" src={Vetor1} />
               <div className="equipamentos-airless-div">
                 equipamentos airless
               </div>
@@ -96,7 +96,7 @@ function CategoriasDeProdutos(){
           <Link to="/ProdutoCompra">
               <img className="vector-icon69" alt="" src={Vetor} />
               <div className="projetoras-de-textura">
-                <img className="vector-icon71" alt="" src={Vetor1} />
+                <img className="projetoras-bar" alt="" src={Vetor1} />
                 <div className="projetoras-de-textura1">
                     projetoras de textura
                 </div>
@@ -165,7 +165,7 @@ function CategoriasDeProdutos(){
             <Link to="/ProdutoCompra">
             <img className="vector-fresadora" alt="" src={Vetor3} />
                 <div className="compressor-div2">
-                <img className="vector-icon86" alt="" src={Vetor4} />
+                <img className="fresadora-bar" alt="" src={Vetor4} />
                 <div className="fresadora-div">
                 fresadora
                 </div>

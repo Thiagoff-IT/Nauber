@@ -345,21 +345,21 @@ top: -18rem;
 .vector-bicos {
   position: absolute;
   top: -20rem;
-  left: 77rem;
+  left: 77.2rem;
   width: 388.92px;
   height: 43px;
 }
 .filmes-de-mascaramento-bar {
   position: absolute;
   top: -7rem;
-  left: 51.8rem;
+  left: 52rem;
   width: 388.92px;
   height: 43px;
 }
 .aspiradores-bar {
   position: absolute;
   top: -18rem;
-  left: 77rem;
+  left: 77.2rem;
   display: inline-block;
 }
 .aspiradores-div2 {
@@ -524,7 +524,7 @@ top: -18rem;
 .vector-icon86 {
   position: absolute;
   top: -1rem;
-  left: 0;
+  left: -3px;
   width: 388.35px;
   height: 43px;
 }
@@ -603,14 +603,14 @@ top: -18rem;
 .vector-icon94 {
   position: absolute;
   top: -20rem;
-  left: 53rem;
+  left: 52.9rem;
   width: 388.92px;
   height: 43px;
 }
 .equipamentos-airless-bar {
   position: absolute;
   top: -2.5rem;
-  left: 0rem;
+  left: 1px;
   width: 388.92px;
   height: 43px;
 }
@@ -715,4 +715,53 @@ top: -18rem;
 .projetorasDeTextura:hover {
   filter: brightness(100%);
   transition: 0.2s;
+}
+
+
+
+.quadro-linha-1 {
+  position: absolute;
+  margin-left: 2rem;
+}
+
+
+
+.quadro-linha-2 {
+  margin-left: 2rem;
+}
+
+.quadro-linha-3 {
+  margin-left: 2rem;
+}
+
+.quadro-linha-4 {
+  margin-left: 2rem;
+}
+
+.quadro-linha-5 {
+  margin-left: 2rem;
+}
+
+.airless-bar {
+  position: absolute;
+  top: 0;
+  left: -1px;
+  width: 388.27px;
+  height: 43px;
+}
+
+.projetoras-bar {
+  position: absolute;
+top: 0;
+left: 3px;
+width: 388.27px;
+height: 43px;
+}
+
+.fresadora-bar {
+  position: absolute;
+  top: -1rem;
+  left: -1px;
+  width: 388.35px;
+  height: 43px;
 }
