@@ -85,7 +85,6 @@
   "TELEFONE":"TELEPHONE",
   "ficou com alguma dúvida? entre em contato.":"Got any questions?contact.",
   "REDES SOCIAIS":"SOCIAL MEDIA",
-  "horário de atendimento": "service hours",
   "Escolha o Setor para o envio do contato":"Choose the sector to send the contact",
   "Digite seu nome":"Type your name",
   "Estado":"state",
@@ -125,8 +124,6 @@
   "Calcular frete":"Calculate shipping",
   "Localize o revendedor mais próximo de você":"Locate the nearest reseller",
   "ou":"or",
-  "Informe seu CEP":"Inform your postal code",
-  "Informe a sua Cidade":"Enter your city",
   "airless diafragma":"airlessDiafragma",
   "airless pistão":"Airless Piston"
 }
