@@ -1,4 +1,5 @@
 import Header from "../../components/Header";
+import { useTranslation } from 'react-i18next';
 import "./Styles.css";
 
 import NauberLogo from '../../assets/image/nauberlogo-1@2x.png'
@@ -10,6 +11,7 @@ import vetor1 from '../../assets/image/vector-11610.svg'
 import Linha from '../../assets/image/linha.svg'
 
 function Produtos(){
+  const { t } = useTranslation();
   return (
     <div className="produtos-div34">
       <div className="footer-div22">
@@ -128,33 +130,33 @@ function Produtos(){
       <div className="mquinas-div7">
         <img className="vector-icon66" alt="" src={vetor} />
         <img className="vector-icon67" alt="" src={vetor1} />
-        <b className="mquinas-para-pintura13">máquinas para pintura</b>
+        <b className="mquinas-para-pintura13">{t('máquinas para pintura')}</b>
       </div>
       <div className="menu-div12">
         <img className="linha-icon" alt="" src={Linha} />
         <div className="tipo-de-produto">
-          <b className="categorias-b">tipo de produto</b>
+          <b className="categorias-b">{t('tipo de produto')}</b>
           <div className="airless-diafragma-7523">
-            <span>{`airless diafragma `}</span>
+            <span>{t('airless diafragma ')}</span>
             <span className="span">(7523)</span>
           </div>
           <div className="airless-pisto-7523">
-            <span>{`airless pistão `}</span>
+            <span>{t('airless pistão')}</span>
             <span className="span">(7523)</span>
           </div>
           <input type="checkbox" className="rectangle-div285" />
           <input type="checkbox" className="rectangle-div286" />
         </div>
         <div className="categorias-div">
-          <b className="categorias-b">Categorias</b>
-          <div className="mquinas-para-pintura14">Máquinas para pintura</div>
-          <div className="lixadeiras-div">Lixadeiras</div>
-          <div className="aspiradores-div">Aspiradores</div>
-          <div className="misturadores-div">Misturadores</div>
-          <div className="fresadora-de-parede10">Fresadora de parede</div>
-          <div className="lixas-e-abrasivos6">Lixas e abrasivos</div>
-          <div className="peas-div">Peças</div>
-          <div className="acessrios-div">Acessórios</div>
+          <b className="categorias-b">{t('Categorias')}</b>
+          <div className="mquinas-para-pintura14">{t('máquinas para pintura')}</div>
+          <div className="lixadeiras-div">{t('Lixadeiras')}</div>
+          <div className="aspiradores-div">{t('Aspiradores')}</div>
+          <div className="misturadores-div">{t('Misturadores')}</div>
+          <div className="fresadora-de-parede10">{t('Fresadora de parede')}</div>
+          <div className="lixas-e-abrasivos6">{t('Lixas e abrasivos')}</div>
+          <div className="peas-div">{t('Peças')}</div>
+          <div className="acessrios-div">{t('acessórios')}</div>
           <input type="checkbox" className="rectangle-div287" />
           <input type="checkbox" className="rectangle-div288" />
           <input type="checkbox" className="rectangle-div289" />

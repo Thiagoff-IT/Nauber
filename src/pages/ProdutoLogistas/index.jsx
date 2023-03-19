@@ -1,5 +1,6 @@
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
+import { useTranslation } from 'react-i18next';
 import './Styles.css';
 
 import Seta from '../../assets/image/seta.svg'
@@ -25,14 +26,15 @@ import global from '../../assets/image/global1-11@2x.png'
 
 
 function ProdutoLogistas(){
+  const { t } = useTranslation();
   return (
     <div className="produto-logistas1">
-<Footer />
-<Header />
+      <Footer />
+      <Header />
       <img className="vector-icon34" alt="" src={Vetor1} />
       <div className="group-div9">
         <div className="texto-div1">
-          <b className="mquinas-para-pintura2">máquinas para pintura</b>
+          <b className="mquinas-para-pintura2">{t('máquinas para pintura')}</b>
           <b className="lixadeiras-b1">lixadeiras</b>
           <b className="aspiradores-b1">aspiradores</b>
           <b className="misturadores-b1">misturadores</b>
@@ -54,13 +56,13 @@ function ProdutoLogistas(){
       <div className="encontre-um-revendedor1">
         <div className="rectangle-div121" />
         <b className="mquinas-para-pintura-d-30x1">
-          máquinas para pintura d-3.0x
+        {t('máquinas para pintura d-3.0x')}
         </b>
       </div>
       <div className="mquinas-div1">
         <img className="vector-icon35" alt="" src={Vetor2} />
         <img className="vector-icon36" alt="" src={Vetor} />
-        <b className="mquinas-para-pintura3">máquinas para pintura</b>
+        <b className="mquinas-para-pintura3">{t('máquinas para pintura')}</b>
       </div>
       <div className="group-div10">
         <div className="rectangle-div122" />
@@ -73,15 +75,15 @@ function ProdutoLogistas(){
         <div className="rectangle-div127" />
         <img className="play-icon1" alt="" src={Play} />
         <b className="apresentao-tcnica-turbina1">
-          <p className="rua-mal-castelo5">Apresentação Técnica - Turbina</p>
-          <p className="schroeder-sc5">Sopro e Aspiração Nauber TBN-750</p>
+          <p className="rua-mal-castelo5">{t('Apresentação Técnica - Turbina')}</p>
+          <p className="schroeder-sc5">{t('Sopro e Aspiração Nauber TBN-750')}</p>
         </b>
       </div>
       <div className="downloads-div1">
-        <b className="downloads-b1">Downloads</b>
+        <b className="downloads-b1">{t('Downloads')}</b>
         <div className="manual-div1">
           <img className="ellipse-icon4" alt="" src={ellipse} />
-          <b className="manual-de-instrues1">Manual de instruções</b>
+          <b className="manual-de-instrues1">{t('Manual de instruções')}</b>
           <img className="manual-1-icon1" alt="" src={Manual} />
           <img
             className="flag-brasil-2-icon4"
@@ -101,7 +103,7 @@ function ProdutoLogistas(){
         </div>
         <div className="fecha-tcnica-div2">
           <img className="ellipse-icon4" alt="" src={ellipse} />
-          <b className="fecha-tcnica-b1">fecha técnica</b>
+          <b className="fecha-tcnica-b1">{t('fecha técnica')}</b>
           <img
             className="flag-brasil-2-icon4"
             alt=""
@@ -121,7 +123,7 @@ function ProdutoLogistas(){
         </div>
         <div className="fecha-tcnica-div3">
           <img className="ellipse-icon4" alt="" src={ellipse} />
-          <b className="vista-explodida-b1">vista explodida</b>
+          <b className="vista-explodida-b1">{t('vista explodida')}</b>
           <img
             className="flag-brasil-2-icon4"
             alt=""
@@ -273,11 +275,11 @@ function ProdutoLogistas(){
           <div className="rectangle-div139" />
           <b className="d-30x-b6">{`D-3.0X `}</b>
           <div className="breve-descrio-sobre-o-produt4">
-            Breve descrição sobre o produto
+          {t('Breve descrição sobre o produto')}
           </div>
           <div className="boto-div10">
             <div className="rectangle-div140" />
-            <div className="saiba-mais-div8">SAIBA MAIS</div>
+            <div className="saiba-mais-div8">{t('SAIBA MAIS')}</div>
             <img className="seta-icon27" alt="" src={Seta1} />
           </div>
           <div className="rectangle-div141" />
@@ -287,11 +289,11 @@ function ProdutoLogistas(){
           <div className="rectangle-div139" />
           <b className="d-30x-b6">{`D-3.0X `}</b>
           <div className="breve-descrio-sobre-o-produt4">
-            Breve descrição sobre o produto
+          {t('Breve descrição sobre o produto')}
           </div>
           <div className="boto-div10">
             <div className="rectangle-div140" />
-            <div className="saiba-mais-div8">SAIBA MAIS</div>
+            <div className="saiba-mais-div8">{t('SAIBA MAIS')}</div>
             <img className="seta-icon27" alt="" src={Seta1} />
           </div>
           <div className="rectangle-div141" />
@@ -301,11 +303,11 @@ function ProdutoLogistas(){
           <div className="rectangle-div139" />
           <b className="d-30x-b6">{`D-3.0X `}</b>
           <div className="breve-descrio-sobre-o-produt4">
-            Breve descrição sobre o produto
+          {t('Breve descrição sobre o produto')}
           </div>
           <div className="boto-div10">
             <div className="rectangle-div140" />
-            <div className="saiba-mais-div8">SAIBA MAIS</div>
+            <div className="saiba-mais-div8">{t('SAIBA MAIS')}</div>
             <img className="seta-icon27" alt="" src={Seta1} />
           </div>
           <div className="rectangle-div141" />
@@ -315,11 +317,11 @@ function ProdutoLogistas(){
           <div className="rectangle-div139" />
           <b className="d-30x-b6">{`D-3.0X `}</b>
           <div className="breve-descrio-sobre-o-produt4">
-            Breve descrição sobre o produto
+          {t('Breve descrição sobre o produto')}
           </div>
           <div className="boto-div10">
             <div className="rectangle-div140" />
-            <div className="saiba-mais-div8">SAIBA MAIS</div>
+            <div className="saiba-mais-div8">{t('SAIBA MAIS')}</div>
             <img className="seta-icon27" alt="" src={Seta1} />
           </div>
           <div className="rectangle-div141" />
@@ -327,7 +329,7 @@ function ProdutoLogistas(){
         </div>
       </div>
       <div className="tpico-lanamento-div2">
-        <b className="produtos-relacionados-b1">produtos relacionados</b>
+        <b className="produtos-relacionados-b1">{t('produtos relacionados')}</b>
         <div className="rectangle-div151" />
         <img className="line-icon2" alt="" src={Line} />
         <div className="line-div14" />

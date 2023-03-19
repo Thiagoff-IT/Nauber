@@ -53,6 +53,8 @@
   "assistências mais próximas":"Nearest Assists",
   "Cidade que atende:":"City that serves:",
 
+  "Categorias":"Categories",
+  "tipo de produto":"product type",
 
   "equipamentos airless":"Airless equipment",
   "projetoras de textura":"Texture Projectors",
@@ -73,5 +75,58 @@
   "linha varejo": "retail line",
   "linha completa":"full line",
   "linha técnica":"technical line",
-  "linha industrial":"industrial line"
+  "linha industrial":"industrial line",
+
+  "telefone de contato":"Contact phone",
+  "horário de atendimento":"service hours",
+  "Segunda a Sexta-Feira":"Monday to Friday",
+  "7h30 às 17h30":"7:30 am to 5:30 pm",
+  "localização":"location",
+  "TELEFONE":"TELEPHONE",
+  "ficou com alguma dúvida? entre em contato.":"Got any questions?contact.",
+  "REDES SOCIAIS":"SOCIAL MEDIA",
+  "horário de atendimento": "service hours",
+  "Escolha o Setor para o envio do contato":"Choose the sector to send the contact",
+  "Digite seu nome":"Type your name",
+  "Estado":"state",
+  "Cidade":"City",
+  "Seu melhor e-mail":"Your best email",
+  "Telefone para contato":"Contact phone",
+  "Escreva sua mensagem aqui...":"Write your message here ...",
+  "enviar":"Send",
+
+  "máquinas para pintura":"Painting machines",
+  "máquinas para pintura d-3.0x":"D-3.0x painting machines",
+  "dados técnicos":"Technical Data",
+
+   "descrição":"description",
+  "características":"characteristics",
+  "indicações de uso":"Use Indications",
+  "Turbina de aspiração multiuso extremamente leve e compacta. Função aspiração: ideal para acoplamento em lixadeiras a fim de obter total desempenho em aspiração de partículas. Função sopro: com um poderoso fluxo ar aprimorado para alta eficiência de trabalho e limpeza.":
+  "Extremely light and compact multipurpose aspiration turbine.Aspiration Function: Ideal for sander coupling to obtain full performance in particle aspiration.Blow function: with a powerful air flow improved for high work efficiency and cleaning.",
+  "IMPORTANTE: Não utilizar o equipamento em contato com água":"IMPORTANT: Do not use the equipment in contact with water",
+  "Construção Civil e Industrial.":"Civil and industrial construction.",
+  "Acompanha: saco coletor (capacidade para até 70 litros de material), bocal de borracha, adaptador de mangueira de sucção, par de carvão e manual.":
+  "Comes with: collector bag (capacity for up to 70 liters of material), rubber nozzle, suction hose adapter, coal pair and manual.",
+  "POTÊNCIA DO MOTOR: 750W VELOCIDADE DE ROTAÇÃO: 15.000RPM PRESSÃO DO AR: 5,5 KPA VOLUME DE AR MÁX.: 3,5 M³/MIN. ALIMENTAÇÃO: 220V / 50-60Hz PESO LÍQUIDO: 1,9Kg PESO BRUTO: 2,95Kg":
+  "Engine Power: 750W Rotation Speed: 15,000rpm Air Pressure: 5.5 kPa Air volume max.: 3.5 m³/min.Food: 220V / 50-60Hz Net Weight: 1.9kg Gross Weight: 2.95kg",
+  "não localizimos um revendedor,":"We do not find a dealer,",
+  "Compre agora mesmo!":"Buy right now!",
+  "R$999,99":"$999,99",
+  "comprar":"Buy",
+  "á vista":"sight",
+  "produtos relacionados":"related products",
+  "Breve descrição sobre o produto":"Brief Description about the product",
+  "Apresentação Técnica - Turbina":"Technical Presentation - Turbine",
+  "Sopro e Aspiração Nauber TBN-750":"Breath and Aspiration Nauber TBN-750",
+  "Manual de instruções":"Instruction manual",
+  "fecha técnica":"Datasheet",
+  "vista explodida":"exploded view",
+  "Calcular frete":"Calculate shipping",
+  "Localize o revendedor mais próximo de você":"Locate the nearest reseller",
+  "ou":"or",
+  "Informe seu CEP":"Inform your postal code",
+  "Informe a sua Cidade":"Enter your city",
+  "airless diafragma":"airlessDiafragma",
+  "airless pistão":"Airless Piston"
 }
