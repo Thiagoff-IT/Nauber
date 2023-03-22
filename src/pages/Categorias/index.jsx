@@ -18,9 +18,8 @@ import Vetor10 from '../../assets/image/vector-97@2x.png'
 
 import Social from '../../assets/image/redes-sociais-icon7.svg'
 import Nauber from '../../assets/image/logo-nauber@2x.png'
-;
 
-function CategoriasDeProdutos(){
+function Categorias(){
   const { t } = useTranslation();
   return (
     <div className="categorias-de-produtos">
@@ -98,7 +97,7 @@ function CategoriasDeProdutos(){
           <Link to="/ProdutoCompra">
               <img className="vector-icon69" alt="" src={Vetor} />
               <div className="projetoras-de-textura">
-                <img className="vector-icon71" alt="" src={Vetor1} />
+                <img className="textura-bar" alt="" src={Vetor1} />
                 <div className="projetoras-de-textura1">
                 {t('projetoras de textura')}
                 </div>
@@ -289,5 +288,5 @@ function CategoriasDeProdutos(){
   );
 };
 
-export default CategoriasDeProdutos;
+export default Categorias;
 
