@@ -8,6 +8,7 @@ import TECNICA from '../../assets/download/br/TECNICA.pdf'
 import VAREJO from '../../assets/download/br/VAREJO.pdf'
 
 import CatalogoEN from '../../assets/download/en/Catalogo.pdf'
+import CatalogoES from '../../assets/download/es/Catalogo.pdf'
 
 import Vetor1 from '../../assets/image/vector-1162.svg'
 import Vetor from '../../assets/image/vector-1172.svg'
@@ -113,11 +114,13 @@ function Catalogos(){
               src={Brasil}
             />
             </a>
+            <a href={CatalogoES}>
             <img
-              className="flag-espanha-2-icon desativado"
+              className="flag-espanha-2-icon"
               alt=""
               src={Espanha}
             />
+            </a>
             <a href={CatalogoEN}>
               <img className="flag-eua-2-icon" alt="" src={EUA} />
             </a>
