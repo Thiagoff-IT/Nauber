@@ -716,3 +716,11 @@ top: -18rem;
   filter: brightness(100%);
   transition: 0.2s;
 }
+
+.textura-bar {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 388.27px;
+  height: 43px;
+}
