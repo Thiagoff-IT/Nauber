@@ -277,7 +277,6 @@
 .projetoras-de-textura2 {
   position: absolute;
   top: 209px;
-  left: 7.55px;
   width: 388.27px;
   height: 43px;
 }
@@ -610,7 +609,7 @@ top: -18rem;
 .equipamentos-airless-bar {
   position: absolute;
   top: -2.5rem;
-  left: 1px;
+  left: 9px;
   width: 388.92px;
   height: 43px;
 }
