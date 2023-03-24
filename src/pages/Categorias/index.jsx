@@ -18,6 +18,7 @@ import Vetor10 from '../../assets/image/vector-97@2x.png'
 
 import Social from '../../assets/image/redes-sociais-icon7.svg'
 import Nauber from '../../assets/image/logo-nauber@2x.png'
+;
 
 function Categorias(){
   const { t } = useTranslation();

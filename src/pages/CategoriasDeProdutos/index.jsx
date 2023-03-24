@@ -177,8 +177,8 @@ function CategoriasDeProdutos(){
           <div className='projetorasDeTextura'>
               <Link to="/ProdutoCompra">
               <img className="vector-compressor" alt="" src={Vetor3}/>
-              <div className="compressor-div">
-              <img className="vector-icon86" alt="" src={Vetor4} />
+              <div className="compressorDiv">
+              <img className="compresserBar" alt="" src={Vetor4} />
               <div className="compressor-div1">
               {t('compressor')}
               </div>

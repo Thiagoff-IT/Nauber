@@ -337,7 +337,7 @@ top: -18rem;
 .vector-icon78 {
   position: absolute;
   top: -18rem;
-  left: 77rem;
+  left: 76.9rem;
   width: 388.92px;
   height: 43px;
 }
@@ -358,7 +358,7 @@ top: -18rem;
 .aspiradores-bar {
   position: absolute;
   top: -18rem;
-  left: 77.2rem;
+  left: 77.1rem;
   display: inline-block;
 }
 .aspiradores-div2 {
@@ -512,7 +512,7 @@ top: -18rem;
   left: 124.39px;
   display: inline-block;
 }
-.compressor-div {
+.compressorDiv {
   position: absolute;
   top: 209px;
   left: 398.61px;
@@ -523,9 +523,17 @@ top: -18rem;
 .vector-icon86 {
   position: absolute;
   top: -1rem;
+  left: 0px;
+  width: 388.35px;
+  height: 43px;
+}
+.compresserBar {
+  position: absolute;
+  top: -1rem;
   left: -3px;
   width: 388.35px;
   height: 43px;
+  color: rgba(239, 182, 0, 0.5);
 }
 .vector-compressor {
   position: absolute;
@@ -707,7 +715,7 @@ top: -18rem;
 
 /**/
 .projetorasDeTextura {
-  filter: brightness(25%);
+  filter: brightness(40%);
 
 }
 
@@ -744,7 +752,7 @@ top: -18rem;
 .airless-bar {
   position: absolute;
   top: 0;
-  left: -1px;
+  left: 0px;
   width: 388.27px;
   height: 43px;
 }
@@ -752,7 +760,7 @@ top: -18rem;
 .projetoras-bar {
   position: absolute;
 top: 0;
-left: 3px;
+left: 1px;
 width: 388.27px;
 height: 43px;
 }
