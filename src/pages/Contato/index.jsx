@@ -60,16 +60,21 @@ function Contato(){
         <div className="rectangle-div59" />
         
         <div className="contatos-rpidos-div">
-          <div className="div18">(41) 9000-0000</div>
-          <div className="div19">(41) 9000-0000</div>
-          <div className="contatonaubercombr-div">contato@nauber.com.br</div>
+          <a href="https://wa.me/5547996210018?text=Ol%C3%A1%2C+vim+do+site.+Pode+me+tirar+algumas+d%C3%BAvidas%3F">
+            <div className="div18">
+            (47) 99621-0018
+            </div>
+          </a>
+          <div className="div19">(47) 3374-5969</div>
+          <div className="contatonaubercombr-div">atendimento@nauber.com.br</div>
           <div className="segunda-a-sexta-730-1748">
             Segunda a Sexta: 7:30 - 17:48
           </div>
           <a href="https://goo.gl/maps/dLszQVUTBJqNiSEm8">
-          <div className="rua-mal-castelo-branco-24773">
-            Rua Mal. Castelo Branco, 2477 Centro Schroeder - SC.
-          </div></a>
+            <div className="rua-mal-castelo-branco-24773">
+              Rua Mal. Castelo Branco, 2477 Centro Schroeder - SC.
+            </div>
+          </a>
           <div className="icones-redes">
           
           <a href="https://www.facebook.com/naubermaquinas"><Icon icon="ic:baseline-facebook" className="ItemSocial" color="#0fa958" /></a>
