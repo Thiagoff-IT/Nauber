@@ -126,7 +126,7 @@
 .rua-mal-castelo-branco-247713 {
   position: absolute;
   top: 23.88%;
-  left: 0.86%;
+  left: -0.14%;
   font-weight: 500;
   display: inline-block;
 }
@@ -263,7 +263,7 @@
 .projetoras-de-textura {
   position: absolute;
   top: 209px;
-  left: 393.55px;
+  left: 391.55px;
   width: 388.27px;
   height: 43px;
 }
@@ -358,7 +358,7 @@ top: -18rem;
 .aspiradores-bar {
   position: absolute;
   top: -18rem;
-  left: 77.1rem;
+  left: 1235px;
   display: inline-block;
 }
 .aspiradores-div2 {
@@ -760,7 +760,7 @@ top: -18rem;
 .projetoras-bar {
   position: absolute;
 top: 0;
-left: 1px;
+left: 4px;
 width: 388.27px;
 height: 43px;
 }
