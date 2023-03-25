@@ -4,15 +4,12 @@ import { useTranslation } from 'react-i18next';
 import Header from '../../components/Header'  
 import "./Styles.css";
 
-import Line from '../../assets/image/line-4.svg'
+import ConstrucaoCivil from '../../assets/image/ConstrucaoCivil.png'
 import Vetor from '../../assets/image/vector-87@2x.png'
-import Vetor1 from '../../assets/image/vector-88@2x.png'
+import LinhaIndustrial from '../../assets/image/LinhaIndustrial.png'
 import Vetor2 from '../../assets/image/vector-89.svg'
 import Vetor3 from '../../assets/image/vector-90.svg'
 
-import Phone from '../../assets/image/phone32.svg'
-import Social from '../../assets/image/redes-sociais-icon7.svg'
-import Pin from '../../assets/image/pin11.svg'
 import Nauber from '../../assets/image/logo-nauber@2x.png'
 
 function Categoria() {
@@ -85,7 +82,7 @@ function Categoria() {
           <div className="tipos-de-ferramentas2">Tipos de Ferramentas</div>
           <div className="rectangle-div301" />
           <div className="line-div36" />
-          <img className="line-icon7" alt="" src={Line} />
+          <img className="line-icon7" alt="" src={ConstrucaoCivil} />
         </div>
         <div className='Construcao'>
         <Link to="/Categoria/Categorias">
@@ -107,7 +104,7 @@ function Categoria() {
           </div>
         <div className='Industrial'>
         <Link to="/Categoria/CategoriasDeProdutos">
-        <img className="vector-icon139" alt="" src={Vetor1} /></Link>
+        <img className="vector-icon139" alt="" src={LinhaIndustrial} /></Link>
         <Link to="/Categoria/CategoriasDeProdutos">
         <img className="vector-icon140" alt="" src={Vetor3} /></Link>
         <Link to="/Categoria/CategoriasDeProdutos" className="linha-industrial-b1">{t('Linha Industrial')}</Link>
