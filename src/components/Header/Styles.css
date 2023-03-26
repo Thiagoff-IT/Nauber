@@ -328,6 +328,7 @@ a {
   width: 100vw;
   height: 133px;
   font-size: 18px;
+  z-index: 1;
 }
 
 .active{

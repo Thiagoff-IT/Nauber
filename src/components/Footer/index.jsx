@@ -11,8 +11,8 @@ import Nauber from "../../assets/image/logo-nauber@2x.png";
 function Footer() {
   const { t } = useTranslation();
   return (
-    <>
-      <div className="frame-div4">
+    <> 
+      <footer className="frame-div4">
         <div className="group-div">
           <div className="group-div">
             <div className="nauber-pro-div">
@@ -94,7 +94,7 @@ function Footer() {
             </div>
           </div>
         </div>
-      </div>
+      </footer>
     </>
   );
 }
