@@ -1,23 +1,27 @@
 import Header from "../../components/Header";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 import "./Styles.css";
 
-import NauberLogo from '../../assets/image/nauberlogo-1@2x.png'
-import Logo from '../../assets/image/logo-nauber-1@2x.png'
-import icon33 from '../../assets/image/01-16@2x.png'
-import icon38 from '../../assets/image/1-1@2x.png'
-import vetor from '../../assets/image/vector-11710.svg'
-import vetor1 from '../../assets/image/vector-11610.svg'
-import Linha from '../../assets/image/linha.svg'
+import NauberLogo from "../../assets/image/nauberlogo-1@2x.png";
+import Logo from "../../assets/image/logo-nauber-1@2x.png";
+import icon33 from "../../assets/image/01-16@2x.png";
+import icon38 from "../../assets/image/1-1@2x.png";
+import vetor from "../../assets/image/vector-11710.svg";
+import vetor1 from "../../assets/image/vector-11610.svg";
+import Linha from "../../assets/image/linha.svg";
 
-function Produtos(){
+function Produtos() {
   const { t } = useTranslation();
   return (
     <div className="produtos-div34">
       <div className="footer-div22">
         <div className="footer-div23">
           <div className="bg-div12" />
-          <img className="phone-icon33" alt="" src="src\assets\image\phone33.svg" />
+          <img
+            className="phone-icon33"
+            alt=""
+            src="src\assets\image\phone33.svg"
+          />
           <div className="siga-nas-redes-sociais11">Siga nas redes sociais</div>
           <div className="nauber-2022-todos-os-direito11">
             Nauber © 2022 Todos os direitos reservados.
@@ -73,103 +77,99 @@ function Produtos(){
         <div className="bg-header35" />
         <div className="bg-header36" />
         <div className="logo-div11">
-          <img
-            className="nauber-logo-1-icon11"
-            alt=""
-            src={NauberLogo}
-          />
-          <img
-            className="logo-nauber-111"
-            alt=""
-            src={Logo}
-          />
+          <img className="nauber-logo-1-icon11" alt="" src={NauberLogo} />
+          <img className="logo-nauber-111" alt="" src={Logo} />
         </div>
-      <Header />
-      <div className="linha-1-div7">
-        <div className="produto-div6">
-          <div className="rectangle-div273" />
-          <div className="rectangle-div274" />
-          <img className="icon31" alt="" src={icon33}/>
-          <b className="d-30x-b30">d-3.0x</b>
-        </div>
-        <div className="produto-div7">
-          <div className="rectangle-div275" />
-          <div className="rectangle-div274" />
-          <img className="icon31" alt="" src={icon33}/>
-          <b className="d-30x-b30">d-3.0x</b>
-        </div>
-        <div className="produto-div8">
-          <div className="rectangle-div273" />
-          <div className="rectangle-div278" />
-          <img className="icon33" alt="" src={icon33}/>
-          <b className="d-30x-b32">d-3.0x</b>
-          <img className="icon34" alt="" src={icon33} />
-        </div>
-      </div>
-      <div className="linha-2-div1">
-        <div className="produto-div6">
-          <div className="rectangle-div273" />
-          <div className="rectangle-div274" />
-          <img className="icon31" alt="" src={icon33} />
-          <b className="d-30x-b30">d-3.0x</b>
-        </div>
-        <div className="produto-div7">
-          <div className="rectangle-div275" />
-          <div className="rectangle-div274" />
-          <img className="icon31" alt="" src={icon33} />
-          <b className="d-30x-b30">d-3.0x</b>
-        </div>
-        <div className="produto-div8">
-          <div className="rectangle-div273" />
-          <div className="rectangle-div278" />
-          <img className="icon33" alt="" src={icon33} />
-          <b className="d-30x-b32">d-3.0x</b>
-          <img className="icon38" alt="" src={icon38} />
-        </div>
-      </div>
-      <div className="mquinas-div7">
-        <img className="vector-icon66" alt="" src={vetor} />
-        <img className="vector-icon67" alt="" src={vetor1} />
-        <b className="mquinas-para-pintura13">{t('máquinas para pintura')}</b>
-      </div>
-      <div className="menu-div12">
-        <img className="linha-icon" alt="" src={Linha} />
-        <div className="tipo-de-produto">
-          <b className="categorias-b">{t('tipo de produto')}</b>
-          <div className="airless-diafragma-7523">
-            <span>{t('airless diafragma ')}</span>
-            <span className="span">(7523)</span>
+        <Header />
+        <div className="linha-1-div7">
+          <div className="produto-div6">
+            <div className="rectangle-div273" />
+            <div className="rectangle-div274" />
+            <img className="icon31" alt="" src={icon33} />
+            <b className="d-30x-b30">d-3.0x</b>
           </div>
-          <div className="airless-pisto-7523">
-            <span>{t('airless pistão')}</span>
-            <span className="span">(7523)</span>
+          <div className="produto-div7">
+            <div className="rectangle-div275" />
+            <div className="rectangle-div274" />
+            <img className="icon31" alt="" src={icon33} />
+            <b className="d-30x-b30">d-3.0x</b>
           </div>
-          <input type="checkbox" className="rectangle-div285" />
-          <input type="checkbox" className="rectangle-div286" />
+          <div className="produto-div8">
+            <div className="rectangle-div273" />
+            <div className="rectangle-div278" />
+            <img className="icon33" alt="" src={icon33} />
+            <b className="d-30x-b32">d-3.0x</b>
+            <img className="icon34" alt="" src={icon33} />
+          </div>
         </div>
-        <div className="categorias-div">
-          <b className="categorias-b">{t('Categorias')}</b>
-          <div className="mquinas-para-pintura14">{t('máquinas para pintura')}</div>
-          <div className="lixadeiras-div">{t('Lixadeiras')}</div>
-          <div className="aspiradores-div">{t('Aspiradores')}</div>
-          <div className="misturadores-div">{t('Misturadores')}</div>
-          <div className="fresadora-de-parede10">{t('Fresadora de parede')}</div>
-          <div className="lixas-e-abrasivos6">{t('Lixas e abrasivos')}</div>
-          <div className="peas-div">{t('Peças')}</div>
-          <div className="acessrios-div">{t('acessórios')}</div>
-          <input type="checkbox" className="rectangle-div287" />
-          <input type="checkbox" className="rectangle-div288" />
-          <input type="checkbox" className="rectangle-div289" />
-          <input type="checkbox" className="rectangle-div290" />
-          <input type="checkbox" className="rectangle-div291" />
-          <input type="checkbox" className="rectangle-div292" />
-          <input type="checkbox" className="rectangle-div293" />
-          <input type="checkbox" className="rectangle-div294" />
+        <div className="linha-2-div1">
+          <div className="produto-div6">
+            <div className="rectangle-div273" />
+            <div className="rectangle-div274" />
+            <img className="icon31" alt="" src={icon33} />
+            <b className="d-30x-b30">d-3.0x</b>
+          </div>
+          <div className="produto-div7">
+            <div className="rectangle-div275" />
+            <div className="rectangle-div274" />
+            <img className="icon31" alt="" src={icon33} />
+            <b className="d-30x-b30">d-3.0x</b>
+          </div>
+          <div className="produto-div8">
+            <div className="rectangle-div273" />
+            <div className="rectangle-div278" />
+            <img className="icon33" alt="" src={icon33} />
+            <b className="d-30x-b32">d-3.0x</b>
+            <img className="icon38" alt="" src={icon38} />
+          </div>
+        </div>
+        <div className="mquinas-div7">
+          <img className="vector-icon66" alt="" src={vetor} />
+          <img className="vector-icon67" alt="" src={vetor1} />
+          <b className="mquinas-para-pintura13">{t("máquinas para pintura")}</b>
+        </div>
+        <div className="menu-div12">
+          <img className="linha-icon" alt="" src={Linha} />
+          <div className="tipo-de-produto">
+            <b className="categorias-b">{t("tipo de produto")}</b>
+            <div className="airless-diafragma-7523">
+              <span>{t("airless diafragma ")}</span>
+              <span className="span">(7523)</span>
+            </div>
+            <div className="airless-pisto-7523">
+              <span>{t("airless pistão")}</span>
+              <span className="span">(7523)</span>
+            </div>
+            <input type="checkbox" className="rectangle-div285" />
+            <input type="checkbox" className="rectangle-div286" />
+          </div>
+          <div className="categorias-div">
+            <b className="categorias-b">{t("Categorias")}</b>
+            <div className="mquinas-para-pintura14">
+              {t("máquinas para pintura")}
+            </div>
+            <div className="lixadeiras-div">{t("Lixadeiras")}</div>
+            <div className="aspiradores-div">{t("Aspiradores")}</div>
+            <div className="misturadores-div">{t("Misturadores")}</div>
+            <div className="fresadora-de-parede10">
+              {t("Fresadora de parede")}
+            </div>
+            <div className="lixas-e-abrasivos6">{t("Lixas e abrasivos")}</div>
+            <div className="peas-div">{t("Peças")}</div>
+            <div className="acessrios-div">{t("acessórios")}</div>
+            <input type="checkbox" className="rectangle-div287" />
+            <input type="checkbox" className="rectangle-div288" />
+            <input type="checkbox" className="rectangle-div289" />
+            <input type="checkbox" className="rectangle-div290" />
+            <input type="checkbox" className="rectangle-div291" />
+            <input type="checkbox" className="rectangle-div292" />
+            <input type="checkbox" className="rectangle-div293" />
+            <input type="checkbox" className="rectangle-div294" />
+          </div>
         </div>
       </div>
-    </div>
     </div>
   );
-};
+}
 
 export default Produtos;
