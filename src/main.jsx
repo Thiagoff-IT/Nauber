@@ -1,26 +1,23 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './i18n';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./i18n";
 
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import App from './App'
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import App from "./App";
 
-import Home from './pages/Home';
-import Produto from './pages/Produtos';
-import Assistencia from './pages/Assistencia';
-import Sobre from './pages/Sobre'
-import Contato from './pages/Contato';
-import Catalogos from './pages/Catalogos';
-import Categoria from './pages/Categoria';
-import Categorias from './pages/Categorias';
-import ProdutoCompras from './pages/ProdutoCompra';
-import ProdutoLogistico from './pages/ProdutoLogistas';
-import ProdutoDetalhes from "./pages/ProdutoDetalhes"
-import CategoriasDeProdutos from "./pages/CategoriasDeProdutos"
-import Login from './pages/Login'
+import Home from "./pages/Home";
+import Produto from "./pages/Produtos";
+import Assistencia from "./pages/Assistencia";
+import Sobre from "./pages/Sobre";
+import Contato from "./pages/Contato";
+import Catalogos from "./pages/Catalogos";
+import Categoria from "./pages/Categoria";
+import Categorias from "./pages/Categorias";
+import ProdutoCompras from "./pages/ProdutoCompra";
+import ProdutoLogistico from "./pages/ProdutoLogistas";
+import ProdutoDetalhes from "./pages/ProdutoDetalhes";
+import CategoriasDeProdutos from "./pages/CategoriasDeProdutos";
+import Login from "./pages/Login";
 
 const router = createBrowserRouter([
   {
@@ -77,8 +74,8 @@ const router = createBrowserRouter([
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-     <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>
-)
+);
