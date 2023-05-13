@@ -75,7 +75,7 @@ function Catalogos() {
           <div className="produtos-div10">
             <div className="construo-civil-div3">Construção civil</div>
             <div className="linha-industrial-div3">Linha industrial</div>
-            <div className="ficou-com-dvidas3">Produtos</div>
+            <div className="ficou-com-dvidas3">{t("PRODUTOS")}</div>
           </div>
           <div className="nossa-sede-div6">
             <div className="rua-mal-castelo-branco-24774">

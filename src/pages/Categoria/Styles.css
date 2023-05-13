@@ -317,7 +317,7 @@
 .vector-icon140 {
 position: absolute;
 top: 537.5px;
-left: 734px;
+left: 46rem;
 width: 465.5px;
 height: 78px;
 }
@@ -678,22 +678,4 @@ height: 78px;
   font-size: 12px;
   color: #000;
   font-family: Inter;
-}
-
-.Construcao {
-  filter: brightness(50%);
-}
-.Construcao:hover {
-  filter: brightness(100%);
-transition: 0.2s;
-}
-
-.Industrial {
-  filter: brightness(50%);
-
-}
-
-.Industrial:hover {
-  filter: brightness(100%);
-  transition: 0.2s;
 }

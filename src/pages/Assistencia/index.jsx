@@ -68,7 +68,7 @@ function Assistencia() {
           <div className="produtos-div4">
             <div className="construo-civil-div1">Construção civil</div>
             <div className="linha-industrial-div1">Linha industrial</div>
-            <div className="ficou-com-dvidas1">Produtos</div>
+            <div className="ficou-com-dvidas1">{t("PRODUTOS")}</div>
           </div>
           <div className="nossa-sede-div2">
             <div className="rua-mal-castelo-branco-24771">

@@ -71,7 +71,7 @@ function Categoria() {
             <div className="produtos-div44">
               <div className="construo-civil-div14">Construção civil</div>
               <div className="linha-industrial-div15">Linha industrial</div>
-              <div className="ficou-com-dvidas14">Produtos</div>
+              <div className="ficou-com-dvidas14">{t("PRODUTOS")}</div>
             </div>
             <div className="nossa-sede-div28">
               <div className="rua-mal-castelo-branco-247715">

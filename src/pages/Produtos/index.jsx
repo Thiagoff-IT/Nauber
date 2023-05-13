@@ -48,7 +48,7 @@ function Produtos() {
           <div className="produtos-div35">
             <div className="construo-civil-div11">Construção civil</div>
             <div className="linha-industrial-div12">Linha industrial</div>
-            <div className="ficou-com-dvidas11">Produtos</div>
+            <div className="ficou-com-dvidas11">{t("PRODUTOS")}</div>
           </div>
           <div className="nossa-sede-div22">
             <div className="rua-mal-castelo-branco-247712">

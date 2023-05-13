@@ -179,7 +179,7 @@ function Contato(){
             <div className="produtos-div7">
               <div className="construo-civil-div2">Construção civil</div>
               <div className="linha-industrial-div2">Linha industrial</div>
-              <div className="ficou-com-dvidas2">Produtos</div>
+              <div className="ficou-com-dvidas2">{t("PRODUTOS")}</div>
             </div>
             <div className="nossa-sede-div4">
               <div className="rua-mal-castelo-branco-24772">

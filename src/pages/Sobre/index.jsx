@@ -3,15 +3,10 @@ import { useTranslation } from "react-i18next";
 import Header from "../../components/Header";
 import "./Styles.css";
 
-import Phone from "../../assets/image/phone32.svg";
-import Social from "../../assets/image/redes-sociais-icon7.svg";
-import Pin from "../../assets/image/pin11.svg";
 import Nauber from "../../assets/image/logo-nauber@2x.png";
 import Retan from "../../assets/image/rectangle-141@2x.png";
 import Brasil from "../../assets/image/flagbrasil-219@2x.png";
-import Play from "../../assets/image/play6.svg";
 import LogoRevenda from "../../assets/image/logo-revenda-pro-3@2x.png";
-import Revenda from "../../assets/image/logo-revenda-pro-2@2x.png";
 import Vetor from "../../assets/image/vector-1179.svg";
 import Vetor1 from "../../assets/image/vector-1169.svg";
 import Bg from "../../assets/image/bg@2x.png";
@@ -129,7 +124,7 @@ function Sobre() {
             <div className="produtos-div31">
               <div className="construo-civil-div10">Construção civil</div>
               <div className="linha-industrial-div11">Linha industrial</div>
-              <div className="ficou-com-dvidas10">Produtos</div>
+              <div className="ficou-com-dvidas10">{t("PRODUTOS")}</div>
             </div>
             <div className="nossa-sede-div20">
               <div className="rua-mal-castelo-branco-247711">

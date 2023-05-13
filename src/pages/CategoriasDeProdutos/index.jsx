@@ -234,7 +234,7 @@ function CategoriasDeProdutos() {
           <div className="produtos-div38">
             <div className="construo-civil-div12">Construção civil</div>
             <div className="linha-industrial-div13">Linha industrial</div>
-            <div className="ficou-com-dvidas12">Produtos</div>
+            <div className="ficou-com-dvidas12">{t("PRODUTOS")}</div>
           </div>
           <div className="nossa-sede-div24">
             <div className="rua-mal-castelo-branco-247713">
