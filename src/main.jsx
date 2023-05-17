@@ -1,10 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./i18n";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
-
 import Home from "./pages/Home";
 import Produto from "./pages/Produtos";
 import Assistencia from "./pages/Assistencia";
@@ -19,63 +18,24 @@ import ProdutoDetalhes from "./pages/ProdutoDetalhes";
 import CategoriasDeProdutos from "./pages/CategoriasDeProdutos";
 import Login from "./pages/Login";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/Produto",
-    element: <Produto />,
-  },
-  {
-    path: "/Assistencia",
-    element: <Assistencia />,
-  },
-  {
-    path: "/Sobre",
-    element: <Sobre />,
-  },
-  {
-    path: "/Contato",
-    element: <Contato />,
-  },
-  {
-    path: "/Catalogos",
-    element: <Catalogos />,
-  },
-  {
-    path: "/Categoria",
-    element: <Categoria />,
-  },
-  {
-    path: "/Categoria/CategoriasDeProdutos",
-    element: <CategoriasDeProdutos />,
-  },
-  {
-    path: "/Categoria/Categorias",
-    element: <Categorias />,
-  },
-  {
-    path: "/ProdutoLogistico",
-    element: <ProdutoLogistico />,
-  },
-  {
-    path: "/ProdutoDetalhes",
-    element: <ProdutoDetalhes />,
-  },
-  {
-    path: "/ProdutoCompra",
-    element: <ProdutoCompras />,
-  },
-  {
-    path: "/Login",
-    element: <Login />,
-  },
-]);
-
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+    <Router>
+      <App>
+        <Route exact path="/" component={Home} />
+        <Route path="/Produto" component={Produto} />
+        <Route path="/Assistencia" component={Assistencia} />
+        <Route path="/Sobre" component={Sobre} />
+        <Route path="/Contato" component={Contato} />
+        <Route path="/Catalogos" component={Catalogos} />
+        <Route path="/Categoria" component={Categoria} />
+        <Route path="/Categoria/CategoriasDeProdutos" component={CategoriasDeProdutos} />
+        <Route path="/Categoria/Categorias" component={Categorias} />
+        <Route path="/ProdutoLogistico" component={ProdutoLogistico} />
+        <Route path="/ProdutoDetalhes" component={ProdutoDetalhes} />
+        <Route path="/ProdutoCompra" component={ProdutoCompras} />
+        <Route path="/Login" component={Login} />
+      </App>
+    </Router>
+  </React.StrictMode>,
 );
