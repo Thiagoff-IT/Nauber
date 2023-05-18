@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./i18n";
 
-import App from "./App";
 import Home from "./pages/Home";
 import Produto from "./pages/Produtos";
 import Assistencia from "./pages/Assistencia";
