@@ -38,3 +38,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </Router>
   </React.StrictMode>,
 );
+
+export default App;
