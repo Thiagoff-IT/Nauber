@@ -1,23 +1,22 @@
-import { Icon } from '@iconify/react';
-import Header from '../../components/Header'
-import { useTranslation } from 'react-i18next';
+import { Icon } from "@iconify/react";
+import Header from "../../components/Header";
+import { useTranslation } from "react-i18next";
 import "./Styles.css";
 
-import Vetor from '../../assets/image/vector-117.svg'
-import Vetor1 from '../../assets/image/vector-116.svg'
-import Search from '../../assets/image/seach.svg'
-import Ellipse from '../../assets/image/ellipse-6.svg'
-import Global from '../../assets/image/global1-1@2x.png'
-import Phone2 from '../../assets/image/phone2.svg'
-import Seta from '../../assets/image/seta.svg'
+import Vetor from "../../assets/image/vector-117.svg";
+import Vetor1 from "../../assets/image/vector-116.svg";
+import Search from "../../assets/image/seach.svg";
+import Ellipse from "../../assets/image/ellipse-6.svg";
+import Global from "../../assets/image/global1-1@2x.png";
+import Phone2 from "../../assets/image/phone2.svg";
+import Seta from "../../assets/image/seta.svg";
 
-import Phone from '../../assets/image/phone32.svg'
-import Social from '../../assets/image/redes-sociais-icon7.svg'
-import Pin from '../../assets/image/pin11.svg'
-import Nauber from '../../assets/image/logo-nauber@2x.png'
+import Phone from "../../assets/image/phone32.svg";
+import Social from "../../assets/image/redes-sociais-icon7.svg";
+import Pin from "../../assets/image/pin11.svg";
+import Nauber from "../../assets/image/logo-nauber@2x.png";
 
-
-function Assistencia(){
+function Assistencia() {
   const { t } = useTranslation();
   return (
     <div className="assistncia-div">
@@ -25,7 +24,7 @@ function Assistencia(){
       <div className="footer-div2">
         <div className="footer-div3">
           <div className="bg-div2" />
-          
+
           <div className="siga-nas-redes-sociais1">Siga nas redes sociais</div>
           <div className="nauber-2022-todos-os-direito1">
             Nauber © 2022 Todos os direitos reservados.
@@ -37,10 +36,26 @@ function Assistencia(){
             20.633.257/0001-98 | NAUBER MAQUINAS E EQUIPAMENTOS
           </div>
           <div className="redes-sociais-icon2">
-          <a href="https://www.facebook.com/naubermaquinas"><Icon icon="ic:baseline-facebook" className="ItemSocial" color="#fff" /></a>
-          <a href="https://www.instagram.com/naubermaquinas/"><Icon icon="mdi:instagram" className="ItemSocial" color="#fff" /></a>
-          <a href="https://www.youtube.com/@naubermaquinas2080"><Icon icon="mdi:youtube" className="ItemSocial" color="#fff" /></a>
-          <a href="https://www.tiktok.com/@naubermaquinas"><Icon icon="ic:baseline-tiktok" className="ItemSocial" color="#fff" /></a>
+            <a href="https://www.facebook.com/naubermaquinas">
+              <Icon
+                icon="ic:baseline-facebook"
+                className="ItemSocial"
+                color="#fff"
+              />
+            </a>
+            <a href="https://www.instagram.com/naubermaquinas/">
+              <Icon icon="mdi:instagram" className="ItemSocial" color="#fff" />
+            </a>
+            <a href="https://www.youtube.com/@naubermaquinas2080">
+              <Icon icon="mdi:youtube" className="ItemSocial" color="#fff" />
+            </a>
+            <a href="https://www.tiktok.com/@naubermaquinas">
+              <Icon
+                icon="ic:baseline-tiktok"
+                className="ItemSocial"
+                color="#fff"
+              />
+            </a>
           </div>
           <div className="dvidas-div1">
             <div className="converse-com-um-especialista1">
@@ -53,7 +68,7 @@ function Assistencia(){
           <div className="produtos-div4">
             <div className="construo-civil-div1">Construção civil</div>
             <div className="linha-industrial-div1">Linha industrial</div>
-            <div className="ficou-com-dvidas1">Produtos</div>
+            <div className="ficou-com-dvidas1">{t("PRODUTOS")}</div>
           </div>
           <div className="nossa-sede-div2">
             <div className="rua-mal-castelo-branco-24771">
@@ -67,25 +82,21 @@ function Assistencia(){
             <div className="div5">+55 (47) 98821-2725</div>
             <div className="nossa-sede-div3">Nossa sede</div>
           </div>
-          
+
           <div className="line-div3" />
-          <img
-            className="logo-nauber-icon1"
-            alt=""
-            src={Nauber}
-          />
+          <img className="logo-nauber-icon1" alt="" src={Nauber} />
           <div className="rectangle-div27" />
         </div>
       </div>
       <div className="headline-div">
         <img className="vector-icon15" alt="" src={Vetor} />
         <img className="vector-icon16" alt="" src={Vetor1} />
-        <b className="assistncias-b2">{t('ASSISTÊNCIAS')}</b>
+        <b className="assistncias-b2">{t("ASSISTÊNCIAS")}</b>
       </div>
       <div className="card-endereo-div">
         <div className="rectangle-div29" />
         <b className="localize-a-assistncia-mais-pr">
-        {t('Localize a assistência mais próximo de você')}
+          {t("Localize a assistência mais próximo de você")}
         </b>
         <div className="ou-div">ou</div>
         <div className="ou-div1">ou</div>
@@ -93,29 +104,45 @@ function Assistencia(){
           <div className="cep-div">
             <div className="rectangle-div30" />
             <img className="seach-icon" alt="" src={Search} />
-            <input type="text" className="informe-seu-cep" placeholder={t('Informe seu CEP')} />
+            <input
+              type="text"
+              className="informe-seu-cep"
+              placeholder={t("Informe seu CEP")}
+            />
           </div>
           <div className="cidade-div">
             <div className="rectangle-div30" />
             <img className="seach-icon" alt="" src={Search} />
-            <input type="text" className="informe-seu-cep" placeholder={t('Informe a sua Cidade')}/>
+            <input
+              type="text"
+              className="informe-seu-cep"
+              placeholder={t("Informe a sua Cidade")}
+            />
           </div>
         </div>
         <div className="localizao-div">
           <div className="concordo-em-compartilhar-a-min">
-          {t('concordo em compartilhar a minha localização geográfica atual.')}
+            {t(
+              "concordo em compartilhar a minha localização geográfica atual."
+            )}
           </div>
           <div className="rectangle-div32" />
           <img className="ellipse-icon" alt="" src={Ellipse} />
           <img className="global-1-1-icon" alt="" src={Global} />
-          <input type="text" className="usar-minha-localizao" placeholder={t('Usar minha localização')} />
+          <input
+            type="text"
+            className="usar-minha-localizao"
+            placeholder={t("Usar minha localização")}
+          />
           <div className="verificado-div">
             <div className="rectangle-div33" />
-            <input type="checkbox" class="vector-icon17"/>
+            <input type="checkbox" class="vector-icon17" />
           </div>
         </div>
       </div>
-      <b className="assistncias-mais-prximas">{t('assistências mais próximas')} </b>
+      <b className="assistncias-mais-prximas">
+        {t("assistências mais próximas")}{" "}
+      </b>
       <div className="linha-1-div">
         <div className="assistncia-div1">
           <div className="rectangle-div34" />
@@ -286,6 +313,6 @@ function Assistencia(){
       </div>
     </div>
   );
-};
+}
 
 export default Assistencia;
