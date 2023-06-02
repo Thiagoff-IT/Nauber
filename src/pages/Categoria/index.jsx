@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import { useTranslation } from "react-i18next";
+import axios from "axios";
 import Header from "../../components/Header";
 import "./Styles.css";
 
@@ -14,6 +15,21 @@ import Nauber from "../../assets/image/logo-nauber@2x.png";
 
 function Categoria() {
   const { t } = useTranslation();
+
+  const [categorias, setCategorias] = useState([]);
+
+  async function fetchCategorias() {
+    try {
+      const response = await axios.get("http://www.lojanauber.com.br/app/categoria_primaria");
+      setCategorias(response.data);
+    } catch (error) {
+      console.error(error);
+    }
+  }
+  
+  useEffect(() => {
+    fetchCategorias();
+  }, []);
 
   return (
     <>
@@ -103,18 +119,18 @@ function Categoria() {
             <img className="line-icon7" alt="" src={ConstrucaoCivil} />
           </div>
           <div className="Construcao">
-            <Link to="/Categoria/Categorias">
-              <img className="vector-icon138" alt="" src={Vetor} />
-            </Link>
-            <div className="rectangle-div302" />
-
-            <Link to="/Categoria/Categorias">
-              <img className="vector-icon141" alt="" src={Vetor2} />
-            </Link>
-            <Link to="/Categoria/Categorias" className="construo-civil-b">
-              {t("Construção Civil")}
-            </Link>
-          </div>
+          {categorias.map((categoria) => (
+            <div key={categoria.id}>
+              <Link to={`/Categoria/Categorias/${categoria.id}`}>
+                <img className="vector-icon138" alt="" src={categoria.photo} />
+              </Link>
+              <div className="rectangle-div302" />
+              <Link to={`/Categoria/Categorias/${categoria.id}`} className="construo-civil-b">
+                {categoria.name}
+              </Link>
+            </div>
+          ))}
+        </div>
           <div className="Industrial">
             <Link to="/Categoria/CategoriasDeProdutos">
               <img className="vector-icon139" alt="" src={LinhaIndustrial} />
