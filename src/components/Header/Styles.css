@@ -21,6 +21,9 @@ a {
   background: linear-gradient(180deg,#068f13,#165032);
   width: 90vw;
   height: 5rem;
+
+  display: grid;
+  place-items: center;
 }
 .bg-header35,
 .bg-header36 {
@@ -213,10 +216,19 @@ a {
 .vector-icon65 {
   position: absolute;
   top: 90px;
- left: 15rem;
+ left: 10rem;
   width: 1052px;
   height: 25px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue', roboto;
+
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .menu-div11 {
+    align-items: center;
+  }
 }
 .vector-icon65 {
   top: 0.54px;
