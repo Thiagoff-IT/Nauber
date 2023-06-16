@@ -1,3 +1,4 @@
+import react, { useState, useEffect } from 'react'
 import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import { useTranslation } from "react-i18next";
@@ -122,7 +123,7 @@ function Categoria() {
           {categorias.map((categoria) => (
             <div key={categoria.id}>
               <Link to={`/Categoria/Categorias/${categoria.id}`}>
-                <img className="vector-icon138" alt="" src={categoria.photo} />
+                <img className="vector-icon138" alt="" src={`data:image/png;base64,${categoria.photo}`} />
               </Link>
               <div className="rectangle-div302" />
               <Link to={`/Categoria/Categorias/${categoria.id}`} className="construo-civil-b">
@@ -130,6 +131,7 @@ function Categoria() {
               </Link>
             </div>
           ))}
+
         </div>
           <div className="Industrial">
             <Link to="/Categoria/CategoriasDeProdutos">
