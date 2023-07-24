@@ -122,12 +122,12 @@ function Categoria() {
           <div className="Construcao">
           {categorias.map((categoria) => (
             <div key={categoria.id}>
-              <Link to={`/Categoria/Categorias/${categoria.id}`}>
-                <img className="vector-icon138" alt="" src={categoria.photo} />
+              <Link to='/Categoria/Categorias/'>
+                <img className="vector-icon138" alt="" src={ConstrucaoCivil} />
               </Link>
               <div className="rectangle-div302" />
-              <Link to={`/Categoria/Categorias/${categoria.id}`} className="construo-civil-b">
-                {categoria.name}
+              <Link to='/Categoria/Categorias/' className="construo-civil-b">
+                {t("Construção Civil")}
               </Link>
             </div>
           ))}
