@@ -97,7 +97,7 @@ function Header() {
               </NavLink>
             </div>
             <div className="login-div11">
-              <NavLink to="/Login" className="login-b11">
+              <NavLink to="http://www.lojanauber.com.br/app/" className="login-b11">
               <Icon className="box-icon11" icon="fa-solid:user" />
               {t('login')}
                 </NavLink>
