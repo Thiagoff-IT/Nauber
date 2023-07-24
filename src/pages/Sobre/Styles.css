@@ -63,6 +63,7 @@
   left: 0;
   font-weight: 500;
   display: inline-block;
+  white-space: nowrap;
 }
 .envie-um-e-mail10,
 .ficou-com-dvidas10,
@@ -95,6 +96,7 @@
   left: 0;
   font-weight: 500;
   display: inline-block;
+  white-space: nowrap;
 }
 .linha-industrial-div11 {
   top: 77.92%;
@@ -718,7 +720,7 @@ text-align: center;
   width: 343px;
   height: 49px;
   background-color: #0f6836;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue', sans-serif;
 }
 .a-nauber-mquinas-uma-empres {
   top: 87px;
