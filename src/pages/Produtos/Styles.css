@@ -65,6 +65,7 @@
   left: 0;
   font-weight: 500;
   display: inline-block;
+  white-space: nowrap;
 }
 .envie-um-e-mail11,
 .ficou-com-dvidas11,
@@ -97,6 +98,7 @@
   left: 0;
   font-weight: 500;
   display: inline-block;
+  white-space: nowrap;
 }
 .linha-industrial-div12 {
   top: 77.92%;
@@ -183,7 +185,7 @@
 }
 .logo-nauber-icon11 {
   position: absolute;
-  height: 10.22%;
+  height: 9.22%;
   width: 18.61%;
   top: 11.94%;
   right: 9.51%;
@@ -515,17 +517,17 @@
 }
 .icon31 {
   top: 4.69px;
-  height: 401.16px;
+  height: auto;
   object-fit: cover;
 }
 .d-30x-b30 {
   position: absolute;
-  top: 416.65px;
-  left: 70.59px;
-  line-height: 78%;
+  top: 1rem;
+  left: 0rem;
+  line-height: 100%;
   display: inline-block;
-  font-size: 3rem;
-font-family: 'Bebas Neue';
+  font-size: 25px;
+  font-family: 'Bebas Neue';
 }
 .produto-div6,
 .rectangle-div275 {
@@ -574,7 +576,7 @@ font-family: 'Bebas Neue';
   line-height: 78%;
   display: inline-block;
   font-family: 'Bebas Neue';
-font-size: 3rem;
+  font-size: 3rem;
 }
 .icon34 {
   position: absolute;

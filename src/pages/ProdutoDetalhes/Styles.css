@@ -112,13 +112,12 @@
   font-size: 14px;
   color: #8d8b8b;
 }
-.rua-mal-castelo9-on{
+.rua-mal-castelo9-on {
   font-family: 'Bebas Neue', cursive;
 }
 .rua-mal-castelo9 {
   margin-block-start: 0;
   margin-block-end: 0;
-
 }
 .schroeder-sc9 {
   margin: 0;
@@ -616,7 +615,7 @@
 }
 .indicaes-de-uso12 {
   position: absolute;
-  top: 696px;
+  top: 40rem;
   left: 835px;
   width: 184px;
   height: 72px;
@@ -775,9 +774,19 @@
   left: 0;
   border-radius: 20px 0 20px 0;
   background: linear-gradient(180deg, #0b592d, #0a891b), #fff;
-  width: 469px;
-  height: 61px;
+  width: 32rem;
+  height: 4rem;
+  overflow: hidden;
 }
+
+.Scroll {
+  overflow-y: scroll;
+  height: 23rem;
+  position: absolute;
+  left: 0rem;
+  width: 9rem;
+}
+
 .mquinas-para-pintura-d-30x5 {
   position: absolute;
   top: 15px;
@@ -786,6 +795,7 @@
   width: 463px;
   height: 32px;
   font-family: 'Bebas Neue', cursive;
+  white-space: nowrap;
 }
 .encontre-um-revendedor5 {
   position: absolute;
@@ -865,6 +875,67 @@
   width: 120px;
   height: 80px;
 }
+
+.rectangle-div245-1 {
+  position: absolute;
+  top: 360px;
+  left: 0;
+  background-color: #d9d9d9;
+  width: 120px;
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid #c3c4c4;
+  box-sizing: border-box;
+}
+
+.rectangle-div245-2 {
+  position: absolute;
+  top: 450px;
+  left: 0;
+  background-color: #d9d9d9;
+  width: 120px;
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid #c3c4c4;
+  box-sizing: border-box;
+}
+
+.rectangle-div245-3 {
+  position: absolute;
+  top: 540px;
+  left: 0;
+  background-color: #d9d9d9;
+  width: 120px;
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid #c3c4c4;
+  box-sizing: border-box;
+}
+
+.rectangle-div245-4 {
+  position: absolute;
+  top: 630px;
+  left: 0;
+  background-color: #d9d9d9;
+  width: 120px;
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid #c3c4c4;
+  box-sizing: border-box;
+}
+
+.rectangle-div245-5 {
+  position: absolute;
+  top: 720px;
+  left: 0;
+  background-color: #d9d9d9;
+  width: 120px;
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid #c3c4c4;
+  box-sizing: border-box;
+}
+
 .rectangle-div246 {
   top: 0;
   left: 170px;
@@ -921,7 +992,7 @@
   line-height: 78%;
   display: inline-block;
   text-align: left;
-  font-family: "Bebas Neue";
+  font-family: 'Bebas Neue';
 }
 .ellipse-icon18 {
   position: absolute;

@@ -18,7 +18,7 @@ a {
   top: 63px;
   left: 5rem;
   border-radius: 10px;
-  background: linear-gradient(180deg,#068f13,#165032);
+  background: linear-gradient(180deg, #068f13, #165032);
   width: 90vw;
   height: 5rem;
 
@@ -97,7 +97,6 @@ a {
   left: 0;
   width: 60px;
   height: 20px;
-  
 }
 .empresa-b11,
 .empresa-icon11 {
@@ -141,7 +140,6 @@ a {
   top: 7px;
   left: 280px;
   width: 85.63px;
-  
 }
 .assistncias-b12 {
   position: absolute;
@@ -216,7 +214,7 @@ a {
 .vector-icon65 {
   position: absolute;
   top: 90px;
- left: 10rem;
+  left: 10rem;
   width: 1052px;
   height: 25px;
   font-family: 'Bebas Neue', roboto;
@@ -225,11 +223,6 @@ a {
   justify-content: center;
 }
 
-@media (min-width: 768px) {
-  .menu-div11 {
-    align-items: center;
-  }
-}
 .vector-icon65 {
   top: 0.54px;
   left: 1172px;
@@ -324,7 +317,7 @@ a {
 }
 .seach-div11.seach {
   text-indent: 1.5rem;
-  }
+}
 .header-div11,
 .seach-div11 {
   position: absolute;
@@ -343,10 +336,45 @@ a {
   z-index: 1;
 }
 
-.active{
-  color: #FAE013;
+.active {
+  color: #fae013;
 }
 
 .TextInfo {
   text-align: center;
+}
+
+@media (max-width: 250px) {
+  .menu-div11 {
+    position: absolute;
+    left: 6rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .menu-div11,
+  .bg-header34 {
+    display: none;
+  }
+
+  .logo-div11,
+  .logo-nauber-111 {
+    top: 0;
+    left: -8rem;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .menu-div11,
+  .vector-icon65 {
+    left: 10rem;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .menu-div11,
+  .vector-icon65 {
+    left: 23rem;
+  }
 }

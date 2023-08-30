@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { Icon } from "@iconify/react";
 import { useTranslation } from "react-i18next";
 import Header from "../../components/Header";
@@ -118,12 +119,12 @@ function Sobre() {
                 Converse com um especialista
               </div>
               <div className="envie-um-e-mail10">Envie um e-mail</div>
-              <div className="voltar-ao-incio10">Voltar ao início</div>
+              <Link to='/' className="voltar-ao-incio10">Voltar ao início</Link>
               <div className="ficou-com-dvidas10">Ficou com dúvidas?</div>
             </div>
             <div className="produtos-div31">
-              <div className="construo-civil-div10">Construção civil</div>
-              <div className="linha-industrial-div11">Linha industrial</div>
+              <Link to='/' className="construo-civil-div10">Construção civil</Link>
+              <Link to='/' className="linha-industrial-div11">Linha industrial</Link>
               <div className="ficou-com-dvidas10">{t("PRODUTOS")}</div>
             </div>
             <div className="nossa-sede-div20">

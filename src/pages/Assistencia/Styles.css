@@ -65,6 +65,7 @@
   left: 0;
   font-weight: 500;
   display: inline-block;
+  white-space: nowrap;
 }
 .envie-um-e-mail1,
 .ficou-com-dvidas1,
@@ -97,6 +98,7 @@
   left: 0;
   font-weight: 500;
   display: inline-block;
+  white-space: nowrap;
 }
 .linha-industrial-div1 {
   top: 77.92%;

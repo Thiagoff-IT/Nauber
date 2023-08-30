@@ -369,11 +369,11 @@
   margin-block-start: 0;
   margin-block-end: 0;
   font-family: 'Bebas Neue';
-font-style: normal;
-font-weight: 700;
-font-size: 34px;
-line-height: 34px;
-text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 34px;
+  text-align: center;
 }
 .de-revnda-span {
   font-weight: 500;
@@ -503,11 +503,11 @@ text-align: center;
 .revenda-p {
   margin: 0;
   font-family: 'Bebas Neue';
-font-style: normal;
-font-weight: 700;
-font-size: 34px;
-line-height: 34px;
-text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 34px;
+  text-align: center;
 }
 .conhea-o-sistema-de-revenda,
 .nauber-pro1 {
@@ -524,7 +524,7 @@ text-align: center;
   font-weight: 700;
   font-size: 60px;
   line-height: 60px;
-  
+
   /* identical to box height */
   text-align: center;
 }
@@ -798,38 +798,7 @@ text-align: center;
   font-weight: 500;
   display: inline-block;
 }
-.nauber-2022-todos-os-direito {
-  position: absolute;
-  top: 81.14%;
-  left: 9.24%;
-  display: inline-block;
-}
-.nauber-maquinas-e-equipamentos,
-.politicas-de-privacidade-ter {
-  position: absolute;
-  width: 22.36%;
-  top: 81.14%;
-  left: 68.26%;
-  text-align: right;
-  display: inline-block;
-}
-.nauber-maquinas-e-equipamentos {
-  width: 30.28%;
-  top: 62.28%;
-  left: 60.21%;
-}
-.redes-sociais-icon {
-  position: absolute;
-  height: 4.43%;
-  width: 7.84%;
-  top: 56.97%;
-  right: 82.93%;
-  bottom: 38.6%;
-  left: 9.24%;
-  /*max-width: 100%;*/
-  overflow: hidden;
-  max-height: 100%;
-}
+
 .converse-com-um-especialista,
 .envie-um-e-mail,
 .ficou-com-dvidas,
@@ -919,16 +888,7 @@ text-align: center;
   font-size: 14px;
   color: #fff;
 }
-.nossa-sede-div {
-  position: absolute;
-  height: 26.33%;
-  width: 16.11%;
-  top: 11.98%;
-  right: 56.6%;
-  bottom: 61.69%;
-  left: 27.29%;
-  color: #8d8b8b;
-}
+
 .line-div1 {
   position: absolute;
   height: 0.2%;
@@ -1063,7 +1023,7 @@ text-align: center;
   background: linear-gradient(90deg, #03850f, #107a47), #000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Bebas Neue'
+  font-family: 'Bebas Neue';
 }
 .rectangle-div14 {
   position: absolute;
@@ -1146,7 +1106,7 @@ text-align: center;
   right: 11.7%;
   bottom: 32.98%;
   left: 80.14%;
- /* max-width: 100%;*/
+  /* max-width: 100%;*/
   overflow: hidden;
   max-height: 100%;
 }
@@ -1194,8 +1154,7 @@ text-align: center;
   top: 0;
   left: 0;
   border-radius: 6px;
-  background: linear-gradient(#fff, #fff),
-    linear-gradient(90deg, #03860a, #11794c);
+  background: linear-gradient(#fff, #fff), linear-gradient(90deg, #03860a, #11794c);
   box-shadow: 0 4px 14px rgba(0, 117, 33, 0.5);
   width: 134px;
   height: 30px;
@@ -1261,7 +1220,7 @@ text-align: center;
   position: absolute;
   top: 0;
   left: 602px;
-  width: 429.52px;
+  width: 253.52px;
   height: 360px;
 }
 .rectangle-div24 {
@@ -1310,8 +1269,7 @@ text-align: center;
   top: 5.11px;
   left: 187.33px;
   border-radius: 6px;
-  background: linear-gradient(#fff, #fff),
-    linear-gradient(46.04deg, #003f2e, #386959);
+  background: linear-gradient(#fff, #fff), linear-gradient(46.04deg, #003f2e, #386959);
   width: 241.36px;
   height: 242.39px;
 }
@@ -1332,26 +1290,47 @@ text-align: center;
   color: #fff;
   font-family: 'Inter', sans-serif;
 }
+
+.foto-1-2 {
+  position: absolute;
+  top: 2rem;
+  left: 14.2rem;
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+  z-index: 1;
+}
+
 .foto-3-2 {
   position: absolute;
-  top: 212px;
-  left: 751px;
-  width: 242px;
-  height: 131.52px;
+  top: 2rem;
+  left: 1rem;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
+  z-index: 1;
 }
-.foto-2-2,
+.foto-2-2 {
+  position: absolute;
+  top: 2rem;
+  left: 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  z-index: 1;
+}
+
 .foto-4-1,
 .foto-4-2,
 .icon {
   position: absolute;
-  top: 185px;
-  left: 171px;
+  top: -18rem;
+  left: 0;
   width: 198px;
   height: 198px;
   object-fit: cover;
+  z-index: 1;
 }
-.foto-2-2,
 .foto-4-1,
 .foto-4-2 {
   top: 220.61px;
@@ -1399,4 +1378,4 @@ text-align: center;
 }
 iframe {
   border-radius: 25px;
-  }
+}

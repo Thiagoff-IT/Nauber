@@ -169,12 +169,10 @@
   color: #8d8b8b;
 }
 
-
-
 .redes-sociais-icon {
   position: absolute;
   height: 4.43%;
-  width: 10.84%;
+  width: 9rem;
   top: 56.97%;
   right: 25.93%;
   bottom: 38.6%;
@@ -186,9 +184,6 @@
   display: flex;
   justify-content: space-around;
 }
-
-
-
 
 .div,
 .div1,
@@ -257,4 +252,34 @@
   object-fit: cover;
 }
 
-/**/
+@media screen and (max-width: 567px) {
+  .logo-nauber-icon {
+    top: 3.94%;
+  }
+
+  .nauber-2022-todos-os-direito {
+    top: 76.14%;
+  }
+
+  .nauber-maquinas-e-equipamentos {
+    width: 16rem;
+    left: 7.21%;
+  }
+
+  .politicas-de-privacidade-ter {
+    width: 81.36%;
+    left: 4.26%;
+  }
+
+  .redes-sociais-icon {
+    width: 9rem;
+  }
+
+  .nossa-sede-div {
+    position: absolute;
+    top: 30%;
+    left: 8.29%;
+    height: 24.33%;
+    width: 86.11%;
+  }
+}
